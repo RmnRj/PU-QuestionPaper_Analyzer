@@ -1,0 +1,31 @@
+{
+    "app": "OM Analyzer",
+    "app_name": "OM Analyzer",
+    "app_ic": "pu-logo.png",
+    "university": "Pokhara University",
+    "program": "BE — Computer Engineering",
+    "course": "Organization & Management",
+    "course_code": "2-0-0",
+    "total_papers": 20,
+    "year_range": "2014 – 2025",
+    "theme": "light",
+    "accent_color": "#2B5EA7",
+    "show_frequency_key": true,
+    "tab_labels": {
+        "questions": "Questions",
+        "papers": "Papers",
+        "syllabus": "Syllabus"
+    },
+    "content": [
+        {
+            "file": "old_question_papers.json",
+            "name": "Old Question Papers",
+            "type": "questions"
+        },
+        {
+            "file": "syllabus.json",
+            "name": "Syllabus with Frequency",
+            "type": "syllabus"
+        }
+    ]
+}

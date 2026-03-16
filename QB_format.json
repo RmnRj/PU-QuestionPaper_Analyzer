@@ -1,0 +1,57 @@
+{
+    "papers": [
+        {
+            "id": "2024_fall",
+            "year": "2024",
+            "semester": "Fall",
+            "questions": [
+                {
+                    "number": "1",
+                    "sub_no": "a", "marks": "7", "question" : ""
+                },
+                {
+                    "number": "1",
+                    "sub_no": "b", "marks": "8", "question" : ""
+                },
+                {
+                    "number": "1",
+                    "sub_no": "or", "marks": "8", "question" : ""
+                },
+                {
+                    "number": "7",
+                    "options": [
+                        {
+                            "sub_no": "a",
+                            "marks": "5",
+                            "question" : ""
+                        },
+                        {
+                            "sub_no": "b",
+                            "marks": "5",
+                            "question" : ""
+                        }
+                    ], "marks": "10", "instruction" : ""
+                }
+            ]
+        },
+        {
+            "id": "2024_spring",
+            "year": "2024",
+            "semester": "Spring",
+            "questions": [
+                {
+                    "number": "1",
+                    "sub_no": "a", "marks": "7", "question" : ""
+                },
+                {
+                    "number": "1",
+                    "sub_no": "b", "marks": "8", "question" : ""
+                },
+                {
+                    "number": "1",
+                    "sub_no": "or", "marks": "8", "question" : ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,589 @@
+{
+    "papers": [
+        {
+            "id": "2025_spring",
+            "year": "2025",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "Explore the significance of management in organizations and its relevance to engineering students. Discuss the functions of management as essential skills for organizational success."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "What are the differences between formal and informal organization? Explain with suitable examples."},
+                {"number": "2", "sub_no": "a", "marks": "7", "question": "Discuss different types of organization structure. Differentiate between line organization and matrix organization?"},
+                {"number": "2", "sub_no": "b", "marks": "8", "question": "Compare Maslow’s hierarchy of needs with Herzberg’s dual factor theory of motivation."},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Define leadership. Also explain the essential qualities of an effective leader."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "Define grievances. Explain the main causes of grievances and discuss the methods used for their settlement."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "What are the different sources of recruitment? Explain factors affecting recruitment."},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "Highlight the importance of performance appraisal in organization. Explain any two methods of performance appraisal with suitable examples."},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "Explain the types of training methods with suitable examples."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "State the current challenges of industrial relation in Nepal. What can be done to overcome these challenges?"},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "Define conflict management in the context of IT organizations. Explain the role and importance of conflict management in IT companies or teams."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "Define intra-personal, inter-personal, inter-group, and inter-organizational conflicts. Explore the sources of inter-personal conflict within organizations."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Legal Action"},
+                        {"sub_no": "b", "marks": "5", "question": "Collective bargaining"},
+                        {"sub_no": "c", "marks": "5", "question": "Learning Organization"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2024_fall",
+            "year": "2024",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "7", "question": "What do you mean by management? Explain the functions of management. How managers can effectively manage the organization? Discuss. OR What is organization? Explain the principles of organization? Explain the importance of those principles in organization."},
+                {"number": "1", "sub_no": "b", "marks": "8", "question": "What is Line and Staff organization? What are the advantages and disadvantages of Line and Staff organization?"},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "What is Formal & Informal organization? Differentiate between them."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "What is motivation? List down the different types motivational theories and critically analyze the Maslow’s Hierarchy of Needs Theory."},
+                {"number": "3", "sub_no": "a", "marks": "7", "question": "Define learning organization. Discuss characteristics of learning organization."},
+                {"number": "3", "sub_no": "b", "marks": "8", "question": "What is performance appraisal? Explain any five traditional methods of performance appraisal."},
+                {"number": "4", "sub_no": "a", "marks": "7", "question": "What are the functions of human resource management? Explain in brief."},
+                {"number": "4", "sub_no": "b", "marks": "8", "question": "What do you mean by Industrial Relation? Discuss the process of collective bargaining to resolve the disputes in the Industry."},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "Define employee grievances, employee discipline and challenges of industrial relations in Nepal."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "What are the modes or methods of conflict management? Explain in brief the negotiation and arbitration methods."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "What is conflict? What are the main causes for conflict? Explain briefly."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "What is inter-personal and inter-organizational conflict? Discuss different sources of inter-organizational conflict."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Employee health and safety"},
+                        {"sub_no": "b", "marks": "5", "question": "Job description"},
+                        {"sub_no": "c", "marks": "5", "question": "Incentives"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2024_spring",
+            "year": "2024",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "Define management, explain its functions and prove that management is universal in its application."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "Compare and contrast formal organization with informal organization with examples."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "Describe the principles of organization."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "As a manager, how would you motivate your employees? Explain using a motivational theory."},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Discuss the concept of participative management and its impact on employee motivation."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "Define human resource management and describe its key functions."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "Why training is needed to develop human resource? Explain the methods of training."},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "Define industrial relations and discuss the role of trade unions in collective bargaining."},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "Explain the major challenges of industrial relations in Nepal and suggest methods to improve them."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "As a management expert, how would you manage conflicts? Explain using conflict resolution techniques and approaches to conflict."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "Discuss the potential negative impacts of poor conflict management on an organization's human resource management."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "Define collective bargaining and describe the process of it."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Arbitration in conflict management"},
+                        {"sub_no": "b", "marks": "5", "question": "Job description and specification"},
+                        {"sub_no": "c", "marks": "5", "question": "Leader vs. Manager"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2023_spring",
+            "year": "2023",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "Explore the significance of management in organizations and its relevance to engineering students. Discuss the functions of management as essential skills for organizational success."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "What are the differences between formal and informal organization? Explain with suitable examples."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "Review Maslow's hierarchy of needs. How Need Hierarchy and Dual Factor Theory of motivation are different from each other?"},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Define leadership. What are the different types of leadership styles? Explain."},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Clarify the distinctions between staffing, personnel management, and human resource management (HRM). Explore the four fundamental functions of HRM in detail."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "Explain the concept of training and its role in addressing organizational challenges, focusing on its relevance within Nepalese organizations. Support your discussion with suitable examples."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "Discuss different types of organization structure. Differentiate between line organization and matrix organization?"},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "What is recruitment? What are the different methods of recruitment?"},
+                {"number": "5", "sub_no": "a", "marks": "7", "question": "What do you understand by industrial relation? Briefly explain the parties involved in the industrial relation. What are the outcomes of a bad industrial relation?"},
+                {"number": "5", "sub_no": "b", "marks": "8", "question": "What is the importance of Trade union on an organization? Briefly explain the process of collective Bargaining."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "Define intra-personal, inter-personal, inter-group, and inter-organizational conflicts. Explore the sources of inter-personal conflict within organizations."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "How does the diversity of human interaction influence an organization's dynamics and performance?"},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Legal Action"},
+                        {"sub_no": "b", "marks": "5", "question": "MBE Versus MBO"},
+                        {"sub_no": "c", "marks": "5", "question": "Learning Organization"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2022_fall",
+            "year": "2022",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "7", "question": "Define Management. Write down the importance of management in today’s competitive environment."},
+                {"number": "1", "sub_no": "b", "marks": "8", "question": "“Organization is a systematic arrangement of people brought to accomplish some specific purpose.” With reference to this statement explain what organization is and highlight the major five principles of organization."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "What is motivation and critically analyze Herzberg’s motivation theory."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Define leadership and why do you think that most of the managers nowadays follow MBE approach. Justify."},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Briefly explain different functions of human resource management."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "Define job analysis and job description. Write job description and job specification for a computer /Electronic/ IT Software Engineer for NTC."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "Briefly explain the functions of trade union. Why an employee wants to join the trade union? Explain"},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "What should be the role of employees and employers to maintain the health and safety inside an organization? Explain some preventive measures of accident."},
+                {"number": "5", "sub_no": "a", "marks": "7", "question": "What is your opinion regarding conflict in organizations? Are conflicts always bad for organizations? What are the sources of conflict?"},
+                {"number": "5", "sub_no": "b", "marks": "8", "question": "Explain the various modes of conflict management."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "What are the main challenges of industrial relation in Nepal? Explain."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "Discuss different types of organization structure. Briefly explain about advantage and disadvantage of matrix organization."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Performance appraisal"},
+                        {"sub_no": "b", "marks": "5", "question": "Authority and responsibility"},
+                        {"sub_no": "c", "marks": "5", "question": "Rewards"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2021_spring",
+            "year": "2021",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "What is management in an organization? Explain various function of the management"},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "What is the role of ethics in an organization? How is possible to resolve the dispute with ethical consideration."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "What is incentive? How employee grievances must be handled? Explain."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Define performance appraisal. What are types of performance appraisal? Why it is necessary in management."},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Managing of human resource is a complex and challenging job. In the light of this statement discuss functions of a human resource manager."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "Define job analysis? Discuss the components of job description and job specification."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "What do you mean by personnel management? Explain the components of job analysis"},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "How does job recruitment is interdependent with job promotion? Is there any interdependency? Discuss"},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "Describe the meaning of trade union with its objectives. \"Nepalese trade unions are working at their best level\". Do you agree? Is trade union necessary in Nepal? Explain."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "Explain the roles of employee as well as employer to maintain health and safety in organization. How to prevent accidents (preventing measure)?"},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "What is collective bargaining? Explain how it help for problem solving. Write briefly Collective bargaining process. How organizations provide compensation to its employee?"},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "“Conflict Management is continuous process of improvement and enhancement of an organization.” Discuss. Describe briefly the terms negotiation, mediation facilitation and arbitration."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "MBO and MBE"},
+                        {"sub_no": "b", "marks": "5", "question": "Leadership"},
+                        {"sub_no": "c", "marks": "5", "question": "Training and development"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2021_fall",
+            "year": "2021",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "Define management. How managers can effectively manage organization in Covid-19 scenario? Discuss based on the functions of management."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "What is Line and Staff organization? What are the advantages and disadvantages of Line and Staff organization?"},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "What is Formal & Informal organization? Differentiate between them."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Define learning organization. Discuss characteristics of learning organization"},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Define human resource management. Discuss different functions of HRM."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "What is recruitment? Discuss different sources of recruitment."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "What is on the job and off the job training? Explain."},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "What is Trade Union? Explain the role of Trade Union and its movement in Nepal?"},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "What is an Employee grievance? How can we handle the Employee grievance of Employees in any Organization?"},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "What is inter-personal and inter-organizational conflict? Discuss different sources of inter-organizational organization."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "Define and explain the terminology Negotiation, Facilitation, Mediation and Arbitration."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "“An organization gets affected by the diversity of human interaction.” Describe."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Maslow Hierarchy"},
+                        {"sub_no": "b", "marks": "5", "question": "Legal Action"},
+                        {"sub_no": "c", "marks": "5", "question": "MBO Versus MBE"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2020_fall",
+            "year": "2020",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "7", "question": "Define management. Explain the functions of management? Describe briefly role of manager."},
+                {"number": "1", "sub_no": "b", "marks": "8", "question": "Discuss different types of organization structure. Which organization structure will be suitable for a software company having several projects?"},
+                {"number": "2", "sub_no": "a", "marks": "7", "question": "Explain the Duel Factor Theory of motivation. How it differs the Maslow's hierarchy of needs theory."},
+                {"number": "2", "sub_no": "b", "marks": "8", "question": "Why is MBO as a technique and philosophy so popular in many organizations? What do you mean by Learning Organization?"},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Maslow viewed human motivation as a hierarchy of five needs. Enumerate these five needs with example."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "What is Recruitment? Discuss the internal sources and methods of Recruitment."},
+                {"number": "4", "sub_no": "a", "marks": "7", "question": "What is Performance appraisal? Explain the methods of performance appraisal in an organization."},
+                {"number": "4", "sub_no": "b", "marks": "8", "question": "Discuss context of industrial relation in Nepal. How industrial relations can be improved?"},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "What is occupational health and safety? How can we maintain OHS standards in any organization? Describe in brief."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "Briefly discuss five modes conflict resolution. Why arbitration is preferred over litigation?"},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "What is diversity? How diversity impacts human behaviour? Explain the advantages of diversity in any organization."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "What is inter-personal and inter-organizational conflict? Discuss different sources of inter-organizational conflict."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Training and Development"},
+                        {"sub_no": "b", "marks": "5", "question": "MBE Versus MBO"},
+                        {"sub_no": "c", "marks": "5", "question": "Mediation process"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2019_spring",
+            "year": "2019",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "7", "question": "What is the meaning of management? Describe major functions of management."},
+                {"number": "1", "sub_no": "b", "marks": "8", "question": "Describe and explain the characteristics of charismatic leader that differentiate them from non-charismatic leader."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "Maslow viewed human motivation as a hierarchy of five needs. Enumerate these five needs with example."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Explain expectancy theory of motivation."},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "What are the objectives of Human Resource Management? Bring out the role of Human Resource Management in strategic management."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "What is HRM? Explain the process of Human Resource Management."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "Define industrial relations. Explain how a trade union maintains good industrial relation in an industry."},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "What are the challenges of industrial relations in Nepal?"},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "Define conflict. State the approaches of conflict management and suggest the approach that you think is most effective for managing conflicts."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "What is conflict? Compare issue based conflict with ego based conflict."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "How are grievances settled? Explain an arbitration method of dispute management."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "Explain different types of on-the job and off-the job training with their advantages and disadvantages."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Organization structure"},
+                        {"sub_no": "b", "marks": "5", "question": "Management by exception"},
+                        {"sub_no": "c", "marks": "5", "question": "Employee health and safety"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2019_fall",
+            "year": "2019",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "What is management in an organization? Explain various functions of the management."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "Briefly explain advantages and disadvantages of matrix organization."},
+                {"number": "2", "sub_no": "a", "marks": "7", "question": "Organization chart is foundation of good management. Justify this statement with reason."},
+                {"number": "2", "sub_no": "b", "marks": "8", "question": "Briefly discuss learning organization and its characteristics? Explain the importance in the context of competitive market and dynamic business environment."},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Define human resource management. Discuss different functions of HRM."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "What are the elements of compensation? Explain the recruitment process in detail."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "What do you mean by personnel management? Explain the components of job analysis."},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "Describe the different sources of conflicts with its solution in detail."},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "Write weaknesses of trade union. Explain how a trade union maintains good industrial relation in an industry."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "What is collective bargaining? Describe the process."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "“Conflict Management is continuous process of improvement of an organization.” Yes or No? Discuss."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "What are the methods of resolution of disputes? Briefly describe the principles of Negotiation."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Organization structure"},
+                        {"sub_no": "b", "marks": "5", "question": "Need hierarchy"},
+                        {"sub_no": "c", "marks": "5", "question": "Health and safety"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2018_spring",
+            "year": "2018",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "7", "question": "What management is and how its concept has been changing with time? Describe."},
+                {"number": "1", "sub_no": "b", "marks": "8", "question": "Informal organization is more powerful compared to formal organization when it comes to dissemination of information. Do you agree? Discuss."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "Without motivation smooth running of organization is impractical? Explain your logics with examples. Compare Maslow’s hierarchy of need with Alderfer’s ERG theory."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Nepalese organization is facing problem of motivation from employee. Do you agree with this statement? Write some contemporary issues of Motivation in Nepal."},
+                {"number": "3", "sub_no": "a", "marks": "7", "question": "Define human resource management? Discuss different functions of HRM."},
+                {"number": "3", "sub_no": "b", "marks": "8", "question": "What is recruitment? Discuss different sources of recruitment."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "What is Industrial Relations? Discuss the challenges of industrial relations in Nepal."},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "Discuss how trade unions can help improve employee discipline and confirm employee health and safety."},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "Discuss the importance of study of Human behaviour for effective management."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "What are the sources of conflicts? Describe about the different types of conflicts."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "“An organization gets affected by the diversity of human interaction.” Justify the statement."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "Write causes and settlement of grievances handling in Nepalese organization."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Matrix organization"},
+                        {"sub_no": "b", "marks": "5", "question": "Arbitration Vs Litigation"},
+                        {"sub_no": "c", "marks": "5", "question": "MBE"},
+                        {"sub_no": "d", "marks": "5", "question": "Employee health and safety"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2018_fall",
+            "year": "2018",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "c", "marks": "7", "question": "Management has been defined as “getting things done through people.” Comment on this statement."},
+                {"number": "1", "sub_no": "d", "marks": "8", "question": "What are the major qualities of leader? Explain briefly the leadership style based on managerial grid theory, with suitable example."},
+                {"number": "2", "sub_no": "c", "marks": "8", "question": "Explain the dual Factorial theory of motivation with examples."},
+                {"number": "2", "sub_no": "d", "marks": "7", "question": "Define organization structure. Differentiate between line organization and matrix organization."},
+                {"number": "3", "sub_no": "c", "marks": "8", "question": "Define leadership and why do you think that most of the managers nowadays follow MBO approach. Justify."},
+                {"number": "3", "sub_no": "d", "marks": "7", "question": "Briefly describe the sources of recruitment."},
+                {"number": "4", "sub_no": "c", "marks": "7", "question": "What do you mean by Training and development? Describe about the types of job trainings."},
+                {"number": "4", "sub_no": "d", "marks": "8", "question": "Who are the actors of labor relation? Describe the roles of any two actors in labor relation process."},
+                {"number": "5", "sub_no": "c", "marks": "7", "question": "What is conflict? Discuss how conflict can be resolved."},
+                {"number": "5", "sub_no": "d", "marks": "8", "question": "Differentiate between personnel management and human resource management."},
+                {"number": "6", "sub_no": "c", "marks": "7", "question": "Define trade union. Briefly describe about the emerging industrial relations in Nepal."},
+                {"number": "6", "sub_no": "d", "marks": "8", "question": "Define performance appraisal. Why it is necessary in management. Explain methods of performance appraisal."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "d", "marks": "5", "question": "Job Description"},
+                        {"sub_no": "e", "marks": "5", "question": "Authority and responsibility"},
+                        {"sub_no": "f", "marks": "5", "question": "Collective bargaining"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2017_fall",
+            "year": "2017",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "Define management and explain the different functions of management."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "What is formal organization? Briefly explain the advantages and disadvantages of functional organization."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "What is motivation? Critically analyze Herzberg's motivation theory."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Define leadership. Explain the managerial grid theory of leadership briefly."},
+                {"number": "3", "sub_no": "a", "marks": "7", "question": "What are the key sources of recruitment? Explain the various steps involved in the recruitment process briefly."},
+                {"number": "3", "sub_no": "b", "marks": "8", "question": "Explain job analysis and job description along with suitable examples."},
+                {"number": "4", "sub_no": "a", "marks": "7", "question": "Elaborate employee health & safety and its importance. Explain the causes of accidents."},
+                {"number": "4", "sub_no": "b", "marks": "8", "question": "What is industrial relation? Why is it necessary for the students of IT to know about the importance of Industrial relations? Explain."},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "Define conflict management. Explain negotiation, mediation and arbitration as modes of conflict management."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "What do you understand by intragroup and intergroup behavior? Explain briefly."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "What is employee grievance? How grievances must be handled effectively in any organization? Explain."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "What is compensation? Briefly explain the elements of compensation."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Learning Organization"},
+                        {"sub_no": "b", "marks": "5", "question": "Principles of organization"},
+                        {"sub_no": "c", "marks": "5", "question": "Management by exception"},
+                        {"sub_no": "d", "marks": "5", "question": "Facilitation"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2017_spring",
+            "year": "2017",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "Explain the basic management functions illustrating the implications of it in engineering."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "Which type of organizational structure do you think is suitable for an engineering project and why do you think it is suitable? Explain."},
+                {"number": "2", "sub_no": "a", "marks": "7", "question": "Explain an organization as an open system. Discuss about advantages and disadvantages of line and staff organization."},
+                {"number": "2", "sub_no": "b", "marks": "8", "question": "Define motivation and discuss its importance in an organization. Explain about the different types of incentives."},
+                {"number": "3", "sub_no": "a", "marks": "7", "question": "Define and differentiate management by objectives and management by exception."},
+                {"number": "3", "sub_no": "b", "marks": "8", "question": "\"Human resource management ensure that organizations get the right type of people, in right quantity and, at right time and places.\" Explain the statement on the basis of different HRM activities."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "Recruitment is the process of identifying and attracting pool of best candidates. Justify this statement with the process required in recruitment."},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "How does an organization know the need for training to its employees and what are the different methods to train them? Explain."},
+                {"number": "5", "sub_no": "a", "marks": "7", "question": "Define Collective bargaining and explain the process of collective bargaining."},
+                {"number": "5", "sub_no": "b", "marks": "8", "question": "What should be the roles of employees as well as employer to maintain the health and safety inside on organization? Explain some preventive measures of accident."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "Briefly discuss the modes of conflict management. Which one do you prefer the best mode of conflict management in Nepalese project, if any, and why? Explain."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "What do you mean by human interaction management? Differentiate between intergroup and intra-group conflicts."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Employee grievances"},
+                        {"sub_no": "b", "marks": "5", "question": "Performance Appraisal"},
+                        {"sub_no": "c", "marks": "5", "question": "Needs Hierarchy Theory"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2016_spring",
+            "year": "2016",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "\"Management is knowing exactly what you want people to do, and then seeing that they so it in the best and cheapest way.\" Explain on the basis of different management functions."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "What are the characteristics of organization? Informal organizations inside formal organizations has both positive and negative impact. Discuss."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "What do you mean by organization? What are the principles of organization? Explain the matrix structure of organization."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Make a comparison of Maslow's hierarchy of needs with Duel Factor Theory of Motivation."},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Highlight your understanding about leadership. Explain about various leadership styles."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "What are the sources of recruitment? Explain them with their advantages and disadvantages."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "Why performance appraisal is needed in organizations? What are the various methods of performance appraisal? Explain about the critical incident method of performance appraisal."},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "Explain recruitment, sources of recruitment and factors affecting recruitment."},
+                {"number": "5", "sub_no": "a", "marks": "7", "question": "On the basis of characteristics, objectives and functions of trade union, explain how trade unions can benefit the organization."},
+                {"number": "5", "sub_no": "b", "marks": "8", "question": "What do you understand by Industrial Relation? Why is it important for engineers to understand about the industrial relation?"},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "List different models of conflict management. Explain about Mediation and Negotiation."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "\"Conflict is not only important but also extremely necessary for organization to prosper\". Explain it."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Process of Collective bargaining"},
+                        {"sub_no": "b", "marks": "5", "question": "Learning Organization"},
+                        {"sub_no": "c", "marks": "5", "question": "Functions of management"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2016_fall",
+            "year": "2016",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "Management is an art. Do you agree? Then how do you use this art to proper management of people in your engineering organization?"},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "Define organization. Which type of organization structure is suitable for engineering project?"},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "Describe the formal and informal organization with examples."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "\"Readers are leaders? Do you agree? Elaborate it on its basis of our contemporary leadership in Nepal."},
+                {"number": "3", "sub_no": "a", "marks": "8", "question": "Define trade union. Explain the various reasons for joining on trade union in an organization to employee."},
+                {"number": "3", "sub_no": "b", "marks": "7", "question": "What is compensation management? Describe its components of compensation management."},
+                {"number": "4", "sub_no": "a", "marks": "7", "question": "Explain the Duel Factor Theory of motivation. How it differs the Maslow's hierarchy of needs theory."},
+                {"number": "4", "sub_no": "b", "marks": "8", "question": "Explain the objectives and functions of human resource management."},
+                {"number": "5", "sub_no": "a", "marks": "5", "question": "\"Conflict Management is continuous process of improvement of an organization.\" Yes or No? Discuss."},
+                {"number": "5", "sub_no": "b", "marks": "5", "question": "What is human behavior in an organization? Write the impact on organization by human behavior."},
+                {"number": "5", "sub_no": "c", "marks": "5", "question": "Why does arbitration called as ADR? Write its advantages for conflict management."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "Why is mediator needed? How it distinguished from arbitration."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "What are the challenges and methods towards the improvement of industrial relation in Nepal?"},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Health and safety"},
+                        {"sub_no": "b", "marks": "5", "question": "Job analysis"},
+                        {"sub_no": "c", "marks": "5", "question": "MBO and MBE"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2015_spring",
+            "year": "2015",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "What do you mean by management? Explain the scope and application of management."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "What is an organization? Compare functional organization with line-staff organization with suitable examples."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "Describe the formal and informal organization with examples."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Explain expectation theory of motivation."},
+                {"number": "3", "sub_no": "a", "marks": "7", "question": "What is MBO? Explain the functions and steps in MBO in detail."},
+                {"number": "3", "sub_no": "b", "marks": "8", "question": "What are the functions of human resource management? Explain in brief."},
+                {"number": "4", "sub_no": "a", "marks": "8", "question": "What is performance appraisal? Explain any four traditional methods of performance appraisal."},
+                {"number": "4", "sub_no": "b", "marks": "7", "question": "What do you understand by industrial relation? Briefly explain the parties involved in the industrial relation. What are the outcomes of a bad industrial relation?"},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "What is collective bargaining? Explain the process of collective bargaining."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "Why legal action is not treated as a good mode of conflict management? Explain."},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "What is meant by human resource management? Briefly explain about job analysis, job description and job specification."},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "Explain the process of Negotiation and Arbitration with examples."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "On the job training"},
+                        {"sub_no": "b", "marks": "5", "question": "Incentives"},
+                        {"sub_no": "c", "marks": "5", "question": "Arbitration"},
+                        {"sub_no": "d", "marks": "5", "question": "Collective bargaining"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2015_fall",
+            "year": "2015",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "Give the concept of management. Explain the function of management."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "What is organization? Discuss its characteristics."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "What are formal and informal organizations? Briefly discuss advantages and disadvantages of Line and Staff organization."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "Define motivation. Discuss Maslow's theory of Hierarchy of needs."},
+                {"number": "3", "sub_no": "a", "marks": "7", "question": "Managing HR is much more difficult than managing physical resources. Discuss the above statement with suitable examples."},
+                {"number": "3", "sub_no": "b", "marks": "8", "question": "What is performance appraisal? Explain the essay method and critical incident method of performance appraisal."},
+                {"number": "4", "sub_no": "a", "marks": "7", "question": "What is collective bargaining? Discuss its importance in any organization. What are the factors that affect the efficiency of workers?"},
+                {"number": "4", "sub_no": "b", "marks": "8", "question": "What is employee grievance? How grievances must be handled effectively in any organization. Explain."},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "What is management? Explain different functions of management."},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "Why an engineer needs the knowledge of management? Discuss."},
+                {"number": "6", "sub_no": "a", "marks": "7", "question": "How proper health and safety can be maintained in work place? Explain"},
+                {"number": "6", "sub_no": "b", "marks": "8", "question": "\"According to modern approach, conflict inspires change\". Elaborate it. Briefly discuss mediation and arbitration as conflict resolution technique."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Management by Objectives"},
+                        {"sub_no": "b", "marks": "5", "question": "One the - job Training."},
+                        {"sub_no": "c", "marks": "5", "question": "Management by Objectives"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2014_spring",
+            "year": "2014",
+            "semester": "Spring",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "7", "question": "Explain about the function and meaning of management?"},
+                {"number": "1", "sub_no": "b", "marks": "8", "question": "What are the features of organization? State difference between formal and informal organization."},
+                {"number": "2", "sub_no": "a", "marks": "7", "question": "Explain about the Maslow's Hierarchy Needs?"},
+                {"number": "2", "sub_no": "b", "marks": "8", "question": "Define managerial grid theory? State its benefit to manager."},
+                {"number": "3", "sub_no": "a", "marks": "7", "question": "What is personnel Management? Explain its function."},
+                {"number": "3", "sub_no": "b", "marks": "8", "question": "What is training? Is it important for employees to increase performance?"},
+                {"number": "4", "sub_no": "a", "marks": "7", "question": "Explain about the importance of trade union?"},
+                {"number": "4", "sub_no": "b", "marks": "8", "question": "Why is collective bargaining important for the settlement of disputes?"},
+                {"number": "5", "sub_no": "a", "marks": "8", "question": "Why industrial health is important? What are the health measures the workers in an organization?"},
+                {"number": "5", "sub_no": "b", "marks": "7", "question": "Explain the duties of Arbitration?"},
+                {"number": "6", "sub_no": "a", "marks": "7", "question": "Describe methods for the resolution of conflicts."},
+                {"number": "6", "sub_no": "b", "marks": "8", "question": "State the objective and significance of MBO."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Principles of organization."},
+                        {"sub_no": "b", "marks": "5", "question": "Job analysis."},
+                        {"sub_no": "c", "marks": "5", "question": "Organisation chart."}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        },
+        {
+            "id": "2014_fall",
+            "year": "2014",
+            "semester": "Fall",
+            "questions": [
+                {"number": "1", "sub_no": "a", "marks": "8", "question": "Discuss the functions of management? Explain the practical implications of these functions to Engineers."},
+                {"number": "1", "sub_no": "b", "marks": "7", "question": "What is formal and informal organization? Discuss the importance of informal organization in modern businesses."},
+                {"number": "2", "sub_no": "a", "marks": "8", "question": "How does matrix design assist organizations to operate in a complex environment? Describe."},
+                {"number": "2", "sub_no": "b", "marks": "7", "question": "What are the styles of leadership? Explain 'Good leaders are good motivators'."},
+                {"number": "3", "sub_no": "a", "marks": "7", "question": "Compare and comment the Maslow's need hierarchy theory of motivation and Herzberg's two factor theory of motivation?"},
+                {"number": "3", "sub_no": "b", "marks": "8", "question": "What are the functions of personnel management? What are the elements used in job description and job specification?"},
+                {"number": "4", "sub_no": "a", "marks": "7", "question": "Why training is essential for employees? Explain about various types of on-the-job training methods."},
+                {"number": "4", "sub_no": "b", "marks": "8", "question": "How forced choice method is different from other methods of performance appraisal."},
+                {"number": "5", "sub_no": "a", "marks": "5", "question": "What are the impact of diversity issues in human interaction? Explain in your own words by giving suitable example."},
+                {"number": "5", "sub_no": "b", "marks": "5", "question": "Employee's grievance leads to the dissatisfaction among the employees. Discuss the causes and consequences of grievance."},
+                {"number": "5", "sub_no": "c", "marks": "5", "question": "Write a brief history on labor union movement in Nepal?"},
+                {"number": "6", "sub_no": "a", "marks": "8", "question": "What do you mean by Arbitration? What are the elements of Arbitration?"},
+                {"number": "6", "sub_no": "b", "marks": "7", "question": "Discuss the impact of intragroup and intergroup behavior on the overall performance of an organization."},
+                {
+                    "number": "7",
+                    "options": [
+                        {"sub_no": "a", "marks": "5", "question": "Management by objective."},
+                        {"sub_no": "b", "marks": "5", "question": "Employee by objective."},
+                        {"sub_no": "c", "marks": "5", "question": "Employee discipline"}
+                    ],
+                    "marks": "10",
+                    "instruction": "Write short notes on: (Any two)"
+                }
+            ]
+        }
+    ]
+}

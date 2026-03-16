@@ -1,0 +1,306 @@
+{
+    "course_title": "Organization and Management",
+    "course_code": "2-0-0",
+    "evaluation": {
+        "theory": {
+            "sessional": 50,
+            "final": 50,
+            "total": 100
+        },
+        "practical": {
+            "sessional": 0,
+            "final": 0,
+            "total": 0
+        },
+        "grand_total": 100
+    },
+    "course_objectives": "To make the students able to understand and analyze the professional environment where they have to practice their profession. This course will also help them in bringing attitudinal as well as behavioral change.",
+    "course_contents": [
+        {
+            "unit": 1,
+            "title": "Introduction",
+            "hours": 2,
+            "topics": [
+                {
+                    "topic": "1.1 Meaning and concept of management",
+                    "frequency": 20,
+                    "note": "All 20 papers ask to define/explain management concept.",
+                    "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021Sp","2021F","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016Sp","2016F","2015Sp","2015F","2014Sp","2014F"]
+                },
+                {
+                    "topic": "1.2 Functions of management",
+                    "frequency": 15,
+                    "note": "Papers WITHOUT explicit functions question: 2022F, 2018Sp, 2018F, 2016F, 2015Sp.",
+                    "papers": ["2025Sp","2024F","2024Sp","2023Sp","2021Sp","2021F","2020F","2019Sp","2019F","2017F","2017Sp","2016Sp","2015F","2014Sp","2014F"]
+                },
+                {
+                    "topic": "1.3 Scope and application of management",
+                    "frequency": 2,
+                    "note": "Only 2015Sp Q1a explicitly asks 'scope and application'. Friend's count of 12 is incorrect — confusion with 1.1/1.2.",
+                    "papers": ["2015Sp","2014F"]
+                },
+                {
+                    "topic": "1.4 Importance of management",
+                    "frequency": 5,
+                    "note": "Explicitly asked in: 2025Sp(significance), 2023Sp(significance), 2022F(importance), 2015F(why engineer needs management), 2014F(practical implications to engineers). Friend's count of 14 is inflated.",
+                    "papers": ["2025Sp","2023Sp","2022F","2015F","2014F"]
+                }
+            ]
+        },
+        {
+            "unit": 2,
+            "title": "Organization",
+            "hours": 4,
+            "topics": [
+                {
+                    "topic": "2.1 Meaning and concept of organization",
+                    "frequency": 7,
+                    "note": "Only papers where organization concept/definition is explicitly asked. Friend's 15 is inflated — many papers ask about org structure (2.6) not the basic concept.",
+                    "papers": ["2024F","2022F","2016Sp","2016F","2015Sp","2015F","2014Sp"]
+                },
+                {
+                    "topic": "2.2 Characteristics of organization",
+                    "frequency": 3,
+                    "note": "Friend's count of 11 is inflated.",
+                    "papers": ["2016Sp","2015F","2014Sp"]
+                },
+                {
+                    "topic": "2.3 Principles of organization",
+                    "frequency": 6,
+                    "note": "Friend's count of 13 is inflated.",
+                    "papers": ["2024F","2024Sp","2022F","2016Sp","2017F","2014Sp"]
+                },
+                {
+                    "topic": "2.4 Formal and informal organizations",
+                    "frequency": 13,
+                    "note": "Friend says 17 — some papers do not have a formal/informal question (e.g. 2022F, 2020F, 2019Sp, 2019F, 2018F, 2017Sp).",
+                    "papers": ["2025Sp","2024F","2024Sp","2023Sp","2021F","2018Sp","2017F","2016Sp","2016F","2015Sp","2015F","2014Sp","2014F"]
+                },
+                {
+                    "topic": "2.5 Organization chart",
+                    "frequency": 2,
+                    "note": "Friend's count of 8 is incorrect. Only 2019F Q2a (org chart as foundation) and 2014Sp Q7c (short note) explicitly ask about it.",
+                    "papers": ["2019F","2014Sp"]
+                },
+                {
+                    "topic": "2.6 Types of organization (Line, Line & Staff, Functional, Matrix)",
+                    "frequency": 15,
+                    "note": "Friend says 16 — close. One minor difference.",
+                    "papers": ["2025Sp","2024F","2023Sp","2022F","2021F","2020F","2019Sp","2019F","2018F","2017F","2017Sp","2016Sp","2016F","2015Sp","2014F"]
+                },
+                {
+                    "topic": "2.7 Authority and responsibility and their interrelationships",
+                    "frequency": 3,
+                    "note": "Only appears as short notes: 2022F Q7b, 2018F Q7e, and 2017Sp Q2a (open system/authority context). Friend's count of 9 is greatly inflated.",
+                    "papers": ["2022F","2018F","2017Sp"]
+                }
+            ]
+        },
+        {
+            "unit": 3,
+            "title": "Motivation and Leadership",
+            "hours": 6,
+            "topics": [
+                {
+                    "topic": "3.1 Concept of motivation",
+                    "frequency": 6,
+                    "note": "Only papers where motivation is explicitly defined/conceptualized (not just a theory). Friend's 10 is inflated.",
+                    "papers": ["2024F","2022F","2018Sp","2017F","2017Sp","2015F"]
+                },
+                {
+                    "topic": "3.2 Incentives",
+                    "frequency": 4,
+                    "note": "Friend says 7 — overcount. Explicitly asked in 4 papers.",
+                    "papers": ["2024F","2021Sp","2017Sp","2015Sp"]
+                },
+                {
+                    "topic": "3.3 Theories of motivation (Need hierarchy, Dual Factor, Expectancy, Achievement)",
+                    "frequency": 16,
+                    "note": "MATCH with friend's count. Papers without: 2021Sp, 2021F, 2019F, 2017Sp.",
+                    "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2020F","2019Sp","2018Sp","2018F","2017F","2016Sp","2016F","2015Sp","2015F","2014Sp","2014F"]
+                },
+                {
+                    "topic": "3.4 Leadership styles (Participative management, MBO, MBE)",
+                    "frequency": 17,
+                    "note": "Higher than friend's 14. Papers without: 2024F, 2019F, 2018Sp.",
+                    "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2021F","2020F","2019Sp","2018F","2017F","2017Sp","2016Sp","2016F","2015Sp","2015F","2014Sp","2014F"]
+                },
+                {
+                    "topic": "3.5 Learning organizations",
+                    "frequency": 8,
+                    "note": "Friend says 11 — overcount. Appears in 8 papers.",
+                    "papers": ["2025Sp","2024F","2023Sp","2021F","2020F","2019F","2017F","2016Sp"]
+                }
+            ]
+        },
+        {
+            "unit": 4,
+            "title": "Human Resource Management",
+            "hours": 6,
+            "topics": [
+                {
+                    "topic": "4.1 Meaning and functions of human resource management",
+                    "frequency": 14,
+                    "note": "Close to friend's 15. Papers without: 2025Sp, 2020F, 2017F, 2016Sp.",
+                    "papers": ["2024F","2024Sp","2023Sp","2022F","2021Sp","2021F","2019Sp","2019F","2018Sp","2018F","2017Sp","2016F","2015Sp","2015F","2014Sp","2014F"]
+                },
+                {
+                    "topic": "4.2 Recruitment",
+                    "frequency": 11,
+                    "note": "Friend says 13 — slight overcount. Papers: 2025,2023,2021Sp,2021F,2020F,2019F,2018Sp,2018F,2017F,2017Sp,2016Sp.",
+                    "papers": ["2025Sp","2023Sp","2021Sp","2021F","2020F","2019F","2018Sp","2018F","2017F","2017Sp","2016Sp"]
+                },
+                {
+                    "topic": "4.3 Job analysis, Job specification, Job description",
+                    "frequency": 11,
+                    "note": "Friend says 14 — overcount. Explicit job analysis/description questions in 11 papers.",
+                    "papers": ["2024F","2024Sp","2022F","2021Sp","2019F","2018F","2017F","2016F","2015Sp","2014Sp","2014F"]
+                },
+                {
+                    "topic": "4.4 Elements of compensation",
+                    "frequency": 4,
+                    "note": "Friend says 9 — greatly inflated. Directly asked in only 4 papers.",
+                    "papers": ["2021Sp","2019F","2017F","2016F"]
+                },
+                {
+                    "topic": "4.5 Human resource development: Training (on the job and off the job)",
+                    "frequency": 13,
+                    "note": "CLOSE to friend's 12.",
+                    "papers": ["2025Sp","2024Sp","2023Sp","2021Sp","2021F","2020F","2019Sp","2018F","2017Sp","2015Sp","2015F","2014Sp","2014F"]
+                },
+                {
+                    "topic": "4.6 Performance appraisal",
+                    "frequency": 11,
+                    "note": "Friend says 13 — slight overcount.",
+                    "papers": ["2025Sp","2024F","2022F","2021Sp","2020F","2018F","2017Sp","2016Sp","2015Sp","2015F","2014F"]
+                }
+            ]
+        },
+        {
+            "unit": 5,
+            "title": "Introduction to Industrial Relations",
+            "hours": 6,
+            "topics": [
+                {
+                    "topic": "5.1 Meaning of Industrial Relations",
+                    "frequency": 11,
+                    "note": "CLOSE to friend's 10.",
+                    "papers": ["2024F","2024Sp","2023Sp","2020F","2019Sp","2018Sp","2018F","2017F","2016Sp","2016F","2015Sp"]
+                },
+                {
+                    "topic": "5.2 Trade union & Collective bargaining",
+                    "frequency": 18,
+                    "note": "Friend says 15 — UNDERCOUNT. Only 2020F and 2017F have no explicit trade union/CB question.",
+                    "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021Sp","2021F","2019Sp","2019F","2018Sp","2018F","2017Sp","2016Sp","2016F","2015Sp","2015F","2014Sp","2014F"]
+                },
+                {
+                    "topic": "5.2.2 Trade union movement in Nepal",
+                    "frequency": 2,
+                    "note": "Friend says 8 — greatly inflated. Only 2021F Q4b and 2014F Q5c explicitly ask about TU movement in Nepal.",
+                    "papers": ["2021F","2014F"]
+                },
+                {
+                    "topic": "5.3 Employee grievances",
+                    "frequency": 10,
+                    "note": "CLOSE to friend's 11.",
+                    "papers": ["2025Sp","2024F","2021Sp","2021F","2019Sp","2018Sp","2017F","2017Sp","2015F","2014F"]
+                },
+                {
+                    "topic": "5.4 Employee Discipline",
+                    "frequency": 3,
+                    "note": "Friend says 7 — inflated. Only 3 papers address this explicitly.",
+                    "papers": ["2024F","2018Sp","2014F"]
+                },
+                {
+                    "topic": "5.5 Employee health and safety",
+                    "frequency": 12,
+                    "note": "Higher than friend's 10.",
+                    "papers": ["2024F","2022F","2021Sp","2020F","2019Sp","2019F","2018Sp","2017F","2017Sp","2016F","2015F","2014Sp"]
+                },
+                {
+                    "topic": "5.6 Compensation and its relation with industry",
+                    "frequency": 4,
+                    "note": "Friend says 6 — slight overcount.",
+                    "papers": ["2021Sp","2019F","2017F","2016F"]
+                },
+                {
+                    "topic": "5.7 Challenges of industrial relations in Nepal",
+                    "frequency": 7,
+                    "note": "Friend says 12 — inflated. Only 7 papers explicitly ask about challenges of IR in Nepal.",
+                    "papers": ["2025Sp","2024Sp","2022F","2020F","2019Sp","2018Sp","2016F"]
+                },
+                {
+                    "topic": "5.8 Methods of improving industrial relations in Nepal",
+                    "frequency": 4,
+                    "note": "Friend says 9 — inflated. Only 4 papers ask how to improve IR.",
+                    "papers": ["2025Sp","2024Sp","2020F","2016F"]
+                }
+            ]
+        },
+        {
+            "unit": 6,
+            "title": "Human Behavior and Conflict Management",
+            "hours": 7,
+            "topics": [
+                {
+                    "topic": "6.1 Concept of Human Behavior and Conflict Management",
+                    "frequency": 17,
+                    "note": "Friend says 8 — MAJOR UNDERCOUNT. Concept of conflict (what is conflict, sources, human behavior) appears in 17 papers.",
+                    "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021Sp","2021F","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2016Sp","2016F","2015F","2014F"]
+                },
+                {
+                    "topic": "6.2 Types of Conflict (intra-personal, inter-personal, inter-group, inter-organizational)",
+                    "frequency": 12,
+                    "note": "MATCH with friend's 13. Very close.",
+                    "papers": ["2025Sp","2024F","2023Sp","2022F","2021F","2020F","2019Sp","2018Sp","2017F","2017Sp","2014F","2014Sp"]
+                },
+                {
+                    "topic": "6.3 Conflict Management and its impact to the HRM",
+                    "frequency": 5,
+                    "note": "Friend says 10 — inflated. Only 5 papers explicitly ask about CM impact on HRM.",
+                    "papers": ["2025Sp","2024Sp","2021Sp","2019F","2016F"]
+                },
+                {
+                    "topic": "6.4 Modes of Conflict Management (Negotiation, Facilitation, Mediation, Arbitration, Legal action)",
+                    "frequency": 20,
+                    "note": "Friend says 15 — MAJOR UNDERCOUNT. Every single paper (all 20) has at least one question on conflict resolution modes.",
+                    "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021Sp","2021F","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016Sp","2016F","2015Sp","2015F","2014Sp","2014F"]
+                }
+            ]
+        }
+    ],
+    "total_hours": 31,
+    "references": [
+        "1. Harold Koontz and Heinz Weihrich, Essentials of Management",
+        "2. Govinda Ram Agrawal, Organization and Management in Nepal",
+        "3. C.B Mamoria, Personnel Management",
+        "4. Fred Luthans, Organizational Behavior (McGraw Hill)"
+    ],
+    "verification_note": {
+        "total_papers": 20,
+        "range": "2014–2025 (Pokhara University BE, Organization and Management)",
+        "methodology": "Frequency = number of papers where the topic is DIRECTLY and EXPLICITLY asked. Topics counted only once per paper even if asked multiple times.",
+        "corrections_vs_friend": {
+            "inflated_by_friend": [
+                "1.3 Scope (friend:12, actual:2) — confused with meaning/functions",
+                "1.4 Importance (friend:14, actual:5)",
+                "2.1 Org concept (friend:15, actual:7)",
+                "2.2 Characteristics (friend:11, actual:3)",
+                "2.3 Principles (friend:13, actual:6)",
+                "2.5 Org chart (friend:8, actual:2)",
+                "2.7 Authority/responsibility (friend:9, actual:3)",
+                "5.2.2 TU movement Nepal (friend:8, actual:2)",
+                "5.4 Employee Discipline (friend:7, actual:3)",
+                "5.7 Challenges IR Nepal (friend:12, actual:7)",
+                "5.8 Improving IR (friend:9, actual:4)",
+                "6.3 CM impact HRM (friend:10, actual:5)"
+            ],
+            "undercounted_by_friend": [
+                "6.1 Conflict concept (friend:8, actual:17) — CRITICAL ERROR",
+                "6.4 Modes of conflict (friend:15, actual:20) — appears in ALL papers",
+                "5.2 Trade union & CB (friend:15, actual:18)",
+                "3.4 Leadership/MBO/MBE (friend:14, actual:17)"
+            ]
+        }
+    }
+}
