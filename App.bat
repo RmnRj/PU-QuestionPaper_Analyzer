@@ -29,7 +29,7 @@ IF %ERRORLEVEL% EQU 0 (
 
 :: Start server
 echo Starting local server on port 8000...
-start "" "http://localhost:8000/index.html"
+start "" "http://localhost:8000/app-page.html"
 python -m http.server 8000
 
 ENDLOCAL
