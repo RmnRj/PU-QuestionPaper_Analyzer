@@ -1,0 +1,44 @@
+{
+    "app_name":     "OM Analyzer",
+    "app_ic":       "pu-logo.png",
+    "university":   "PU",
+    "program":      "BE_Computer",
+    "course":       "Organization & Management",
+    "course_code":  "2-0-0",
+    "theme":        "light",
+    "accent_color": "#2B5EA7",
+
+    "tab_labels": {
+        "questions": "Questions",
+        "papers":    "Papers",
+        "repeated":  "Repeated",
+        "syllabus":  "Syllabus"
+    },
+
+    "overview": [
+        { "label": "Papers",          "value": "auto:papers"    },
+        { "label": "Questions",       "value": "auto:questions" },
+        { "label": "Chapters",        "value": "auto:chapters"  },
+        { "label": "Syllabus Topics", "value": "auto:topics"    },
+        { "label": "Peak Repeats",    "value": "auto:peak"      },
+        { "label": "Year Span",       "value": "auto:yearspan"  }
+    ],
+
+    "content": [
+        {
+            "file": "old_question_papers.json",
+            "name": "Old Question Papers",
+            "type": "questions"
+        },
+        {
+            "file": "repeated_questions.json",
+            "name": "Repeated Questions",
+            "type": "repeated"
+        },
+        {
+            "file": "syllabus.json",
+            "name": "Syllabus with Frequency",
+            "type": "syllabus"
+        }
+    ]
+}

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OM Analyzer</title>
+    <link rel="icon" href="pu-logo.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
@@ -84,11 +85,11 @@
         }
 
         .ld-dots span:nth-child(2) {
-            animation-delay: .2s;
+            animation-delay: .2s
         }
 
         .ld-dots span:nth-child(3) {
-            animation-delay: .4s;
+            animation-delay: .4s
         }
 
         @keyframes ld {
@@ -180,12 +181,12 @@
         }
 
         .tab-btn:hover {
-            color: var(--text-1);
+            color: var(--text-1)
         }
 
         .tab-btn.active {
             color: var(--accent);
-            border-bottom-color: var(--accent);
+            border-bottom-color: var(--accent)
         }
 
         /* MAIN */
@@ -219,7 +220,6 @@
         /* STATS BAR */
         .stats-bar {
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
             border: 1px solid var(--border);
             border-radius: var(--r);
             background: var(--surface);
@@ -233,7 +233,7 @@
         }
 
         .stat-cell:last-child {
-            border-right: none;
+            border-right: none
         }
 
         .stat-val {
@@ -253,7 +253,7 @@
             margin-top: 5px;
         }
 
-        /* FILTER BAR - DROPDOWN STYLE */
+        /* FILTER BAR */
         .filter-bar {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -284,13 +284,13 @@
         .f-select:hover,
         .f-select:focus {
             border-color: var(--accent);
-            outline: none;
+            outline: none
         }
 
         .f-select.active {
             border-color: var(--accent);
             color: var(--accent);
-            background-color: var(--accent-bg);
+            background-color: var(--accent-bg)
         }
 
         .f-input {
@@ -307,23 +307,23 @@
         .f-input:hover,
         .f-input:focus {
             border-color: var(--accent);
-            outline: none;
+            outline: none
         }
 
         .f-input::placeholder {
-            color: var(--text-3);
+            color: var(--text-3)
         }
 
         .f-input.active {
             border-color: var(--accent);
-            background: var(--accent-bg);
+            background: var(--accent-bg)
         }
 
         .f-sep {
             width: 1px;
             height: 22px;
             background: var(--border);
-            margin: 0 2px;
+            margin: 0 2px
         }
 
         .btn-reset {
@@ -340,21 +340,21 @@
 
         .btn-reset:hover {
             background: var(--surface-2);
-            color: var(--text-1);
+            color: var(--text-1)
         }
 
         .res-info {
             font-size: 12px;
             color: var(--text-3);
             margin-bottom: 9px;
-            padding: 0 2px;
+            padding: 0 2px
         }
 
         /* Q CARDS */
         .q-list {
             display: flex;
             flex-direction: column;
-            gap: 5px;
+            gap: 5px
         }
 
         .q-card {
@@ -371,13 +371,13 @@
 
         .q-card:hover {
             border-color: var(--border);
-            box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, .05)
         }
 
         .q-meta {
             display: flex;
             flex-direction: column;
-            gap: 4px;
+            gap: 4px
         }
 
         .q-paper {
@@ -389,19 +389,19 @@
             padding: 2px 6px;
             border-radius: 3px;
             white-space: nowrap;
-            width: fit-content;
+            width: fit-content
         }
 
         .q-id {
             font-family: var(--font-mono);
             font-size: 10.5px;
-            color: var(--text-3);
+            color: var(--text-3)
         }
 
         .q-text {
             font-size: 13.5px;
             color: var(--text-1);
-            line-height: 1.55;
+            line-height: 1.55
         }
 
         .q-marks {
@@ -410,14 +410,201 @@
             color: var(--text-3);
             text-align: right;
             padding-top: 2px;
-            white-space: nowrap;
+            white-space: nowrap
         }
 
         .no-results {
             text-align: center;
             padding: 60px 20px;
             color: var(--text-3);
-            font-size: 14px;
+            font-size: 14px
+        }
+
+        /* ── REPEATED QUESTIONS TAB ── */
+        .rq-toolbar {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--r);
+            padding: 10px 14px;
+            margin-bottom: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .rq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .rq-card {
+            background: var(--surface);
+            border: 1px solid var(--border-lt);
+            border-radius: var(--r);
+            overflow: hidden;
+            transition: border-color .12s, box-shadow .12s;
+        }
+
+        .rq-card:hover {
+            border-color: var(--border);
+            box-shadow: 0 1px 5px rgba(0, 0, 0, .06);
+        }
+
+        .rq-main {
+            padding: 13px 16px;
+            display: grid;
+            grid-template-columns: 1fr 220px 52px;
+            gap: 14px;
+            align-items: start;
+            cursor: pointer;
+        }
+
+        .rq-text {
+            font-size: 13.5px;
+            color: var(--text-1);
+            line-height: 1.55;
+        }
+
+        .rq-topic {
+            display: flex;
+            align-items: flex-start;
+            gap: 7px;
+        }
+
+        .rq-topic-dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            margin-top: 5px;
+            flex-shrink: 0;
+        }
+
+        .rq-topic-name {
+            font-size: 11.5px;
+            color: var(--text-2);
+            line-height: 1.4;
+        }
+
+        .rq-freq-col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 5px;
+        }
+
+        .rq-freq-badge {
+            font-family: var(--font-serif);
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .rq-freq-track {
+            width: 48px;
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .rq-freq-fill {
+            height: 100%;
+            border-radius: 2px;
+        }
+
+        .rq-freq-lbl {
+            font-size: 9.5px;
+            font-weight: 600;
+            letter-spacing: .6px;
+            text-transform: uppercase;
+        }
+
+        /* freq tiers */
+        .rq-hi .rq-freq-badge {
+            color: var(--green);
+        }
+
+        .rq-hi .rq-freq-fill {
+            background: var(--green);
+        }
+
+        .rq-hi .rq-freq-lbl {
+            color: var(--green);
+        }
+
+        .rq-hi .rq-topic-dot {
+            background: var(--green);
+        }
+
+        .rq-mi .rq-freq-badge {
+            color: var(--amber);
+        }
+
+        .rq-mi .rq-freq-fill {
+            background: var(--amber);
+        }
+
+        .rq-mi .rq-freq-lbl {
+            color: var(--amber);
+        }
+
+        .rq-mi .rq-topic-dot {
+            background: var(--amber);
+        }
+
+        .rq-lo .rq-freq-badge {
+            color: var(--red);
+        }
+
+        .rq-lo .rq-freq-fill {
+            background: var(--red);
+        }
+
+        .rq-lo .rq-freq-lbl {
+            color: var(--red);
+        }
+
+        .rq-lo .rq-topic-dot {
+            background: var(--red);
+        }
+
+        /* expandable papers list */
+        .rq-papers {
+            display: none;
+            padding: 10px 16px 13px;
+            border-top: 1px solid var(--border-lt);
+            background: var(--surface-2);
+        }
+
+        .rq-papers.open {
+            display: block;
+        }
+
+        .rq-papers-label {
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: .7px;
+            text-transform: uppercase;
+            color: var(--text-3);
+            margin-bottom: 8px;
+        }
+
+        .rq-paper-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .rq-chip {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 2px 9px;
+            border-radius: 3px;
+            color: var(--text-2);
         }
 
         /* PAPERS */
@@ -430,14 +617,14 @@
             display: flex;
             gap: 8px;
             flex-wrap: wrap;
-            align-items: center;
+            align-items: center
         }
 
         .sem-toggle {
             display: flex;
             border: 1px solid var(--border);
             border-radius: var(--r);
-            overflow: hidden;
+            overflow: hidden
         }
 
         .sem-toggle button {
@@ -448,37 +635,37 @@
             font-size: 13px;
             color: var(--text-2);
             cursor: pointer;
-            transition: all .12s;
+            transition: all .12s
         }
 
         .sem-toggle button.on {
             background: var(--accent);
-            color: #fff;
+            color: #fff
         }
 
         .paper-wrap {
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: var(--r);
-            overflow: hidden;
+            overflow: hidden
         }
 
         .paper-hdr {
             background: var(--surface-2);
             padding: 14px 22px;
-            border-bottom: 1px solid var(--border);
+            border-bottom: 1px solid var(--border)
         }
 
         .paper-hdr h2 {
             font-family: var(--font-serif);
             font-size: 15px;
-            font-weight: 700;
+            font-weight: 700
         }
 
         .paper-hdr p {
             font-size: 12px;
             color: var(--text-2);
-            margin-top: 3px;
+            margin-top: 3px
         }
 
         .pq-section {
@@ -489,7 +676,7 @@
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: .7px;
-            color: var(--text-3);
+            color: var(--text-3)
         }
 
         .pq-row {
@@ -499,28 +686,28 @@
             grid-template-columns: 72px 1fr 44px;
             gap: 12px;
             align-items: start;
-            transition: background .1s;
+            transition: background .1s
         }
 
         .pq-row:last-child {
-            border-bottom: none;
+            border-bottom: none
         }
 
         .pq-row:hover {
-            background: var(--bg);
+            background: var(--bg)
         }
 
         .pq-num {
             font-family: var(--font-mono);
             font-size: 12px;
             font-weight: 500;
-            color: var(--accent);
+            color: var(--accent)
         }
 
         .pq-text {
             font-size: 13.5px;
             color: var(--text-1);
-            line-height: 1.55;
+            line-height: 1.55
         }
 
         .pq-marks {
@@ -528,7 +715,7 @@
             font-size: 12px;
             color: var(--text-3);
             text-align: right;
-            padding-top: 2px;
+            padding-top: 2px
         }
 
         /* SYLLABUS */
@@ -541,57 +728,57 @@
             display: flex;
             gap: 24px;
             flex-wrap: wrap;
-            align-items: center;
+            align-items: center
         }
 
         .syl-info-item {
             display: flex;
             flex-direction: column;
-            gap: 1px;
+            gap: 1px
         }
 
         .sil {
             font-size: 10px;
             color: var(--text-3);
             text-transform: uppercase;
-            letter-spacing: .7px;
+            letter-spacing: .7px
         }
 
         .siv {
             font-size: 13.5px;
-            font-weight: 500;
+            font-weight: 500
         }
 
         .freq-key {
             display: flex;
             gap: 12px;
             align-items: center;
-            margin-left: auto;
+            margin-left: auto
         }
 
         .fk-item {
             display: flex;
             align-items: center;
             gap: 5px;
-            font-size: 12px;
+            font-size: 12px
         }
 
         .fk-dot {
             width: 8px;
             height: 8px;
-            border-radius: 50%;
+            border-radius: 50%
         }
 
         .fk-dot.hi {
-            background: var(--green);
+            background: var(--green)
         }
 
         .fk-dot.mi {
-            background: var(--amber);
+            background: var(--amber)
         }
 
         .fk-dot.lo {
-            background: var(--red);
+            background: var(--red)
         }
 
         .unit-block {
@@ -599,7 +786,7 @@
             border: 1px solid var(--border-lt);
             border-radius: var(--r);
             margin-bottom: 7px;
-            overflow: hidden;
+            overflow: hidden
         }
 
         .unit-hdr {
@@ -609,11 +796,11 @@
             gap: 12px;
             cursor: pointer;
             user-select: none;
-            transition: background .12s;
+            transition: background .12s
         }
 
         .unit-hdr:hover {
-            background: var(--surface-2);
+            background: var(--surface-2)
         }
 
         .u-num {
@@ -621,38 +808,38 @@
             font-size: 10.5px;
             font-weight: 500;
             color: var(--text-3);
-            min-width: 52px;
+            min-width: 52px
         }
 
         .u-title {
             font-family: var(--font-serif);
             font-size: 14px;
             font-weight: 700;
-            flex: 1;
+            flex: 1
         }
 
         .u-hours {
             font-size: 12px;
-            color: var(--text-3);
+            color: var(--text-3)
         }
 
         .u-chev {
             font-size: 10px;
             color: var(--text-3);
-            transition: transform .2s;
+            transition: transform .2s
         }
 
         .unit-block.open .u-chev {
-            transform: rotate(90deg);
+            transform: rotate(90deg)
         }
 
         .unit-topics {
             display: none;
-            border-top: 1px solid var(--border-lt);
+            border-top: 1px solid var(--border-lt)
         }
 
         .unit-block.open .unit-topics {
-            display: block;
+            display: block
         }
 
         .topic-row {
@@ -661,26 +848,26 @@
             display: grid;
             grid-template-columns: 1fr 210px;
             gap: 16px;
-            align-items: center;
+            align-items: center
         }
 
         .topic-row:last-child {
-            border-bottom: none;
+            border-bottom: none
         }
 
         .topic-row:hover {
-            background: var(--bg);
+            background: var(--bg)
         }
 
         .t-name {
             font-size: 13px;
-            color: var(--text-1);
+            color: var(--text-1)
         }
 
         .freq-grp {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 8px
         }
 
         .freq-track {
@@ -688,25 +875,25 @@
             height: 4px;
             background: var(--border);
             border-radius: 2px;
-            overflow: hidden;
+            overflow: hidden
         }
 
         .freq-fill {
             height: 100%;
             border-radius: 2px;
-            transition: width .7s ease;
+            transition: width .7s ease
         }
 
         .fhi .freq-fill {
-            background: var(--green);
+            background: var(--green)
         }
 
         .fmi .freq-fill {
-            background: var(--amber);
+            background: var(--amber)
         }
 
         .flo .freq-fill {
-            background: var(--red);
+            background: var(--red)
         }
 
         .freq-n {
@@ -714,19 +901,19 @@
             font-size: 11.5px;
             font-weight: 500;
             min-width: 22px;
-            text-align: right;
+            text-align: right
         }
 
         .fhi .freq-n {
-            color: var(--green);
+            color: var(--green)
         }
 
         .fmi .freq-n {
-            color: var(--amber);
+            color: var(--amber)
         }
 
         .flo .freq-n {
-            color: var(--red);
+            color: var(--red)
         }
 
         .freq-tag {
@@ -735,22 +922,22 @@
             padding: 1px 7px;
             border-radius: 10px;
             min-width: 34px;
-            text-align: center;
+            text-align: center
         }
 
         .fhi .freq-tag {
             background: var(--green-bg);
-            color: var(--green);
+            color: var(--green)
         }
 
         .fmi .freq-tag {
             background: var(--amber-bg);
-            color: var(--amber);
+            color: var(--amber)
         }
 
         .flo .freq-tag {
             background: var(--red-bg);
-            color: var(--red);
+            color: var(--red)
         }
 
         /* ERROR */
@@ -760,7 +947,7 @@
             border-radius: var(--r);
             padding: 16px 20px;
             color: var(--red);
-            font-size: 14px;
+            font-size: 14px
         }
 
         .err code {
@@ -768,21 +955,25 @@
             font-size: 12px;
             background: #fff;
             padding: 2px 6px;
-            border-radius: 3px;
+            border-radius: 3px
         }
 
         /* RESPONSIVE */
         @media(max-width:760px) {
             .stats-bar {
-                grid-template-columns: repeat(3, 1fr)
+                grid-template-columns: repeat(3, 1fr) !important
             }
 
             .stat-cell:nth-child(3) {
                 border-right: none
             }
 
-            .stat-cell:nth-child(4) {
+            .stat-cell:nth-child(n+4) {
                 border-top: 1px solid var(--border)
+            }
+
+            .rq-main {
+                grid-template-columns: 1fr 160px 48px
             }
         }
 
@@ -792,14 +983,14 @@
             }
 
             .stats-bar {
-                grid-template-columns: repeat(2, 1fr)
+                grid-template-columns: repeat(2, 1fr) !important
             }
 
-            .stat-cell:nth-child(2) {
+            .stat-cell:nth-child(even) {
                 border-right: none
             }
 
-            .stat-cell:nth-child(3) {
+            .stat-cell:nth-child(n+3) {
                 border-top: 1px solid var(--border)
             }
 
@@ -808,6 +999,14 @@
             }
 
             .q-marks {
+                display: none
+            }
+
+            .rq-main {
+                grid-template-columns: 1fr 48px
+            }
+
+            .rq-topic {
                 display: none
             }
 
@@ -838,41 +1037,12 @@
             </div>
             <div class="hdr-badge" id="hdr-badge"></div>
         </div>
-
         <div id="tabs"></div>
-
         <div id="main">
 
             <!-- QUESTIONS -->
             <div class="tab-pane" id="pane-questions">
-                <!-- Overview stats -->
-                <div class="stats-bar">
-                    <div class="stat-cell">
-                        <div class="stat-val" id="st-papers">—</div>
-                        <div class="stat-lbl">Papers</div>
-                    </div>
-                    <div class="stat-cell">
-                        <div class="stat-val" id="st-qs">—</div>
-                        <div class="stat-lbl">Questions</div>
-                    </div>
-                    <div class="stat-cell">
-                        <div class="stat-val" id="st-ch">—</div>
-                        <div class="stat-lbl">Chapters</div>
-                    </div>
-                    <div class="stat-cell">
-                        <div class="stat-val" id="st-topics">—</div>
-                        <div class="stat-lbl">Syllabus Topics</div>
-                    </div>
-                    <div class="stat-cell">
-                        <div class="stat-val" id="st-peak">—</div>
-                        <div class="stat-lbl">Peak Repeats</div>
-                    </div>
-                    <div class="stat-cell">
-                        <div class="stat-val" id="st-span">—</div>
-                        <div class="stat-lbl">Year Span</div>
-                    </div>
-                </div>
-                <!-- Dropdown filters -->
+                <div class="stats-bar" id="stats-bar"></div>
                 <div class="filter-bar">
                     <select class="f-select" id="fd-year" onchange="onFilter()">
                         <option value="">All Years</option>
@@ -907,6 +1077,26 @@
                 <div id="paper-out"></div>
             </div>
 
+            <!-- REPEATED -->
+            <div class="tab-pane" id="pane-repeated">
+                <div class="rq-toolbar">
+                    <select class="f-select" id="rq-sort" onchange="renderRepeated()" style="min-width:160px">
+                        <option value="freq-desc">Highest Frequency</option>
+                        <option value="freq-asc">Lowest Frequency</option>
+                        <option value="topic">By Topic</option>
+                    </select>
+                    <select class="f-select" id="rq-tier" onchange="renderRepeated()" style="min-width:120px">
+                        <option value="">All Levels</option>
+                        <option value="hi">High (≥60%)</option>
+                        <option value="mi">Mid (≥30%)</option>
+                        <option value="lo">Low</option>
+                    </select>
+                    <div class="f-sep"></div>
+                    <div class="res-info" id="rq-info" style="margin:0"></div>
+                </div>
+                <div class="rq-list" id="rq-list"></div>
+            </div>
+
             <!-- SYLLABUS -->
             <div class="tab-pane" id="pane-syllabus">
                 <div id="syl-out"></div>
@@ -915,87 +1105,201 @@
     </div>
 
     <script>
-        const S = { cfg: null, qp: null, syl: null, f: { year: '', sem: '', qno: '', sub: '', marks: '' }, p: { year: null, sem: 'Fall' }, all: [] };
+        // ════════════════════════════════════════════════════
+        // STATE
+        // ════════════════════════════════════════════════════
+        const S = {
+            cfg: null, qp: null, rq: null, syl: null,
+            f: { year: '', sem: '', qno: '', sub: '', marks: '' },
+            p: { year: null, sem: 'Fall' },
+            all: []
+        };
 
+        // ════════════════════════════════════════════════════
+        // BOOT
+        // ════════════════════════════════════════════════════
         async function init() {
             try {
-                S.cfg = await get('App.json');
-                applyTheme(S.cfg); renderHeader(S.cfg);
+                S.cfg = await get('app-info.json');
+                applyTheme(S.cfg);
+                renderHeader(S.cfg);
                 for (const item of S.cfg.content) {
-                    try { const d = await get(item.file); if (d.papers) S.qp = d; if (d.course_contents) S.syl = d; }
-                    catch (e) { console.warn('Could not load', item.file, e); }
+                    try {
+                        const d = await get(item.file);
+                        if (d.papers) S.qp = d;
+                        if (d.repeated_questions) S.rq = d;
+                        if (d.course_contents) S.syl = d;
+                    } catch (e) { console.warn('Could not load', item.file, e); }
                 }
                 if (S.qp) S.all = flatQ();
-                buildTabs(); hide('loading'); show('app');
+                buildTabs();
+                hide('loading');
+                show('app');
             } catch (e) {
-                document.getElementById('loading').innerHTML = `<div class="err" style="max-width:500px;margin:24px">
-            <strong>Failed to load App.json</strong><br><br>
-            This app needs a local server. In your project folder run:<br>
-            <code>python -m http.server 8000</code><br><br>
-            Then open <code>http://localhost:8000</code></div>`;
+                document.getElementById('loading').innerHTML = `
+        <div style="max-width:480px;margin:24px;font-family:'Source Sans 3',system-ui,sans-serif">
+
+            <div style="background:#FAEBEB;border:1px solid #F5C0C0;border-radius:6px;padding:20px 24px;margin-bottom:16px">
+                <div style="font-weight:700;font-size:15px;color:#7A1A1A;margin-bottom:4px">⚠ Cannot load App.json</div>
+                <div style="font-size:13.5px;color:#A03030;line-height:1.5">
+                    Browsers block local file reading for security. This app must be served over HTTP.
+                </div>
+            </div>
+
+            <div style="background:#fff;border:1px solid #DDD9CE;border-radius:6px;padding:20px 24px">
+                <div style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:#9A9189;margin-bottom:14px">How to run</div>
+
+                <div style="display:flex;flex-direction:column;gap:12px">
+
+                    <div style="display:flex;gap:12px;align-items:flex-start">
+                        <span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">1</span>
+                        <div>
+                            <div style="font-size:13.5px;color:#1A1816;margin-bottom:5px">Open a terminal in this project folder</div>
+                            <div style="font-size:11.5px;color:#9A9189">The folder that contains <code style="background:#F1EEE8;padding:1px 5px;border-radius:3px;font-family:monospace">index.html</code> and <code style="background:#F1EEE8;padding:1px 5px;border-radius:3px;font-family:monospace">App.json</code></div>
+                        </div>
+                    </div>
+
+                    <div style="display:flex;gap:12px;align-items:flex-start">
+                        <span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">2</span>
+                        <div style="width:100%">
+                            <div style="font-size:13.5px;color:#1A1816;margin-bottom:6px">Run one of these commands:</div>
+                            <div style="display:flex;flex-direction:column;gap:5px">
+                                <div style="background:#1A1816;border-radius:4px;padding:8px 12px;display:flex;justify-content:space-between;align-items:center">
+                                    <code style="font-family:monospace;font-size:13px;color:#E8E4DC">python -m http.server 8000</code>
+                                    <span style="font-size:10px;color:#9A9189;margin-left:10px;white-space:nowrap">Python 3</span>
+                                </div>
+                                <div style="background:#1A1816;border-radius:4px;padding:8px 12px;display:flex;justify-content:space-between;align-items:center">
+                                    <code style="font-family:monospace;font-size:13px;color:#E8E4DC">npx serve .</code>
+                                    <span style="font-size:10px;color:#9A9189;margin-left:10px;white-space:nowrap">Node.js</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display:flex;gap:12px;align-items:flex-start">
+                        <span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">3</span>
+                        <div style="width:100%">
+                            <div style="font-size:13.5px;color:#1A1816;margin-bottom:8px">Once the server is running, open:</div>
+                            <button onclick="window.location.href='http://localhost:8000'"
+                                style="width:100%;padding:10px;background:#2B5EA7;color:#fff;border:none;border-radius:5px;font-family:'Source Sans 3',system-ui,sans-serif;font-size:14px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:background .15s"
+                                onmouseover="this.style.background='#1F4A8A'"
+                                onmouseout="this.style.background='#2B5EA7'">
+                                <span>Open localhost:8000</span>
+                                <span style="font-size:16px">→</span>
+                            </button>
+                            <div style="font-size:11px;color:#9A9189;margin-top:6px;text-align:center">
+                                Click after the server has started in your terminal
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>`;
             }
         }
+
         async function get(url) { const r = await fetch(url); if (!r.ok) throw new Error(url); return r.json(); }
         const el = id => document.getElementById(id);
         const qs = s => document.querySelector(s);
         const qsa = s => document.querySelectorAll(s);
-        function show(id) { el(id).style.display = ''; }
-        function hide(id) { el(id).style.display = 'none'; }
+        function show(id) { el(id).style.display = '' }
+        function hide(id) { el(id).style.display = 'none' }
 
-        function applyTheme(cfg) { if (cfg.accent_color) document.documentElement.style.setProperty('--accent', cfg.accent_color); }
-
+        // ════════════════════════════════════════════════════
+        // THEME & HEADER
+        // ════════════════════════════════════════════════════
+        function applyTheme(cfg) {
+            if (cfg.accent_color)
+                document.documentElement.style.setProperty('--accent', cfg.accent_color);
+        }
         function renderHeader(cfg) {
             document.title = cfg.app_name || cfg.app || 'OM Analyzer';
             el('hdr-title').textContent = cfg.app_name || cfg.app || 'OM Analyzer';
             el('hdr-sub').textContent = [cfg.university, cfg.program].filter(Boolean).join(' · ');
             el('hdr-badge').textContent = [cfg.course, cfg.course_code].filter(Boolean).join(' — ');
-            if (cfg.app_ic) { const img = el('hdr-icon'); img.src = cfg.app_ic; img.style.display = 'block'; img.onerror = () => { img.style.display = 'none'; }; }
+            if (cfg.app_ic) {
+                const img = el('hdr-icon'); img.src = cfg.app_ic; img.style.display = 'block';
+                img.onerror = () => { img.style.display = 'none'; };
+            }
         }
 
+        // ════════════════════════════════════════════════════
+        // TABS
+        // ════════════════════════════════════════════════════
         function buildTabs() {
-            const lbl = S.cfg.tab_labels || {}; const tabs = [];
+            const lbl = S.cfg.tab_labels || {};
+            const tabs = [];
             if (S.qp) tabs.push({ id: 'questions', label: lbl.questions || 'Questions' });
             if (S.qp) tabs.push({ id: 'papers', label: lbl.papers || 'Papers' });
+            if (S.rq) tabs.push({ id: 'repeated', label: lbl.repeated || 'Repeated' });
             if (S.syl) tabs.push({ id: 'syllabus', label: lbl.syllabus || 'Syllabus' });
-            qs('#tabs').innerHTML = tabs.map(t => `<button class="tab-btn" data-t="${t.id}" onclick="goTab('${t.id}')">${t.label}</button>`).join('');
+            qs('#tabs').innerHTML = tabs.map(t =>
+                `<button class="tab-btn" data-t="${t.id}" onclick="goTab('${t.id}')">${t.label}</button>`
+            ).join('');
             if (tabs.length) goTab(tabs[0].id);
         }
-
         function goTab(id) {
             qsa('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.t === id));
             qsa('.tab-pane').forEach(p => p.classList.toggle('active', p.id === 'pane-' + id));
             if (id === 'questions' && S.qp && el('res-info').textContent === '') { initQTab(); }
             if (id === 'papers' && S.qp && !el('pp-year').options.length) { initPapers(); }
+            if (id === 'repeated' && S.rq && !el('rq-list').children.length) { renderRepeated(); }
             if (id === 'syllabus' && S.syl && !el('syl-out').children.length) { renderSyl(); }
         }
 
+        // ════════════════════════════════════════════════════
+        // FLATTEN + AUTO-STATS
+        // ════════════════════════════════════════════════════
         function flatQ() {
             const all = [];
             for (const p of S.qp.papers) {
                 for (const q of p.questions) {
-                    if (q.options) { q.options.forEach(o => all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: o.sub_no, marks: parseInt(o.marks) || 0, text: o.question })); }
-                    else { all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: q.sub_no, marks: parseInt(q.marks) || 0, text: q.question }); }
+                    if (q.options) q.options.forEach(o => all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: o.sub_no, marks: parseInt(o.marks) || 0, text: o.question }));
+                    else all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: q.sub_no, marks: parseInt(q.marks) || 0, text: q.question });
                 }
             }
             return all;
         }
-
-        /* ── STATS ── */
-        function renderStats() {
-            const papers = S.qp.papers; const all = S.all;
+        function computeAuto() {
+            const papers = S.qp ? S.qp.papers : [];
+            const all = S.all;
             const years = [...new Set(papers.map(p => p.year))].sort();
-            const span = years.length > 1 ? `${years[0]}–${years[years.length - 1]}` : (years[0] || '—');
             const freq = {}; all.forEach(q => { const k = q.text.trim().slice(0, 40).toLowerCase(); freq[k] = (freq[k] || 0) + 1; });
-            const peak = Math.max(...Object.values(freq));
-            el('st-papers').textContent = papers.length;
-            el('st-qs').textContent = all.length;
-            el('st-ch').textContent = S.syl ? S.syl.course_contents.length : '—';
-            el('st-topics').textContent = S.syl ? S.syl.course_contents.reduce((a, u) => a + u.topics.length, 0) : '—';
-            el('st-peak').textContent = peak + '×';
-            el('st-span').textContent = span;
+            const peak = all.length ? Math.max(...Object.values(freq)) : 0;
+            return {
+                'papers': papers.length,
+                'questions': all.length,
+                'chapters': S.syl ? S.syl.course_contents.length : 0,
+                'topics': S.syl ? S.syl.course_contents.reduce((a, u) => a + u.topics.length, 0) : 0,
+                'peak': peak + '×',
+                'yearspan': years.length > 1 ? `${years[0]}–${years[years.length - 1]}` : (years[0] || '—'),
+                'semesters': [...new Set(papers.map(p => p.semester))].join(' / ')
+            };
         }
 
-        /* ── QUESTIONS ── */
+        // ════════════════════════════════════════════════════
+        // STATS BAR — from App.json overview[]
+        // ════════════════════════════════════════════════════
+        function renderStats() {
+            const items = S.cfg.overview;
+            if (!items || !items.length) { el('stats-bar').style.display = 'none'; return; }
+            const auto = computeAuto();
+            el('stats-bar').style.gridTemplateColumns = `repeat(${items.length},1fr)`;
+            el('stats-bar').innerHTML = items.map(item => {
+                let val = item.value;
+                if (typeof val === 'string' && val.startsWith('auto:')) {
+                    const key = val.slice(5);
+                    val = auto[key] !== undefined ? auto[key] : '—';
+                }
+                return `<div class="stat-cell"><div class="stat-val">${val}</div><div class="stat-lbl">${item.label}</div></div>`;
+            }).join('');
+        }
+
+        // ════════════════════════════════════════════════════
+        // QUESTIONS TAB
+        // ════════════════════════════════════════════════════
         function initQTab() {
             renderStats();
             const years = [...new Set(S.qp.papers.map(p => p.year))].sort((a, b) => b - a);
@@ -1006,11 +1310,9 @@
             populate('fd-qno', qnos, 'All Q'); populate('fd-sub', subs, 'All Types');
             renderQ();
         }
-
         function populate(id, vals, label) {
             el(id).innerHTML = `<option value="">${label}</option>` + vals.map(v => `<option value="${v}">${v}</option>`).join('');
         }
-
         function onFilter() {
             S.f.year = el('fd-year').value; S.f.sem = el('fd-sem').value;
             S.f.qno = el('fd-qno').value; S.f.sub = el('fd-sub').value; S.f.marks = el('fd-marks').value;
@@ -1018,13 +1320,11 @@
             el('fd-marks').classList.toggle('active', !!el('fd-marks').value);
             renderQ();
         }
-
         function resetFilters() {
             ['fd-year', 'fd-sem', 'fd-qno', 'fd-sub'].forEach(id => { el(id).value = ''; el(id).classList.remove('active'); });
             el('fd-marks').value = ''; el('fd-marks').classList.remove('active');
             S.f = { year: '', sem: '', qno: '', sub: '', marks: '' }; renderQ();
         }
-
         function renderQ() {
             let list = S.all;
             const { year, sem, qno, sub, marks } = S.f;
@@ -1046,7 +1346,91 @@
         </div>`).join('');
         }
 
-        /* ── PAPERS ── */
+        // ════════════════════════════════════════════════════
+        // REPEATED QUESTIONS TAB
+        // ════════════════════════════════════════════════════
+        function tierClass(pct) {
+            return pct >= 60 ? 'rq-hi' : pct >= 30 ? 'rq-mi' : 'rq-lo';
+        }
+        function tierLabel(pct) {
+            return pct >= 60 ? 'High' : pct >= 30 ? 'Mid' : 'Low';
+        }
+
+        function renderRepeated() {
+            const sortBy = el('rq-sort').value;
+            const tierF = el('rq-tier').value;
+
+            const all = S.rq.repeated_questions;
+            const maxF = Math.max(...all.map(r => r.freq));
+
+            let list = [...all];
+
+            // tier filter
+            if (tierF) {
+                list = list.filter(r => {
+                    const pct = r.freq / maxF * 100;
+                    if (tierF === 'hi') return pct >= 60;
+                    if (tierF === 'mi') return pct >= 30 && pct < 60;
+                    if (tierF === 'lo') return pct < 30;
+                    return true;
+                });
+            }
+
+            // sort
+            if (sortBy === 'freq-desc') list.sort((a, b) => b.freq - a.freq);
+            else if (sortBy === 'freq-asc') list.sort((a, b) => a.freq - b.freq);
+            else if (sortBy === 'topic') list.sort((a, b) => a.topic.localeCompare(b.topic));
+
+            el('rq-info').textContent = `${list.length} question${list.length !== 1 ? 's' : ''}`;
+
+            if (list.length === 0) {
+                el('rq-list').innerHTML = `<div class="no-results">No repeated questions match the selected filter.</div>`;
+                return;
+            }
+
+            el('rq-list').innerHTML = list.map((r, idx) => {
+                const pct = (r.freq / maxF * 100).toFixed(1);
+                const cls = tierClass(pct);
+                const lbl = tierLabel(pct);
+
+                // format paper chips: "2024_fall" → "2024 FA", "2024_spring" → "2024 SP"
+                const chips = (r.papers || []).map(pid => {
+                    const parts = pid.split('_');
+                    const yr = parts[0];
+                    const sem = (parts[1] || '').slice(0, 2).toUpperCase();
+                    return `<span class="rq-chip">${yr} ${sem}</span>`;
+                }).join('');
+
+                return `<div class="rq-card ${cls}" id="rqc-${idx}">
+            <div class="rq-main" onclick="toggleRqPapers(${idx})">
+                <div class="rq-text">${r.question}</div>
+                <div class="rq-topic">
+                    <span class="rq-topic-dot"></span>
+                    <span class="rq-topic-name">${r.topic}</span>
+                </div>
+                <div class="rq-freq-col">
+                    <span class="rq-freq-badge">${r.freq}×</span>
+                    <div class="rq-freq-track">
+                        <div class="rq-freq-fill" style="width:${pct}%"></div>
+                    </div>
+                    <span class="rq-freq-lbl">${lbl}</span>
+                </div>
+            </div>
+            <div class="rq-papers" id="rqp-${idx}">
+                <div class="rq-papers-label">Appeared in</div>
+                <div class="rq-paper-chips">${chips}</div>
+            </div>
+        </div>`;
+            }).join('');
+        }
+
+        function toggleRqPapers(idx) {
+            el('rqp-' + idx).classList.toggle('open');
+        }
+
+        // ════════════════════════════════════════════════════
+        // PAPERS TAB
+        // ════════════════════════════════════════════════════
         function initPapers() {
             const years = [...new Set(S.qp.papers.map(p => p.year))].sort((a, b) => b - a);
             el('pp-year').innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join('');
@@ -1080,7 +1464,9 @@
             out.innerHTML = `<div class="paper-wrap"><div class="paper-hdr"><h2>Pokhara University &mdash; ${paper.year} ${paper.semester}</h2><p>Organization and Management &nbsp;&middot;&nbsp; Full Marks: 100 &nbsp;&middot;&nbsp; Pass Marks: 45 &nbsp;&middot;&nbsp; Time: 3 hrs.</p></div><div>${rows}</div></div>`;
         }
 
-        /* ── SYLLABUS ── */
+        // ════════════════════════════════════════════════════
+        // SYLLABUS TAB
+        // ════════════════════════════════════════════════════
         function renderSyl() {
             const s = S.syl; const out = el('syl-out');
             const max = Math.max(...s.course_contents.flatMap(u => u.topics.map(t => t.frequency || 0)));

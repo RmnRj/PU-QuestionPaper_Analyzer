@@ -1,0 +1,148 @@
+{
+    "repeated_questions": [
+        {
+            "question": "Define management and explain its functions. How can managers effectively manage an organization?",
+            "topic": "1.1 Meaning and concept of management / 1.2 Functions of management",
+            "freq": 20,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_spring","2019_fall","2018_spring","2018_fall","2017_fall","2017_spring","2016_spring","2016_fall","2015_spring","2015_fall","2014_spring","2014_fall"]
+        },
+        {
+            "question": "What are the modes of conflict management? Explain negotiation, mediation, facilitation and arbitration.",
+            "topic": "6.4 Modes of Conflict Management",
+            "freq": 20,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_spring","2019_fall","2018_spring","2018_fall","2017_fall","2017_spring","2016_spring","2016_fall","2015_spring","2015_fall","2014_spring","2014_fall"]
+        },
+        {
+            "question": "Define industrial relations and discuss the role of trade unions in collective bargaining.",
+            "topic": "5.2 Trade union / 5.2.1 Collective bargaining",
+            "freq": 18,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_spring","2021_fall","2019_spring","2019_fall","2018_spring","2018_fall","2017_fall","2017_spring","2016_spring","2016_fall","2015_spring","2015_fall","2014_spring","2014_fall"]
+        },
+        {
+            "question": "Explain Maslow's hierarchy of needs theory. Compare with Herzberg's dual factor theory of motivation.",
+            "topic": "3.3 Theories of motivation: Need hierarchy, Dual Factorial",
+            "freq": 16,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2020_fall","2019_spring","2018_spring","2018_fall","2017_fall","2016_spring","2016_fall","2015_spring","2015_fall","2014_spring","2014_fall"]
+        },
+        {
+            "question": "Define leadership. Explain different leadership styles including MBO and MBE.",
+            "topic": "3.4 Leadership styles: Participative management, MBO, MBE",
+            "freq": 17,
+            "papers": ["2025_spring","2024_spring","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_spring","2018_fall","2017_fall","2017_spring","2016_spring","2016_fall","2015_spring","2015_fall","2014_spring","2014_fall"]
+        },
+        {
+            "question": "Define human resource management and discuss its functions.",
+            "topic": "4.1 Meaning and functions of human resource management",
+            "freq": 14,
+            "papers": ["2024_fall","2024_spring","2023_spring","2022_fall","2021_spring","2021_fall","2019_spring","2019_fall","2018_spring","2018_fall","2017_spring","2016_fall","2015_spring","2015_fall"]
+        },
+        {
+            "question": "What is Formal and Informal organization? Differentiate between them with examples.",
+            "topic": "2.4 Formal and informal organizations",
+            "freq": 13,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2021_fall","2018_spring","2017_fall","2016_spring","2016_fall","2015_spring","2015_fall","2014_spring","2014_fall"]
+        },
+        {
+            "question": "Explain the methods of training. Differentiate between on-the-job and off-the-job training.",
+            "topic": "4.5 Human resource development: Training (on the job and off the job)",
+            "freq": 13,
+            "papers": ["2025_spring","2024_spring","2023_spring","2021_spring","2021_fall","2020_fall","2019_spring","2018_fall","2017_spring","2015_spring","2015_fall","2014_spring","2014_fall"]
+        },
+        {
+            "question": "Discuss different types of organization structure. Differentiate between line, matrix and other forms.",
+            "topic": "2.6 Types of organization (Line, Line & Staff, Functional, Matrix)",
+            "freq": 15,
+            "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_fall","2020_fall","2019_spring","2019_fall","2018_fall","2017_fall","2017_spring","2016_spring","2016_fall","2015_spring","2014_fall"]
+        },
+        {
+            "question": "What is recruitment? Explain different sources and methods of recruitment.",
+            "topic": "4.2 Recruitment",
+            "freq": 11,
+            "papers": ["2025_spring","2023_spring","2021_spring","2021_fall","2020_fall","2019_fall","2018_spring","2018_fall","2017_fall","2017_spring","2016_spring"]
+        },
+        {
+            "question": "What is performance appraisal? Explain the methods/types of performance appraisal.",
+            "topic": "4.6 Performance appraisal",
+            "freq": 11,
+            "papers": ["2025_spring","2024_fall","2022_fall","2021_spring","2020_fall","2018_fall","2017_spring","2016_spring","2015_spring","2015_fall","2014_fall"]
+        },
+        {
+            "question": "Define job analysis, job description and job specification. Write job description for an engineer.",
+            "topic": "4.3 Job analysis, Job specification, Job description",
+            "freq": 11,
+            "papers": ["2024_fall","2024_spring","2022_fall","2021_spring","2019_fall","2018_fall","2017_fall","2016_fall","2015_spring","2014_spring","2014_fall"]
+        },
+        {
+            "question": "What is employee grievance? How must grievances be handled effectively in an organization?",
+            "topic": "5.3 Employee grievances",
+            "freq": 10,
+            "papers": ["2025_spring","2024_fall","2021_spring","2021_fall","2019_spring","2018_spring","2017_fall","2017_spring","2015_fall","2014_fall"]
+        },
+        {
+            "question": "What are the challenges of industrial relations in Nepal? Suggest methods to improve them.",
+            "topic": "5.7 Challenges of industrial relations in Nepal / 5.8 Methods of improving industrial relations",
+            "freq": 9,
+            "papers": ["2025_spring","2024_spring","2022_fall","2020_fall","2019_spring","2018_spring","2016_fall","2019_fall","2017_fall"]
+        },
+        {
+            "question": "What are the principles of organization? Explain their importance.",
+            "topic": "2.3 Principles of organization",
+            "freq": 6,
+            "papers": ["2024_fall","2024_spring","2022_fall","2016_spring","2017_fall","2014_spring"]
+        },
+        {
+            "question": "What is occupational/employee health and safety? Explain roles of employees and employers. Discuss preventive measures of accidents.",
+            "topic": "5.5 Employee health and safety",
+            "freq": 12,
+            "papers": ["2024_fall","2022_fall","2021_spring","2020_fall","2019_spring","2019_fall","2018_spring","2017_fall","2017_spring","2016_fall","2015_fall","2014_spring"]
+        },
+        {
+            "question": "Define learning organization. Discuss the characteristics of a learning organization.",
+            "topic": "3.5 Learning organizations",
+            "freq": 8,
+            "papers": ["2025_spring","2024_fall","2023_spring","2021_fall","2020_fall","2019_fall","2017_fall","2016_spring"]
+        },
+        {
+            "question": "What is Line and Staff organization? What are its advantages and disadvantages?",
+            "topic": "2.6.1 Line and staff organization",
+            "freq": 8,
+            "papers": ["2024_fall","2021_fall","2017_spring","2015_fall","2015_spring","2014_fall","2021_spring","2014_spring"]
+        },
+        {
+            "question": "What is conflict? What are the sources and types of conflict in organizations?",
+            "topic": "6.1 Concept of Human Behavior and Conflict Management / 6.2 Types of Conflict",
+            "freq": 17,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_spring","2019_fall","2018_spring","2018_fall","2017_fall","2016_spring","2016_fall","2015_fall","2014_fall"]
+        },
+        {
+            "question": "What is inter-personal and inter-organizational conflict? Discuss different sources of inter-organizational conflict.",
+            "topic": "6.2 Types of Conflict (inter-personal, inter-group, inter-organizational)",
+            "freq": 9,
+            "papers": ["2025_spring","2024_fall","2023_spring","2021_fall","2020_fall","2019_spring","2018_spring","2017_spring","2014_fall"]
+        },
+        {
+            "question": "Explain the concept of motivation. Define and discuss incentives in an organization.",
+            "topic": "3.1 Concept of motivation / 3.2 Incentives",
+            "freq": 6,
+            "papers": ["2024_fall","2022_fall","2018_spring","2017_fall","2017_spring","2015_fall"]
+        },
+        {
+            "question": "What is meaning of industrial relations? Explain parties involved and outcomes of bad industrial relations.",
+            "topic": "5.1 Meaning of Industrial Relations",
+            "freq": 11,
+            "papers": ["2024_fall","2024_spring","2023_spring","2020_fall","2019_spring","2018_spring","2018_fall","2017_fall","2016_spring","2016_fall","2015_spring"]
+        },
+        {
+            "question": "Define management by objectives (MBO). Explain its functions and steps in detail.",
+            "topic": "3.4 Leadership styles: Management by objectives (MBO)",
+            "freq": 7,
+            "papers": ["2020_fall","2017_spring","2016_fall","2015_spring","2014_fall","2014_spring","2015_fall"]
+        },
+        {
+            "question": "What are the elements of compensation? Explain the recruitment process in detail.",
+            "topic": "4.4 Elements of compensation",
+            "freq": 4,
+            "papers": ["2021_spring","2019_fall","2017_fall","2016_fall"]
+        }
+    ]
+}
