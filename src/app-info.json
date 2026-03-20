@@ -23,8 +23,51 @@
         { "label": "Peak Repeats",    "value": "auto:peak"      },
         { "label": "Year Span",       "value": "auto:yearspan"  }
     ],
-
+    
     "content": [
+        {
+        "subject": "DSAP",
+        "option": "",
+        "files": [
+        {
+            "file": "DSAP/old_question_papers.json",
+            "name": "Old Question Papers",
+            "type": "questions"
+        },
+        {
+            "file": "DSAP/repeated_questions.json",
+            "name": "Repeated Questions",
+            "type": "repeated"
+        },
+        {
+            "file": "DSAP/syllabus.json",
+            "name": "Syllabus with Frequency",
+            "type": "syllabus"
+        }]
+    },
+    {
+        "subject": "O&M",
+        "option": "",
+        "files": [
+        {
+            "file": "OM/old_question_papers.json",
+            "name": "Old Question Papers",
+            "type": "questions"
+        },
+        {
+            "file": "OM/repeated_questions.json",
+            "name": "Repeated Questions",
+            "type": "repeated"
+        },
+        {
+            "file": "OM/syllabus.json",
+            "name": "Syllabus with Frequency",
+            "type": "syllabus"
+        }]
+    },{
+        "subject": "SPIT",
+        "option": "default",
+        "files": [
         {
             "file": "SPIT/old_question_papers.json",
             "name": "Old Question Papers",
@@ -39,6 +82,7 @@
             "file": "SPIT/syllabus.json",
             "name": "Syllabus with Frequency",
             "type": "syllabus"
-        }
+        }]
+    }
     ]
 }

@@ -11,7 +11,6 @@
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
     <style>
-        /* === ALL ORIGINAL STYLES UNCHANGED === */
         *,
         *::before,
         *::after {
@@ -55,6 +54,7 @@
             line-height: 1.6
         }
 
+        /* LOADING */
         #loading {
             position: fixed;
             inset: 0;
@@ -109,6 +109,7 @@
             }
         }
 
+        /* HEADER */
         #header {
             background: var(--surface);
             border-bottom: 2px solid var(--text-1);
@@ -147,15 +148,39 @@
             line-height: 1
         }
 
-        .hdr-badge {
+        /* Subject selector — replaces old hdr-badge */
+        #subj-select {
+            appearance: none;
+            -webkit-appearance: none;
+            padding: 4px 26px 4px 10px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='5' viewBox='0 0 9 5'%3E%3Cpath d='M0 0l4.5 5L9 0z' fill='%239A9189'/%3E%3C/svg%3E") no-repeat right 9px center;
             font-family: var(--font-mono);
             font-size: 11px;
             color: var(--text-3);
-            border: 1px solid var(--border);
-            padding: 2px 8px;
-            border-radius: 20px
+            cursor: pointer;
+            transition: border-color .12s, color .12s;
+            min-width: 90px;
         }
 
+        #subj-select:hover,
+        #subj-select:focus {
+            border-color: var(--accent);
+            color: var(--accent);
+            outline: none
+        }
+
+        /* Loading spinner shown on subject switch */
+        #subj-loading {
+            display: none;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-3);
+            white-space: nowrap
+        }
+
+        /* TABS */
         #tabs {
             background: var(--surface);
             border-bottom: 1px solid var(--border);
@@ -189,6 +214,7 @@
             border-bottom-color: var(--accent)
         }
 
+        /* MAIN */
         #main {
             max-width: 1100px;
             margin: 0 auto;
@@ -216,6 +242,7 @@
             }
         }
 
+        /* STATS BAR */
         .stats-bar {
             display: grid;
             border: 1px solid var(--border);
@@ -251,6 +278,7 @@
             margin-top: 5px
         }
 
+        /* FILTER BAR */
         .filter-bar {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -347,14 +375,14 @@
             padding: 0 2px
         }
 
+        /* CONTEXT BLOCK */
         .ctx-block {
             background: var(--ctx-bg);
             border: 1px solid var(--ctx-border);
             border-left: 3px solid var(--amber);
             border-radius: var(--r);
             padding: 10px 14px;
-            margin-bottom: 8px;
-            position: relative
+            margin-bottom: 8px
         }
 
         .ctx-label {
@@ -399,6 +427,7 @@
             text-decoration: underline
         }
 
+        /* Q CARDS */
         .q-list {
             display: flex;
             flex-direction: column;
@@ -474,6 +503,7 @@
             font-size: 14px
         }
 
+        /* REPEATED */
         .rq-toolbar {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -658,6 +688,7 @@
             color: var(--text-2)
         }
 
+        /* PAPERS */
         .paper-sel {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -772,6 +803,7 @@
             padding-top: 2px
         }
 
+        /* SYLLABUS */
         .syl-info {
             background: var(--surface);
             border: 1px solid var(--border-lt);
@@ -1002,15 +1034,7 @@
             font-size: 14px
         }
 
-        .err code {
-            font-family: var(--font-mono);
-            font-size: 12px;
-            background: #fff;
-            padding: 2px 6px;
-            border-radius: 3px
-        }
-
-        /* ── GUIDE TAB (new) ── */
+        /* ── GUIDE TAB ── */
         .guide-wrap {
             max-width: 720px
         }
@@ -1184,13 +1208,42 @@
         }
 
         .gs-ic {
-            font-size: 11px;
             font-family: var(--font-mono);
+            font-size: 12px;
             background: var(--surface-2);
             padding: 1px 5px;
             border-radius: 3px
         }
 
+        /* option badges in guide */
+        .opt-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 3px
+        }
+
+        .opt-default {
+            background: var(--green-bg);
+            color: var(--green)
+        }
+
+        .opt-available {
+            background: var(--accent-bg);
+            color: var(--accent)
+        }
+
+        .opt-skip {
+            background: var(--surface-2);
+            color: var(--text-3);
+            border: 1px solid var(--border)
+        }
+
+        /* RESPONSIVE */
         @media(max-width:760px) {
             .stats-bar {
                 grid-template-columns: repeat(3, 1fr) !important
@@ -1269,10 +1322,12 @@
         <div id="header">
             <img id="hdr-icon" src="" alt="" style="display:none">
             <div class="hdr-text">
-                <div id="hdr-title">OM Analyzer</div>
+                <div id="hdr-title">Question Analyzer</div>
                 <div id="hdr-sub"></div>
             </div>
-            <div class="hdr-badge" id="hdr-badge"></div>
+            <!-- Subject selector replaces the old static hdr-badge -->
+            <span id="subj-loading">Loading…</span>
+            <select id="subj-select" onchange="switchSubject(this.value)"></select>
         </div>
         <div id="tabs"></div>
         <div id="main">
@@ -1339,55 +1394,46 @@
                 <div id="syl-out"></div>
             </div>
 
-            <!-- GUIDE (new) -->
+            <!-- GUIDE -->
             <div class="tab-pane" id="pane-guide">
                 <div class="guide-wrap">
 
                     <div class="guide-intro">
-                        <p>Follow these steps to set up a new analyzer for any course. You only need a text editor and
-                            your question paper files — no coding required.</p>
+                        <p>Follow these steps to set up a new analyzer or add a new subject. You only need a text editor
+                            and your question paper files — no coding required.</p>
                     </div>
 
                     <!-- Step 1 -->
                     <div class="guide-section open" id="gs-1">
                         <div class="guide-section-hdr" onclick="togGuide(1)">
                             <span class="gs-num">Step 1</span>
-                            <span class="gs-title">Copy the template files</span>
+                            <span class="gs-title">Understand the folder structure</span>
                             <span class="gs-chev">&#9654;</span>
                         </div>
                         <div class="guide-section-body">
                             <div class="guide-step">
                                 <div class="gs-dot">1</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">Create a new folder for your course</div>
-                                    <div class="gs-desc">Name it anything, e.g. <span class="gs-ic">dsap-analyzer</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="guide-step">
-                                <div class="gs-dot">2</div>
-                                <div class="gs-content">
-                                    <div class="gs-label">Copy these files into the folder</div>
-                                    <div class="gs-tag-row">
-                                        <span class="gs-tag">app-page.html</span>
-                                        <span class="gs-tag">App.bat</span>
-                                        <span class="gs-tag">app-info.json</span>
-                                    </div>
-                                    <div class="gs-note">app-page.html and App.bat never need editing. Only the JSON
-                                        files change per course.</div>
-                                </div>
-                            </div>
-                            <div class="guide-step">
-                                <div class="gs-dot">3</div>
-                                <div class="gs-content">
-                                    <div class="gs-label">Create these empty data files in the same folder</div>
-                                    <div class="gs-tag-row">
-                                        <span class="gs-tag">old_question_papers.json</span>
-                                        <span class="gs-tag">repeated_questions.json</span>
-                                        <span class="gs-tag">syllabus.json</span>
-                                    </div>
-                                    <div class="gs-note">repeated_questions.json and syllabus.json are optional. If you
-                                        skip them, those tabs simply won't appear.</div>
+                                    <div class="gs-label">Each subject lives in its own subfolder</div>
+                                    <div class="gs-code">project/
+                                        ├── app-page.html
+                                        ├── App.bat
+                                        ├── app-info.json
+                                        ├── pu-logo.png
+                                        ├── DSAP/
+                                        │ ├── old_question_papers.json
+                                        │ ├── repeated_questions.json
+                                        │ └── syllabus.json
+                                        ├── OM/
+                                        │ ├── old_question_papers.json
+                                        │ ├── repeated_questions.json
+                                        │ └── syllabus.json
+                                        └── SPIT/
+                                        ├── old_question_papers.json
+                                        ├── repeated_questions.json
+                                        └── syllabus.json</div>
+                                    <div class="gs-note">The subfolder name must match the path used in app-info.json
+                                        under each subject's "files" array.</div>
                                 </div>
                             </div>
                         </div>
@@ -1397,36 +1443,100 @@
                     <div class="guide-section open" id="gs-2">
                         <div class="guide-section-hdr" onclick="togGuide(2)">
                             <span class="gs-num">Step 2</span>
-                            <span class="gs-title">Edit app-info.json</span>
+                            <span class="gs-title">Edit app-info.json — register subjects</span>
                             <span class="gs-chev">&#9654;</span>
                         </div>
                         <div class="guide-section-body">
                             <div class="guide-step">
                                 <div class="gs-dot">1</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">Open app-info.json in any text editor</div>
-                                    <div class="gs-desc">Notepad, VS Code, or any editor works fine.</div>
+                                    <div class="gs-label">Each subject entry has three fields</div>
+                                    <div class="gs-code">{
+                                        "subject": "DSAP",
+                                        "option": "default",
+                                        "files": [
+                                        { "file": "DSAP/old_question_papers.json", "type": "questions" },
+                                        { "file": "DSAP/repeated_questions.json", "type": "repeated" },
+                                        { "file": "DSAP/syllabus.json", "type": "syllabus" }
+                                        ]
+                                        }</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">2</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">Replace the values with your course details</div>
+                                    <div class="gs-label">The "option" field controls how each subject is loaded</div>
+                                    <div style="display:flex;flex-direction:column;gap:8px;margin-top:2px">
+                                        <div style="display:flex;align-items:flex-start;gap:10px">
+                                            <span class="opt-badge opt-default">default</span>
+                                            <span class="gs-desc" style="margin:0">Loaded automatically on startup.
+                                                Shown first in the subject selector. Only one subject should use
+                                                this.</span>
+                                        </div>
+                                        <div style="display:flex;align-items:flex-start;gap:10px">
+                                            <span class="opt-badge opt-available">available</span>
+                                            <span class="gs-desc" style="margin:0">Shown in the subject selector but not
+                                                loaded until the user selects it. Files are cached after the first
+                                                load.</span>
+                                        </div>
+                                        <div style="display:flex;align-items:flex-start;gap:10px">
+                                            <span class="opt-badge opt-skip">anything else</span>
+                                            <span class="gs-desc" style="margin:0">Not shown in the selector, never
+                                                loaded. Use <span class="gs-ic">"not available"</span>, <span
+                                                    class="gs-ic">"wip"</span>, or any other string to hide a
+                                                subject.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
+                                <div class="gs-dot">3</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Full app-info.json example with three subjects</div>
                                     <div class="gs-code">{
-                                        "app_name": "DSAP Analyzer",
+                                        "app_name": "Question Analyzer",
                                         "university": "Pokhara University",
                                         "program": "BE — Computer Engineering",
-                                        "course": "Digital Signal Analysis and Processing",
-                                        "course_code": "3-1-2",
                                         "accent_color": "#2B5EA7",
+
+                                        "overview": [
+                                        { "label": "Papers", "value": "auto:papers" },
+                                        { "label": "Questions", "value": "auto:questions" },
+                                        { "label": "Year Span", "value": "auto:yearspan" }
+                                        ],
+
                                         "content": [
-                                        { "file": "old_question_papers.json", "type": "questions" },
-                                        { "file": "repeated_questions.json", "type": "repeated" },
-                                        { "file": "syllabus.json", "type": "syllabus" }
+                                        {
+                                        "subject": "DSAP",
+                                        "option": "available",
+                                        "files": [
+                                        { "file": "DSAP/old_question_papers.json", "type": "questions" },
+                                        { "file": "DSAP/repeated_questions.json", "type": "repeated" },
+                                        { "file": "DSAP/syllabus.json", "type": "syllabus" }
+                                        ]
+                                        },
+                                        {
+                                        "subject": "O&M",
+                                        "option": "available",
+                                        "files": [
+                                        { "file": "OM/old_question_papers.json", "type": "questions" },
+                                        { "file": "OM/repeated_questions.json", "type": "repeated" },
+                                        { "file": "OM/syllabus.json", "type": "syllabus" }
+                                        ]
+                                        },
+                                        {
+                                        "subject": "SPIT",
+                                        "option": "default",
+                                        "files": [
+                                        { "file": "SPIT/old_question_papers.json", "type": "questions" },
+                                        { "file": "SPIT/repeated_questions.json", "type": "repeated" },
+                                        { "file": "SPIT/syllabus.json", "type": "syllabus" }
+                                        ]
+                                        }
                                         ]
                                         }</div>
-                                    <div class="gs-note">Remove any line from "content" whose file you don't have yet —
-                                        its tab won't appear.</div>
+                                    <div class="gs-note">Only one entry should have "option": "default". If none is set,
+                                        the first available subject loads instead.</div>
                                 </div>
                             </div>
                         </div>
@@ -1436,32 +1546,24 @@
                     <div class="guide-section open" id="gs-3">
                         <div class="guide-section-hdr" onclick="togGuide(3)">
                             <span class="gs-num">Step 3</span>
-                            <span class="gs-title">Convert question papers to JSON using AI</span>
+                            <span class="gs-title">Add a new subject</span>
                             <span class="gs-chev">&#9654;</span>
                         </div>
                         <div class="guide-section-body">
                             <div class="guide-step">
                                 <div class="gs-dot">1</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">Open Claude or Grok in your browser</div>
-                                    <div class="gs-tag-row">
-                                        <span class="gs-tag">claude.ai</span>
-                                        <span class="gs-tag">x.ai/grok</span>
-                                    </div>
+                                    <div class="gs-label">Create a subfolder with the subject name</div>
+                                    <div class="gs-desc">e.g. create a folder called <span class="gs-ic">THERMO</span>
+                                        inside the project folder.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">2</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">Upload your question paper</div>
-                                    <div class="gs-desc">Attach the PDF or image of the question paper. You can do one
-                                        paper at a time or several at once.</div>
-                                </div>
-                            </div>
-                            <div class="guide-step">
-                                <div class="gs-dot">3</div>
-                                <div class="gs-content">
-                                    <div class="gs-label">Send this prompt to the AI</div>
+                                    <div class="gs-label">Convert its question papers to JSON using AI</div>
+                                    <div class="gs-desc">Open Claude (claude.ai) or Grok (x.ai/grok), upload the
+                                        question paper PDF, and send this prompt:</div>
                                     <div class="gs-code">Convert this question paper into JSON using this exact
                                         structure:
 
@@ -1486,28 +1588,51 @@
                                         }
 
                                         Rules:
-                                        - id format: "YYYY_fall" or "YYYY_spring"
-                                        - OR questions: use sub_no "or"
+                                        - id: "YYYY_fall" or "YYYY_spring"
+                                        - OR questions: sub_no "or"
                                         - Q7 short notes: use the options array
                                         - Copy full question text exactly, nothing abbreviated</div>
                                 </div>
                             </div>
                             <div class="guide-step">
+                                <div class="gs-dot">3</div>
+                                <div class="gs-content">
+                                    <div class="gs-label">Validate and save the three JSON files</div>
+                                    <div class="gs-desc">Check each file at <span class="gs-ic">jsonlint.com</span>,
+                                        then save as:</div>
+                                    <div class="gs-tag-row">
+                                        <span class="gs-tag">THERMO/old_question_papers.json</span>
+                                        <span class="gs-tag">THERMO/repeated_questions.json</span>
+                                        <span class="gs-tag">THERMO/syllabus.json</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="guide-step">
                                 <div class="gs-dot">4</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">Validate the JSON before saving</div>
-                                    <div class="gs-desc">Paste the AI output into <span
-                                            class="gs-ic">jsonlint.com</span> — it will highlight any syntax errors
-                                        instantly.</div>
+                                    <div class="gs-label">Register the subject in app-info.json</div>
+                                    <div class="gs-desc">Add a new entry to the <span class="gs-ic">"content"</span>
+                                        array:</div>
+                                    <div class="gs-code">{
+                                        "subject": "THERMO",
+                                        "option": "available",
+                                        "files": [
+                                        { "file": "THERMO/old_question_papers.json", "type": "questions" },
+                                        { "file": "THERMO/repeated_questions.json", "type": "repeated" },
+                                        { "file": "THERMO/syllabus.json", "type": "syllabus" }
+                                        ]
+                                        }</div>
+                                    <div class="gs-note">Set "option": "available" so it appears in the subject selector
+                                        without replacing the current default subject.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">5</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">Save into old_question_papers.json</div>
-                                    <div class="gs-desc">To add more papers later, insert new paper objects at the top
-                                        of the <span class="gs-ic">"papers"</span> array and repeat from step 1 of this
-                                        section.</div>
+                                    <div class="gs-label">Reload the app — the new subject appears in the top-right
+                                        selector</div>
+                                    <div class="gs-desc">Click the subject name in the header to switch. Files are
+                                        fetched once and cached for the session.</div>
                                 </div>
                             </div>
                         </div>
@@ -1532,7 +1657,7 @@
                                         "course_contents": [
                                         {
                                         "unit": 1,
-                                        "title": "Unit Title Here",
+                                        "title": "Unit Title",
                                         "hours": 6,
                                         "topics": [
                                         { "topic": "1.1 Topic name", "frequency": 10 },
@@ -1548,9 +1673,9 @@
                                 <div class="gs-content">
                                     <div class="gs-label">Set frequency = number of past papers that asked each topic
                                     </div>
-                                    <div class="gs-desc">Count once per paper even if the topic appeared multiple times
-                                        in the same paper. High / Mid / Low colour coding is calculated automatically
-                                        relative to the highest frequency value.</div>
+                                    <div class="gs-desc">Count once per paper even if the topic appeared multiple times.
+                                        High / Mid / Low colour coding is calculated automatically relative to the
+                                        highest frequency value across all topics.</div>
                                 </div>
                             </div>
                         </div>
@@ -1560,42 +1685,6 @@
                     <div class="guide-section open" id="gs-5">
                         <div class="guide-section-hdr" onclick="togGuide(5)">
                             <span class="gs-num">Step 5</span>
-                            <span class="gs-title">Add repeated_questions.json (optional)</span>
-                            <span class="gs-chev">&#9654;</span>
-                        </div>
-                        <div class="guide-section-body">
-                            <div class="guide-step">
-                                <div class="gs-dot">1</div>
-                                <div class="gs-content">
-                                    <div class="gs-label">List questions that appeared in multiple papers</div>
-                                    <div class="gs-code">{
-                                        "repeated_questions": [
-                                        {
-                                        "question": "Design a FIR filter using Kaiser window...",
-                                        "topic": "6.3 Kaiser Window Design",
-                                        "freq": 9,
-                                        "papers": ["2024_fall", "2023_spring", "2021_fall"]
-                                        }
-                                        ]
-                                        }</div>
-                                </div>
-                            </div>
-                            <div class="guide-step">
-                                <div class="gs-dot">2</div>
-                                <div class="gs-content">
-                                    <div class="gs-label">Paper IDs must match those in old_question_papers.json</div>
-                                    <div class="gs-desc">Use the exact <span class="gs-ic">"id"</span> value from each
-                                        paper object, e.g. <span class="gs-ic">"2024_fall"</span>. Mismatched IDs will
-                                        show blank chips in the Repeated tab.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Step 6 -->
-                    <div class="guide-section open" id="gs-6">
-                        <div class="guide-section-hdr" onclick="togGuide(6)">
-                            <span class="gs-num">Step 6</span>
                             <span class="gs-title">Run the app</span>
                             <span class="gs-chev">&#9654;</span>
                         </div>
@@ -1604,14 +1693,13 @@
                                 <div class="gs-dot">1</div>
                                 <div class="gs-content">
                                     <div class="gs-label">Windows — double-click App.bat</div>
-                                    <div class="gs-desc">It starts a local server and opens the app in your browser
-                                        automatically.</div>
+                                    <div class="gs-desc">It starts a local server and opens the app automatically.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">2</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">Any OS — run a server manually in the project folder</div>
+                                    <div class="gs-label">Any OS — run a server manually</div>
                                     <div class="gs-code">python -m http.server 8000</div>
                                     <div class="gs-desc">Then open <span
                                             class="gs-ic">http://localhost:8000/app-page.html</span> in your browser.
@@ -1623,9 +1711,10 @@
                             <div class="guide-step">
                                 <div class="gs-dot">3</div>
                                 <div class="gs-content">
-                                    <div class="gs-label">If something looks wrong, open browser console (F12)</div>
-                                    <div class="gs-desc">Most errors are JSON syntax mistakes. Validate every file at
-                                        <span class="gs-ic">jsonlint.com</span> if the app doesn't load correctly.</div>
+                                    <div class="gs-label">If something looks wrong, check browser console (F12)</div>
+                                    <div class="gs-desc">Most errors are JSON syntax mistakes or a wrong file path.
+                                        Validate files at <span class="gs-ic">jsonlint.com</span> and confirm paths in
+                                        app-info.json match your actual folder names exactly.</div>
                                 </div>
                             </div>
                         </div>
@@ -1638,20 +1727,41 @@
     </div>
 
     <script>
-        const S = { cfg: null, qp: null, rq: null, syl: null, f: { year: '', sem: '', qno: '', sub: '', marks: '' }, p: { year: null, sem: 'Fall' }, all: [] };
+        // ════════════════════════════════════════════════════
+        // STATE
+        // ════════════════════════════════════════════════════
+        const S = {
+            cfg: null,
+            cache: {},          // { subjectName: { qp, rq, syl } }
+            activeSubject: null,
+            qp: null, rq: null, syl: null,
+            f: { year: '', sem: '', qno: '', sub: '', marks: '' },
+            p: { year: null, sem: 'Fall' },
+            all: []
+        };
 
+        // ════════════════════════════════════════════════════
+        // BOOT
+        // ════════════════════════════════════════════════════
         async function init() {
             try {
                 S.cfg = await get('app-info.json');
-                applyTheme(S.cfg); renderHeader(S.cfg);
-                for (const item of S.cfg.content) {
-                    try { const d = await get(item.file); if (d.papers) S.qp = d; if (d.repeated_questions) S.rq = d; if (d.course_contents) S.syl = d; }
-                    catch (e) { console.warn('Could not load', item.file, e); }
+                applyTheme(S.cfg);
+                renderHeader(S.cfg);
+                buildSubjectSelector(S.cfg);
+
+                // Find and load the default subject
+                const selectable = (S.cfg.content || []).filter(isSelectable);
+                const defEntry = selectable.find(c => c.option === 'default') || selectable[0];
+                if (defEntry) {
+                    await loadSubject(defEntry.subject);
                 }
-                if (S.qp) S.all = flatQ();
-                buildTabs(); hide('loading'); show('app');
+
+                buildTabs();
+                hide('loading');
+                show('app');
             } catch (e) {
-                document.getElementById('loading').innerHTML = `<div style="max-width:480px;margin:24px;font-family:'Source Sans 3',system-ui,sans-serif"><div style="background:#FAEBEB;border:1px solid #F5C0C0;border-radius:6px;padding:20px 24px;margin-bottom:16px"><div style="font-weight:700;font-size:15px;color:#7A1A1A;margin-bottom:4px">⚠ Cannot load App.json</div><div style="font-size:13.5px;color:#A03030;line-height:1.5">Browsers block local file reading for security. This app must be served over HTTP.</div></div><div style="background:#fff;border:1px solid #DDD9CE;border-radius:6px;padding:20px 24px"><div style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:#9A9189;margin-bottom:14px">How to run</div><div style="display:flex;flex-direction:column;gap:12px"><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">1</span><div><div style="font-size:13.5px;color:#1A1816;margin-bottom:5px">Open a terminal in this project folder</div><div style="font-size:11.5px;color:#9A9189">The folder that contains <code style="background:#F1EEE8;padding:1px 5px;border-radius:3px;font-family:monospace">index.html</code> and <code style="background:#F1EEE8;padding:1px 5px;border-radius:3px;font-family:monospace">App.json</code></div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">2</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:6px">Run one of these commands:</div><div style="display:flex;flex-direction:column;gap:5px"><div style="background:#1A1816;border-radius:4px;padding:8px 12px;display:flex;justify-content:space-between;align-items:center"><code style="font-family:monospace;font-size:13px;color:#E8E4DC">python -m http.server 8000</code><span style="font-size:10px;color:#9A9189;margin-left:10px;white-space:nowrap">Python 3</span></div><div style="background:#1A1816;border-radius:4px;padding:8px 12px;display:flex;justify-content:space-between;align-items:center"><code style="font-family:monospace;font-size:13px;color:#E8E4DC">npx serve .</code><span style="font-size:10px;color:#9A9189;margin-left:10px;white-space:nowrap">Node.js</span></div></div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">3</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:8px">Once the server is running, open:</div><button onclick="window.location.href='http://localhost:8000'" style="width:100%;padding:10px;background:#2B5EA7;color:#fff;border:none;border-radius:5px;font-family:'Source Sans 3',system-ui,sans-serif;font-size:14px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:background .15s" onmouseover="this.style.background='#1F4A8A'" onmouseout="this.style.background='#2B5EA7'"><span>Open localhost:8000</span><span style="font-size:16px">→</span></button><div style="font-size:11px;color:#9A9189;margin-top:6px;text-align:center">Click after the server has started in your terminal</div></div></div></div></div></div>`;
+                document.getElementById('loading').innerHTML = errorHtml();
             }
         }
 
@@ -1659,18 +1769,87 @@
         const el = id => document.getElementById(id);
         const qs = s => document.querySelector(s);
         const qsa = s => document.querySelectorAll(s);
-        function show(id) { el(id).style.display = '' }
-        function hide(id) { el(id).style.display = 'none' }
+        function show(id) { el(id).style.display = ''; }
+        function hide(id) { el(id).style.display = 'none'; }
 
-        function applyTheme(cfg) { if (cfg.accent_color) document.documentElement.style.setProperty('--accent', cfg.accent_color); }
-        function renderHeader(cfg) {
-            document.title = cfg.app_name || cfg.app || 'OM Analyzer';
-            el('hdr-title').textContent = cfg.app_name || cfg.app || 'OM Analyzer';
-            el('hdr-sub').textContent = [cfg.university, cfg.program].filter(Boolean).join(' · ');
-            el('hdr-badge').textContent = [cfg.course, cfg.course_code].filter(Boolean).join(' — ');
-            if (cfg.app_ic) { const img = el('hdr-icon'); img.src = cfg.app_ic; img.style.display = 'block'; img.onerror = () => { img.style.display = 'none'; }; }
+        // A subject is shown in the selector only if option === 'default' or 'available'
+        function isSelectable(c) { return c.option === 'default' || c.option === 'available'; }
+
+        // ════════════════════════════════════════════════════
+        // SUBJECT SELECTOR
+        // ════════════════════════════════════════════════════
+        function buildSubjectSelector(cfg) {
+            const sel = el('subj-select');
+            const selectable = (cfg.content || []).filter(isSelectable);
+            sel.innerHTML = selectable.map(c =>
+                `<option value="${c.subject}">${c.subject}</option>`
+            ).join('');
+            // Default option will be set after loadSubject resolves
         }
 
+        async function switchSubject(name) {
+            if (name === S.activeSubject) return;
+            el('subj-loading').style.display = '';
+            el('subj-select').disabled = true;
+
+            await loadSubject(name);
+            resetTabState();
+            // Re-render whichever tab is currently active
+            const activeTab = qs('.tab-btn.active');
+            if (activeTab) goTab(activeTab.dataset.t, true);
+
+            el('subj-loading').style.display = 'none';
+            el('subj-select').disabled = false;
+        }
+
+        async function loadSubject(name) {
+            // Use cache if already loaded
+            if (S.cache[name]) {
+                applyData(name, S.cache[name]);
+                return;
+            }
+            const entry = (S.cfg.content || []).find(c => c.subject === name);
+            if (!entry) return;
+
+            const data = { qp: null, rq: null, syl: null };
+            for (const item of (entry.files || [])) {
+                try {
+                    const d = await get(item.file);
+                    if (d.papers) data.qp = d;
+                    if (d.repeated_questions) data.rq = d;
+                    if (d.course_contents) data.syl = d;
+                } catch (e) { console.warn('Could not load', item.file, e); }
+            }
+            S.cache[name] = data;
+            applyData(name, data);
+        }
+
+        function applyData(name, data) {
+            S.activeSubject = name;
+            S.qp = data.qp;
+            S.rq = data.rq;
+            S.syl = data.syl;
+            S.all = S.qp ? flatQ() : [];
+            // Sync selector to match loaded subject
+            el('subj-select').value = name;
+        }
+
+        // ════════════════════════════════════════════════════
+        // THEME & HEADER
+        // ════════════════════════════════════════════════════
+        function applyTheme(cfg) {
+            if (cfg.accent_color)
+                document.documentElement.style.setProperty('--accent', cfg.accent_color);
+        }
+        function renderHeader(cfg) {
+            document.title = cfg.app_name || 'Question Analyzer';
+            el('hdr-title').textContent = cfg.app_name || 'Question Analyzer';
+            el('hdr-sub').textContent = [cfg.university, cfg.program].filter(Boolean).join(' · ');
+        }
+
+        // ════════════════════════════════════════════════════
+        // TABS
+        // ════════════════════════════════════════════════════
         function buildTabs() {
             const lbl = S.cfg.tab_labels || {};
             const tabs = [];
@@ -1678,121 +1857,230 @@
             if (S.qp) tabs.push({ id: 'papers', label: lbl.papers || 'Papers' });
             if (S.rq) tabs.push({ id: 'repeated', label: lbl.repeated || 'Repeated' });
             if (S.syl) tabs.push({ id: 'syllabus', label: lbl.syllabus || 'Syllabus' });
-            tabs.push({ id: 'guide', label: lbl.guide || 'Setup Guide' });   // ← always shown
-            qs('#tabs').innerHTML = tabs.map(t => `<button class="tab-btn" data-t="${t.id}" onclick="goTab('${t.id}')">${t.label}</button>`).join('');
+            tabs.push({ id: 'guide', label: lbl.guide || 'Setup Guide' });
+
+            qs('#tabs').innerHTML = tabs.map(t =>
+                `<button class="tab-btn" data-t="${t.id}" onclick="goTab('${t.id}')">${t.label}</button>`
+            ).join('');
             if (tabs.length) goTab(tabs[0].id);
         }
-        function goTab(id) {
+
+        function goTab(id, force) {
             qsa('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.t === id));
             qsa('.tab-pane').forEach(p => p.classList.toggle('active', p.id === 'pane-' + id));
-            if (id === 'questions' && S.qp && el('res-info').textContent === '') { initQTab(); }
-            if (id === 'papers' && S.qp && !el('pp-year').options.length) { initPapers(); }
-            if (id === 'repeated' && S.rq && !el('rq-list').children.length) { renderRepeated(); }
-            if (id === 'syllabus' && S.syl && !el('syl-out').children.length) { renderSyl(); }
+            if (id === 'questions' && S.qp && (force || el('res-info').textContent === '')) { initQTab(); }
+            if (id === 'papers' && S.qp && (force || !el('pp-year').options.length)) { initPapers(); }
+            if (id === 'repeated' && S.rq && (force || !el('rq-list').children.length)) { renderRepeated(); }
+            if (id === 'syllabus' && S.syl && (force || !el('syl-out').children.length)) { renderSyl(); }
         }
 
+        // Reset all lazy-render guards so the next goTab() call fully re-renders
+        function resetTabState() {
+            // Questions
+            S.f = { year: '', sem: '', qno: '', sub: '', marks: '' };
+            el('res-info').textContent = '';
+            el('q-list').innerHTML = '';
+            // Papers
+            el('pp-year').innerHTML = '';
+            el('paper-out').innerHTML = '';
+            // Repeated
+            el('rq-list').innerHTML = '';
+            // Syllabus
+            el('syl-out').innerHTML = '';
+            // Also rebuild tabs (visibility may differ per subject)
+            buildTabs();
+        }
+
+        // ════════════════════════════════════════════════════
+        // FLATTEN + AUTO-STATS
+        // ════════════════════════════════════════════════════
         function flatQ() {
             const all = [];
             for (const p of S.qp.papers) {
                 for (const q of p.questions) {
-                    if (q.options) { q.options.forEach(o => all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: o.sub_no, marks: parseInt(o.marks) || 0, text: o.question, ctx: q.context || '' })); }
-                    else { all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: q.sub_no, marks: parseInt(q.marks) || 0, text: q.question, ctx: q.context || '' }); }
+                    if (q.options) {
+                        q.options.forEach(o => all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: o.sub_no, marks: parseInt(o.marks) || 0, text: o.question, ctx: q.context || '' }));
+                    } else {
+                        all.push({ pid: p.id, year: p.year, sem: p.semester, num: q.number, sub: q.sub_no, marks: parseInt(q.marks) || 0, text: q.question, ctx: q.context || '' });
+                    }
                 }
             }
             return all;
         }
 
         function computeAuto() {
-            const papers = S.qp ? S.qp.papers : []; const all = S.all;
+            const papers = S.qp ? S.qp.papers : [];
+            const all = S.all;
             const years = [...new Set(papers.map(p => p.year))].sort();
-            const freq = {}; all.forEach(q => { const k = q.text.trim().slice(0, 40).toLowerCase(); freq[k] = (freq[k] || 0) + 1; });
+            const freq = {};
+            all.forEach(q => { const k = q.text.trim().slice(0, 40).toLowerCase(); freq[k] = (freq[k] || 0) + 1; });
             const peak = all.length ? Math.max(...Object.values(freq)) : 0;
-            return { 'papers': papers.length, 'questions': all.length, 'chapters': S.syl ? S.syl.course_contents.length : 0, 'topics': S.syl ? S.syl.course_contents.reduce((a, u) => a + u.topics.length, 0) : 0, 'peak': peak + '×', 'yearspan': years.length > 1 ? `${years[0]}–${years[years.length - 1]}` : (years[0] || '—'), 'semesters': [...new Set(papers.map(p => p.semester))].join(' / ') };
+            return {
+                papers: papers.length,
+                questions: all.length,
+                chapters: S.syl ? S.syl.course_contents.length : 0,
+                topics: S.syl ? S.syl.course_contents.reduce((a, u) => a + u.topics.length, 0) : 0,
+                peak: peak + '×',
+                yearspan: years.length > 1 ? `${years[0]}–${years[years.length - 1]}` : (years[0] || '—'),
+                semesters: [...new Set(papers.map(p => p.semester))].join(' / ')
+            };
         }
 
+        // ════════════════════════════════════════════════════
+        // STATS BAR
+        // ════════════════════════════════════════════════════
         function renderStats() {
-            const items = S.cfg.overview; if (!items || !items.length) { el('stats-bar').style.display = 'none'; return; }
+            const items = S.cfg.overview;
+            if (!items || !items.length) { el('stats-bar').style.display = 'none'; return; }
             const auto = computeAuto();
+            el('stats-bar').style.display = '';
             el('stats-bar').style.gridTemplateColumns = `repeat(${items.length},1fr)`;
-            el('stats-bar').innerHTML = items.map(item => { let val = item.value; if (typeof val === 'string' && val.startsWith('auto:')) { const key = val.slice(5); val = auto[key] !== undefined ? auto[key] : '—'; } return `<div class="stat-cell"><div class="stat-val">${val}</div><div class="stat-lbl">${item.label}</div></div>`; }).join('');
+            el('stats-bar').innerHTML = items.map(item => {
+                let val = item.value;
+                if (typeof val === 'string' && val.startsWith('auto:')) {
+                    const key = val.slice(5); val = auto[key] !== undefined ? auto[key] : '—';
+                }
+                return `<div class="stat-cell"><div class="stat-val">${val}</div><div class="stat-lbl">${item.label}</div></div>`;
+            }).join('');
         }
 
+        // ════════════════════════════════════════════════════
+        // CONTEXT BLOCK HELPER
+        // ════════════════════════════════════════════════════
         function ctxHtml(text, uid) {
             if (!text || !text.trim()) return '';
             const escaped = text.replace(/</g, '&lt;').replace(/>/g, '&gt;');
             return `<div class="ctx-block"><div class="ctx-label">Case Study / Context</div><div class="ctx-text" id="ctx-t-${uid}">${escaped}</div><button class="ctx-toggle" id="ctx-b-${uid}" onclick="toggleCtx('${uid}')">Show more ▾</button></div>`;
         }
-        function toggleCtx(uid) { const t = el('ctx-t-' + uid); const b = el('ctx-b-' + uid); if (!t) return; const expanded = t.classList.toggle('expanded'); b.textContent = expanded ? 'Show less ▴' : 'Show more ▾'; }
+        function toggleCtx(uid) {
+            const t = el('ctx-t-' + uid), b = el('ctx-b-' + uid);
+            if (!t) return;
+            const exp = t.classList.toggle('expanded');
+            b.textContent = exp ? 'Show less ▴' : 'Show more ▾';
+        }
 
+        // ════════════════════════════════════════════════════
+        // QUESTIONS TAB
+        // ════════════════════════════════════════════════════
         function initQTab() {
             renderStats();
             const years = [...new Set(S.qp.papers.map(p => p.year))].sort((a, b) => b - a);
             const sems = [...new Set(S.qp.papers.map(p => p.semester))];
             const qnos = [...new Set(S.all.map(q => q.num))].sort((a, b) => +a - +b);
             const subs = [...new Set(S.all.map(q => q.sub))].sort();
-            populate('fd-year', years, 'All Years'); populate('fd-sem', sems, 'All Semesters');
-            populate('fd-qno', qnos, 'All Q'); populate('fd-sub', subs, 'All Types');
+            populate('fd-year', years, 'All Years');
+            populate('fd-sem', sems, 'All Semesters');
+            populate('fd-qno', qnos, 'All Q');
+            populate('fd-sub', subs, 'All Types');
+            el('fd-marks').value = '';
             renderQ();
         }
-        function populate(id, vals, label) { el(id).innerHTML = `<option value="">${label}</option>` + vals.map(v => `<option value="${v}">${v}</option>`).join(''); }
+        function populate(id, vals, label) {
+            el(id).innerHTML = `<option value="">${label}</option>` + vals.map(v => `<option value="${v}">${v}</option>`).join('');
+        }
         function onFilter() {
-            S.f.year = el('fd-year').value; S.f.sem = el('fd-sem').value; S.f.qno = el('fd-qno').value; S.f.sub = el('fd-sub').value; S.f.marks = el('fd-marks').value;
+            S.f.year = el('fd-year').value; S.f.sem = el('fd-sem').value;
+            S.f.qno = el('fd-qno').value; S.f.sub = el('fd-sub').value; S.f.marks = el('fd-marks').value;
             ['fd-year', 'fd-sem', 'fd-qno', 'fd-sub'].forEach(id => el(id).classList.toggle('active', !!el(id).value));
-            el('fd-marks').classList.toggle('active', !!el('fd-marks').value); renderQ();
+            el('fd-marks').classList.toggle('active', !!el('fd-marks').value);
+            renderQ();
         }
         function resetFilters() {
             ['fd-year', 'fd-sem', 'fd-qno', 'fd-sub'].forEach(id => { el(id).value = ''; el(id).classList.remove('active'); });
-            el('fd-marks').value = ''; el('fd-marks').classList.remove('active'); S.f = { year: '', sem: '', qno: '', sub: '', marks: '' }; renderQ();
+            el('fd-marks').value = ''; el('fd-marks').classList.remove('active');
+            S.f = { year: '', sem: '', qno: '', sub: '', marks: '' }; renderQ();
         }
         function renderQ() {
-            let list = S.all; const { year, sem, qno, sub, marks } = S.f;
-            if (year) list = list.filter(q => q.year === year); if (sem) list = list.filter(q => q.sem === sem);
-            if (qno) list = list.filter(q => q.num === qno); if (sub) list = list.filter(q => q.sub === sub);
+            let list = S.all;
+            const { year, sem, qno, sub, marks } = S.f;
+            if (year) list = list.filter(q => q.year === year);
+            if (sem) list = list.filter(q => q.sem === sem);
+            if (qno) list = list.filter(q => q.num === qno);
+            if (sub) list = list.filter(q => q.sub === sub);
             if (marks) list = list.filter(q => q.marks >= parseInt(marks));
             el('res-info').textContent = `${list.length} question${list.length !== 1 ? 's' : ''} found`;
-            el('q-list').innerHTML = list.length === 0 ? `<div class="no-results">No questions match the selected filters.</div>` : list.map((q, i) => { const uid = `q${i}`; const ctx = ctxHtml(q.ctx, uid); return `<div class="q-card">${ctx}<div class="q-inner"><div class="q-meta"><span class="q-paper">${q.year} ${q.sem.slice(0, 2).toUpperCase()}</span><span class="q-id">Q${q.num}(${q.sub})</span></div><div class="q-text">${q.text}</div><div class="q-marks">${q.marks} mk</div></div></div>`; }).join('');
+            el('q-list').innerHTML = list.length === 0
+                ? `<div class="no-results">No questions match the selected filters.</div>`
+                : list.map((q, i) => {
+                    const uid = `q${i}`;
+                    return `<div class="q-card">${ctxHtml(q.ctx, uid)}<div class="q-inner"><div class="q-meta"><span class="q-paper">${q.year} ${q.sem.slice(0, 2).toUpperCase()}</span><span class="q-id">Q${q.num}(${q.sub})</span></div><div class="q-text">${q.text}</div><div class="q-marks">${q.marks} mk</div></div></div>`;
+                }).join('');
         }
 
-        function tierClass(pct) { return pct >= 60 ? 'rq-hi' : pct >= 30 ? 'rq-mi' : 'rq-lo'; }
-        function tierLabel(pct) { return pct >= 60 ? 'High' : pct >= 30 ? 'Mid' : 'Low'; }
+        // ════════════════════════════════════════════════════
+        // REPEATED TAB
+        // ════════════════════════════════════════════════════
+        function tierClass(p) { return p >= 60 ? 'rq-hi' : p >= 30 ? 'rq-mi' : 'rq-lo'; }
+        function tierLabel(p) { return p >= 60 ? 'High' : p >= 30 ? 'Mid' : 'Low'; }
         function renderRepeated() {
-            const sortBy = el('rq-sort').value; const tierF = el('rq-tier').value; const all = S.rq.repeated_questions; const maxF = Math.max(...all.map(r => r.freq));
+            const sortBy = el('rq-sort').value;
+            const tierF = el('rq-tier').value;
+            const all = S.rq.repeated_questions;
+            const maxF = Math.max(...all.map(r => r.freq));
             let list = [...all];
-            if (tierF) { list = list.filter(r => { const pct = r.freq / maxF * 100; if (tierF === 'hi') return pct >= 60; if (tierF === 'mi') return pct >= 30 && pct < 60; if (tierF === 'lo') return pct < 30; return true; }); }
-            if (sortBy === 'freq-desc') list.sort((a, b) => b.freq - a.freq); else if (sortBy === 'freq-asc') list.sort((a, b) => a.freq - b.freq); else if (sortBy === 'topic') list.sort((a, b) => a.topic.localeCompare(b.topic));
+            if (tierF) list = list.filter(r => { const p = r.freq / maxF * 100; if (tierF === 'hi') return p >= 60; if (tierF === 'mi') return p >= 30 && p < 60; if (tierF === 'lo') return p < 30; return true; });
+            if (sortBy === 'freq-desc') list.sort((a, b) => b.freq - a.freq);
+            else if (sortBy === 'freq-asc') list.sort((a, b) => a.freq - b.freq);
+            else if (sortBy === 'topic') list.sort((a, b) => a.topic.localeCompare(b.topic));
             el('rq-info').textContent = `${list.length} question${list.length !== 1 ? 's' : ''}`;
-            if (list.length === 0) { el('rq-list').innerHTML = `<div class="no-results">No repeated questions match the selected filter.</div>`; return; }
-            el('rq-list').innerHTML = list.map((r, idx) => { const pct = (r.freq / maxF * 100).toFixed(1); const cls = tierClass(pct); const lbl = tierLabel(pct); const chips = (r.papers || []).map(pid => { const parts = pid.split('_'); return `<span class="rq-chip">${parts[0]} ${(parts[1] || '').slice(0, 2).toUpperCase()}</span>`; }).join(''); return `<div class="rq-card ${cls}" id="rqc-${idx}"><div class="rq-main" onclick="toggleRqPapers(${idx})"><div class="rq-text">${r.question}</div><div class="rq-topic"><span class="rq-topic-dot"></span><span class="rq-topic-name">${r.topic}</span></div><div class="rq-freq-col"><span class="rq-freq-badge">${r.freq}×</span><div class="rq-freq-track"><div class="rq-freq-fill" style="width:${pct}%"></div></div><span class="rq-freq-lbl">${lbl}</span></div></div><div class="rq-papers" id="rqp-${idx}"><div class="rq-papers-label">Appeared in</div><div class="rq-paper-chips">${chips}</div></div></div>`; }).join('');
+            if (!list.length) { el('rq-list').innerHTML = `<div class="no-results">No repeated questions match the selected filter.</div>`; return; }
+            el('rq-list').innerHTML = list.map((r, idx) => {
+                const pct = (r.freq / maxF * 100).toFixed(1);
+                const cls = tierClass(pct), lbl = tierLabel(pct);
+                const chips = (r.papers || []).map(pid => { const pts = pid.split('_'); return `<span class="rq-chip">${pts[0]} ${(pts[1] || '').slice(0, 2).toUpperCase()}</span>`; }).join('');
+                return `<div class="rq-card ${cls}" id="rqc-${idx}"><div class="rq-main" onclick="toggleRqPapers(${idx})"><div class="rq-text">${r.question}</div><div class="rq-topic"><span class="rq-topic-dot"></span><span class="rq-topic-name">${r.topic}</span></div><div class="rq-freq-col"><span class="rq-freq-badge">${r.freq}×</span><div class="rq-freq-track"><div class="rq-freq-fill" style="width:${pct}%"></div></div><span class="rq-freq-lbl">${lbl}</span></div></div><div class="rq-papers" id="rqp-${idx}"><div class="rq-papers-label">Appeared in</div><div class="rq-paper-chips">${chips}</div></div></div>`;
+            }).join('');
         }
         function toggleRqPapers(idx) { el('rqp-' + idx).classList.toggle('open'); }
 
-        function initPapers() { const years = [...new Set(S.qp.papers.map(p => p.year))].sort((a, b) => b - a); el('pp-year').innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join(''); S.p.year = years[0]; syncSemButtons(); }
+        // ════════════════════════════════════════════════════
+        // PAPERS TAB
+        // ════════════════════════════════════════════════════
+        function initPapers() {
+            const years = [...new Set(S.qp.papers.map(p => p.year))].sort((a, b) => b - a);
+            el('pp-year').innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join('');
+            S.p.year = years[0]; syncSemButtons();
+        }
         function onPaperChange() { S.p.year = el('pp-year').value; syncSemButtons(); }
         function syncSemButtons() {
-            const avail = S.qp.papers.filter(p => p.year === S.p.year).map(p => p.semester); let matched = false;
-            qsa('#pp-sem button').forEach(b => { const has = avail.includes(b.dataset.s); b.style.display = has ? '' : 'none'; if (has && !matched) { b.classList.add('on'); S.p.sem = b.dataset.s; matched = true; } else b.classList.remove('on'); });
+            const avail = S.qp.papers.filter(p => p.year === S.p.year).map(p => p.semester);
+            let matched = false;
+            qsa('#pp-sem button').forEach(b => {
+                const has = avail.includes(b.dataset.s); b.style.display = has ? '' : 'none';
+                if (has && !matched) { b.classList.add('on'); S.p.sem = b.dataset.s; matched = true; }
+                else b.classList.remove('on');
+            });
             renderPaper();
         }
-        function setPaperSem(btn) { S.p.sem = btn.dataset.s; qsa('#pp-sem button').forEach(b => b.classList.remove('on')); btn.classList.add('on'); renderPaper(); }
+        function setPaperSem(btn) {
+            S.p.sem = btn.dataset.s;
+            qsa('#pp-sem button').forEach(b => b.classList.remove('on'));
+            btn.classList.add('on'); renderPaper();
+        }
         function renderPaper() {
-            const paper = S.qp.papers.find(p => p.year === S.p.year && p.semester === S.p.sem); const out = el('paper-out');
+            const paper = S.qp.papers.find(p => p.year === S.p.year && p.semester === S.p.sem);
+            const out = el('paper-out');
             if (!paper) { out.innerHTML = `<div class="no-results">No paper found.</div>`; return; }
             let rows = '';
             paper.questions.forEach((q, qi) => {
                 if (q.options) {
                     rows += `<div class="pq-section">Q.${q.number} — ${q.instruction || 'Short Notes (Any two)'}</div>`;
-                    if (q.context && q.context.trim()) { rows += `<div class="pq-context">${ctxHtml(q.context, 'pp-' + qi)}</div>`; }
+                    if (q.context && q.context.trim()) rows += `<div class="pq-context">${ctxHtml(q.context, 'pp-' + qi)}</div>`;
                     q.options.forEach(o => { rows += `<div class="pq-row"><div class="pq-num">${q.number}(${o.sub_no})</div><div class="pq-text">${o.question}</div><div class="pq-marks">${o.marks}</div></div>`; });
                 } else {
-                    let ctxRow = ''; if (q.context && q.context.trim()) { ctxRow = `<div class="pq-context">${ctxHtml(q.context, 'pp-' + qi)}</div>`; }
+                    let ctxRow = '';
+                    if (q.context && q.context.trim()) ctxRow = `<div class="pq-context">${ctxHtml(q.context, 'pp-' + qi)}</div>`;
                     rows += ctxRow + `<div class="pq-row"><div class="pq-num">${q.number}(${q.sub_no})</div><div class="pq-text">${q.question}</div><div class="pq-marks">${q.marks}</div></div>`;
                 }
             });
             out.innerHTML = `<div class="paper-wrap"><div class="paper-hdr"><h2>Pokhara University &mdash; ${paper.year} ${paper.semester}</h2><p>Full Marks: ${paper.full_marks || 100} &nbsp;&middot;&nbsp; Pass Marks: ${paper.pass_marks || 45} &nbsp;&middot;&nbsp; Time: 3 hrs.</p></div><div>${rows}</div></div>`;
         }
 
+        // ════════════════════════════════════════════════════
+        // SYLLABUS TAB
+        // ════════════════════════════════════════════════════
         function renderSyl() {
-            const s = S.syl; const out = el('syl-out');
+            const s = S.syl, out = el('syl-out');
             const max = Math.max(...s.course_contents.flatMap(u => u.topics.map(t => t.frequency || 0)));
             let html = `<div class="syl-info"><div class="syl-info-item"><span class="sil">Course</span><span class="siv">${s.course_title || ''}</span></div><div class="syl-info-item"><span class="sil">Code</span><span class="siv" style="font-family:var(--font-mono)">${s.course_code || ''}</span></div><div class="syl-info-item"><span class="sil">Total Hours</span><span class="siv" style="font-family:var(--font-mono)">${s.total_hours || ''}</span></div><div class="freq-key"><span style="font-size:11px;color:var(--text-3);margin-right:4px">Frequency (out of ${max} papers)</span><div class="fk-item"><span class="fk-dot hi"></span><span>High ≥60%</span></div><div class="fk-item"><span class="fk-dot mi"></span><span>Mid ≥30%</span></div><div class="fk-item"><span class="fk-dot lo"></span><span>Low</span></div></div></div>`;
             s.course_contents.forEach(unit => {
@@ -1802,8 +2090,17 @@
         }
         function togUnit(n) { el('ub-' + n).classList.toggle('open'); }
 
-        // Guide tab toggle
+        // ════════════════════════════════════════════════════
+        // GUIDE TAB
+        // ════════════════════════════════════════════════════
         function togGuide(n) { el('gs-' + n).classList.toggle('open'); }
+
+        // ════════════════════════════════════════════════════
+        // ERROR SCREEN
+        // ════════════════════════════════════════════════════
+        function errorHtml() {
+            return `<div style="max-width:480px;margin:24px;font-family:'Source Sans 3',system-ui,sans-serif"><div style="background:#FAEBEB;border:1px solid #F5C0C0;border-radius:6px;padding:20px 24px;margin-bottom:16px"><div style="font-weight:700;font-size:15px;color:#7A1A1A;margin-bottom:4px">⚠ Cannot load app-info.json</div><div style="font-size:13.5px;color:#A03030;line-height:1.5">Browsers block local file reading for security. This app must be served over HTTP.</div></div><div style="background:#fff;border:1px solid #DDD9CE;border-radius:6px;padding:20px 24px"><div style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:#9A9189;margin-bottom:14px">How to run</div><div style="display:flex;flex-direction:column;gap:12px"><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">1</span><div><div style="font-size:13.5px;color:#1A1816;margin-bottom:5px">Open a terminal in this project folder</div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">2</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:6px">Run:</div><div style="background:#1A1816;border-radius:4px;padding:8px 12px"><code style="font-family:monospace;font-size:13px;color:#E8E4DC">python -m http.server 8000</code></div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">3</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:8px">Then open:</div><button onclick="window.location.href='http://localhost:8000/app-page.html'" style="width:100%;padding:10px;background:#2B5EA7;color:#fff;border:none;border-radius:5px;font-family:'Source Sans 3',system-ui,sans-serif;font-size:14px;font-weight:600;cursor:pointer">Open localhost:8000/app-page.html →</button></div></div></div></div></div>`;
+        }
 
         init();
     </script>
