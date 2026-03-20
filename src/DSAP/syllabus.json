@@ -1,0 +1,305 @@
+{
+  "course_title": "Digital Signal Analysis and Processing",
+  "course_code": "3-1-2",
+  "evaluation": {
+    "theory": {
+      "sessional": 30,
+      "final": 50,
+      "total": 80
+    },
+    "practical": {
+      "sessional": 20,
+      "final": 0,
+      "total": 20
+    },
+    "grand_total": 100
+  },
+  "course_objectives": "To provide knowledge on digital signal processing techniques and to design and implement IIR and FIR digital filters.",
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "Signals, Systems and Signal Processing",
+      "hours": 5,
+      "topics": [
+        {
+          "topic": "1.1 Basic elements of Digital Signal Processing",
+          "frequency": 5,
+          "note": "Explicitly asked in 2024Sp, 2021F, 2020F, 2018F, and 2017Sp (short note). Block diagram explanation is the most common form.",
+          "papers": ["2024Sp", "2021F", "2020F", "2018F", "2017Sp"]
+        },
+        {
+          "topic": "1.2 Energy signal, Power signal",
+          "frequency": 2,
+          "note": "Explicitly asked in 2021Sp Q1a and 2018F Q7c (short note).",
+          "papers": ["2021Sp", "2018F"]
+        },
+        {
+          "topic": "1.3 Need of Digital Signal Processing over Analog Signal Processing",
+          "frequency": 6,
+          "note": "Advantages of DSP over ASP explicitly asked in 2024Sp, 2021F, 2020F, 2019Sp, 2016F and as part of broader Q1 in several others.",
+          "papers": ["2024Sp", "2021F", "2020F", "2019Sp", "2016F", "2017Sp"]
+        },
+        {
+          "topic": "1.4 Sampling continuous signals and spectral properties of sampled signals",
+          "frequency": 8,
+          "note": "Nyquist rate, aliasing, sampling frequency questions appear in 2023Sp, 2022F, 2020F, 2019F, 2019Sp, 2017F, 2017Sp, 2015Sp. Most frequently as a calculation-based Q1a.",
+          "papers": ["2023Sp", "2022F", "2020F", "2019F", "2019Sp", "2017F", "2017Sp", "2015Sp"]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Discrete-time Signals and Systems",
+      "hours": 9,
+      "topics": [
+        {
+          "topic": "2.1 Elementary discrete-time signals",
+          "frequency": 2,
+          "note": "Explicitly asked to define/discuss in 2024F Q1a and 2020F Q1b.",
+          "papers": ["2024F", "2020F"]
+        },
+        {
+          "topic": "2.2 Discrete time Fourier series and properties",
+          "frequency": 2,
+          "note": "DTFS properties (time shifting, time reversal) explicitly asked in 2020F Q1b and 2018F Q2a.",
+          "papers": ["2020F", "2018F"]
+        },
+        {
+          "topic": "2.3 Discrete time Fourier transform and properties",
+          "frequency": 3,
+          "note": "DTFT properties (convolution, time shifting) explicitly asked in 2020F Q1b, 2018F Q2a, and 2017Sp Q2a (Parseval's theorem).",
+          "papers": ["2020F", "2018F", "2017Sp"]
+        },
+        {
+          "topic": "2.4 Discrete time system properties (causality, stability, linearity, time-invariance)",
+          "frequency": 9,
+          "note": "One of the most frequently tested topics. Classifying systems and proving properties appears in nearly all papers. Papers without: 2021F, 2020F, 2018F, 2017F, 2015Sp have indirect coverage.",
+          "papers": ["2024F", "2024Sp", "2022F", "2021Sp", "2019F", "2017F", "2017Sp", "2016F", "2015Sp"]
+        },
+        {
+          "topic": "2.5 Properties of Linear Time-Invariant systems (LTI)",
+          "frequency": 4,
+          "note": "LTI properties beyond causality/stability (superposition, shift-invariance proof) explicitly asked in 2021Sp Q1b, 2017F Q2b, 2016F Q1b, 2015Sp Q1b.",
+          "papers": ["2021Sp", "2017F", "2016F", "2015Sp"]
+        },
+        {
+          "topic": "2.6 LTI convolution sum characterized by constant coefficient difference equations",
+          "frequency": 13,
+          "note": "MOST FREQUENTLY TESTED TOPIC. Linear convolution calculation appears in virtually every paper. Papers include: 2024F, 2024Sp, 2023Sp, 2022F, 2021Sp, 2021F, 2020F, 2019Sp, 2019F, 2018F, 2017F, 2016F, 2015Sp.",
+          "papers": ["2024F", "2024Sp", "2023Sp", "2022F", "2021Sp", "2021F", "2020F", "2019Sp", "2019F", "2018F", "2017F", "2016F", "2015Sp"]
+        },
+        {
+          "topic": "2.7 Stability of LTI systems, Implementation of LTI system",
+          "frequency": 6,
+          "note": "BIBO stability conditions explicitly asked in 2022F, 2021Sp, 2020F (short note), 2019F, 2023Sp (short note), 2017Sp.",
+          "papers": ["2022F", "2021Sp", "2020F", "2019F", "2023Sp", "2017Sp"]
+        },
+        {
+          "topic": "2.8 Frequency Response of LTI systems",
+          "frequency": 3,
+          "note": "Frequency/magnitude response explicitly asked in 2024F (short note), 2018F (short note), 2017Sp Q2b.",
+          "papers": ["2024F", "2018F", "2017Sp"]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Review of Z-Transform",
+      "hours": 4,
+      "topics": [
+        {
+          "topic": "3.1 Definition of z-transform",
+          "frequency": 13,
+          "note": "Z-transform definition and calculation appears in almost every paper. Nearly universal question.",
+          "papers": ["2024F", "2024Sp", "2023Sp", "2022F", "2021Sp", "2021F", "2020F", "2019Sp", "2019F", "2018F", "2017Sp", "2016F", "2015Sp"]
+        },
+        {
+          "topic": "3.2 Convergence of Z-transform, Region of convergence (ROC)",
+          "frequency": 11,
+          "note": "ROC plot, definition, and properties explicitly asked in 2023Sp, 2022F, 2021Sp, 2021F, 2020F, 2019Sp, 2018F, 2017F (OR), 2017Sp, 2016F (OR), 2015Sp.",
+          "papers": ["2023Sp", "2022F", "2021Sp", "2021F", "2020F", "2019Sp", "2018F", "2017F", "2017Sp", "2016F", "2015Sp"]
+        },
+        {
+          "topic": "3.3 Properties of Z-Transform (linearity, time shift, convolution, differentiation, time reversal, multiplication)",
+          "frequency": 4,
+          "note": "Z-transform properties explicitly asked in 2024F (short note), 2018F Q2b (ROC properties), 2017Sp Q2a (convolution and Parseval's), and 2020F Q2b.",
+          "papers": ["2024F", "2020F", "2018F", "2017Sp"]
+        },
+        {
+          "topic": "3.4 Inverse z-transform - by long division, by partial fraction expansion",
+          "frequency": 6,
+          "note": "Inverse Z-transform asked in 2024Sp (log function), 2022F (log function), 2019F Q3a, 2017F Q3b, 2016F Q3a (multiple ROC), 2015Sp Q3a (multiple ROC).",
+          "papers": ["2024Sp", "2022F", "2019F", "2017F", "2016F", "2015Sp"]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Discrete Fourier Transform",
+      "hours": 8,
+      "topics": [
+        {
+          "topic": "4.1 Definition and application of DFT",
+          "frequency": 7,
+          "note": "DFT definition and why DFT is needed over DTFT asked in 2023Sp, 2022F, 2021Sp, 2020F, 2019F, 2017Sp, 2016F.",
+          "papers": ["2023Sp", "2022F", "2021Sp", "2020F", "2019F", "2017Sp", "2016F"]
+        },
+        {
+          "topic": "4.2 Frequency response of LTI system via DFT",
+          "frequency": 2,
+          "note": "Relationship between DFT and Z-transform / frequency response explicitly asked in 2015Sp Q3b and 2019Sp Q4b.",
+          "papers": ["2015Sp", "2019Sp"]
+        },
+        {
+          "topic": "4.3 Forward and Reverse DFT transform",
+          "frequency": 11,
+          "note": "DFT/IDFT computation questions appear in nearly all papers. Covered implicitly in almost every circular convolution and FFT question.",
+          "papers": ["2024F", "2024Sp", "2023Sp", "2022F", "2021Sp", "2021F", "2020F", "2019Sp", "2018F", "2017F", "2016F"]
+        },
+        {
+          "topic": "4.4 Properties of DFT (linearity, symmetry, time shift, frequency shift, duality, circular convolution, multiplication)",
+          "frequency": 11,
+          "note": "Circular convolution of two sequences is one of the most frequently tested DFT problems. Appears in 2024F, 2024Sp, 2023Sp, 2022F, 2021Sp, 2021F, 2020F, 2019Sp, 2019F, 2018F, 2017F.",
+          "papers": ["2024F", "2024Sp", "2023Sp", "2022F", "2021Sp", "2021F", "2020F", "2019Sp", "2019F", "2018F", "2017F"]
+        },
+        {
+          "topic": "4.5 Basic concept of Fast Fourier Transform (FFT) algorithm",
+          "frequency": 12,
+          "note": "MOST FREQUENTLY TESTED IN CHAPTER 4. DIT-FFT or DIF-FFT 8-point computation asked in 2024F, 2024Sp, 2022F, 2021Sp, 2021F, 2020F, 2019F, 2018F, 2017F, 2017Sp, 2016F, 2015Sp.",
+          "papers": ["2024F", "2024Sp", "2022F", "2021Sp", "2021F", "2020F", "2019F", "2018F", "2017F", "2017Sp", "2016F", "2015Sp"]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Discrete Filter Structure",
+      "hours": 6,
+      "topics": [
+        {
+          "topic": "5.1 FIR filter overview",
+          "frequency": 5,
+          "note": "FIR vs IIR comparison and overview explicitly asked in 2024Sp, 2023Sp, 2020F, 2019F (short note), 2018F.",
+          "papers": ["2024Sp", "2023Sp", "2020F", "2019F", "2018F"]
+        },
+        {
+          "topic": "5.2 Structures for FIR Filter (direct, cascade, frequency sampling, lattice)",
+          "frequency": 5,
+          "note": "FIR lattice structure/coefficient computation asked in 2024F Q3b, 2021Sp Q4b, 2020F Q4b, 2019Sp Q5a, 2017Sp Q4a.",
+          "papers": ["2024F", "2021Sp", "2020F", "2019Sp", "2017Sp"]
+        },
+        {
+          "topic": "5.3 IIR Filter overview",
+          "frequency": 3,
+          "note": "IIR filter definition and overview (beyond comparison with FIR) asked in 2018F Q5a, 2016F Q4a (DFT-multiplication relationship), and 2019F Q4b.",
+          "papers": ["2018F", "2019F", "2016F"]
+        },
+        {
+          "topic": "5.4 Structure for IIR filter (direct form I & II, cascade, lattice, lattice ladder)",
+          "frequency": 13,
+          "note": "MOST HEAVILY TESTED TOPIC IN CHAPTER 5. At least one IIR realization question in every paper. Includes direct form I/II, cascade, parallel, and lattice/lattice-ladder.",
+          "papers": ["2024F", "2024Sp", "2023Sp", "2022F", "2021Sp", "2021F", "2020F", "2019F", "2018F", "2017F", "2017Sp", "2016F", "2015Sp"]
+        },
+        {
+          "topic": "5.5 Quantization of filter coefficients and effects on poles and zeros",
+          "frequency": 1,
+          "note": "Explicitly asked only in 2017Sp Q7c as a short note.",
+          "papers": ["2017Sp"]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "FIR Filter Design",
+      "hours": 7,
+      "topics": [
+        {
+          "topic": "6.1 Gibbs phenomena in FIR filter design",
+          "frequency": 3,
+          "note": "Asked as short note in 2022F Q7a, 2021Sp Q7c, 2017F Q7a.",
+          "papers": ["2022F", "2021Sp", "2017F"]
+        },
+        {
+          "topic": "6.2 Filter Design by Window method (rectangular, hanning, hamming)",
+          "frequency": 9,
+          "note": "Window-based FIR design (Hanning, Hamming, rectangular) asked in 2024F, 2024Sp, 2023Sp, 2021F, 2020F, 2019Sp, 2018F, 2017F, 2017Sp.",
+          "papers": ["2024F", "2024Sp", "2023Sp", "2021F", "2020F", "2019Sp", "2018F", "2017F", "2017Sp"]
+        },
+        {
+          "topic": "6.3 Filter design by Kaiser window",
+          "frequency": 9,
+          "note": "Kaiser window design or Kaiser window as short note appears in 2024F, 2024Sp, 2023Sp, 2021Sp, 2021F, 2020F, 2019Sp, 2019F, 2018F. Exact same specification repeats across many papers.",
+          "papers": ["2024F", "2024Sp", "2023Sp", "2021Sp", "2021F", "2020F", "2019Sp", "2019F", "2018F"]
+        },
+        {
+          "topic": "6.4 Filter design by frequency sampling",
+          "frequency": 2,
+          "note": "Frequency sampling design method asked in 2023Sp (short note) and 2017Sp Q6a.",
+          "papers": ["2023Sp", "2017Sp"]
+        },
+        {
+          "topic": "6.5 Filter design using the Remez exchange algorithm",
+          "frequency": 2,
+          "note": "Remez exchange asked as short note in 2024Sp Q7c and 2016F Q7b.",
+          "papers": ["2024Sp", "2016F"]
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "IIR Filter Design",
+      "hours": 6,
+      "topics": [
+        {
+          "topic": "7.1 Filter design using low pass approximations - Butterworth filter",
+          "frequency": 8,
+          "note": "Butterworth digital filter design (via BLT or IIM) explicitly asked in 2024F, 2021Sp, 2021F, 2020F, 2019F, 2017Sp, 2016F (via BLT), 2015Sp.",
+          "papers": ["2024F", "2021Sp", "2021F", "2020F", "2019F", "2017Sp", "2016F", "2015Sp"]
+        },
+        {
+          "topic": "7.2 Filter design using impulse invariance method",
+          "frequency": 8,
+          "note": "IIR filter design via impulse invariance asked in 2024F, 2023Sp, 2022F, 2021Sp, 2021F, 2019Sp, 2018F (short note), 2015Sp.",
+          "papers": ["2024F", "2023Sp", "2022F", "2021Sp", "2021F", "2019Sp", "2018F", "2015Sp"]
+        },
+        {
+          "topic": "7.3 Filter design using bilinear transformation",
+          "frequency": 11,
+          "note": "MOST FREQUENTLY TESTED IN CHAPTER 7. Bilinear transformation IIR design appears in 2024F, 2024Sp, 2023Sp, 2021Sp, 2021F, 2020F, 2019F, 2018F, 2017Sp, 2016F, 2015Sp.",
+          "papers": ["2024F", "2024Sp", "2023Sp", "2021Sp", "2021F", "2020F", "2019F", "2018F", "2017Sp", "2016F", "2015Sp"]
+        },
+        {
+          "topic": "7.4 Properties of Chebyshev and Elliptic filters",
+          "frequency": 1,
+          "note": "Chebyshev filter design explicitly asked only in 2022F Q6b.",
+          "papers": ["2022F"]
+        },
+        {
+          "topic": "7.5 High pass, Band pass and Notch filters",
+          "frequency": 1,
+          "note": "Not commonly explicitly asked as a standalone topic. Appears implicitly in general filter design questions. Direct reference seen in 2017F Q6b (matched-z for bandpass resonant filter).",
+          "papers": ["2017F"]
+        }
+      ]
+    }
+  ],
+  "total_hours": 45,
+  "references": [
+    "A.V. Oppenheim, Discrete-Time Signal Processing, Prentice Hall, 1990",
+    "J.G. Proakis and D.G. Manolakis, Digital Signal Processing, Prentice Hall of India",
+    "S.K. Mitra, Digital Signal Processing, A Computer-based Approach, McGraw Hill"
+  ],
+  "verification_note": {
+    "total_papers": 14,
+    "range": "2015–2024 (Pokhara University BE, Digital Signal Analysis and Processing)",
+    "methodology": "Frequency = number of papers where the topic is DIRECTLY and EXPLICITLY asked as a main question or short note. Topics counted only once per paper even if asked multiple times.",
+    "high_frequency_topics": [
+      "2.6 LTI convolution sum (freq: 13) — appears in virtually every paper",
+      "5.4 IIR filter structures — direct form, cascade, lattice, lattice-ladder (freq: 13)",
+      "4.5 FFT algorithm DIT/DIF (freq: 12)",
+      "7.3 Bilinear transformation IIR design (freq: 11)",
+      "4.4 DFT properties / circular convolution (freq: 11)",
+      "6.3 Kaiser window FIR design (freq: 9)",
+      "6.2 Window method FIR design (Hanning, Hamming, rectangular) (freq: 9)"
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 {
-    "app_name":     "OM Analyzer",
+    "app_name":     "Question Analyzer",
     "app_ic":       "pu-logo.png",
     "university":   "PU",
     "program":      "BE_Computer",
-    "course":       "Organization & Management",
+    "course":       "SPIT",
     "course_code":  "2-0-0",
     "theme":        "light",
     "accent_color": "#2B5EA7",
@@ -26,17 +26,17 @@
 
     "content": [
         {
-            "file": "old_question_papers.json",
+            "file": "SPIT/old_question_papers.json",
             "name": "Old Question Papers",
             "type": "questions"
         },
         {
-            "file": "repeated_questions.json",
+            "file": "SPIT/repeated_questions.json",
             "name": "Repeated Questions",
             "type": "repeated"
         },
         {
-            "file": "syllabus.json",
+            "file": "SPIT/syllabus.json",
             "name": "Syllabus with Frequency",
             "type": "syllabus"
         }

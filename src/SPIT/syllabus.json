@@ -1,0 +1,560 @@
+{
+  "course_title": "Social and Professional Issues in IT",
+  "course_code": "2-1-0",
+  "evaluation": {
+    "theory": {
+      "sessional": 50,
+      "final": 50,
+      "total": 100
+    },
+    "practical": {
+      "sessional": 0,
+      "final": 0,
+      "total": 0
+    },
+    "grand_total": 100
+  },
+  "course_objectives": "The objective of this course is to provide the knowledge to handle social, professional and legal issues that arise in the professional working environment.",
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "History of Computing",
+      "hours": 4,
+      "topics": [
+        {
+          "topic": "1.1 Prehistory of Computing",
+          "frequency": 18,
+          "note": "Asked in almost every paper. Specific pioneers rotate: Babbage, Zuse, Von Neumann, Dijkstra, Ada Lovelace.",
+          "papers": ["2025Sp","2024F","2024Sp","2023F","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016F","2015F","2015Sp"]
+        },
+        {
+          "topic": "1.2 History of Computer Hardware",
+          "frequency": 12,
+          "note": "Hardware history often combined with software history. Generations of computers, IC role asked frequently.",
+          "papers": ["2025Sp","2023Sp","2022F","2021Sp","2019F","2018F","2017F","2016F","2015F","2014F","2013F","2012F"]
+        },
+        {
+          "topic": "1.3 History of Software: Programming Languages and Operating Systems",
+          "frequency": 12,
+          "note": "Often paired with hardware history. OS history asked as short note in multiple papers.",
+          "papers": ["2025Sp","2024F","2023Sp","2021Sp","2020F","2019Sp","2018Sp","2017F","2016F","2015Sp","2014F","2012F"]
+        },
+        {
+          "topic": "1.4 History of Networking",
+          "frequency": 8,
+          "note": "Asked as short notes and in questions about Internet history.",
+          "papers": ["2024Sp","2023F","2021Sp","2019Sp","2018F","2016F","2015Sp","2012Sp"]
+        },
+        {
+          "topic": "1.5 Pioneers of Computing",
+          "frequency": 15,
+          "note": "One specific pioneer asked per paper as short note or dedicated question. Most common: Von Neumann, Zuse, Dijkstra.",
+          "papers": ["2025Sp","2024F","2022F","2021F","2020F","2019F","2018F","2017F","2017Sp","2016F","2015F","2015Sp","2014F","2013F","2012F"]
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Social Context of Computing",
+      "hours": 5,
+      "topics": [
+        {
+          "topic": "2.1 Society and Technology",
+          "frequency": 18,
+          "note": "Broad topic asked in nearly all papers. Covers positive/negative impacts, four quadrant impacts of IT, IT in education/health/business.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016F","2015F","2015Sp","2014F"]
+        },
+        {
+          "topic": "  2.1.1 Impact of Technology on Society and Vice Versa",
+          "frequency": 18,
+          "note": "Most frequently asked sub-topic of Unit 2. Technology and social change, implications of IT.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016F","2015F","2015Sp","2014F"]
+        },
+        {
+          "topic": "  2.1.2 Using Technology for Poverty Alleviation",
+          "frequency": 12,
+          "note": "IT and women empowerment, rural development, social equity via technology.",
+          "papers": ["2025Sp","2023Sp","2021F","2020F","2019Sp","2018Sp","2017F","2016F","2015F","2015Sp","2014F","2013F"]
+        },
+        {
+          "topic": "  2.1.3 Health Related Issues for an IT Professional",
+          "frequency": 8,
+          "note": "Ergonomics, RMI, psycho-social factors, physical health risks for IT workers.",
+          "papers": ["2019Sp","2017Sp","2016F","2015F","2015Sp","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "2.2 Internet and Society",
+          "frequency": 14,
+          "note": "Covers governance of internet, accuracy vs democracy, censorship and free speech.",
+          "papers": ["2025Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2018F","2017F","2016F","2015Sp","2014F","2013F","2012Sp","2012F"]
+        },
+        {
+          "topic": "  2.2.1 Digital Divide and Bridging the Digital Divide",
+          "frequency": 20,
+          "note": "Asked in ALL 20 papers. Gender divide, COVID impact, strategies to minimize, digital divide in Nepal. One of the highest frequency topics.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016F","2015F","2015Sp","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "  2.2.2 Governance of Internet",
+          "frequency": 14,
+          "note": "Internet censorship, right to information vs censorship, accuracy vs democracy. Chinese Golden Shield case study frequently used.",
+          "papers": ["2025Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2018F","2017F","2016F","2015Sp","2014F","2013F","2012Sp","2012F"]
+        },
+        {
+          "topic": "2.3 E-Governance and E-Government Systems",
+          "frequency": 12,
+          "note": "E-governance initiatives in Nepal, barriers, ICT in public service delivery. Asked as short notes and full questions.",
+          "papers": ["2025Sp","2024F","2023Sp","2021Sp","2020F","2019F","2018Sp","2017F","2017Sp","2016F","2015Sp","2014F"]
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Computer Ethics and Ethical Theories",
+      "hours": 3,
+      "topics": [
+        {
+          "topic": "3.1 Philosophical and Professional Ethics",
+          "frequency": 14,
+          "note": "Meaning of ethics, morals, etiquette, definition of computer ethics, three ways of organizing ethical issues.",
+          "papers": ["2025Sp","2024F","2023Sp","2022F","2021Sp","2020F","2019Sp","2018Sp","2017F","2017Sp","2016Sp","2016F","2015Sp","2014F"]
+        },
+        {
+          "topic": "3.2 Moral and Legal Issues",
+          "frequency": 12,
+          "note": "Moral and legal issues in computing, ethical/moral/legal perspective analysis of case studies.",
+          "papers": ["2024F","2023F","2022F","2021F","2020F","2019F","2018F","2016F","2015F","2014F","2013F","2012F"]
+        },
+        {
+          "topic": "3.3 Descriptive and Normative Claims",
+          "frequency": 15,
+          "note": "Definition, difference, and examples of descriptive and normative claims in IT context.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2018Sp","2018F","2017Sp","2016F","2015Sp","2014F","2012Sp"]
+        },
+        {
+          "topic": "3.4 Ethical Relativism",
+          "frequency": 14,
+          "note": "Ethical relativism as a tool for ethical analysis, cultural relativism, strengths and weaknesses.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2018F","2017F","2016F","2015Sp","2014F","2012Sp","2012F"]
+        },
+        {
+          "topic": "3.5 Utilitarianism and Deontological Theories",
+          "frequency": 18,
+          "note": "Comparison and contrast of the two theories, application to IT dilemmas. One of the highest frequency topics. Theory of Justice (Rawls) also included.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2018Sp","2018F","2017F","2016Sp","2016F","2015Sp","2015F","2014F","2013F","2012F"]
+        },
+        {
+          "topic": "3.6 Rights",
+          "frequency": 7,
+          "note": "What are rights, types of rights, does a professional have special rights, rights in the digital age.",
+          "papers": ["2025Sp","2022F","2021F","2020F","2017F","2016F","2014F"]
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Professional Ethics",
+      "hours": 3,
+      "topics": [
+        {
+          "topic": "4.1 Profession",
+          "frequency": 14,
+          "note": "Attributes of a profession, engineering and computing as a profession, why engineering is a profession.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2018Sp","2017F","2016F","2015Sp","2015F","2014F"]
+        },
+        {
+          "topic": "  4.1.1 Job and Occupation",
+          "frequency": 12,
+          "note": "Difference between job and occupation, attributes qualifying a profession.",
+          "papers": ["2025Sp","2024F","2023Sp","2022F","2021F","2020F","2019Sp","2018Sp","2017F","2016F","2015Sp","2012Sp"]
+        },
+        {
+          "topic": "  4.1.2 Characteristics of Profession",
+          "frequency": 10,
+          "note": "Key attributes qualifying a profession: body of knowledge, formal education, code of ethics, licensing.",
+          "papers": ["2023Sp","2022F","2021F","2019F","2018Sp","2017Sp","2016F","2015Sp","2014F","2012F"]
+        },
+        {
+          "topic": "  4.1.3 Engineering and Computing as a Profession",
+          "frequency": 14,
+          "note": "Why engineering is a profession, responsibilities of ICT professionals, IT professional bodies.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2018Sp","2017F","2016F","2015Sp","2015F","2014F"]
+        },
+        {
+          "topic": "4.2 Professional Responsibilities and Rights",
+          "frequency": 18,
+          "note": "Professional rights, right of conscientious refusal, professional responsibilities.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2016F","2015Sp","2015F","2014F","2013F"]
+        },
+        {
+          "topic": "  4.2.1 Conflict of Interests and Whistleblowing",
+          "frequency": 20,
+          "note": "Asked in ALL papers. Types of whistleblowing, conditions to blow the whistle, preventing whistleblowing, professional conscientious refusal.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016Sp","2016F","2015Sp","2015F","2014F","2013F"]
+        },
+        {
+          "topic": "4.3 Professional Code of Ethics",
+          "frequency": 16,
+          "note": "Concept of professional code of ethics, code of conduct vs code of practice.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2018Sp","2017Sp","2016Sp","2016F","2015F","2015Sp","2014F"]
+        },
+        {
+          "topic": "  4.3.1 Code of Ethics of Nepal Engineering Council",
+          "frequency": 16,
+          "note": "Five key codes of ethics by NEC, role of NEC in maintaining ethical standards of Nepalese engineers.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2018Sp","2017Sp","2016Sp","2016F","2015F","2015Sp","2014F"]
+        },
+        {
+          "topic": "  4.3.2 Code of Ethics of IEEE and ACM",
+          "frequency": 16,
+          "note": "Core principles of IEEE and ACM codes, applying codes to case studies, central theme comparison.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2018F","2017F","2016F","2015F","2015Sp","2014F","2013F","2012F"]
+        },
+        {
+          "topic": "4.4 Hacker Ethics and Netiquette",
+          "frequency": 10,
+          "note": "Netiquette, rules of email/forum behaviour, hacker ethics, responsible internet use.",
+          "papers": ["2025Sp","2023Sp","2022F","2020F","2018Sp","2017F","2016F","2015Sp","2014F","2012Sp"]
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Risk and Responsibilities",
+      "hours": 3,
+      "topics": [
+        {
+          "topic": "5.1 Computer Liability",
+          "frequency": 10,
+          "note": "Liability when software causes harm, who is responsible when software fails.",
+          "papers": ["2025Sp","2023Sp","2021Sp","2020F","2019Sp","2018Sp","2017F","2015F","2015Sp","2013F"]
+        },
+        {
+          "topic": "  5.1.1 Malfunction of Computers",
+          "frequency": 10,
+          "note": "Software bugs and consequences, Case Study: Therac-25, liability for software failures.",
+          "papers": ["2025Sp","2023Sp","2021Sp","2020F","2019Sp","2018Sp","2017F","2015F","2015Sp","2013F"]
+        },
+        {
+          "topic": "  5.1.2 Safety in Critical Systems",
+          "frequency": 17,
+          "note": "Safety-critical systems, software risk in life-critical systems, managing complexity via decomposition/hierarchy/abstraction. Papers WITHOUT: 2013F, 2012F.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018F","2017F","2017Sp","2016F","2015F","2015Sp","2014F"]
+        },
+        {
+          "topic": "  5.1.3 Accuracy vs. Democracy in Internet",
+          "frequency": 16,
+          "note": "Tension between accuracy and democracy in online information, misinformation, freedom of expression vs responsible publishing.",
+          "papers": ["2025Sp","2024F","2023Sp","2022F","2021Sp","2020F","2019Sp","2018F","2017F","2017Sp","2016F","2015F","2015Sp","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "  5.1.4 Misinterpretation of Information and its Liability",
+          "frequency": 6,
+          "note": "Consequences of misinterpreted digital information, disclaimer policies and ethical implications.",
+          "papers": ["2022F","2019Sp","2017F","2016F","2015Sp","2012Sp"]
+        },
+        {
+          "topic": "5.2 Values in Design",
+          "frequency": 10,
+          "note": "Value-centered design, embedding values into software systems.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2021Sp","2020F","2019Sp","2018Sp","2017F","2016F","2015Sp"]
+        },
+        {
+          "topic": "  5.2.1 Software and Design Problems",
+          "frequency": 10,
+          "note": "Ethical considerations in software architecture, functional vs non-functional requirements, addressing user rights in design.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2021Sp","2020F","2019Sp","2018Sp","2017F","2016F","2015Sp"]
+        },
+        {
+          "topic": "  5.2.2 Hardware Design Issue",
+          "frequency": 8,
+          "note": "Ethical issues in hardware design, hardware reliability and safety, responsibility of hardware manufacturers.",
+          "papers": ["2025Sp","2023Sp","2021Sp","2019Sp","2018Sp","2017Sp","2016F","2015Sp"]
+        },
+        {
+          "topic": "  5.2.3 Elimination of Hardware",
+          "frequency": 5,
+          "note": "Software replacing hardware, implications for safety and liability. Stuxnet is a key example.",
+          "papers": ["2025Sp","2023Sp","2021Sp","2018Sp","2016F"]
+        },
+        {
+          "topic": "5.3 Professional Responsibilities of Computer Users",
+          "frequency": 12,
+          "note": "Responsibility and accountability of users, developers, organizations in computing context.",
+          "papers": ["2025Sp","2024Sp","2022F","2021Sp","2019Sp","2018Sp","2017F","2017Sp","2016F","2015Sp","2015F","2014F"]
+        },
+        {
+          "topic": "  5.3.1 Responsibility and Accountability",
+          "frequency": 12,
+          "note": "Responsibility vs accountability distinction, liability chains in software projects.",
+          "papers": ["2025Sp","2024Sp","2022F","2021Sp","2019Sp","2018Sp","2017F","2017Sp","2016F","2015Sp","2015F","2014F"]
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Privacy",
+      "hours": 3,
+      "topics": [
+        {
+          "topic": "6.1 Privacy and its Value",
+          "frequency": 17,
+          "note": "Definition of personal privacy, why privacy matters, how technology has changed privacy.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021Sp","2021F","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2016F","2015F","2015Sp","2014F"]
+        },
+        {
+          "topic": "6.2 Privacy Risks",
+          "frequency": 14,
+          "note": "Types of privacy risks online — government and consumer information risks.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2018Sp","2017F","2016F","2015Sp","2014F","2012Sp","2012F"]
+        },
+        {
+          "topic": "  6.2.1 Government Information",
+          "frequency": 8,
+          "note": "Government surveillance, citizen privacy, NSA mass surveillance context (Snowden), role of government in protecting information.",
+          "papers": ["2024Sp","2022F","2020F","2018F","2017F","2016F","2015Sp","2014F"]
+        },
+        {
+          "topic": "  6.2.2 Consumer Information",
+          "frequency": 10,
+          "note": "Corporate data collection, social networking and privacy risks, online tracking and profiling.",
+          "papers": ["2025Sp","2024Sp","2022F","2021Sp","2019Sp","2018Sp","2016F","2015Sp","2014F","2012Sp"]
+        },
+        {
+          "topic": "6.3 Privacy of Consumer Information",
+          "frequency": 10,
+          "note": "Databases storing personal info, technological strategies to protect privacy, data minimization.",
+          "papers": ["2024Sp","2023F","2022F","2021Sp","2020F","2019F","2018Sp","2016F","2015Sp","2014F"]
+        },
+        {
+          "topic": "  6.3.1 Databases and Personal Records",
+          "frequency": 10,
+          "note": "Personal databases, privacy in major databases, technological strategies to protect privacy.",
+          "papers": ["2024Sp","2023F","2022F","2021Sp","2020F","2019F","2018Sp","2016F","2015Sp","2014F"]
+        },
+        {
+          "topic": "  6.3.2 E-mail Privacy",
+          "frequency": 8,
+          "note": "Email interception, encrypted email (Signal/ProtonMail context), best practices for email privacy.",
+          "papers": ["2025Sp","2024Sp","2021Sp","2020F","2018Sp","2017F","2016F","2015Sp"]
+        },
+        {
+          "topic": "  6.3.3 Web Privacy",
+          "frequency": 7,
+          "note": "Cookies, web tracking, browser privacy settings, privacy policies of websites.",
+          "papers": ["2025Sp","2024Sp","2021Sp","2019Sp","2018Sp","2016F","2015Sp"]
+        },
+        {
+          "topic": "6.4 Protecting Privacy",
+          "frequency": 15,
+          "note": "Role of government, IT professionals and individuals in protecting privacy. Privacy by design, technical tools.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2018Sp","2017F","2016F","2015Sp","2015F","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "6.5 Offensive Speech and Censorship in Cyberspace",
+          "frequency": 18,
+          "note": "Internet censorship, online pornography and impact on children, Chinese Golden Shield case, Nepal's approach. One of the highest frequency topics.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016F","2015Sp","2014F","2013F"]
+        },
+        {
+          "topic": "6.6 Anonymity",
+          "frequency": 4,
+          "note": "Definition and value of anonymity online, anonymity vs accountability, anonymous speech.",
+          "papers": ["2023Sp","2020F","2018F","2016F"]
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Computer and Cyber Crimes",
+      "hours": 4,
+      "topics": [
+        {
+          "topic": "7.1 Introduction to Computer Crime and Cyber Crime",
+          "frequency": 18,
+          "note": "Definition, computers as tools/targets/storage devices, cybercrime in Nepal, Electronic Transaction Act 2006.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2016F","2015Sp","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "7.2 Types of Computer Crimes",
+          "frequency": 18,
+          "note": "Broad category. Specific types listed in sub-topics below.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016F","2015Sp","2015F","2014F"]
+        },
+        {
+          "topic": "  7.2.1 Traditional Computer Crimes and Software Piracy",
+          "frequency": 8,
+          "note": "Software piracy, unauthorized copying and distribution, impact on software industry.",
+          "papers": ["2023F","2022F","2020F","2018Sp","2017F","2016F","2015Sp","2014F"]
+        },
+        {
+          "topic": "   7.2.2 Computer Frauds and Digital Forgery",
+          "frequency": 16,
+          "note": "Digital forgery, ATM fraud (1.4B yen heist case study), Facebook fraud in Nepal, financial fraud via phishing and scams.",
+          "papers": ["2025Sp","2024F","2023Sp","2022F","2021F","2020F","2019Sp","2019F","2018Sp","2017F","2016F","2015Sp","2015F","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "  7.2.3 Phishing",
+          "frequency": 12,
+          "note": "Types of phishing (spear, vishing, smishing), how phishing works, protection against phishing.",
+          "papers": ["2025Sp","2023F","2022F","2021Sp","2019F","2018Sp","2017Sp","2016F","2015Sp","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "  7.2.4 Unauthorized Access: Hacking, Cracking",
+          "frequency": 12,
+          "note": "Hacking vs cracking, types of hackers (white/black/grey hat), common techniques, legal consequences.",
+          "papers": ["2025Sp","2024F","2023Sp","2022F","2021Sp","2020F","2019F","2018Sp","2017F","2016F","2015Sp","2014F"]
+        },
+        {
+          "topic": "  7.2.5 Denial of Service",
+          "frequency": 12,
+          "note": "DoS and DDoS attacks, Nepal government website incident (2022F case study).",
+          "papers": ["2025Sp","2023Sp","2022F","2021F","2020F","2019Sp","2018F","2017F","2016F","2015Sp","2014F","2012Sp"]
+        },
+        {
+          "topic": "  7.2.6 Computer Invasion of Privacy",
+          "frequency": 8,
+          "note": "Unauthorized access to personal data, stalkerware, spyware, data breaches.",
+          "papers": ["2024Sp","2022F","2021Sp","2020F","2019Sp","2018Sp","2016F","2014F"]
+        },
+        {
+          "topic": "  7.2.7 Harmful Content Crime",
+          "frequency": 5,
+          "note": "Harmful online content, illegal content categories, reporting and takedown mechanisms.",
+          "papers": ["2024F","2023F","2020F","2017F","2016F"]
+        },
+        {
+          "topic": "  7.2.8 Online Pornography",
+          "frequency": 14,
+          "note": "Impact of online pornography on children, revenge pornography, legal framework in Nepal, comparison with international standards.",
+          "papers": ["2025Sp","2024F","2024Sp","2022F","2021F","2020F","2019Sp","2018Sp","2017F","2016F","2015Sp","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "  7.2.9 Online Harassment",
+          "frequency": 7,
+          "note": "Types of online harassment, cyberbullying, legal remedies in Nepal.",
+          "papers": ["2025Sp","2023F","2021Sp","2020F","2019Sp","2018Sp","2017Sp"]
+        },
+        {
+          "topic": "  7.2.10 Cyber Stalking and Online Scams",
+          "frequency": 6,
+          "note": "Cyberstalking, online scam techniques, protection and legal remedies.",
+          "papers": ["2023F","2021Sp","2020F","2019F","2018Sp","2016F"]
+        },
+        {
+          "topic": "  7.2.11 Spams",
+          "frequency": 4,
+          "note": "Email spam, anti-spam laws and techniques.",
+          "papers": ["2021Sp","2019Sp","2018F","2016F"]
+        },
+        {
+          "topic": "  7.2.12 Malicious Programs: Viruses, Worms, Trojan Horses",
+          "frequency": 16,
+          "note": "Viruses, worms, trojans, ransomware, info-stealers. Case Study: Stuxnet Worm (2025Sp), CSAM info-stealer (2024Sp). Prevention and anti-malware tools.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018F","2017F","2016F","2015Sp","2014F","2013F","2012F"]
+        },
+        {
+          "topic": "  7.2.13 Cyber Terrorism",
+          "frequency": 12,
+          "note": "Definition, difference from cybercrime, state-sponsored attacks. Stuxnet as cyber warfare example. Measures to counter.",
+          "papers": ["2025Sp","2023Sp","2021F","2021Sp","2020F","2019F","2018Sp","2017F","2017Sp","2016F","2015Sp","2014F"]
+        },
+        {
+          "topic": "7.3 Introduction to Digital Forensics",
+          "frequency": 14,
+          "note": "Definition, process, types of digital forensics, role in cyber incident response, tools used.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2019F","2018Sp","2017F","2016F","2015Sp","2014F","2013F"]
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Intellectual Property and Legal Issues",
+      "hours": 5,
+      "topics": [
+        {
+          "topic": "8.1 Intellectual Properties",
+          "frequency": 17,
+          "note": "Broad topic. Definition, types, necessity of IP protection, global issues.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017Sp","2016F","2015Sp","2015F","2014F","2013F"]
+        },
+        {
+          "topic": "  8.1.1 Copyright",
+          "frequency": 17,
+          "note": "Symbol copyright, when copyright begins, duration, international copyright conventions, software copyright, fair use.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017Sp","2016F","2015Sp","2015F","2014F","2013F","2012F"]
+        },
+        {
+          "topic": "  8.1.2 Patent",
+          "frequency": 15,
+          "note": "Definition, what can be patented, software patents, patent protection in Nepal, patent vs copyright.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2019F","2018Sp","2017Sp","2016F","2015Sp","2015F","2014F","2013F"]
+        },
+        {
+          "topic": "  8.1.3 Design",
+          "frequency": 7,
+          "note": "Industrial design protection, design rights vs copyright, Nepal's design protection laws.",
+          "papers": ["2024Sp","2021Sp","2019Sp","2018Sp","2016F","2015F","2014F"]
+        },
+        {
+          "topic": "  8.1.4 Trademark",
+          "frequency": 16,
+          "note": "Types of trademarks, registration and protection, trademark vs patent vs copyright, infringement.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016F","2015Sp","2015F","2014F"]
+        },
+        {
+          "topic": "  8.1.5 Trade-secrets",
+          "frequency": 14,
+          "note": "Definition, difference from copyright and patent, legal protection, trade secret theft, NDAs.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2019Sp","2018F","2017F","2017Sp","2016F","2015Sp","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "  8.1.6 IPR in Nepal: Copyright Act and Patent, Design and Trademark Act",
+          "frequency": 14,
+          "note": "Nepal's Copyright Act, Patent Design and Trademark Act, IPR enforcement, penalties for violations, global IPR issues.",
+          "papers": ["2025Sp","2024Sp","2023Sp","2022F","2021Sp","2020F","2019Sp","2019F","2018Sp","2017Sp","2016F","2015F","2014F","2013F"]
+        },
+        {
+          "topic": "8.2 IT Related Laws in Nepal",
+          "frequency": 18,
+          "note": "Broad category covering all Nepal-specific IT laws.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016F","2015Sp","2015F","2014F"]
+        },
+        {
+          "topic": "  8.2.1 IT Policy of Nepal",
+          "frequency": 18,
+          "note": "Objectives, key provisions, relevance to professionals, gaps and challenges, should Nepal do more on cyber law. One of the highest frequency topics.",
+          "papers": ["2025Sp","2024F","2024Sp","2023Sp","2022F","2021F","2021Sp","2020F","2019Sp","2019F","2018Sp","2018F","2017F","2017Sp","2016F","2015Sp","2015F","2014F"]
+        },
+        {
+          "topic": "  8.2.2 Right to Information Act",
+          "frequency": 10,
+          "note": "RTI Act in Nepal, scope and limitations, RTI vs government censorship, RTI and digital governance.",
+          "papers": ["2024F","2022F","2020F","2019Sp","2018F","2017F","2016F","2015F","2014F","2013F"]
+        },
+        {
+          "topic": "  8.2.3 Electronics Transaction Act and Rules",
+          "frequency": 12,
+          "note": "ETA 2006 Nepal, cybercrime provisions, digital signatures, penalties for computer crimes, need and importance of ETA.",
+          "papers": ["2024F","2022F","2021F","2020F","2019Sp","2018Sp","2017F","2016F","2015F","2014F","2013F","2012Sp"]
+        },
+        {
+          "topic": "  8.2.4 Secure Password Practices Issued by GoN",
+          "frequency": 6,
+          "note": "Nepal government's secure password guidelines, key points, why password security matters.",
+          "papers": ["2019Sp","2019F","2017F","2017Sp","2016F","2015Sp"]
+        }
+      ]
+    }
+  ],
+  "total_hours": 30,
+  "references": [
+    "1. Johnson, D. G., Computer Ethics, Pearson Education Asia, Third Edition, 2001, ISBN: 81-7808-306-X.",
+    "2. IT Policies, Laws and Acts of the Government of Nepal. Available at: www.lawcommission.gov.np and www.cca.gov.np",
+    "3. Hussain, K. M., and Hussain, D. S., Computers; Technology, Applications, and Social Implications, PHI, New Delhi, ISBN: 81-203-0620-1.",
+    "4. Sara Baase, A Gift of Fire: Social, Legal, and Ethical Issues for Computers and the Internet, latest Edition, Prentice Hall",
+    "5. Articles collected from various Journals and Periodicals, such as IEEE-Computer, BYTE, ACM Periodicals, etc.",
+    "6. IT Policies and Laws of the local government",
+    "7. International IT Policies and Laws (Source: ISO, SEI, IEEE, etc.)"
+  ]
+}

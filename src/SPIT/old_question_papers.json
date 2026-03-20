@@ -1,0 +1,803 @@
+{
+  "papers": [
+    {
+      "id": "2025-SP",
+      "year": "2025",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "What do you mean by Computing? Describe how the computing changes with the evolution in Computer Technology." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "\"Information Technology has a major Impact on poverty Alleviation and Women Empowerment\" Do you agree or disagree? Justify your opinion with suitable example." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "What is Digital Divide and how can you minimize and mitigate digital divide? Is \"Gender Divide\" making the digital divide even larger?" },
+        { "number": "2", "sub_no": "b", "marks": 8, "question": "What is Netiquette? Professional conscientious and Right of Conscientious Refusal are Vital professional Practices. Discuss the statement on the basic of code of conduct of IEEE and ACM." },
+        { "number": "3", "sub_no": "a", "marks": 7, "question": "What is code of ethics? Mention any five codes of ethics proposed by NEC?" },
+        { "number": "3", "sub_no": "b", "marks": 8, "question": "Evaluate the tension between accuracy and democracy in internet-based information systems." },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "Explain the importance of email privacy and web privacy in IT." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Discuss the importance of copyright and patents in protecting software innovations." },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "Categorize various computer related offenses where computers are used as tools; as targets; and as storage devices." },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "\"In the digital age, professionals developing or using computer systems must balance innovation with ethical and legal accountability.\" Critically evaluate this statement in the context of ethical challenges in hardware/software design that may affect users' rights or safety." },
+        {
+          "number": "6",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Intellectual Property Rights (IPR)." },
+            { "sub_no": "b", "marks": 5, "question": "Digital forgery" },
+            { "sub_no": "c", "marks": 5, "question": "Trademark and trade secret" }
+          ]
+        },
+        {
+          "number": "7",
+          "instruction": "Case Study: The Stuxnet Worm – A Multi-Faceted Incident (3×5)",
+          "context": "Stuxnet is a sophisticated computer worm discovered in 2010, believed to have been developed jointly by the United States and Israel to target and sabotage Iran's nuclear enrichment facilities at Natanz. It was originally a malicious software intentionally designed to infiltrate industrial control systems (ICS), specifically Siemens SCADA (Supervisory Control and Data Acquisition) systems used in uranium enrichment. Stuxnet exploited four zero-day vulnerabilities in Windows and used stolen digital certificates to appear legitimate. Once inside, it silently took control of PLCs (Programmable Logic Controllers) that operated centrifuges and caused them to spin at destructive speeds—without alerting operators. Instead of using physical sabotage (e.g., bombs, physical intrusion), Stuxnet replaced traditional hardware-based attacks with software-based manipulation. For instance, Instead of physically damaging centrifuges, the worm caused them to malfunction by altering software instructions. Stuxnet didn't just infect Iranian systems. It spread globally, affecting private companies, civilian systems, and computers in countries like India, Indonesia, and the U.S. Moreover, the worm collected data about system configurations and transmitted it back to command servers. With Stuxnet, data ex-filtration occurred silently; victims had no knowledge their systems were compromised or that they were part of a geopolitical operation; private organizations suffered exposure without consent or awareness, violating principles of data privacy and ownership.",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Is the case a matter of computer crime? Why?" },
+            { "sub_no": "b", "marks": 5, "question": "Point out the places in the case, where hardware have been replaced with software." },
+            { "sub_no": "c", "marks": 5, "question": "How did the Stuxnet violate the privacy and security in various parts of the world?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-SP",
+      "year": "2024",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "instruction": "Case Study: Dark Web Malware Logs Expose 3,300 Users Linked to Child Abuse Sites",
+          "context": "An analysis of information-stealing malware logs published on the dark web has led to the discovery of thousands of consumers of child sexual abuse material (CSAM), indicating how such information could be used to combat serious crimes. Approximately 3,300 unique users were found with accounts on known CSAM sources. A notable 4.2% had credentials for multiple sources, suggesting a higher likelihood of criminal behavior. Over the past few years, off-the-shelf info-stealer variants have become a pervasive and ubiquitous threat targeting various operating systems with an aim to siphon sensitive information such as credentials, cryptocurrency wallets, payment card data, and screenshots. This is evidenced in the rise of new stealer malware strains such as Kematian Stealer, Neptune Stealer, Obj3ectivity, Poseidon (formerly RodStealer), Satanstealer, and StrelaStealer. Distributed via phishing, spam campaigns, cracked software, fake update websites, SEO poisoning, and malvertising, data harvested using such programs typically find their way onto the dark web in the form of stealer logs from where they are purchased by other cybercriminals to further their schemes. Recorded Future's Insikt Group said it was able to identify 3,324 unique credentials used to access known CSAM domains between February 2021 and February 2024, using them to unmask three individuals who have been found to maintain accounts at no less than four websites. The fact that stealer logs also comprise cryptocurrency wallet addresses means they could be used to determine if the addresses have been used to procure CSAM and other harmful material. Furthermore, countries like Brazil, India, and the U.S. had the highest counts of users with credentials to known CSAM communities, although the company said that it could be due to an \"overrepresentation due to dataset sourcing.\" Info-stealer malware and stolen credentials are projected to remain a cornerstone of the cybercriminal economy due to the high demand by threat actors seeking initial access to targets. Info-stealer logs can be used by investigators and law enforcement partners to track child exploitation on the dark web and provide insight into a part of the dark web that is especially difficult to trace.",
+          "options": [
+            { "sub_no": "a", "marks": 8, "question": "From the ethical, moral and legal perspective how do you relate the above examples? Discuss the involvement of IT personnel in such activities." },
+            { "sub_no": "b", "marks": 7, "question": "How has above case and similar scenario affected the concept of privacy? Put your views." }
+          ]
+        },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "What is digital divide? Discuss how covid pandemic enlarged the digital divide." },
+        { "number": "2", "sub_no": "b", "marks": 8, "question": "What are professional rights and professional responsibilities? Explain violations of professional responsibilities with few examples." },
+        { "number": "3", "sub_no": "a", "marks": 7, "question": "How can we be safe while working in the internet? Discuss." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "What is digital forensic? Explain the process of digital forensics." },
+        { "number": "3", "sub_no": "c", "marks": 6, "question": "How are copyright and patent violations dealt in Nepal? Explain in brief." },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "Write down the brief history of the Internet development." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Deontological and Utilitarian based theories do not necessarily come to the same conclusion. Discuss with suitable example." },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "\"Professional rights\" come along with responsibilities.\" Explain this in the context of Engineering." },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "Analyze a complex software design problem and propose a solution that addresses both functional and non-functional requirements." },
+        { "number": "6", "sub_no": "a", "marks": 8, "question": "Discuss the strategies and measures that both governments and consumers can implement to protect sensitive information in the digital age. What is the role of government in protecting information?" },
+        { "number": "6", "sub_no": "b", "marks": 7, "question": "Examine the current threat landscape in cybersecurity and discuss the role of digital forensics in responding to cyber incidents. List out the types of digital forensics." },
+        { "number": "7", "sub_no": "a", "marks": 8, "question": "Define Intellectual Property (IP) rights and discuss the necessity of protecting IP. Additionally, analyze the global issues that arise in the context of IP." },
+        { "number": "7", "sub_no": "b", "marks": 7, "question": "Define the concept of policy and discuss the process of formulating national policies. Additionally, provide an overview of five IT-related policies implemented in Nepal." },
+        { "number": "7", "sub_no": "c", "marks": 5, "question": "How can IT professionals protect individual and organizational privacy? Discuss." }
+      ]
+    },
+    {
+      "id": "2024-FA",
+      "year": "2024",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "Describe with necessary diagram the four quadrant Impacts of IT." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "Explain different acts related to IPR in Nepal. State in brief about Right to Information act and Electronic Transaction Act in Nepal." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "Differentiate consequentialism from deontological theory with suitable example." },
+        { "number": "2", "sub_no": "b", "marks": 8, "question": "Describe various types of conflict of interests that come across the professional practice." },
+        { "number": "3", "sub_no": "a", "marks": 7, "question": "Explain the current privacy violation scenario in which personal records and databases are being accessed." },
+        { "number": "3", "sub_no": "b", "marks": 8, "question": "Describe the professional ethics for a software engineer. Explain descriptive and normative claims." },
+        { "number": "4", "sub_no": "a", "marks": 7, "question": "Define computing? Describe how the programming languages changes with the evolution in computer technology." },
+        { "number": "4", "sub_no": "b", "marks": 8, "question": "What is the difference between job and occupation? Explain the code of ethics of IEEE and ACM." },
+        { "number": "5", "sub_no": "a", "marks": 7, "question": "What is accuracy vs. democracy in internet? Why it is important to focus continuously in safety of critical systems? Explain with a real life example." },
+        { "number": "5", "sub_no": "b", "marks": 8, "question": "Describe the current scenario and effect of online pornography on children and state best approaches to reduce cybercrime in cyber space in the context of Nepal compared to rest of the world. Do you think government of Nepal should do more work on policy for the cyber space especially for social media?" },
+        {
+          "number": "6",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Privacy in cyberspace" },
+            { "sub_no": "b", "marks": 5, "question": "Utilitarianism and Deontological Theories" },
+            { "sub_no": "c", "marks": 5, "question": "Offensive speech and censorship in cyberspace" }
+          ]
+        },
+        {
+          "number": "7",
+          "instruction": "Case Study: Virtual Class (3×5)",
+          "context": "\"... In 1978 ...\" \"Like most people with real jobs, I had to travel a lot which meant that I was frequently out of town on the nights I was supposed to be teaching. So I had to develop some strategies for coping with this problem. One was to participate in the class via an audio conference. I would have someone set up a speakerphone in my classroom and call in from wherever I happened to be. I could give lectures and engage students in discussions. It worked quite well.\" \"Another strategy was to ask colleagues to 'cover' for me by going to the class and giving a guest lecture. I would pick out people with expertise on the topic to be taught so their contribution to the class was usually very worthwhile and enjoyed by the students. I found that having 5 or 6 guest lectures in a course made it much more interesting to the students than being taught by a single person.\" \"The third strategy involved the use of computer bulletin board systems to provide a way for students to contact me and each other via email and online conferences. Not only was this useful for me, but it was helpful to the students as well since many of them also traveled a lot and this gave them a way to keep up to date with course work.\"",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Can you think of applying the online education in this context? How?" },
+            { "sub_no": "b", "marks": 5, "question": "Analyze the implications of technology on students and professor in this case." },
+            { "sub_no": "c", "marks": 5, "question": "If you were the professor, what improvements would you make in this situation?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-SP",
+      "year": "2023",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "Define Computing. Explain the major milestones in the history of Computing." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "Advancement of Technology is today's demand of society. Briefly explain the impact of technology on the society." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "What is Digital Divide? Is it actually not a thinking divide? Give your opinion." },
+        { "number": "2", "sub_no": "b", "marks": 8, "question": "Define Philosophical and professional ethics. Explain the descriptive and normative claims." },
+        {
+          "number": "3",
+          "instruction": "Case Study: Chinese Golden Shield Firewall (Any three sub-questions, 5+5+5)",
+          "context": "Chinese web users are being denied access to a range of religious sites based abroad as the Chinese government's \"Golden Shield\" firewall is used to censor the Internet. While blocking undesirable sites promoting pornography and violence, the firewall also limits religious web content such as sites related to the Dalai Lama, the Falun Gong cult and various Buddhist and Muslim movements. Also blocked are sites covering persecution of religious communities in China and a number of Catholic sites, including the website of the Hong Kong diocese and the Divine Word Missionaries in Taiwan. Not blocked are sites in European languages covering religious freedom issues, even those covering repression within China. While overall Internet usage in China may be low by developed country standards, it has been rapidly growing, especially in the capital of Beijing and the coastal region. The official China Internet Network Information Center puts the number of Chinese with access to the Internet in June 2003 at 79.5 million. This number has been doubling every six months. Internet censorship is part of a comprehensive attempt to censor all means of communication. While printed publications have long been censored in China, authorities also have tried to keep up with technological developments. The Global Internet Policy Initiative warned in June of new technology from a Chinese firm that monitors 'subversive' text messages sent by mobile phone.",
+          "options": [
+            { "sub_no": "i", "marks": 5, "question": "The government practices the Right to Information Act and the government itself denies access to a range of sites. Isn't it conflicting to one another?" },
+            { "sub_no": "ii", "marks": 5, "question": "Based on the above scenario provided in the case above, do you think it is correct to enforce censorship in the cyberspace? Elaborate your opinion." },
+            { "sub_no": "iii", "marks": 5, "question": "Put your views on the relevancy of the control over the internet." }
+          ]
+        },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "What are Professional Rights and Responsibilities? How can you avoid the whistle blowing in the organization?" },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Put your views on accuracy vs democracy in Internet with relevant examples." },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "What is personal privacy? Explain with suitable example how technology is affecting one's personal privacy." },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "What do you mean by denial of service? Explain different types of malicious programs." },
+        { "number": "6", "sub_no": "a", "marks": 8, "question": "What do you mean by digital forensics? Explain different cybercrimes and the way to overcome. Put your own views." },
+        { "number": "6", "sub_no": "b", "marks": 7, "question": "What are the trademarks and trade secrets? How important are they in context of protecting intellectual properties?" },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "E-Governance" },
+            { "sub_no": "b", "marks": 5, "question": "Code of Ethics of Nepal Engineering Council" },
+            { "sub_no": "c", "marks": 5, "question": "IT Policy of Nepal" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-FA",
+      "year": "2023",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 7, "question": "How is mathematics related to computing? Explain the relation from the context of History." },
+        { "number": "1", "sub_no": "b", "marks": 8, "question": "How has Internet changed the society? Explain." },
+        {
+          "number": "2",
+          "instruction": "Case Study: Cybercrime-related cases see an alarming rise",
+          "context": "Nepal's Cyber Bureau says the country has seen a steep rise in cybercrime cases over the past year. Inadequate technical human resource and lack of relevant laws have compounded the problem, the bureau says. Over the past eight months, the bureau has registered a total of 4,937 cases, (4486 cases), according to Pashupati Kumar Ray, the bureau's spokesperson. The country faced its biggest cyberattack at the end of January this year, which resulted in disruptions of hundreds of government websites across the country. It even halted international travel due to the shutdown of the immigration server. At the time, around 1,500 government websites were shut down due to attacks on the central data bank at the Government Integrated Data Centre, according to Ramesh Pokharel, assistant director at the National Information Technology Centre under the Ministry of Communication and Information Technology. Meanwhile, the nature of cybercrimes is fast evolving with the advent of new technologies. People have shifted to live online gambling through the Chinese app TikTok and recently, the app has been widely used to lure clients for sex massage. This year, financial frauds committed online topped the list, and cases of 'revenge porn' came second. A total of 955 cases of financial fraud were lodged with the bureau, or 20 percent of the total online crimes. The financial crimes include phishing (attempting to acquire sensitive data such as bank account numbers in a guise), lottery scam including alluring fraudulent offers of work from home and online shopping. On March 28, the Valley Crime Investigation Office, Minbhawan nabbed 19 people including nine Chinese nationals on charges of online fraud. The case, however, was not handled by the cyber bureau as it required dealing with Interpol. Police investigation shows that the Chinese fraudsters used Telegram messenger to run online classes where they made people invest in commodities, offering lucrative profits. The 'revenge porn' cases and the cases of fake profiles on social media come second and third, with 901 and 898 complaints registered, respectively.",
+          "options": [
+            { "sub_no": "a", "marks": 10, "question": "Why do such incidents happen in Nepal? Who are responsible for the issue? Discuss the issue from the ethical, moral and legal perspective in the above case." },
+            { "sub_no": "b", "marks": 5, "question": "What should be the role of professionals in dealing with the aforementioned condition?" }
+          ]
+        },
+        {
+          "number": "3",
+          "instruction": "Case Study: Microsoft Word Thesaurus",
+          "context": "Many losses of skills are unintended side effects of computer but Microsoft made a conscious decision that has the effect of diminishing vocabulary and the richness and humor of languages. The thesaurus in Microsoft Word 2000 lists 'trick' as the only synonym for 'fool'. It omits 'clown', 'blockhead', 'idiot', 'ninny', 'dunderhead', 'ignoramus' and others, all present in earlier versions. Because of the popularity of Word and the ease of using its reference utilities, fewer people will consult standard references such as dictionaries and Roget's Thesaurus (which also contains 'dupe' and 'simpleton', for example). Microsoft said that it eliminated words 'that may have offensive uses'.",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Do producers of widely used reference works have an ethical responsibility to report the substance of their field accurately, or a social responsibility to remove potentially offensive words from the language?" },
+            { "sub_no": "b", "marks": 5, "question": "Should software engineers concern themselves with ethical issues any more than other individuals in society?" },
+            { "sub_no": "c", "marks": 5, "question": "Do computers and computer related technology really raise new ethical problems or do they just present old issues in a new form?" }
+          ]
+        },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "Why software risk is considered sensitive in case of life critical systems as the developer is the only person to blame if an accident occurs. Do you agree or disagree? Justify your opinion." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Is it possible to enforce censorship in cyberspace? Justify your opinion with relevant example." },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "IPR (Intellectual Property Rights) have become a serious concern with the advancement in computing technology. What are some of the intellectual properties? Describe." },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "What do you mean by digital forensics? Explain different cybercrimes. How would you prevent your computer from crime? Discuss." },
+        { "number": "6", "sub_no": "a", "marks": 8, "question": "Why do such incidents happen in Nepal? Who are responsible for the issue? Discuss the issue from the ethical, moral and legal perspective." },
+        { "number": "6", "sub_no": "b", "marks": 7, "question": "Cyber Terrorism has been a major issue in today's context. What do you think how to deal with this issue? Put your views." },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Contributions of Mark Zukerberg" },
+            { "sub_no": "b", "marks": 5, "question": "Safety in Critical Systems" },
+            { "sub_no": "c", "marks": 5, "question": "Use of E-government systems in Nepal" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2022-FA",
+      "year": "2022",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "Define Computing. Explain all the major innovations in the field of hardware, software and networking." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "What do you understand by 'Social Context of Computing'? Explain the impacts of technology on society and vice versa." },
+        {
+          "number": "2",
+          "instruction": "Case Study: Government websites going down — Nepal's cyber security status",
+          "context": "All the government websites of Nepal with 'gov.np' URLs were down on Saturday (January 28). As per the reports, they were down because of server failure. It lasted for almost two hours, questioning the country's cyber security status. Moreover, there have been other recorded histories of government websites going down after having a failure in the past also. With the increase in the number of users of government websites for official works, these cases might increase as well in the future. Hence, it is time concerned government agencies paid attention to the issue. So, what are the possible causes? Here, we discuss briefly. According to multiple reports, there was a server-down issue with the government websites. Also, some reports suppose that there were hackers trying to steal data. According to Central Information Officer Ramesh Pokhrel, there was a server issue in the Government Integrated Data Centre (GIDC) on track after the issue in GIDC was solved. During the website crash, important government websites such as those of the departments of passport, transportation and immigration, the Ministry of Foreign Affairs and others displayed a statement — 'This site can't be reached' — while trying to access them. (GIDC). The websites were back up after the GIDC resolved the server issue.",
+          "options": [
+            { "sub_no": "a", "marks": 7, "question": "Why do such incidents happen in Nepal? Who are responsible for the issue? Discuss the issue from the ethical, moral and legal perspective in the above case." },
+            { "sub_no": "b", "marks": 8, "question": "The trends of misuses of ICT have been in rise. What are other similar criminal activities related to forgery and frauds? List them and explain few solutions to overcome such issues." }
+          ]
+        },
+        { "number": "3", "sub_no": "a", "marks": 10, "question": "Define Whistle blowing. Explain the types of whistle blowing. How can you prevent whistle blowing?" },
+        { "number": "3", "sub_no": "b", "marks": 5, "question": "What is code of ethics? Mention any five codes of ethics proposed by NEC." },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "Can a software risk be mitigated completely beforehand? Suggest ways to manage software complexity with the approach of decomposition, hierarchy, and abstraction." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "'Accuracy vs Democracy' has been a raising concern on the internet. Express your views with your preference." },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "What are offensive speech and censorship? Explain the importance of censorship by illustrating an example. Is it possible to enforce censorship in cyberspace?" },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "What does the famous symbol © mean? When does a copyright begin and how long is it preserved? What do you know about international copyright?" },
+        { "number": "6", "sub_no": "a", "marks": 7, "question": "What do you mean by computer crime and digital forgery? Describe the current scenario and the effect of pornography on children and state the best approaches to reduce cybercrime in cyberspace in the context of Nepal." },
+        { "number": "6", "sub_no": "b", "marks": 8, "question": "What is the need of IT Policy and ETA in Nepal? Discuss." },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "History of OS" },
+            { "sub_no": "b", "marks": 5, "question": "Professional responsibilities" },
+            { "sub_no": "c", "marks": 5, "question": "Ethical Relativism" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-FA",
+      "year": "2021",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "Discuss the contribution of Conrad Zuse in the field of computing." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "Discuss the relationship between society and the technology with real world examples." },
+        { "number": "2", "sub_no": "a", "marks": 8, "question": "Is 'Gender Divide' making the Digital Divide even larger? Explain the cross-gender communication in the Internet." },
+        { "number": "2", "sub_no": "b", "marks": 7, "question": "What are the common Legal and Moral issues faced by a Software Engineers? Explain with example." },
+        { "number": "3", "sub_no": "a", "marks": 8, "question": "Why is Engineering termed as a profession? Give reasons." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "What do you mean by a professional code of ethics? Explain the code of ethics of the Nepal Engineering Council." },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "'Software risks are considered critical in case of life critical systems as the developer is the only one to blame if an accident occurs.' Do you agree or disagree? Justify your opinion." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Is whistleblowing a professional act? What are the conditions required to blow a whistle?" },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "What do you mean by Intellectual Property Rights? Explain different types of Intellectual Property in detail." },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "Cyber Terrorism has been increasing with the advancement of technology. Express your view on it with the measures that can be taken to control this issue." },
+        {
+          "number": "6",
+          "instruction": "Case Study: Virtual Class (5×4 = 20)",
+          "context": "In 1978... Like most people with real jobs, I had to travel a lot which meant that I was frequently out of town on the nights I was supposed to be teaching. So I had to develop some strategies for coping with this problem. One was to participate in the class via an audio conference. I would have someone set up a speaker phone in my classroom and call in from wherever I happened to be. I could give lectures and engage students in discussions. It worked quite well. Another strategy was to ask colleagues to 'cover' for me by going to the class and giving a guest lecture. I would pick out people with expertise on the topic to be taught so their contribution to the class was usually very worthwhile and enjoyed by the students. I found that having 5 or 6 guest lectures in a course made it much more interesting to the students than being taught by a single person. The third strategy involved the use of computer bulletin board systems to provide a way for students to contact me and each other via email and online conferences. Not only was this useful for me, but it was helpful to the students as well since many of them also traveled a lot and this gave them a way to keep up to date with course work.",
+          "options": [
+            { "sub_no": "i", "marks": 5, "question": "In what aspects do you consider this class as a virtual one?" },
+            { "sub_no": "ii", "marks": 5, "question": "Can you think of applying the online education in this context? How?" },
+            { "sub_no": "iii", "marks": 5, "question": "Analyze the implications of technology on students and professor in this case." },
+            { "sub_no": "iv", "marks": 5, "question": "If you were the professor, what improvements would you make in this situation?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-SP",
+      "year": "2021",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "Discuss some of the major breakthroughs in the history of hardware, software and networking." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "Define E governance. Discuss various e governance initiatives taken by government of Nepal and its various challenges." },
+        { "number": "2", "sub_no": "a", "marks": 8, "question": "What are the social implications of Information Network? Explain in details." },
+        { "number": "2", "sub_no": "b", "marks": 8, "question": "What do you mean by code of ethics? Explain the code of ethics of the Nepal Engineering Council." },
+        { "number": "3", "sub_no": "a", "marks": 8, "question": "How risks in critical systems can be minimized? Discuss with examples." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "'Accuracy vs Democracy' has been a raising concern in the internet. Express your views with your preference." },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "What do you mean by Privacy risk? Illustrate the importance of censorship in cyberspace with relevant examples." },
+        { "number": "4", "sub_no": "b", "marks": 8, "question": "What is Ethical Relativism? Compare and contrast 'Utilitarianism and Deontological' theory in the light of ethical relativism. Give examples to support your answers." },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "What do you mean by Digital Forensic? Explain about Phishing." },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "What are the different social-media related cyber-crimes that are commonly seen in Nepal? How can the government handle this issue?" },
+        {
+          "number": "6",
+          "instruction": "Case Study: True Soft / Rajesh",
+          "context": "True Soft is a large company that sells computers, computer components, and software. Rajesh is hired as an entry-level software engineer at True Soft. His first project was to assist in writing the code for True Soft's new hard disc controller. He had previously worked on a similar system interning at a start-up and had written a code which greatly enhanced the performance of their product. Rajesh quietly re-uses this same code in the True Soft product, and does not think to tell anyone that he has used the code from his last job. His manager is thrilled with the speed improvements this code brings to the product. Before the product is released, it has to undergo a four-month long quality assurance process review. During the review of the product, it was found the code which Rajesh had developed had been copyrighted by the start-up he had previously worked for. Even though Rajesh had developed the code, his previous company still owned the intellectual property rights to it. When his manager informed Rajesh of the problem, Rajesh admits he did not realize he had made a mistake because he was not familiar with copyright laws. Rajesh then goes on to explain that the start-up he used to work for is now out of business and is unsure if True Soft would be able to get in contact with the owner of the copyright. If True Soft can't use Rajesh's code, then it will have to rewrite the entire code of the product, delaying its release by many months.",
+          "options": [
+            { "sub_no": "a", "marks": 8, "question": "Discuss prevalent laws in such situations in context of Nepal." },
+            { "sub_no": "b", "marks": 7, "question": "If you were in position of Rajesh, what would you do in such situation? Explain your answer with ethical lenses of rights, utilitarianism and deontology?" }
+          ]
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Digital divide" },
+            { "sub_no": "b", "marks": 5, "question": "Email Privacy" },
+            { "sub_no": "c", "marks": 5, "question": "Descriptive Claims and Normative Claims" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-FA",
+      "year": "2020",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 7, "question": "Discuss the contributions of Konrad Zuse in the field of computing." },
+        { "number": "1", "sub_no": "b", "marks": 8, "question": "What is digital divide and how can you minimize or mitigate digital divide? How can be technology used for poverty alleviation?" },
+        { "number": "2", "sub_no": "a", "marks": 8, "question": "Society evolves with time, and technology changes with social demand. How has technology impacted society and vice versa? Explain." },
+        { "number": "2", "sub_no": "b", "marks": 7, "question": "Define computing? Describe how the programming languages changes with the evolution in computer technology." },
+        { "number": "3", "sub_no": "a", "marks": 8, "question": "Describe the professional ethics for a software engineer. Explain descriptive and normative claims." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "What are professional rights and professional responsibilities? Explain in brief. Briefly explain how can we avoid whistleblowing." },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "Define the terms conflict of interest and whistleblowing? Explain values in design." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Discuss the central theme of code of ethics of ACM." },
+        { "number": "5", "sub_no": "a", "marks": 7, "question": "What are the best ways to protect an individual's privacy in internet space? Explain different privacy risks in detail." },
+        { "number": "5", "sub_no": "b", "marks": 8, "question": "Define the terms cyber crimes and digital forgery? Describe current scenario and effect of online pornography on children and state best approaches to reduce cyber crime in cyber space in the context of Nepal compared to rest of the world." },
+        { "number": "6", "sub_no": "a", "marks": 8, "question": "What are Intellectual Property and Intellectual Property Rights? List out the different types of IP and explain any two of them." },
+        { "number": "6", "sub_no": "b", "marks": 7, "question": "Explain different acts related to IPR in Nepal. State in brief about Right to Information act and Electronic Transaction Act in Nepal." },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Cyber terrorism" },
+            { "sub_no": "b", "marks": 5, "question": "Ethical Relativism" },
+            { "sub_no": "c", "marks": 5, "question": "Accuracy vs. Democracy in the Internet" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-FA",
+      "year": "2019",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 7, "question": "Describe the contribution of Edward Dijkstra in the field of computing." },
+        { "number": "1", "sub_no": "b", "marks": 8, "question": "How has society and technology affected each other? Discuss." },
+        {
+          "number": "2",
+          "instruction": "Case Study: Facebook-related crimes on rise",
+          "context": "Cyber crimes arising from the misuse of social networking sites like Facebook are on the rise, police said Monday. Police Kathmandu, Dec. 13: Cyber crimes arising from the misuse of social networking sites like Facebook are on the rise, police said Monday. Police investigation shows that cases of phishing, data hacking and blackmailing have increased. Lately, the police arrested two Nepali Facebook defrauders — a male and a female — on alleged charges of cheating people through Facebook by promising valuable gift items. Fraudsters — Anilnath Boki Shrestha of Sundhara, Lalitpur district and Anita Maharjan of Banasthali, Kathmandu — were arrested for illegally taking money from innocent people. According to the police, Shrestha and Maharjan, posing themselves as gentlemen, promised the people valuable gifts on condition that they first deposited a small amount in fees in the said bank accounts to obtain the gifts. Nearly half a dozen victims had deposited their money in the bank accounts of the fraudsters after becoming a friend on Facebook. Superintendent of Police (SP) Meera Chaudhari of the Central Investigation Bureau (CIB) said that the Facebook defrauders had created fake Facebook identities. SP Chaudhari said that Shrestha was arrested from Thamel and Maharjan from her own home at Banasthali on Saturday. The swi ndlers had collected Rs. 500,000 from the victims, said the police. According to police statistics, over three to four years, the number of cybercrimes stood at 19 in 2013, which reached more than 130 by the end of 2016. There were 39 cyber crime cases in 2014 and 89 in 2015, the report stated. Two months ago, the Metropolitan Police Crime Division (MPCD) had arrested Tul Bahadur Tamang of Mankha VDC of Sindhupalchowk district for swindling Rs. 3.1 million from various people with promises of jobs in the USA and Canada. The CIB said that it had registered more than 90 cases of Facebook cheating that include financial and Facebook blackmailing. Cases of cyber crime are increasing fast with each passing year along with the rise in the number of internet and social media users. The Nepal Police statistics show that the number of cyber crimes surged by 105 per cent during the last fiscal 2014-15. Prakash Jung Karki, spokesperson at the Metropolitan Police Crime Division of the Nepal Police, said that there was a need for a comprehensive cyber law, establishment of a Nepali Computer Incident Response Team (CIRT) and capacity building of all the stakeholders to combat cyber-crime. Till date, the Nepal Police have been handling cases related to cyber-crime under the Electronic Transaction Act 2006.",
+          "options": [
+            { "sub_no": "a", "marks": 10, "question": "Taking the reference of the given case, discuss the current status of issues related to IT in Nepalese society. Relate ethical issues with the scenario." },
+            { "sub_no": "b", "marks": 5, "question": "What should be the role of professionals in dealing with the aforementioned condition?" }
+          ]
+        },
+        {
+          "number": "3",
+          "instruction": "Case Study: Microsoft Word Thesaurus (15 marks)",
+          "context": "Many losses of skills are unintended side effects of computer but Microsoft made a conscious decision that has the effect of diminishing vocabulary and the richness and humor of languages. The thesaurus in Microsoft Word 2000 lists 'trick' as the only synonym for 'fool'. It omits 'clown', 'blockhead', 'idiot', 'ninny', 'dunderhead', 'ignoramus' and others, all present in earlier versions. Because of the popularity of Word and the ease of using its reference utilities, fewer people will consult standard references such as dictionaries and Roget's Thesaurus (which also contains 'dupe' and 'simpleton', for example). Microsoft said that it eliminated words 'that may have offensive uses'.",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Do producers of widely used reference works have an ethical responsibility to report the substance of their field accurately, or a social responsibility to remove potentially offensive words from the language?" },
+            { "sub_no": "b", "marks": 5, "question": "Should software engineers concern themselves with ethical issues any more than other individuals in society?" },
+            { "sub_no": "c", "marks": 5, "question": "Do computers and computer related technology really raise new ethical problems or do they just present old issues in a new form?" }
+          ]
+        },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "'Software risk is considered sensitive in case of life critical systems as the developer is the only person to blame if an accident occurs'. Do you agree or disagree? Justify your opinion." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Is it possible to enforce censorship in cyberspace? Justify your opinion with relevant example." },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "IPR (Intellectual Property Rights) have become a serious concern with the advancement in computing technology. What are some of the intellectual properties? Describe." },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "What do you mean by digital forensics? Explain different cybercrimes. How would you prevent your computer from crime? Discuss." },
+        { "number": "6", "sub_no": "a", "marks": 8, "question": "Some people think that technology has made life easier; others claim the opposite. What is your opinion on this issue?" },
+        { "number": "6", "sub_no": "b", "marks": 7, "question": "Cyber Terrorism has been a major issue in today's context. What do you think how to deal with this issue? Put your views." },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Contributions of Mark Zukerberg" },
+            { "sub_no": "b", "marks": 5, "question": "Safety in Critical Systems" },
+            { "sub_no": "c", "marks": 5, "question": "Use of E-government systems in Nepal" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-SP",
+      "year": "2019",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 7, "question": "What do you mean by computing? Describe how the computing changes with the evolution in computer technology." },
+        { "number": "1", "sub_no": "b", "marks": 8, "question": "Discuss in brief about the elements of a society. Explain about digital divide and governance of internet." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "State major role of Von Neumann and Lady Ada in the field of computing. Explain about the history of Operating System." },
+        { "number": "2", "sub_no": "b", "marks": 8, "question": "What is digital divide and how it can be minimized? Explain Health related issues for IT Professionals." },
+        { "number": "3", "sub_no": "a", "marks": 7, "question": "Define the terms conflict of interest and whistleblowing. Explain the code of ethics of Nepal Engineering Council." },
+        { "number": "3", "sub_no": "b", "marks": 8, "question": "Government has issued Secure Password Practices. Describe its gist. Also put some light on objectives of IT policy of Nepal." },
+        { "number": "4", "sub_no": "a", "marks": 7, "question": "Why is it important to focus continuously in safety of critical systems? Explain value centered design." },
+        { "number": "4", "sub_no": "b", "marks": 8, "question": "What do you mean by computer crimes and digital forgery? Describe current scenario and effect of online pornography on children and state best approaches to reduce cyber crime in cyber space." },
+        { "number": "5", "sub_no": "a", "marks": 7, "question": "Explain about the Safety critical system. Define responsibility and accountability of computer users? Explain hardware design issues." },
+        { "number": "5", "sub_no": "b", "marks": 8, "question": "What is offensive speech and censorship? Illustrate with relevant example for the importance of censorship in cyberspace." },
+        {
+          "number": "6",
+          "instruction": "Case Study: Jan and Keith — Authorship ethics (15 marks)",
+          "context": "They are required to publish original articles in scholarly and technical journals. As a graduate student, Jan developed a paper that he had never published, but now feels would be an excellent topic to publish in a journal. Jan discusses this idea with Keith, and they agree to work together on revising the paper. Jan does most of the work of revising the paper to bring it up to date. Keith's contributions are minimal, but Jan agrees to include Keith's name as co-author, so as to enhance Keith's chances of obtaining tenure. The article is accepted and later published in a scientific journal.",
+          "options": [
+            { "sub_no": "i", "marks": 5, "question": "Is it ethically acceptable for Jan go back to his graduate work for an article to publish?" },
+            { "sub_no": "ii", "marks": 5, "question": "Should Jan's thesis supervisor be credited in some way, and if so, how?" },
+            { "sub_no": "iii", "marks": 5, "question": "How much should Jan and Keith have agreed upon at the start of their collaboration? Was it either unethical or unwise for Jan to include Keith's name as co-author?" }
+          ]
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "IT policy of Nepal" },
+            { "sub_no": "b", "marks": 5, "question": "Trademark" },
+            { "sub_no": "c", "marks": 5, "question": "Online Harassment" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-SP",
+      "year": "2018",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "Write an essay on prehistory of computing and programming." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "'Information Technology has a major impact on poverty Alleviation and women empowerment'. Do you agree or disagree? Justify with your opinion." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "What do you understand by digital divide and how can we bridge the digital divide? Explain." },
+        { "number": "2", "sub_no": "b", "marks": 8, "question": "Define computer Ethics. Explain three different ways of organizing ethical issues." },
+        { "number": "3", "sub_no": "a", "marks": 8, "question": "Explain engineering and computing as a profession. List out the major responsibilities of an ICT Professional." },
+        { "number": "3", "sub_no": "b", "marks": 5, "question": "Write a note on Hacker ethics and netiquette." },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "Suppose, you are a project manager in implementing a predictive modelling software to know the behaviors of teenagers. What could be possible risks and how will you resolve them." },
+        { "number": "4", "sub_no": "b", "marks": 5, "question": "Privacy can still be maintained even when the individuals are exposed to social networking sites. Do you agree or disagree? Justify your opinion." },
+        { "number": "5", "sub_no": "a", "marks": 9, "question": "Cyber Crime has increased significantly with the increase in internet users. Elaborate this statement with reference to various types of crimes reported in Nepal." },
+        { "number": "5", "sub_no": "b", "marks": 5, "question": "What is phishing? Mention Types of Computer Crimes." },
+        { "number": "6", "sub_no": "a", "marks": 7, "question": "What do you know about IT Related laws of Nepal? Explain highlighting the IT Policy of Nepal." },
+        { "number": "6", "sub_no": "b", "marks": 8, "question": "What do you understand by Intellectual Property Right? Discuss Trademark, patent, Design and Copyright." },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any Three) — 3×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Code of Ethics of NEC" },
+            { "sub_no": "b", "marks": 5, "question": "Descriptive and Normative Claims" },
+            { "sub_no": "c", "marks": 5, "question": "E-Government" },
+            { "sub_no": "d", "marks": 5, "question": "Offensive speech and censorship in Cyberspace" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-FA",
+      "year": "2018",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 7, "question": "State major contributions of Jon Von Neumann in the field of computing." },
+        { "number": "1", "sub_no": "b", "marks": 8, "question": "Identify and explain issues about technology and social change that often underlie discussions of the social implications of computer and information technology." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "Define descriptive and normative claims. Explain utilitarianism and deontological theories." },
+        { "number": "2", "sub_no": "b", "marks": 8, "question": "Define the term whistle blowing. What are the advantages and disadvantages of whistle blowing? Explain steps to solve whistle blowing in an organization." },
+        { "number": "3", "sub_no": "a", "marks": 7, "question": "Define values in design. Explain accuracy and democracy in internet." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "What is personal privacy? How have computers affected privacy?" },
+        { "number": "4", "sub_no": "a", "marks": 7, "question": "What do you mean by denial of service? Explain different types of malicious programs." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Define Copyright, Trademark, Patent and Trade Secret." },
+        { "number": "5", "sub_no": "a", "marks": 7, "question": "Describe in short IT Policy of Nepal. Do you believe that the Government of Nepal should do more work on the field of cyber law? If yes, give your suggestion." },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "Define society. Explain impact of technology in society." },
+        {
+          "number": "6",
+          "instruction": "Case Study: NTIA Digital Divide Report 1999 (15 marks)",
+          "context": "In 1999, the National Telecommunications and Information Administration (NTIA), an agency of the U.S. Department of Commerce, using data from the Census Bureau, reported the following: The good news is that Americans are more connected than ever before. Access to computers and the Internet has soared for people in all demographics groups and geographic locations. At the end of 1998, over 40% of American households owned computers, and one-quarter of all households had Internet access. Accompanying this good news, however, is the persistence of the digital divide between the information rich (such as Whites, Asians/Pacific Islanders, those with higher incomes, those more educated, and dual-parent households) and the information poor (such as those who are younger, those with lower incomes and education levels, certain minorities, and those in rural areas or central cities). The 1998 data reveal significant disparities, including the following: Households with incomes of $75,000 and higher are more than twenty times more likely to have access to the Internet than those at the lowest income levels, and more than nine times as likely to have a computers at home. Whites are more likely to have access to the Internet from home than Blacks or Hispanics have from any locations. Blacks or Hispanic households are approximately one-third as likely to have home Internet access as households of Asian/Pacific Islanders descent, and roughly two-fifths as likely as White households. Regardless of income level, Americans living in rural areas are lagging behind in Internet access. Indeed, at the lowest income levels, those in urban areas are more than twice as likely to have Internet access as those earning the same income in rural areas.",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Why is access to the Internet important for democracy?" },
+            { "sub_no": "b", "marks": 5, "question": "'Author does not focus exclusively on the Internet; often he refers simply to access to the technology' why? Explain." },
+            { "sub_no": "c", "marks": 5, "question": "What do you think will be the important ethical issues in the future of the Internet?" }
+          ]
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Digital Forensics" },
+            { "sub_no": "b", "marks": 5, "question": "History of Networking" },
+            { "sub_no": "c", "marks": 5, "question": "IEEE and ACM" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-SP",
+      "year": "2017",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 7, "question": "State major role of Von Neumann and Lady Ada in the field of computing. Explain about the history of Operating System." },
+        { "number": "1", "sub_no": "b", "marks": 8, "question": "Discuss in brief about the elements of a society. Explain about digital divide and governance of internet." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "Define the terms ethics, moral and etiquette. Describe descriptive and Normative claims with example." },
+        { "number": "2", "sub_no": "b", "marks": 4, "question": "What is digital divide and how it can be minimized? Explain Health related issues for IT Professionals." },
+        { "number": "3", "sub_no": "a", "marks": 8, "question": "Explain Engineering and computing as profession. Explain code of ethics of Nepal Engineering Council." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "Define conflict of interest and whistleblowing. When is an engineer morally obligated to blow the whistle?" },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "Explain about the Safety critical system. Define responsibility and accountability of computer users? Explain hardware design issues." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "What do you mean by privacy risk? Explain about offensive speech and censorship in cyberspace." },
+        { "number": "5", "sub_no": "a", "marks": 7, "question": "What is offensive speech and censorship? Illustrate with relevant example for the importance of censorship in cyberspace." },
+        { "number": "5", "sub_no": "b", "marks": 8, "question": "What is the difference between trademarks, patents and copyrights? I often find good pictures or quotes on the Internet – can I use them in my own marketing materials? Does it make a difference if I make sure to give credit to the source?" },
+        {
+          "number": "6",
+          "instruction": "Case Study: Jan and Keith — Authorship ethics (15 marks)",
+          "context": "They are required to publish original articles in scholarly and technical journals. As a graduate student, Jan developed a paper that he had never published, but now feels would be an excellent topic to publish in a journal. Jan discusses this idea with Keith, and they agree to work together on revising the paper. Jan does most of the work of revising the paper to bring it up to date. Keith's contributions are minimal, but Jan agrees to include Keith's name as co-author, so as to enhance Keith's chances of obtaining tenure. The article is accepted and later published in a scientific journal.",
+          "options": [
+            { "sub_no": "i", "marks": 5, "question": "Is it ethically acceptable for Jan go back to his graduate work for an article to publish?" },
+            { "sub_no": "ii", "marks": 5, "question": "Should Jan's thesis supervisor be credited in some way, and if so, how?" },
+            { "sub_no": "iii", "marks": 5, "question": "How much should Jan and Keith have agreed upon at the start of their collaboration? Was it either unethical or unwise for Jan to include Keith's name as co-author?" }
+          ]
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "IT policy of Nepal" },
+            { "sub_no": "b", "marks": 5, "question": "Phishing" },
+            { "sub_no": "c", "marks": 5, "question": "Pioneers of computing" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-FA",
+      "year": "2017",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 7, "question": "'Technology and Society evolves with each other.' Justify the statement relating to the changes in IT sector." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "How can IT facilitate health sector and education sector? Put your ideas." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "Government has issued Secure Password Practices. Describe its gist. Also put some light on objectives of IT policy of Nepal." },
+        { "number": "2", "sub_no": "b", "marks": 7, "question": "What are trademarks and trade secrets? How has GoN protected them? Explain in brief." },
+        { "number": "3", "sub_no": "a", "marks": 7, "question": "Describe the evolution of high level programming languages." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "Cyber Terrorism has been a major issue in today's context. What do you think how to deal with this issue? Put your views." },
+        {
+          "number": "4",
+          "instruction": "Case Study: Trump Is President. Now Encrypt Your Email.",
+          "context": "In the weeks after Donald J. Trump won the election, a schism threatened to break my group of friends in two. Not a political argument brought about by the president-elect, or a philosophical fight over the future of the country, but a question of which app we should be using to chat: GroupMe, a popular group-messaging app, had on the one hand GroupMe which offered secure, encrypted communication, and we'd been using it for years. On the other, Signal, an open-source secure-messaging service produced by Open Whisper Systems, had a 400 percent increase in downloads in the days after the election, an incredible spike for an app developed by a small team funded by grants and donations. \"Millions of people used Signal before the election,\" Moxie Marlinspike, the founder of Open Whisper, told me recently, \"but there has never before been a single event that resulted in such a dramatic and sustained day-over-day increase in new Signal users.\" Signal isn't alone in its newfound popularity. ProtonMail, a respected secure-email start-up based in Switzerland (a country with particularly strict privacy laws), has seen a sustained boost of new email sign-ups \"in the ballpark of a 100 percent increase compared to before Trump,\" according to Andy Yen, the chief executive of ProtonMail's parent company. \"Trump, and the U.S. election as a whole, was clearly a catalyst that brought the issue of email privacy to the forefront globally.\" Eight years of a broadly likable president lulled liberals into information-security complacency, even as Barack Obama expanded the executive branch's surveillance powers — and made heavy use of them at home and abroad. We should have been paying closer attention to how much of our data and our communications were exposed to the government, especially after the Snowden leaks revealed the scale and extent of the National Security Agency's surveillance. After those same leaks revealed the involvement of major private technology companies in government spying efforts, we should have been more careful in our use of them.",
+          "options": [
+            { "sub_no": "a", "marks": 7, "question": "Taking the reference of the given case, with formation of new government in US, the ethical relativism can be clearly perceived. Describe what ethical relativism is, in this context." },
+            { "sub_no": "b", "marks": 7, "question": "What do you think that, what was the ethical issues that created the need of the above scenario?" },
+            { "sub_no": "c", "marks": 7, "question": "What should be the role of professionals in dealing with the aforementioned condition?" }
+          ]
+        },
+        { "number": "5", "sub_no": "a", "marks": 7, "question": "What is conflict of interest? Describe its types." },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "What is Netiquette? How should we behave while using emails? Explain." },
+        { "number": "5", "sub_no": "c", "marks": 7, "question": "'Accuracy vs. Democracy' has been a raising concern in the internet. Which faction would you prefer? Put your views." },
+        { "number": "6", "sub_no": "a", "marks": 7, "question": "What is offensive speech and censorship? Explain the importance of censorship illustrating an example." },
+        { "number": "6", "sub_no": "b", "marks": 7, "question": "What are malicious programs? Describe different types of such programs." },
+        { "number": "6", "sub_no": "c", "marks": 7, "question": "What are rights? Does a professional have special rights? Describe in brief." },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Mark Zukerberg" },
+            { "sub_no": "b", "marks": 5, "question": "Safety in Critical Systems" },
+            { "sub_no": "c", "marks": 5, "question": "E-governance and E-government systems" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-FA",
+      "year": "2016",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 7, "question": "Describe the role of various types of computer hardware in personal productivity and organizational productivity." },
+        { "number": "1", "sub_no": "b", "marks": 8, "question": "How has technology impacted the society? Describe the importance of IT in Poverty Alleviation." },
+        { "number": "2", "sub_no": "a", "marks": 8, "question": "Define a society and explain features of a society. State and explain any FOUR issues that are major concern to the Society and the Internet." },
+        { "number": "2", "sub_no": "b", "marks": 7, "question": "There have been many professional bodies in the field of engineering and their code of ethics as well. But the central theme of all those code of ethics remains to be similar. Describe the main constituent of any one of those codes." },
+        { "number": "3", "sub_no": "a", "marks": 7, "question": "Briefly explain the difference between the purpose of a Code of Conduct and a Code of Practice." },
+        { "number": "3", "sub_no": "b", "marks": 8, "question": "How do you judge the ethical standard of Engineers in Nepal? Describe the role of Nepal Engineering Council in maintaining ethical standard of Nepalese Engineers." },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "When developing an app, sound privacy and security practices are keys to consumer confidence. Why has privacy of consumer considered important issue now a day? Explain." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Compare and contrast the protection that copyright and trademarks can provide for the developer of software designed to provide real-time control data." },
+        { "number": "5", "sub_no": "a", "marks": 7, "question": "The trends of hacking and tampering of data has been on hike now a day. What are other similar criminal activities? List them and explain any three." },
+        { "number": "5", "sub_no": "b", "marks": 8, "question": "'Psycho-social factors are as important as the physical ergonomics of workstations and the work environment in influencing health and well-being of workers.' Justify." },
+        { "number": "6", "sub_no": "a", "marks": 5, "question": "Compare Utilitarianism and Deontological theories in short." },
+        { "number": "6", "sub_no": "b", "marks": 5, "question": "Write briefly on Social Context of Computing." },
+        {
+          "number": "7",
+          "instruction": "Case Study: Fraudsters Stole ¥1.4 Billion from 1,400 Japanese ATMs in Just 3 Hours (15 marks)",
+          "context": "In an era where major data hacks are on the rise, it is no surprise breaches on individuals are also up. In just three hours, over 100 criminals managed to steal ¥1.4 Billion (approx. US$12.7 Million) from around 1,400 ATMs placed in small convenience stores across Japan. The heist took place on May 15, between 5:00 am and 8:00 am, and looked like a coordinated attack by an international crime network. The crooks operated around 1,400 convenience store ATMs from where the cash was withdrawn simultaneously in 16 prefectures around Japan, including Tokyo, Osaka, Fukuoka, Kanagawa, Aichi, Nagasaki, Hyogo, Chiba and Niigata. The Mainichi reports. Many ATM incidents involve a long-established technique called 'ATM Skimming' in which criminals install devices to obtain card details via its magnetic stripe, or use ATM malware or from data breaches, and then work with so-called carders and money mules to pilfer cash at ATMs or make online purchases. In this particular case as well, the heist was carried out using cloned credit cards that contained bank account details obtained from Standard Bank in South Africa. The criminal gang of around 100 people believed to have withdrawn 100,000 yen (nearly US$900) — the maximum amount allowed by cash machines — from each of the 14,000 ATMs. No one has yet been arrested in connection with the heist. However, Japanese police are currently trying to identify the suspects by examining CCTV footage and are working with South African authorities to investigate how the information on credit cards was leaked. This incident shows a sophisticated move by a group of criminals who stole the critical card data, but rather than using it immediately, it kept the data safe and used effectively when least suspected. So, be cautious when you use any ATM and always look carefully at the teller machine before using it. If you found the machine looks damaged or scratched, DO NOT use the ATM.",
+          "options": [
+            { "sub_no": "a", "marks": 7.5, "question": "From the ethical, moral and legal perspective how do you relate the above case?" },
+            { "sub_no": "b", "marks": 7.5, "question": "The trends of hacking and tampering of data has been on hike now a day. What are other similar criminal activities? List them and explain any three." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-FA",
+      "year": "2015",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "State major contributions of Jon Von Neumann and Konrad Zuse in the field of computing." },
+        { "number": "2", "sub_no": "-", "marks": 8, "question": "'Professionals from various fields should involve in the process of IT manpower development.' Analyze." },
+        { "number": "3", "sub_no": "-", "marks": 8, "question": "Define society. How has technology impacted society from the aspect of rural life improvement? Explain." },
+        { "number": "4", "sub_no": "-", "marks": 8, "question": "What are the rules of rules? Describe the motivations for John Rawls in formulating the theory of justice." },
+        { "number": "5", "sub_no": "-", "marks": 8, "question": "'Professional conscientious and Right of Conscientious Refusal are vital professional practices.' Discuss the statement on the basis of codes of ethics of IEEE and ACM." },
+        { "number": "6", "sub_no": "-", "marks": 8, "question": "What is privacy? How has privacy been changed in today's context? Explain." },
+        { "number": "7", "sub_no": "-", "marks": 8, "question": "'Psycho-social factors are as important as the physical ergonomics of workstations and the work environment in influencing health and well-being of workers.' Justify." },
+        { "number": "8", "sub_no": "-", "marks": 8, "question": "Can a software risk be mitigated completely beforehand? Suggest ways to manage software complexity (organized) with the approach of decomposition, hierarchy and abstraction." },
+        { "number": "9", "sub_no": "-", "marks": 8, "question": "How has the law of Nepal Protected Design and Patents? Explain." },
+        { "number": "10", "sub_no": "-", "marks": 8, "question": "Internet has become an integral part of human life. It is necessary tool of communication and development. Do you agree? Justify your views with relevant examples." },
+        {
+          "number": "B",
+          "instruction": "Case Study: Therac-25 Accident (20 marks)",
+          "context": "After undergoing a lumpectomy to remove a malignant breast tumor, a 61-year-old woman was receiving follow-up radiation treatment to nearby lymph nodes on a Therac-25 at the Kennestone Regional Oncology Center in Marietta. On June 3, 1985, the patient was set up for a 10-MeV electron treatment to the clavicle area. When the machine turned on, she felt a \"tremendous force of heat... This red-hot sensation.\" When the technician came in, the patient said, \"You burned me. Although there were no marks on the patient at the time, the treatment area felt \"warm to the touch\". The patient went home, but shortly afterward she developed a reddening and swelling in the center of the treatment area. Her pain had increased to the point that her shoulder \"froze\" and she experienced spasms. She was admitted to West Paces Ferry Hospital in Atlanta, but her oncologists continued to send her to Kennestone for Therac-25 treatments. About two weeks later, the physicist at Kennestone notices that the patient had a matching reddening on her back as though a burn had gone through her body, and the swollen area had begun to slough off layers of skin. Her shoulder was immobile, and she was apparently in great pain. In March of 1986, AECL received a lawsuit from the patient listing the hospital, manufacturer, and service organization responsible for the machine. Investigators pointed to the lack of a mechanism in AECL to follow up reports of suspected accidents. The Kennestone physicist later estimated that she received one or two doses of radiation in the 15,000 to 20,000 rad (radiation absorbed dose) range. Typical single therapeutic doses are in the 200 rad range. Doses of 1,000 rads can be fatal if delivered to the whole body. Eventually, the patient's breast had to be removed because of the radiation burns. She completely lost the use of her shoulder and her arm, and was in constant pain. But the manufacturer and operators of the machine refused to believe that it could have been caused by the Therac-25. The treatment prescription printout feature was disabled at the time of the accident, so there was no hard copy of treatment data. The lawsuit was eventually settled out of court.",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Who do you think are responsible for the accident? Discuss." },
+            { "sub_no": "b", "marks": 5, "question": "Knowing that the Therac-25 has software more responsible than the hardware in emitting the radiation; would you confirm that software is more risky than hardware? Give reasons." },
+            { "sub_no": "c", "marks": 5, "question": "Are you satisfied with the way the case was settled out of court? Why?" },
+            { "sub_no": "d", "marks": 5, "question": "What learning can be learnt from the case study? Do you have any suggestions to minimize such accidents?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-SP",
+      "year": "2015",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "Give a brief history of computing. Also list the leading pioneers of computing along with their contribution." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "Digital divide could be bridged by increasing the smartphone penetration and expanding the broadband Internet across the country. Justify your opinion." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "What is ergonomics and RMI? State symptoms of RMI and also mention the ways to resolve it." },
+        { "number": "2", "sub_no": "b", "marks": 8, "question": "State and explain deontological and utilitarian theories in short." },
+        { "number": "3", "sub_no": "a", "marks": 7, "question": "Mention the attributes of a profession. What do you mean by conscientious refusal and what are other rights and responsibilities of a professional? Discuss." },
+        { "number": "3", "sub_no": "b", "marks": 8, "question": "Define IPR? What are the legislative procedures and punishments in case of copyright and patent violation?" },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "'Software risk is considered sensitive in case of life critical systems as there is no one person to blame if an accident occurs'. Do you agree or disagree? Justify your opinion." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Define privacy protection. What are the roles that the government and IT professionals should take to protect privacy?" },
+        { "number": "5", "sub_no": "a", "marks": 6, "question": "What whistleblowing? What are the conditions that you may blow the whistle?" },
+        { "number": "5", "sub_no": "b", "marks": 9, "question": "Explain the Various types of Cyber Crime." },
+        {
+          "number": "6",
+          "instruction": "Write Short notes (Any two) — 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "IT Policy of Nepal" },
+            { "sub_no": "b", "marks": 5, "question": "Ethical Relativism" },
+            { "sub_no": "c", "marks": 5, "question": "Digital Forensics" },
+            { "sub_no": "d", "marks": 5, "question": "e-Government" }
+          ]
+        },
+        {
+          "number": "7",
+          "instruction": "Case Study: Chinese Golden Shield Firewall (15 marks)",
+          "context": "Chinese web users are being denied access to a range of religious sites based abroad as the Chinese government's \"Golden Shield\" firewall is used to censor the Internet. While blocking undesirable sites promoting pornography and violence, the firewall also limits religious web content such as sites related to the Dalai Lama, the Falun Gong cult and various Buddhist and Muslim movements. Also blocked are sites covering persecution of religious communities in China and a number of Catholic sites, including the website of the Hong Kong diocese and the Divine Word Missionaries in Taiwan. Not blocked are sites in European languages covering religious freedom issues, even those covering repression within China. While overall Internet usage in China may be low by developed country standards, it has been rapidly growing, especially in the capital of Beijing and the coastal region. The official China Internet Network Information Center puts the number of Chinese with access to the Internet in June 2003 at 79.5 million. This number has been doubling every six months. Internet censorship is part of a comprehensive attempt to censor all means of communication. While printed publications have long been censored in China, authorities also have tried to keep up with technological developments. The Global Internet Policy Initiative warned in June of new technology from a Chinese firm that monitors 'subversive' text messages sent by mobile phone.",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "The government practices the Right to Information Act and the government itself denies access to a range of sites. Isn't it conflicting to one another?" },
+            { "sub_no": "b", "marks": 5, "question": "Based on the data provided in the case above, do you think it is correct to enforce censorship in the cyberspace? Elaborate your opinion." },
+            { "sub_no": "c", "marks": 5, "question": "The sites blocked inside China could be accessed from outside the country like Hong Kong or Europe. Now, discuss how relevant the control over the internet is?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2014-FA",
+      "year": "2014",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "Identify some of the major breakthroughs in the history of computing. Your answer should cover all the major innovations in the field of hardware, software and networking." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "What do you understand by 'Social Context of Computing'? Discuss the positive and negative ways in which computer alters the modes of interaction between users (people)." },
+        { "number": "2", "sub_no": "a", "marks": 10, "question": "What is Ethical Relativism? Compare and contrast 'Utilitarianism and Deontological' theory in the light of ethical relativism. Give examples to support your answers." },
+        { "number": "2", "sub_no": "b", "marks": 5, "question": "What is code of ethics? Mention any five code of ethics proposed by ACM." },
+        { "number": "3", "sub_no": "a", "marks": 8, "question": "An information network has significant impact on society in many ways. Justify any four." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "What is a trade secret? How it is different from copyright? Illustrate some of the major concerns that are associated with trade secrets." },
+        { "number": "4", "sub_no": "a", "marks": 7, "question": "Why software entities are considered complex? What are the methods of resolving complexity of a software? Can these complexities be resolved completely? Give your view." },
+        { "number": "4", "sub_no": "b", "marks": 8, "question": "'Privacy is major the concern of all digital systems today', what do you understand by this statement? How this privacy concern becomes more sensitive in the major databases? What are the technological strategies used to protect privacy?" },
+        {
+          "number": "5",
+          "instruction": "Case Study: Control over the Internet — Chinese Golden Shield (20 marks)",
+          "context": "Chinese web users are being denied access to a range of religious sites based abroad as the Chinese government's \"Golden Shield\" firewall is used to censor the Internet. While blocking undesirable sites promoting pornography and violence, the firewall also limits religious web content such as sites related to the Dalai Lama, the Falun Gong cult and various Buddhist and Muslim movements. Also blocked are sites covering persecution of religious communities in China and a number of Catholic sites, including the website of the Hong Kong diocese and the Divine Word Missionaries in Taiwan. Not blocked are sites in European languages covering religious freedom issues, even those covering repression within China. While overall Internet usage in China may be low by developed country standards, it has been rapidly growing, especially in the capital of Beijing and the coastal region. The official China Internet Network Information Center puts the number of Chinese with access to the Internet in June 2003 at 79.5 million. This number has been doubling every six months. Internet censorship is part of a comprehensive attempt to censor all means of communication. While printed publications have long been censored in China, authorities also have tried to keep up with technological developments. The Global Internet Policy Initiative warned in June of new technology from a Chinese firm that monitors 'subversive' text messages sent by mobile phone.",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "What is the case trying to highlight? Bring out the issues raised." },
+            { "sub_no": "b", "marks": 5, "question": "Do you think is it right to exercise control over internet? Justify." },
+            { "sub_no": "c", "marks": 5, "question": "What is the scenario of Nepalese Government in context to the situation described above?" },
+            { "sub_no": "d", "marks": 5, "question": "Write down some of the commercial implications of Internet in Nepal." }
+          ]
+        },
+        {
+          "number": "6",
+          "instruction": "Case Study: USPA & IRA Company — Computer Crime",
+          "context": "A former programmer in Fort Worth, Texas, has been convicted of planting a computer virus in his employer's system that wiped out 168,000 records and was activated like a time bomb, doing its damage two days after he was fired. Tarrant County Assistant District Attorney Davis McCown said he believes he is the first prosecutor in the country to convict someone for destroying computer records using a virus. Donald Gene Burleson, 40, was convicted of Charges of harmful access to a computer, a third-degree felony that carries up to 10 years in prison and up to $5,000 in fines. Burleson planted the virus in revenge for its firing from an insurance company, McCown said. Jurors were told during a technical and sometimes complicated three-week trial that Burleson planted a rogue program in the computer system used to store records at USPA and IRA Co., a Fort Worth-based insurance and brokerage firm. The virus, McCown said, was activated two days after Burleson had been fired because of personality conflicts with other employees. \"There were a series of programs built into the system as early as Labor Day,\" McCown said. Once he got fired, those programs went off. The virus was discovered two days later, after it had eliminated 168,000 payroll records, holding up company paychecks for more than a month.",
+          "options": [
+            { "sub_no": "a", "marks": 7, "question": "What do you conclude from the above passage? Describe in context with society." },
+            { "sub_no": "b", "marks": 7, "question": "What are the ethical and legal issues involved with it?" },
+            { "sub_no": "c", "marks": 6, "question": "Suggest the way the crime could have been stopped." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2013-FA",
+      "year": "2013",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "instruction": "Case Study: USPA and IRA Company",
+          "context": "A former programmer in Fort Worth, Texas, has been convicted of planting a computer virus in his employer's system that wiped out 168,000 records and was activated like a time bomb, doing its damage two days after he was fired. Tarrant County Assistant District Attorney Davis McCown said he believes he is the first prosecutor in the country to convict someone for destroying computer records using a virus. Donald Gene Burleson, 40, was convicted of Charges of harmful access to a computer, a third-degree felony that carries up to 10 years in prison and up to $5,000 in fines. Burleson planted the virus in revenge for its firing from an insurance company, McCown said. Jurors were told during a technical and sometimes complicated three-week trial that Burleson planted a rogue program in the computer system used to store records at USPA and IRA Co., a Fort Worth-based insurance and brokerage firm. The virus, McCown said, was activated two days after Burleson had been fired because of personality conflicts with other employees. \"There were a series of programs built into the system as early as Labor Day,\" McCown said. Once he got fired, those programs went off. The virus was discovered two days later, after it had eliminated 168,000 payroll records, holding up company paychecks for more than a month.",
+          "options": [
+            { "sub_no": "a", "marks": 8, "question": "Describe in context with the above example, how is technology making a negative impact into the society?" },
+            { "sub_no": "b", "marks": 5, "question": "Do you think that the above act was ethical? Justify." },
+            { "sub_no": "c", "marks": 5, "question": "Suggest the way the accident could have been stopped." }
+          ]
+        },
+        { "number": "2", "sub_no": "a", "marks": 8, "question": "Define society. How has the rural life changed with technology? Explain." },
+        { "number": "2", "sub_no": "b", "marks": 7, "question": "Define profession. Describe about the different professional rights." },
+        { "number": "3", "sub_no": "a", "marks": 8, "question": "What is Intellectual Property? Describe different Intellectual properties with suitable examples." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "How has internet and telecommunication affected the human civilization, today? Justify your views." },
+        { "number": "4", "sub_no": "a", "marks": 7, "question": "Describe the contributions of Charles Babbage in the field of computing science." },
+        { "number": "4", "sub_no": "b", "marks": 5, "question": "What are complex systems? What are its features?" },
+        { "number": "4", "sub_no": "c", "marks": 5, "question": "Define software risks? Explain software risk with suitable examples." },
+        { "number": "5", "sub_no": "a", "marks": 7, "question": "Describe in brief about the IT Policy of Nepal." },
+        { "number": "5", "sub_no": "b", "marks": 8, "question": "Differentiate Utilitarianism and Deontological Theories." },
+        { "number": "6", "sub_no": "a", "marks": 7, "question": "What do you understand by civil liberties? Explain with suitable examples." },
+        { "number": "6", "sub_no": "b", "marks": 8, "question": "How can privacy be protected? Describe." },
+        {
+          "number": "7",
+          "instruction": "Write Short notes on any Two 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Copyrights" },
+            { "sub_no": "b", "marks": 5, "question": "Conflict of Interests" },
+            { "sub_no": "c", "marks": 5, "question": "Konrard Zuse" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2012-FA",
+      "year": "2012",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "Describe the role of Integrated Chip (IC) in the development of computers. Also point out the major developments in the Fifth generation computers compared to the Fourth generation computers." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "\"Professionals from various fields should involve in the process of IT manpower development.\" Analyze." },
+        { "number": "2", "sub_no": "a", "marks": 7, "question": "Write brief notes on (i) ICT and Sexual violence and (ii) Cross gender communication in the cyberspace." },
+        { "number": "2", "sub_no": "b", "marks": 7, "question": "Discuss \"Ethical Relativism\" as a tool for ethical analysis." },
+        { "number": "3", "sub_no": "a", "marks": 8, "question": "Utilitarian and Deontologists, though refer to different philosophies, may sometimes come to the same conclusion. Prove with an example." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "What are attributes of a profession? Verify that engineering is a profession, qualifying all these attributes." },
+        { "number": "4", "sub_no": "a", "marks": 8, "question": "Explain the attributes of the organized complexity. How would you manage the risks of a complex software system in controlled manner." },
+        { "number": "4", "sub_no": "b", "marks": 7, "question": "Explain different types of whistleblowing. How can whistleblowing be prevented in an organization?" },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "What does the famous symbol © mean? When does a copyright begin and how long is it preserved? What do you know about international copyrights?" },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "Discuss the role of individuals and IT professionals to strengthen the privacy that are being violated due to deployment of IT systems." },
+        {
+          "number": "6",
+          "instruction": "Case Study: Trip Advisor Case Study",
+          "context": "TripAdvisor is a website based on the idea that travelers rely on other travelers' reviews to plan their trips, or at least can be satisfactorily helped in their decisions by them. Presently TripAdvisor contains 10 million travel reviews and opinions and written by 5 million registered members and counts 25 million visitors per month. Friendship Web 2.0 sites such as Facebook base their social networking on some kind of former relationship, or on strong affinity in terms of interests or curiosities. Unlike them, travel networking websites users do not have pre-existing associations. Their only connections are the discussion forums and the reviews and ratings generated by other users. As an evidence of the growing importance of online search and influence on travel behaviors, a survey of the hotel and restaurant industry in Europe in 2007 concluded that 80% of UK consumers are researching online before booking a hotel and half of them maintained to have refrained from booking a specific hotel as a consequence of a negative review on TripAdvisor-like websites. TripAdvisor, as said, is a website where most information posted is autonomously generated by its users. They post reviews, comments and ratings on a destination, a hotel, an attraction or any other tourism related 'object' or service. Furthermore, it is possible to add multimedia elements (photos and videos) or travel maps of previous trips or take part in discussion forums, web-based applications that allow users to post some material and discuss some specific topic. The forum's authors need to be registered; this entitles them to create a profile containing basic data (nickname, residence etc.). As a new feature in TripAdvisor, launched in 2007, is the Traveler Network. It allows users to add acquaintances to their travel maps, by connecting to pre-existing 'sources' (e.g. email addresses, other blogs etc.). This way friends may help planning a trip in a more efficient way: a tourist can create a network of travelers who can help by contributing their suggestions, reviews, advice. These linkages with people a user might be traveling with, or might be (even independently) heading for the same destination, form a real social network and is designed to save time on finding those who share travel similar tastes. Online social travel networking is also changing the way tourists plan their trips.",
+          "options": [
+            { "sub_no": "i", "marks": 5, "question": "Is this case simply a customer-relations and PR problem, or are there ethical issues to be considered as well?" },
+            { "sub_no": "ii", "marks": 5, "question": "Should you reveal problems in finding travel destination." },
+            { "sub_no": "iii", "marks": 5, "question": "Use one of the codes of ethics (IEEE/ACM) to analyze this case." }
+          ]
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on any two 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Uncertainty and Loss" },
+            { "sub_no": "b", "marks": 5, "question": "Qualitative versus Quantitative risk" },
+            { "sub_no": "c", "marks": 5, "question": "Code of ethics" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2012-SP",
+      "year": "2012",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        { "number": "1", "sub_no": "a", "marks": 8, "question": "How was the early age programming done? Contrast and compare the fifth and sixth generation of computers." },
+        { "number": "1", "sub_no": "b", "marks": 7, "question": "What do you mean by Society? Describe the essential elements of society." },
+        { "number": "2", "sub_no": "a", "marks": 8, "question": "What are the implications of Information technology? Describe your arguments with examples." },
+        { "number": "2", "sub_no": "b", "marks": 7, "question": "Discuss \"Ethical Relativism\" as a tool for ethical analysis." },
+        { "number": "3", "sub_no": "a", "marks": 8, "question": "Describe the Descriptive and Normative Claims. Compare deontological and utilitarianism theories." },
+        { "number": "3", "sub_no": "b", "marks": 7, "question": "What are attributes of profession? Describe major responsibilities of engineers." },
+        { "number": "4", "sub_no": "a", "marks": 7, "question": "Explain different types of whistle blowing. How can whistle blowing be prevented in an organization?" },
+        { "number": "4", "sub_no": "b", "marks": 8, "question": "What do you mean by complex network? Which characteristics are to be considered for finding complexity?" },
+        { "number": "5", "sub_no": "a", "marks": 8, "question": "What does the famous symbol © mean? When does it ends and how long is it preserved? What do you know about international norms regarding it?" },
+        { "number": "5", "sub_no": "b", "marks": 7, "question": "What are Patent and Trade Secret? Why do you think these ways of protection are needed in protecting the intellectual properties?" },
+        { "number": "6", "sub_no": "a", "marks": 8, "question": "List the Major features of Information Technology Policy of Nepal." },
+        { "number": "6", "sub_no": "b", "marks": 7, "question": "Describe the current computer-based threats to privacy and explain how the internet may change the historical balance in protecting freedom of expression." },
+        {
+          "number": "7",
+          "instruction": "CASE STUDY",
+          "context": "A software development company has just produced a new software package which incorporates new tax laws and prepares both individual and small business tax returns. The president of the company knows that the program has a number of bugs. He also believes the first firm to put this kind of software in the market is likely to capture the largest market share. When the product is shipped, it includes a disclaimer of responsibility for errors resulting from the use of the program. The company expects it will receive a number of complaints, queries, and suggestions for modification. The company plans to make changes and eventually issue updated, improved and debugged versions. The president argues that this is general industry policy: \"Anyone who buys version 1.0 of a program knows this and will take proper precautions.\" Because of bugs, a number of users filed incorrect tax returns and were penalized by government.",
+          "options": [
+            { "sub_no": "a", "marks": 10, "question": "What code of conduct is violated by the software company (and president in particular) based on principles in the ACM code of ethics." },
+            { "sub_no": "b", "marks": 10, "question": "Write down your opinion as a software company president." }
+          ]
+        }
+      ]
+    }
+  ]
+}

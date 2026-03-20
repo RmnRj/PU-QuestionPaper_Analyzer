@@ -1,0 +1,412 @@
+{
+  "papers": [
+    {
+      "id": "2024_fall",
+      "year": "2024",
+      "semester": "Fall",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "7", "question": "Define elementary signals. Discuss different types of basic elementary signals with neat figures."},
+        {"number": "1", "sub_no": "b", "marks": "8", "question": "Define discrete-time system. Classify the following system in terms of memory, causality, time invariance, linearity and stability: y[n] = 2x[3 - n²]. OR: Verify using commutative property of convolution for the signal x[n] = {1,2,1,2} and h[n] = {2,2,-1,1}. Also sketch the given signals and output response graphically."},
+        {"number": "2", "sub_no": "a", "marks": "7", "question": "A causal LTI system is described by the difference equation y(n)=y(n-1)+y(n-2)+x(n)+2x(n-1). Find the system function and frequency response of the system. Plot the poles and zeros and indicate the ROC. OR: Find the difference equation satisfying the input and output of an LTI system with transfer function H(z) = (1+z^{-1})² / [(1-0.5z^{-1})(1+0.75z^{-1})]. Also, comment on causality of given transfer function."},
+        {"number": "2", "sub_no": "b", "marks": "8", "question": "Find the Z transform and ROC of x(n) = 2(5/6)^n u(n-1) + 3(1/2)^n u(n)"},
+        {"number": "3", "sub_no": "a", "marks": "8", "question": "Obtain the direct form I & II and cascade form realization for the following system: y(n) = -0.1 y(n-1) + 0.2 y(n-2) + 3 x(n) + 3.6 x(n-1) + 0.6 x(n-2)"},
+        {"number": "3", "sub_no": "b", "marks": "7", "question": "Determine the lattice coefficients corresponding to the FIR system with the system function H(z) = 1 + (7/9)z^{-1} + (3/5)z^{-2}."},
+        {"number": "4", "sub_no": "a", "marks": "7", "question": "The transfer function of analog filter is H_a(s) = 2 / [(s+2)(s+4)] with T = 0.1 sec. Design the IIR digital filter by using impulse invariance method."},
+        {"number": "4", "sub_no": "b", "marks": "8", "question": "Design a digital lowpass Butterworth filter to meet the following specifications using Bilinear transformation method: |H(e^{jω})| = 0.8 for |ω| ≤ 0.25π, 0.25 for 0.45π < ω < π"},
+        {"number": "5", "sub_no": "a", "marks": "7", "question": "Design a linear FIR filter using Kaiser window to meet the following specifications: 0.99 ≤ |H(e^{jω})| ≤ 1.01 for 0 ≤ |ω| ≤ 0.19π, |H(e^{jω})| ≤ 0.01 for 0.21π ≤ |ω| ≤ π"},
+        {"number": "5", "sub_no": "b", "marks": "8", "question": "Design a filter with H_d(e^{jω}) = 1 for -π/6 ≤ ω ≤ π/6, 0 otherwise. Using a Hanning window with M=9"},
+        {"number": "6", "sub_no": "a", "marks": "7", "question": "Mathematically, perform the circular convolution of the following two sequences x1[n] = {1,2,3,4} and x2[n] = {1,3,5,7}"},
+        {"number": "6", "sub_no": "b", "marks": "8", "question": "Use the 8 point radix-2 DIT-FFT algorithm to find the DFT of the sequence x(n) = {0.707,1,0.707,0,-0.707,-1,-0.707,0}"},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "LTI system & convolution summation of discrete systems"},
+            {"sub_no": "b", "marks": "5", "question": "Properties of Z transform"},
+            {"sub_no": "c", "marks": "5", "question": "Frequency response of LTI system"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2024_spring",
+      "year": "2024",
+      "semester": "Spring",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "8", "question": "What are the advantages of digital signal processing over analog signal processing? Briefly explain the basic elements of digital signal processing with the help of block diagram."},
+        {"number": "1", "sub_no": "b", "marks": "7", "question": "Obtain a linear convolution of the following two discrete-time signals: x(n) = Σ_{k=0}^3 δ(n-k) and h(n) = 2^n [u(n)-u(n-3)]"},
+        {"number": "2", "sub_no": "a", "marks": "7", "question": "Define the term causality, stability, time-invariance and linearity of discrete time system. And state their significance in case of LTI system."},
+        {"number": "2", "sub_no": "b", "marks": "8", "question": "Define Z transform. Find the inverse z transform of X(z) = log(1 + a z^{-1})."},
+        {"number": "3", "sub_no": "a", "marks": "8", "question": "Find the 8-point DIF-FFT of x(n) = sin(π n /3)."},
+        {"number": "3", "sub_no": "b", "marks": "7", "question": "Show that the multiplication of two DFT sequences results in circular convolution."},
+        {"number": "4", "sub_no": "a", "marks": "8", "question": "Find the direct form-I and direct form-II realizations of a discrete-time system represented by the transfer function H(z) = (3z³ - 5z² + 9z - 3) / [(z - 1/2)(z² - z + 1/3)]"},
+        {"number": "4", "sub_no": "b", "marks": "7", "question": "How are FIR digital filters designed using different approaches? How would you use a rectangular window to design a FIR filter? Explain."},
+        {"number": "5", "sub_no": "a", "marks": "7", "question": "Design a linear FIR filter using Kaiser window to meet the following specifications: 0.99 ≤ |H(e^{jω})| ≤ 1.01 for 0 ≤ |ω| ≤ 0.19π, |H(e^{jω})| ≤ 0.01 for 0.21π ≤ |ω| ≤ π"},
+        {"number": "5", "sub_no": "b", "marks": "8", "question": "Design a digital lowpass filter using Bilinear Transformation to satisfy the following requirements: Monotonic stopband and passband, -3dB cut off frequency at 0.6π radians, and Magnitude down at 15 dB at 0.75π radians"},
+        {"number": "6", "sub_no": "a", "marks": "8", "question": "Convert the analog filter with system function H_a(s) = (s + 0.2) / [(s + 0.2)² + 9] into a digital filter by means of the bilinear transformation. The digital filter is to have a resonant frequency of ω_r = π/2."},
+        {"number": "6", "sub_no": "b", "marks": "7", "question": "Differentiate between FIR and IIR digital filters with examples."},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Linear convolution vs. circular convolution"},
+            {"sub_no": "b", "marks": "5", "question": "Causal System"},
+            {"sub_no": "c", "marks": "5", "question": "Remez Exchange"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2023_spring",
+      "year": "2023",
+      "semester": "Spring",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "7", "question": "A digital communication link carries binary coded words representing samples of an input signal x_a(t) = 5 cos 600πt + 7 cos 800πt. The link is operated at 1000 bits/sec and each input sample is quantized into 1024 different voltage levels. i. What is the sampling frequency and folding frequency? ii. What is the Nyquist rate for the signal x_a(t)? iii. What are the frequencies in the resulting discrete time signal x[n]? iv. What is aliasing effect?"},
+        {"number": "1", "sub_no": "b", "marks": "8", "question": "Two subsystems h1[n] and h2[n] are interconnected as shown in the block diagram. Determine the response of the system if h1[n] = {1,4,2} and h2[n] = {2,3,1}, when excited by input x[n] = {2,4}."},
+        {"number": "2", "sub_no": "a", "marks": "8", "question": "Determine which signals are periodic and compute fundamental period. i. cos(π n² /8) ii. sin(3π/2) cos(5π/4)"},
+        {"number": "2", "sub_no": "b", "marks": "7", "question": "Define z-transform and Region of Convergence. Find z-transform of x[n] = a^n u[n]."},
+        {"number": "3", "sub_no": "a", "marks": "7", "question": "Why do we need DFT when we have DTFT? Determine the circular convolution of the sequence x1(n) = {4,3,2,1} and x2(n) = {8,7,6,5}"},
+        {"number": "3", "sub_no": "b", "marks": "8", "question": "Determine the direct form realization of the following difference equation: 2y(n) + y(n-1) - 4y(n-3) = x(n) + 3x(n-1). Compare FIR and IIR."},
+        {"number": "4", "sub_no": "a", "marks": "8", "question": "Determine the cascade and parallel realization of the discrete time system described by y[n] = -3/4 y[n-1] + 1/4 y[n-2] + x[n] + 1/2 x[n-1]"},
+        {"number": "4", "sub_no": "b", "marks": "7", "question": "Obtain the lattice ladder structure of the discrete time system described by the same equation. Also check the stability of the filter."},
+        {"number": "5", "sub_no": "a", "marks": "7", "question": "Design a digital low pass Butterworth filter by applying bilinear transformation technique for the given specifications: Pass band edge = 120Hz, Pass band attenuation = 1dB, Stop band edge = 170Hz, Stop band attenuation = 16 dB, Sampling frequency = 512 Hz"},
+        {"number": "5", "sub_no": "b", "marks": "8", "question": "Obtain H(z) using the impulse invariant techniques for H_a(s) = 1 / [(s+0.5)(s²+0.5s+2)]"},
+        {"number": "6", "sub_no": "a", "marks": "8", "question": "Design a linear FIR filter using Kaiser window to meet the following specifications: 0.99 ≤ |H(e^{jω})| ≤ 1.01 for 0 ≤ |ω| ≤ 0.19π, |H(e^{jω})| ≤ 0.01 for 0.21π ≤ |ω| ≤ π"},
+        {"number": "6", "sub_no": "b", "marks": "7", "question": "By using Hanning window, design a low pass filter to approximate the ideal response given by H_d(e^{jω}) = 1 for -π/6 ≤ ω ≤ π/6, 0 otherwise. Use M=9"},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Sampling and quantization of analog signal"},
+            {"sub_no": "b", "marks": "5", "question": "BIBO Stable"},
+            {"sub_no": "c", "marks": "5", "question": "Frequency Sampling"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2022_fall",
+      "year": "2022",
+      "semester": "Fall",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "8", "question": "Consider the analog signal x_a(t) = 3 cos(100π t). i) Determine the minimum sampling rate required to avoid aliasing. ii) What is the Nyquist rate for the signal X_a(t)? iii) If the signal is sampled at the rate F_s = 200Hz, what is the discrete-time signal obtained after sampling? iv) What is the frequency 0 < F < F_s/2 of a sinusoid that yields samples identical to those obtained for F_s=200Hz."},
+        {"number": "1", "sub_no": "b", "marks": "7", "question": "Define time-invariance and causality of a discrete time system. Examine whether the following systems are stable or not: i) y[n] = x[n] + 1 ii) y[n] - y[n-1] = x[n] + x[n-1]"},
+        {"number": "2", "sub_no": "a", "marks": "8", "question": "Find the convolution between two signals x[n] = a^n, for 0 ≤ n ≤ 6 and h[n] = 1, for 0 ≤ n ≤ 4"},
+        {"number": "2", "sub_no": "b", "marks": "7", "question": "Define Z transform. Find the inverse z transform of X(z) = log(1 + a z^{-1})"},
+        {"number": "3", "sub_no": "a", "marks": "8", "question": "Why do we need DFT when we have DTFT? Determine the circular convolution of the sequence x1(n) = {1,2,3,4} and x2(n) = {5,6,7,8}. Also verify your answer."},
+        {"number": "3", "sub_no": "b", "marks": "7", "question": "Define Fast Fourier Transform (FFT). Determine 8-point DFT of the sequence using Decimation in Time FFT. x(n) = cos(nπ/4)"},
+        {"number": "4", "sub_no": "a", "marks": "7", "question": "Obtain the parallel form realization of following IIR filter H(z) = (1 + 1/4 z^{-1}) / [(1 + 1/2 z^{-1})(1 + 1/2 z^{-1} + 1/4 z^{-2})]"},
+        {"number": "4", "sub_no": "b", "marks": "8", "question": "Convert the following IIR filter into lattice ladder structure H(z) = (1 + z^{-1} + 2z^{-2} + z^{-3}) / (1 + 13/24 z^{-1} + 5/8 z^{-2} + 1/3 z^{-3})"},
+        {"number": "5", "sub_no": "a", "marks": "7", "question": "Convert the following in Direct form-II realization described by H[z] = (1+z^{-1}+2z^{-2}+3z^{-3}) / (1+15z^{-1}+15z^{-2}+12z^{-3})"},
+        {"number": "5", "sub_no": "b", "marks": "8", "question": "With the low pass specification Ω_p = 3.2 KHz and Ω_s = 4.8 KHz and sampling frequency Ω_fs = 12 KHz and α_s = 40 dB, find the length and value of β for Kaiser Window."},
+        {"number": "6", "sub_no": "a", "marks": "7", "question": "Derive Impulse Invariant Method for IIR filter design. Also illustrate the mapping from the s-plane to the z-plane while using IIM."},
+        {"number": "6", "sub_no": "b", "marks": "8", "question": "Design a Chebyshev analog filter with maximum passband attenuation of 2.5 dB at Ω_p = 20 rad/sec and stopband attenuation of 30 dB at Ω_s = 50 rad/sec"},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Gibbs Phenomena"},
+            {"sub_no": "b", "marks": "5", "question": "Basis Elements of DSP"},
+            {"sub_no": "c", "marks": "5", "question": "BIBO Stable"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2021_spring",
+      "year": "2021",
+      "semester": "Spring",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "8", "question": "Define energy and power signal with examples. Check whether the given signal is energy or power signal x(t) = A sin(t)."},
+        {"number": "1", "sub_no": "b", "marks": "7", "question": "Prove that an LTI system is causal if the impulse response of the system is a causal signal."},
+        {"number": "2", "sub_no": "a", "marks": "8", "question": "Find the convolution between two signals x[n] = a^n, for 0 ≤ n ≤ 6 and h[n] = 1, for 0 ≤ n ≤ 4."},
+        {"number": "2", "sub_no": "b", "marks": "7", "question": "Define Z-transform. Find Z-transform of signal x[n] = (1/2)^n u[n] + (1 + j)^n u[-n - 1] and indicate ROC graphically."},
+        {"number": "3", "sub_no": "a", "marks": "8", "question": "Why DFT is needed and how the DFT solve the problem associated with DTFT. Use DIF-FFT algorithm to compute 8 point DFT of x[n] = {2,1,1,1}. Discuss the result."},
+        {"number": "3", "sub_no": "b", "marks": "7", "question": "Show that the multiplication of two DFT sequences results in circular convolution."},
+        {"number": "4", "sub_no": "a", "marks": "7", "question": "Realize the transfer function using cascade realization X(Z) = 2(z+2) / [z(z-0.1)(z+0.5)(z-0.4)]"},
+        {"number": "4", "sub_no": "b", "marks": "8", "question": "Draw the lattice structure of the given transfer function H(Z) = 1 + (3/8)z^{-1} + (5/4)z^{-2} + (3/2)z^{-3}."},
+        {"number": "5", "sub_no": "a", "marks": "8", "question": "Design a FIR system to meet the following specifications: Pass band edge frequency=2KHz, Stop band edge frequency=5KHz, Stop band attenuation=42dB, Sampling frequency=20KHz"},
+        {"number": "5", "sub_no": "b", "marks": "7", "question": "Derive Impulse Invariant Method for IIR filter design. Also illustrate the mapping from the s-plane to the z-plane while using IIM."},
+        {"number": "6", "sub_no": "a", "marks": "8", "question": "Design a second order discrete-time Butterworth filter with cut-off frequency of 1 KHz and sampling frequency of 10^4 samples/sec by using bilinear transformations. Also plot the poles of the filter."},
+        {"number": "6", "sub_no": "b", "marks": "7", "question": "Design a linear FIR filter using Kaiser window to meet the following specifications: 0.99 ≤ |H(e^{jω})| ≤ 1.01 for 0 ≤ |ω| ≤ 0.19π, |H(e^{jω})| ≤ 0.01 for 0.21π ≤ |ω| ≤ π"},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Region of Convergence"},
+            {"sub_no": "b", "marks": "5", "question": "Causal and Non-Causal system"},
+            {"sub_no": "c", "marks": "5", "question": "Gibbs Phenomena"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2021_fall",
+      "year": "2021",
+      "semester": "Fall",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "8", "question": "Define Signal Analysis and Signal Processing. What are the advantages of Digital signal processing over Analog signal processing?"},
+        {"number": "1", "sub_no": "b", "marks": "7", "question": "The output of an LTI system is y(n) = {2, 5, 1, -10, -10, -3, 6, 9} to an impulse response h(n) = {1, 2, 0, -3}. Find the input x(n) using convolution sum. The underline represents the element at n=0."},
+        {"number": "2", "sub_no": "a", "marks": "7", "question": "Find the convolution between two signals x[n] = u[n] and h[n] = a^n u[n], 0 < a < 1"},
+        {"number": "2", "sub_no": "b", "marks": "8", "question": "Determine Z-transform along with ROC of x(n) = [(1/2)^n + (3/4)^n] u(n-5)"},
+        {"number": "3", "sub_no": "a", "marks": "8", "question": "Find the 8-point DIT-FFT of x(n) = sin(3π n /4), for 0 ≤ n ≤ 7"},
+        {"number": "3", "sub_no": "b", "marks": "7", "question": "What is Zero Padding? Find the circular Convolution of x1[n] = {1,2} and x2[n] = {3,2,1}"},
+        {"number": "4", "sub_no": "a", "marks": "7", "question": "Obtain the parallel form realization of following IIR filter H(z) = 3(2z² + 5z + 4) / [(2z + 1)(z + 2)]"},
+        {"number": "4", "sub_no": "b", "marks": "8", "question": "Compute Lattice coefficients and draw lattice structure for given IIR system. Also check stability of the system. H(z) = 1 / (1 - 0.525z^{-1} + 0.6125z^{-2} + 0.3z^{-3})"},
+        {"number": "5", "sub_no": "a", "marks": "8", "question": "Design a lowpass filter which will have -3 dB cut off at 30π rad/sec and an attenuation of 50 dB at 45π rad/sec. The filter is required to have a linear phase and the system uses a sampling rate of 100 samples/sec."},
+        {"number": "5", "sub_no": "b", "marks": "7", "question": "Design a linear FIR filter using Kaiser window to meet the following specifications: 0.99 ≤ |H(e^{jω})| ≤ 1.01 for 0 ≤ |ω| ≤ 0.19π, |H(e^{jω})| ≤ 0.01 for 0.21π ≤ |ω| ≤ π"},
+        {"number": "6", "sub_no": "a", "marks": "7", "question": "Determine H(z) using impulse invariance method for the following analog filter's transfer function: H_a(s) = 1 / (s + 0.5)(s² + 0.5s + 2)"},
+        {"number": "6", "sub_no": "b", "marks": "8", "question": "Design a digital lowpass Butterworth filter using Bilinear Transformation method to meet the following specifications: Passband attenuation = 1 dB, Stopband attenuation = 16 dB, Passband edge = 120 Hz, Stopband edge = 170 Hz, Sampling frequency = 256 Hz"},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Region of Convergence"},
+            {"sub_no": "b", "marks": "5", "question": "Symmetric and Anti-symmetric filter"},
+            {"sub_no": "c", "marks": "5", "question": "Kaiser window"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2020_fall",
+      "year": "2020",
+      "semester": "Fall",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "8", "question": "Define Signal Analysis and Signal Processing. What are the advantages of Digital signal processing over Analog signal processing?"},
+        {"number": "1", "sub_no": "b", "marks": "7", "question": "Define elementary signals. State and prove Convolution and time shifting property of Discrete time Fourier transform."},
+        {"number": "2", "sub_no": "a", "marks": "8", "question": "Find the response of a LTI system with input x(n) = {9,8,7} to an impulse response h(n) = {5, -4, 8}, where bold letter denotes origin. Use graphical approach. Also verify your answer."},
+        {"number": "2", "sub_no": "b", "marks": "7", "question": "Define Z-transform and ROC. Determine the Z-transform and plot the ROC for the given signal x(n) = (-1)^n cos(π n /4) u(n)"},
+        {"number": "3", "sub_no": "a", "marks": "8", "question": "Why we need DFT when we have DTFT? Find the circular convolution of the sequence x₁(n)={9,8,7,6} and x₂(n)={6,4,3,2} using convolution sum."},
+        {"number": "3", "sub_no": "b", "marks": "7", "question": "How efficient is FFT? Determine 8-point DFT of the sequence x(n) = {1, 0, 2, 0, 3, 0, 1, 1} using Decimation in Frequency Radix-2 Butterfly structure (DIF-FFT)."},
+        {"number": "4", "sub_no": "a", "marks": "8", "question": "Determine the direct form realizations of the following difference equation: 2y(n) + 3y(n-1) + 5y(n-2) = x(n) + 2x(n-3). Compare FIR and IIR."},
+        {"number": "4", "sub_no": "b", "marks": "7", "question": "Compute the lattice coefficients and draw the lattice structure of following FIR system H(z) = 1 + 2z^{-1} + z^{-2}"},
+        {"number": "5", "sub_no": "a", "marks": "8", "question": "How can you design FIR filter using rectangular window? Explain."},
+        {"number": "5", "sub_no": "b", "marks": "7", "question": "Design a lowpass FIR with 7 coefficients for the following specifications: Passband Frequency edge = 300 Hz, Sampling Frequency = 1 KHz. Use Hanning window for your design."},
+        {"number": "6", "sub_no": "a", "marks": "7", "question": "Compare and Contrast Impulse Invariance Method and Bilinear Transformation Method of designing IIR filter."},
+        {"number": "6", "sub_no": "b", "marks": "8", "question": "Design a lowpass IIR filter to meet the following specifications: Passband attenuation: 1 dB, Passband frequency: 1.2 KHz, Stopband attenuation: 40 dB, Stopband frequency: 2.5 KHz, Sampling Frequency: 10 KHz"},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Kaiser window"},
+            {"sub_no": "b", "marks": "5", "question": "Causality and stability of LTI system"},
+            {"sub_no": "c", "marks": "5", "question": "Sampling of CT signal"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2019_spring",
+      "year": "2019",
+      "semester": "Spring",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "5", "question": "How real world signals are processed digitally? Compare digital signal processing with its analog counterpart."},
+        {"number": "1", "sub_no": "b", "marks": "5", "question": "The discrete-time signal x[n] = 2cos(0.1πn) − 6sin(0.4πn) + 5cos(0.45πn) is quantized with a resolution Δ = 0.02. How many bits are required in the A/D converter?"},
+        {"number": "1", "sub_no": "c", "marks": "5", "question": "Define Limit cycle oscillation considering first order LCCD equation."},
+        {"number": "2", "sub_no": "a", "marks": "7", "question": "Resolve the discrete-time signal into impulses. Derive the equation for convolution sum. Also explain the significance of convolution in DSP."},
+        {"number": "2", "sub_no": "b", "marks": "8", "question": "Consider two discrete-time LTI systems with impulse responses h1[n] = 2u[n] + u[n−3] and h2[n] = −3u[n−6] + u[n−9]. If the two systems are connected in parallel, find the overall impulse response of the system."},
+        {"number": "3", "sub_no": "a", "marks": "7", "question": "Define z-transform and ROC. Find the z-transform of following sequence x[n] = e^{-an} sin(ωn) u(n) and plot the ROC and location of poles and zeros."},
+        {"number": "3", "sub_no": "b", "marks": "8", "question": "The step response of a causal, stable LTI system is: y[n] = (1/2)^n u[n]. i) Find the z-domain transfer function of this system. ii) Find the impulse response h[n] of this system."},
+        {"number": "4", "sub_no": "a", "marks": "7", "question": "Suppose we have two five-point sequences X[n] and h[n]. Calculate circular convolution using formula."},
+        {"number": "4", "sub_no": "b", "marks": "8", "question": "i) Compute the Fourier transform X(ω) of the signal x[n] = (1/2)^|n|. ii) Compute the 6-point DFT of x[n] = (1/2)^|n| for n = 0 to 5."},
+        {"number": "5", "sub_no": "a", "marks": "7", "question": "Given three stage lattice coefficients as k1=1/4, k2=1/2, k3=1/3, Determine the FIR filter coefficients for the direct form filter realization."},
+        {"number": "5", "sub_no": "b", "marks": "8", "question": "Design an FIR filter with N=7 using Hamming window."},
+        {"number": "6", "sub_no": "a", "marks": "7", "question": "The system function of an analog filter is given as H_a(s) = (s + 0.1)/((s + 0.1)^2 + 3^2). Obtain the system function of the IIR digital filter using invariant impulse response method."},
+        {"number": "6", "sub_no": "b", "marks": "8", "question": "Show that the Kaiser window includes the rectangular window as a special case."},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Conversion of lattice filter coefficients to direct form coefficients"},
+            {"sub_no": "b", "marks": "5", "question": "General purpose versus special purpose DSP"},
+            {"sub_no": "c", "marks": "5", "question": "Bit serial arithmetic"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2019_fall",
+      "year": "2019",
+      "semester": "Fall",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "7", "question": "Test whether the given discrete-signal is periodic or not? If it is periodic, determine the fundamental period. i. x(n) = cos(nπ/8) + cos(3nπ/8) ii. x(n) = 5 cos(3nπ/4) + 2 sin(5nπ/6)"},
+        {"number": "1", "sub_no": "b", "marks": "8", "question": "A digital discrete time signal x[n] = 6.5cos(0.1πn) is quantized with a resolution Δ = 0.01. How many bits are required in the A/D converter? If the maximum frequency that can be reconstructed from above signal is 500 Hz, determine the reconstructed continuous-time signal."},
+        {"number": "2", "sub_no": "a", "marks": "7", "question": "State and prove the necessary and sufficient conditions for an LTI system to be causal and stable."},
+        {"number": "2", "sub_no": "b", "marks": "8", "question": "Consider an LTI system with impulse response h[n] = u[n] − u[n−5]. Compute the response of the system to the input signal x[n] = u[n] − u[n−10]."},
+        {"number": "3", "sub_no": "a", "marks": "7", "question": "Determine the causal signal x[n] if its Z-transform X(z) is given by X(z) = (1 + 3z^{-1}) / (1 + 3.5z^{-1} + 1.5z^{-2})"},
+        {"number": "3", "sub_no": "b", "marks": "8", "question": "With the help of N = 8, explain radix-2 decimation-in-time (DIT) FFT algorithm. What is the total number of multiplications and additions required in this case?"},
+        {"number": "4", "sub_no": "a", "marks": "8", "question": "Using circular convolution method, determine the linear convolution of the sequences x1[n] = {1,2,3,4} and x2[n] = {1,2,1,2}."},
+        {"number": "4", "sub_no": "b", "marks": "7", "question": "What are the advantages of representing the digital filter in the block diagram form? Draw the direct form structures for the following system: y(n) = 0.5 y(n-1) + 0.25 y(n-2) + x(n) + 0.5 x(n-1)"},
+        {"number": "5", "sub_no": "a", "marks": "8", "question": "Design a digital Butterworth low pass filter using bilinear transformation to satisfy the following constraints: 0.7071 ≤ |H(ω)| ≤ 1 for 0 ≤ ω ≤ 0.2π and |H(ω)| ≤ 0.2 for 0.32π ≤ ω ≤ π"},
+        {"number": "5", "sub_no": "b", "marks": "7", "question": "Draw the lattice structure for the following IIR system: H(z) = 1 + 0.5z^{-1} + 0.6z^{-2} + 0.7z^{-3} + 0.8z^{-4}. Check the stability of the filter."},
+        {"number": "6", "sub_no": "a", "marks": "6", "question": "Define symmetric and Anti-symmetric filter. What are the conditions to be satisfied by the impulse response of FIR filters in order to have a linear phase?"},
+        {"number": "6", "sub_no": "b", "marks": "9", "question": "Design a lowpass filter which will have -3 dB cut-off at 30π rad/sec and an attenuation of 50 dB at 45π rad/sec. The filter is required to have a linear phase and the system uses a sampling rate of 100 samples/sec."},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Filter Design by Kaiser Window"},
+            {"sub_no": "b", "marks": "5", "question": "Compare and contrast FIR and IIR"},
+            {"sub_no": "c", "marks": "5", "question": "Frequency shift property of DFT"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on:"
+        }
+      ]
+    },
+    {
+      "id": "2018_fall",
+      "year": "2018",
+      "semester": "Fall",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "7", "question": "What are the basic elements of a digital signal processing system? Explain each element briefly."},
+        {"number": "1", "sub_no": "b", "marks": "8", "question": "Determine the response of the relaxed system characterized by the impulse response h[n] = 0.5^n u[n] and input x[n] = 3^n u[n-1]."},
+        {"number": "2", "sub_no": "a", "marks": "7", "question": "Explain about the Time shifting and Time reversal properties of Discrete Time Fourier Transform."},
+        {"number": "2", "sub_no": "b", "marks": "8", "question": "Write down the properties of ROC of Z-transform with examples."},
+        {"number": "3", "sub_no": "a", "marks": "7", "question": "Find the DFT of the sequence x(n) = cos(π/2 n); for 0 ≤ n ≤ 7 Using radix-2 Decimation in Time Fast Fourier Transform (DIT-FFT) algorithm and keep track of all the intermediate quantities by putting them on the diagrams."},
+        {"number": "3", "sub_no": "b", "marks": "8", "question": "Prove that multiplication of two sequences gives the result in circular convolution of these two sequences."},
+        {"number": "4", "sub_no": "a", "marks": "7", "question": "Draw the lattice-ladder structure for the following IIR system H(z) = (1 - 0.8z^{-1} - 0.15z^{-2}) / (1 + 0.1z^{-1} - 0.72z^{-2}). Is the system stable?"},
+        {"number": "4", "sub_no": "b", "marks": "8", "question": "Obtain the direct form I and direct form II realizations for the system described by the following equation: y(n) - 3y(n-3) = x(n) + 4x(n-3)"},
+        {"number": "5", "sub_no": "a", "marks": "8", "question": "Define Digital Filters. Differentiate between IIR and FIR Digital Filters."},
+        {"number": "5", "sub_no": "b", "marks": "7", "question": "Design a linear FIR filter using Kaiser window to meet the following specifications: 0.98 ≤ |H(e^{jω})| ≤ 1.02 for 0 ≤ |ω| ≤ 0.18π, |H(e^{jω})| ≤ 0.02 for 0.22π ≤ |ω| ≤ π."},
+        {"number": "6", "sub_no": "a", "marks": "7", "question": "Design an FIR filter with 5 coefficients for the following specifications: Passband edge frequency = 0.25 KHz, Sampling frequency = 1 KHz, Stopband attenuation = 40 dB"},
+        {"number": "6", "sub_no": "b", "marks": "8", "question": "Convert the analog filter with system function H(s) = (s + 0.1) / [(s + 0.1)^2 + 16] into a digital IIR filter by means of the bilinear transformation. The digital filter is to have a resonant frequency of ω_r = π/2."},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Impulse invariance method for filter design"},
+            {"sub_no": "b", "marks": "5", "question": "Frequency response of LTI system"},
+            {"sub_no": "c", "marks": "5", "question": "Energy and Power Signal"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2017_fall",
+      "year": "2017",
+      "semester": "Fall",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "7", "question": "Prove that 'a discrete-time sinusoid is periodic only if its frequency f is a rational number'. Determine whether the signal is periodic or not? If periodic find its fundamental frequency x[n] = cos(0.4π n) + 4 sin(0.6π n)"},
+        {"number": "1", "sub_no": "b", "marks": "8", "question": "The discrete-time signal x[n] = 6.5 cos(0.1π n) is quantized with a resolution Δ = 0.01. How many bits are required in the A/D converter? If the maximum frequency that can be reconstructed from above signal is 500 Hz, determine the reconstructed continuous-time signal."},
+        {"number": "2", "sub_no": "a", "marks": "7", "question": "If the input signal to a LTI system is given as x[n] = {1 2 3} and the output to that system is y[n] = {3 4 8 8 3} Determine the impulse response of that system."},
+        {"number": "2", "sub_no": "b", "marks": "8", "question": "Define LTI system. Prove that an LTI system is causal if and only if its impulse response is zero for n ≤ 0."},
+        {"number": "3", "sub_no": "a", "marks": "7", "question": "What are the characteristics of one-sided z-transform? Given that x[n] = a^n u[n], determine the one-sided z-transform of the signal x1[n] = x[n + 2]. OR: Define ROC. Explain the properties of ROC."},
+        {"number": "3", "sub_no": "b", "marks": "8", "question": "Determine the impulse response from the following stable system function H(z) = (z^{-1} - 0.4 z^{-2} - 0.4 z^{-3}) / (1 - 0.3 z^{-1} - 0.4 z^{-2})"},
+        {"number": "4", "sub_no": "a", "marks": "7", "question": "Determine the circular convolution of the sequence x1(n) = {1,2,3,1} and x2(n) = {1,2,1,1}."},
+        {"number": "4", "sub_no": "b", "marks": "8", "question": "What is the importance of FFT? Find 8-point DFT of sequence x(n) = {1,2,4,5,3} using DIT-FFT algorithm."},
+        {"number": "5", "sub_no": "a", "marks": "7", "question": "Draw the lattice structure of following system: H(z) = 2 / (1 - 0.5 z^{-1} + 0.8 z^{-2} + 0.9 z^{-3})"},
+        {"number": "5", "sub_no": "b", "marks": "8", "question": "Draw the cascade structure of following system: y[n] = 2.3 y[n-1] - 1.7 y[n-2] + 0.4 y[n-3] + x[n] - 2.3 x[n-1]"},
+        {"number": "6", "sub_no": "a", "marks": "7", "question": "Design a FIR linear phase, digital filter approximating the ideal frequency response given below and determine the coefficients of a 13-tap filter based on the window method with a Hamming window. H_d(ω) = 1 for |ω| ≤ π/6, 0 for π/6 < |ω| ≤ π"},
+        {"number": "6", "sub_no": "b", "marks": "8", "question": "Use the matched-z transformation to convert the analog filter with system function H(s) = (s + 0.1) / (s + 0.1)^2 + 9 into a digital IIR filter. Select T = 0.1 and compare the location of the zeros in H(z) with the locations of the zeros obtained by applying the impulse invariance method."},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Gibb's phenomenon"},
+            {"sub_no": "b", "marks": "5", "question": "Pipelining of DSP processor"},
+            {"sub_no": "c", "marks": "5", "question": "Bit Serial Arithmetic"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2017_spring",
+      "year": "2017",
+      "semester": "Spring",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "7", "question": "Define aliasing. For a digital system with a maximum audio input frequency of 6 KHz, determine the minimum sample rate and the alias frequency produced if a 7 KHz audio signal were allowed to enter the analog to digital converter."},
+        {"number": "1", "sub_no": "b", "marks": "8", "question": "Determine the range of values of a and b for which the linear time invariant system with impulse response h[n] = a^n for n ≥ 0, b^n for n < 0 is stable."},
+        {"number": "2", "sub_no": "a", "marks": "7", "question": "Define the z-transform and its inverse for any causal discrete time signal x[n]. Prove convolution properties and Parseval's theorem of z-transform."},
+        {"number": "2", "sub_no": "b", "marks": "8", "question": "If the causal and stable LTI system is described by following LCCD equation: 3y[n] = y[n-1] + x[n-1]. i. Find the z-domain transfer function of this system. ii. Find the impulse response h[n] of this system. iii. Plot magnitude response of this system."},
+        {"number": "3", "sub_no": "a", "marks": "7", "question": "Define DFT. How it is different from DTFT? Find DFT of the sequence {1, -2, 4, -9} using decimation in frequency FFT."},
+        {"number": "3", "sub_no": "b", "marks": "8", "question": "Show that the direct computation of N-point DFT of a length 'N' requires 4N² real multiplication and N(4N-2) real additions."},
+        {"number": "4", "sub_no": "a", "marks": "7", "question": "Obtain cascade and parallel structure for the following system y[n] = y[n-1] - 1/2 y[n-2] + x[n] - x[n-1] + x[n-2]."},
+        {"number": "4", "sub_no": "b", "marks": "8", "question": "Draw the lattice-ladder structure for following IIR system: H(z) = (1 + 2 z^{-1} - z^{-2}) / (2 + 1.5 z^{-1} + 0.8 z^{-2}), is this system stable?"},
+        {"number": "5", "sub_no": "a", "marks": "7", "question": "Design the second order low pass filter of Butterworth type using BLT for the specifications given below: i. Analog transfer function H_a(s) = 1 / (s² + 1.414 s + 1) ii. Cut-off frequency = 1 kHz iii. Sampling frequency = 10 kHz"},
+        {"number": "5", "sub_no": "b", "marks": "8", "question": "Design a low pass filter with 9 coefficients for the following specifications: Pass band edge frequency = 500 Hz, Sampling frequency F_s = 2 KHz. Use suitable window in the design."},
+        {"number": "6", "sub_no": "a", "marks": "7", "question": "Explain briefly the design of linear phase FIR filter by frequency sampling method with proper example."},
+        {"number": "6", "sub_no": "b", "marks": "8", "question": "Discuss in brief the bit serial arithmetic and pipelined implementation of DSP processors."},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Basic elements of DSP"},
+            {"sub_no": "b", "marks": "5", "question": "Convolution sum and its application"},
+            {"sub_no": "c", "marks": "5", "question": "Effect of quantization of digital filter coefficients"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2016_fall",
+      "year": "2016",
+      "semester": "Fall",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "7", "question": "What are the advantages of a digital signal processing over an analog signal processing? List out the major applications of digital signal processing."},
+        {"number": "1", "sub_no": "b", "marks": "8", "question": "State and prove the necessary and sufficient conditions for causality and stability of linear time-invariant system."},
+        {"number": "2", "sub_no": "a", "marks": "8", "question": "Find the convolution between two signals x[n] and h[n] where, x[n] = 1 for 0 ≤ n ≤ 4, 0 otherwise; h[n] = a^n for 0 ≤ n ≤ 6, 0 otherwise and 0 < a < 1"},
+        {"number": "2", "sub_no": "b", "marks": "7", "question": "Define z-transform. Determine the z-transform of signal x[n] = n a^n u[n]"},
+        {"number": "3", "sub_no": "a", "marks": "7", "question": "Find the inverse z-transform of X(z) = (5 - 2 z^{-1}) / (2 - z^{-1} - 1.5 z^{-2}) For the following regions of convergence: i. |z| > 1 ii. |z| < 1/3 iii. 1/3 < |z| < 1. State in all cases whether the system is causal or stable. OR: Define ROC. What are the properties of ROC? Explain."},
+        {"number": "3", "sub_no": "b", "marks": "8", "question": "Find the 8-point DFT of the signal x[n] = [0, 1, 2, 3, 4, 5] using DIT-FFT algorithm."},
+        {"number": "4", "sub_no": "a", "marks": "7", "question": "Determine the relationship between two sequences if the DFT's of two sequences are multiplied together."},
+        {"number": "4", "sub_no": "b", "marks": "8", "question": "Realise the IIR filter H(z) using Direct form-II and Lattice structure. H(z) = 1 / (1 + 13/24 z^{-1} + 5/8 z^{-2} + 1/4 z^{-3})"},
+        {"number": "5", "sub_no": "a", "marks": "7", "question": "Obtain the cascade form realization of following IIR filter H(z) = 2(z + 2) / [z(z-0.1)(z+0.5)(z-0.45)]"},
+        {"number": "5", "sub_no": "b", "marks": "8", "question": "The transfer function of an analog low-pass filter is H_a(s) = 1 / (s+1) and its bandwidth is 1 rad/sec. Design the digital IIR filter using Bilinear Transformation method whose cut-off frequency is 0.2π and sampling interval is 0.0167 sec, also consider frequency warping effect."},
+        {"number": "6", "sub_no": "a", "marks": "8", "question": "Design a low-pass filter which will have the half power point at 30π rad/sec and an attenuation of 50 dB at 45π rad/sec. The filter is required to have a linear phase and the system uses a sampling rate of 100 samples/second."},
+        {"number": "6", "sub_no": "b", "marks": "7", "question": "Explain the IIR filter design using Impulse Invariance Method."},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Multichannel and multidimensional signal"},
+            {"sub_no": "b", "marks": "5", "question": "Remez Exchange Algorithm"},
+            {"sub_no": "c", "marks": "5", "question": "Recursive and non-recursive systems"},
+            {"sub_no": "d", "marks": "5", "question": "Pipelined implementation of DSP"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    },
+    {
+      "id": "2015_spring",
+      "year": "2015",
+      "semester": "Spring",
+      "questions": [
+        {"number": "1", "sub_no": "a", "marks": "8", "question": "A digital communication link carries binary-coded words representing samples of an input signal x(t) = 3 cos 600π t + 2 cos 180π t. The link is operated at 10,000 bits/sec and each input is quantized into 1024 different levels. i. What is the sampling frequency and folding frequency? ii. What is the Nyquist rate? iii. What are the frequencies in the resulting discrete time signal? iv. What is the resolution?"},
+        {"number": "1", "sub_no": "b", "marks": "7", "question": "Define LTI system. Show that accumulator system is a Linear system."},
+        {"number": "2", "sub_no": "a", "marks": "8", "question": "A discrete-time signal x(n) is applied to a discrete time LTI system with unit impulse response h(n). Find the output or response y(n) if given that x(n) = 2^n · u(-n) and h(n) = u(n)."},
+        {"number": "2", "sub_no": "b", "marks": "7", "question": "A discrete-time signal is given by the expression x(n) = n (-1/2)^n u(n) ⊗ (1/4)^n u(-n). Find the z-transform."},
+        {"number": "3", "sub_no": "a", "marks": "7", "question": "Determine the inverse z-transform of X(z) = z / (3z² - 4z + 1) if the region of convergence are: (i) |z| > 1, (ii) |z| < 1/3, (iii) 1/3 < |z| < 1"},
+        {"number": "3", "sub_no": "b", "marks": "8", "question": "Show the relationship of the DFT to the z-Transform."},
+        {"number": "4", "sub_no": "a", "marks": "8", "question": "Find the 8-point DIT-FFT of x(n) = sin(3π n /4), for 0 ≤ n ≤ 7"},
+        {"number": "4", "sub_no": "b", "marks": "7", "question": "Obtain the parallel form realization of following IIR filter H(z) = 3(2z² + 5z + 4) / [(2z + 1)(z + 2)]"},
+        {"number": "5", "sub_no": "a", "marks": "8", "question": "Convert the following IIR filter into lattice ladder structure H(z) = (1 + z^{-1} + 2z^{-2} + z^{-3}) / (1 + 13/24 z^{-1} + 5/6 z^{-2} + 1/3 z^{-3})"},
+        {"number": "5", "sub_no": "b", "marks": "7", "question": "Determine H(z) using impulse invariance method for the following system function H_a(s) = 1 / (s + 0.5) + (s² + 0.5s + 2)"},
+        {"number": "6", "sub_no": "a", "marks": "8", "question": "Using bilinear transformation, design a Butterworth filter which satisfies the following conditions: 0.8 ≤ |H(e^{jω})| ≤ 1 for 0 ≤ ω ≤ 0.2π, |H(e^{jω})| ≤ 0.2 for 0.6π ≤ ω ≤ π"},
+        {"number": "6", "sub_no": "b", "marks": "7", "question": "Design a normalized linear phase FIR filter having the phase of delay (τ) = 4 and at least 40 dB attenuation in the stopband."},
+        {
+          "number": "7",
+          "options": [
+            {"sub_no": "a", "marks": "5", "question": "Pipelined Implementation"},
+            {"sub_no": "b", "marks": "5", "question": "Limit Cycle Oscillations"},
+            {"sub_no": "c", "marks": "5", "question": "Computational Complexity of FFT"}
+          ],
+          "marks": "10",
+          "instruction": "Write short notes on: (Any two)"
+        }
+      ]
+    }
+  ]
+}

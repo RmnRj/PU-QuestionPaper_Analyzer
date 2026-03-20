@@ -1,0 +1,250 @@
+{
+    "repeated_questions": [
+        {
+            "question": "What is Digital Divide? How can you minimize and mitigate the digital divide? Is 'Gender Divide' making the digital divide even larger?",
+            "topic": "2.2.1 Digital Divide and Bridging the Digital Divide",
+            "freq": 22,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_fall","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall","2012_fall","2012_spring"]
+        },
+        {
+            "question": "Define whistleblowing. Explain the types of whistleblowing. What are the conditions required to blow the whistle? How can whistleblowing be prevented in an organization?",
+            "topic": "4.2.1 Conflict of Interests and Whistleblowing",
+            "freq": 21,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall","2012_fall","2012_spring"]
+        },
+        {
+            "question": "How has technology impacted society and vice versa? Explain the relationship between society and technology with real-world examples.",
+            "topic": "2.1.1 Impact of Technology on Society and Vice Versa",
+            "freq": 18,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall"]
+        },
+        {
+            "question": "What are offensive speech and censorship? Is it possible to enforce censorship in cyberspace? Explain the importance of censorship with relevant examples.",
+            "topic": "6.5 Offensive Speech and Censorship in Cyberspace",
+            "freq": 18,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2017_spring","2016_fall","2015_spring","2014_fall","2013_fall"]
+        },
+        {
+            "question": "Describe the IT Policy of Nepal. What is the need of IT Policy in Nepal? Discuss its objectives and major provisions.",
+            "topic": "8.2.1 IT Policy of Nepal",
+            "freq": 18,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall"]
+        },
+        {
+            "question": "What are professional rights and professional responsibilities? Explain violations of professional responsibilities with examples. Discuss the right of conscientious refusal.",
+            "topic": "4.2 Professional Responsibilities and Rights",
+            "freq": 18,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall"]
+        },
+        {
+            "question": "Deontological and Utilitarian based theories do not necessarily come to the same conclusion. Compare and contrast with suitable examples.",
+            "topic": "3.5 Utilitarianism and Deontological Theories",
+            "freq": 19,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall","2012_fall","2012_spring"]
+        },
+        {
+            "question": "What is privacy? How has technology affected personal privacy? Explain different privacy risks in detail and discuss strategies to protect privacy.",
+            "topic": "6.1 Privacy and its Value / 6.2 Privacy Risks / 6.4 Protecting Privacy",
+            "freq": 17,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_fall","2016_fall","2015_fall","2015_spring","2014_fall"]
+        },
+        {
+            "question": "'Software risk is considered sensitive in case of life critical systems as the developer is the only person to blame if an accident occurs.' Do you agree or disagree? Justify your opinion.",
+            "topic": "5.1.2 Safety in Critical Systems",
+            "freq": 17,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2017_fall","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall"]
+        },
+        {
+            "question": "What are Intellectual Property Rights (IPR)? Define and explain the different types of intellectual property with suitable examples.",
+            "topic": "8.1 Intellectual Properties",
+            "freq": 17,
+            "papers": ["2025_spring","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall"]
+        },
+        {
+            "question": "What does the famous symbol © mean? When does a copyright begin and how long is it preserved? What do you know about international copyright?",
+            "topic": "8.1.1 Copyright",
+            "freq": 17,
+            "papers": ["2025_spring","2024_spring","2023_spring","2022_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2018_spring","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall","2012_fall"]
+        },
+        {
+            "question": "'Accuracy vs. Democracy' has been a raising concern on the internet. Evaluate the tension between accuracy and democracy in internet-based information systems. Which faction would you prefer? Put your views.",
+            "topic": "5.1.3 Accuracy vs. Democracy in Internet",
+            "freq": 16,
+            "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2020_fall","2019_spring","2018_fall","2017_fall","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall","2012_spring"]
+        },
+        {
+            "question": "What are computer crimes and cyber crimes? Define digital forgery. Describe the current scenario of cybercrimes in Nepal and state approaches to reduce cybercrime.",
+            "topic": "7.1 Introduction to Computer Crime / 7.2.2 Computer Frauds and Digital Forgery",
+            "freq": 16,
+            "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_fall","2020_fall","2019_fall","2019_spring","2018_spring","2017_fall","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall","2012_spring"]
+        },
+        {
+            "question": "What do you mean by denial of service? Explain different types of malicious programs such as viruses, worms and trojan horses.",
+            "topic": "7.2.5 Denial of Service / 7.2.12 Malicious Programs: Viruses, Worms, Trojan Horses",
+            "freq": 16,
+            "papers": ["2025_spring","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_fall","2017_fall","2016_fall","2015_spring","2014_fall","2013_fall","2012_fall"]
+        },
+        {
+            "question": "What is code of ethics? Mention any five codes of ethics proposed by NEC (Nepal Engineering Council). What is the role of NEC in maintaining ethical standards of Nepalese engineers?",
+            "topic": "4.3.1 Code of Ethics of Nepal Engineering Council",
+            "freq": 16,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_spring","2018_spring","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall"]
+        },
+        {
+            "question": "Discuss the codes of ethics of IEEE and ACM. How are they applied in the professional context? 'Professional conscientious and Right of Conscientious Refusal are Vital professional Practices.' Discuss on the basis of IEEE and ACM.",
+            "topic": "4.3.2 Code of Ethics of IEEE and ACM",
+            "freq": 16,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_spring","2020_fall","2019_spring","2018_fall","2017_fall","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall","2012_fall"]
+        },
+        {
+            "question": "State the major contributions of pioneers of computing — Von Neumann, Konrad Zuse, Charles Babbage, Edward Dijkstra, and Ada Lovelace — in the field of computing.",
+            "topic": "1.5 Pioneers of Computing / 1.1 Prehistory of Computing",
+            "freq": 15,
+            "papers": ["2024_fall","2022_fall","2021_fall","2020_fall","2019_fall","2018_fall","2017_fall","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall","2012_fall","2012_spring"]
+        },
+        {
+            "question": "Describe the Descriptive and Normative Claims with examples. How do they differ from each other in the context of IT ethics?",
+            "topic": "3.3 Descriptive and Normative Claims",
+            "freq": 15,
+            "papers": ["2025_spring","2024_fall","2024_spring","2023_spring","2022_fall","2021_spring","2020_fall","2019_spring","2018_fall","2018_spring","2017_spring","2016_fall","2015_spring","2014_fall","2012_spring"]
+        },
+        {
+            "question": "What are the types of Intellectual Property? Define trademark, patent and trade secret. How are they different from copyright? How has the Government of Nepal protected them?",
+            "topic": "8.1.4 Trademark / 8.1.5 Trade-secrets / 8.1.2 Patent",
+            "freq": 14,
+            "papers": ["2025_spring","2024_spring","2023_spring","2022_fall","2021_spring","2019_fall","2019_spring","2018_fall","2017_fall","2017_spring","2016_fall","2015_spring","2014_fall","2013_fall"]
+        },
+        {
+            "question": "Discuss Ethical Relativism as a tool for ethical analysis. What are its strengths and weaknesses?",
+            "topic": "3.4 Ethical Relativism",
+            "freq": 14,
+            "papers": ["2025_spring","2024_spring","2023_spring","2022_fall","2021_spring","2020_fall","2019_spring","2018_fall","2017_fall","2016_fall","2015_spring","2014_fall","2012_spring","2012_fall"]
+        },
+        {
+            "question": "What do you mean by digital forensics? Explain the process of digital forensics. List the types of digital forensics and discuss its role in responding to cyber incidents.",
+            "topic": "7.3 Introduction to Digital Forensics",
+            "freq": 14,
+            "papers": ["2025_spring","2024_spring","2023_spring","2022_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_spring","2017_fall","2016_fall","2015_spring","2014_fall","2013_fall"]
+        },
+        {
+            "question": "Describe the current scenario and effect of online pornography on children. State best approaches to reduce cybercrime in cyberspace in the context of Nepal compared to the rest of the world.",
+            "topic": "7.2.8 Online Pornography / 6.5 Offensive Speech and Censorship",
+            "freq": 14,
+            "papers": ["2025_spring","2024_fall","2024_spring","2022_fall","2021_fall","2020_fall","2019_spring","2018_spring","2017_fall","2016_fall","2015_spring","2014_fall","2013_fall","2012_spring"]
+        },
+        {
+            "question": "Explain Engineering and Computing as a profession. What are the attributes of a profession? Why is engineering termed as a profession?",
+            "topic": "4.1.3 Engineering and Computing as a Profession / 4.1.2 Characteristics of Profession",
+            "freq": 14,
+            "papers": ["2025_spring","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_spring","2018_spring","2017_fall","2016_fall","2015_fall","2015_spring","2014_fall"]
+        },
+        {
+            "question": "Define computing. Describe how computing has changed with the evolution in computer technology — covering hardware, software, programming languages and operating systems.",
+            "topic": "1.2 History of Computer Hardware / 1.3 History of Software: Programming Languages and OS",
+            "freq": 14,
+            "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_spring","2017_fall","2016_fall","2015_fall","2015_spring","2012_fall"]
+        },
+        {
+            "question": "Explain the IPR related laws in Nepal: Copyright Act and Patent, Design and Trademark Act. What are the penalties for violations? Explain the Electronic Transaction Act (ETA) and its provisions.",
+            "topic": "8.1.6 IPR in Nepal / 8.2.3 Electronics Transaction Act and Rules",
+            "freq": 14,
+            "papers": ["2025_spring","2024_spring","2023_spring","2022_fall","2021_fall","2021_spring","2020_fall","2019_fall","2019_spring","2018_spring","2017_fall","2016_fall","2015_fall","2014_fall"]
+        },
+        {
+            "question": "Discuss the concept of conflict of interest. Define it and explain its types with examples. When is an engineer morally obligated to blow the whistle?",
+            "topic": "4.2.1 Conflict of Interests and Whistleblowing",
+            "freq": 13,
+            "papers": ["2025_spring","2024_spring","2023_spring","2021_fall","2021_spring","2020_fall","2019_spring","2018_fall","2017_fall","2017_spring","2016_fall","2015_spring","2014_fall"]
+        },
+        {
+            "question": "Cyber terrorism has been increasing with the advancement of technology. Express your view on it with the measures that can be taken to control this issue.",
+            "topic": "7.2.13 Cyber Terrorism",
+            "freq": 12,
+            "papers": ["2025_spring","2023_spring","2021_fall","2021_spring","2020_fall","2019_fall","2018_spring","2017_fall","2017_spring","2016_fall","2015_spring","2014_fall"]
+        },
+        {
+            "question": "What is e-governance? Discuss the e-governance initiatives and challenges in Nepal. How can ICT facilitate improvement in public service delivery?",
+            "topic": "2.3 E-Governance and E-Government Systems",
+            "freq": 12,
+            "papers": ["2025_spring","2024_fall","2023_spring","2021_spring","2020_fall","2019_fall","2018_spring","2017_fall","2017_spring","2016_fall","2015_spring","2014_fall"]
+        },
+        {
+            "question": "'Information Technology has a major impact on poverty alleviation and women empowerment.' Do you agree or disagree? Justify with your opinion and suitable examples.",
+            "topic": "2.1.2 Using Technology for Poverty Alleviation",
+            "freq": 12,
+            "papers": ["2025_spring","2023_spring","2021_fall","2020_fall","2019_spring","2018_spring","2017_fall","2016_fall","2015_fall","2015_spring","2014_fall","2013_fall"]
+        },
+        {
+            "question": "What is Netiquette? How should we behave while using emails and other online communication? Explain hacker ethics.",
+            "topic": "4.4 Hacker Ethics and Netiquette",
+            "freq": 10,
+            "papers": ["2025_spring","2023_spring","2022_fall","2020_fall","2018_spring","2017_fall","2016_fall","2015_spring","2014_fall","2012_spring"]
+        },
+        {
+            "question": "Explain about the Safety critical system. Define responsibility and accountability of computer users. Explain hardware design issues and values in design.",
+            "topic": "5.3.1 Responsibility and Accountability / 5.2.2 Hardware Design Issue / 5.2.1 Software and Design Problems",
+            "freq": 10,
+            "papers": ["2025_spring","2024_spring","2023_spring","2021_spring","2019_fall","2019_spring","2018_spring","2017_spring","2016_fall","2015_spring"]
+        },
+        {
+            "question": "What is phishing? Explain the types of computer crimes and phishing attacks. How can you protect your computer from crime?",
+            "topic": "7.2.3 Phishing / 7.1 Introduction to Computer Crime and Cyber Crime",
+            "freq": 10,
+            "papers": ["2025_spring","2023_fall","2022_fall","2021_spring","2019_fall","2018_spring","2017_spring","2016_fall","2015_spring","2012_spring"]
+        },
+        {
+            "question": "Define philosophical and professional ethics. What is computer ethics? Explain three different ways of organizing ethical issues.",
+            "topic": "3.1 Philosophical and Professional Ethics",
+            "freq": 10,
+            "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2019_spring","2018_spring","2017_fall","2016_fall","2015_spring"]
+        },
+        {
+            "question": "How can we be safe while working on the internet? Discuss strategies and measures that governments and individuals can implement to protect sensitive information in the digital age.",
+            "topic": "6.4 Protecting Privacy / 6.2 Privacy Risks",
+            "freq": 10,
+            "papers": ["2024_spring","2023_spring","2022_fall","2021_spring","2020_fall","2019_spring","2018_spring","2017_fall","2016_fall","2015_spring"]
+        },
+        {
+            "question": "Define the terms ethics, moral and etiquette. Describe descriptive and normative claims. Explain utilitarianism and deontological theories and compare them.",
+            "topic": "3.1 Philosophical and Professional Ethics / 3.3 Descriptive and Normative Claims / 3.5 Utilitarianism and Deontological Theories",
+            "freq": 9,
+            "papers": ["2025_spring","2023_spring","2021_spring","2020_fall","2019_spring","2018_spring","2017_spring","2016_fall","2012_spring"]
+        },
+        {
+            "question": "What is the Right to Information Act in Nepal? Explain the Electronic Transaction Act (ETA) and its importance. What is the need of IT Policy and ETA in Nepal?",
+            "topic": "8.2.2 Right to Information Act / 8.2.3 Electronics Transaction Act and Rules",
+            "freq": 9,
+            "papers": ["2024_fall","2022_fall","2020_fall","2019_spring","2018_fall","2017_fall","2016_fall","2015_fall","2014_fall"]
+        },
+        {
+            "question": "Write a brief history of the Internet. Explain the history of networking and the development of the Internet from ARPANET to the World Wide Web.",
+            "topic": "1.4 History of Networking",
+            "freq": 8,
+            "papers": ["2024_spring","2023_fall","2021_spring","2019_spring","2018_fall","2016_fall","2015_spring","2012_spring"]
+        },
+        {
+            "question": "What is email privacy and web privacy? Explain the importance of email and web privacy in IT. How can IT professionals protect privacy in databases and personal records?",
+            "topic": "6.3.2 E-mail Privacy / 6.3.3 Web Privacy / 6.3.1 Databases and Personal Records",
+            "freq": 8,
+            "papers": ["2025_spring","2024_spring","2021_spring","2020_fall","2018_spring","2017_fall","2016_fall","2015_spring"]
+        },
+        {
+            "question": "Can a software risk be mitigated completely beforehand? Suggest ways to manage software complexity with the approach of decomposition, hierarchy and abstraction.",
+            "topic": "5.1.2 Safety in Critical Systems / 5.2.1 Software and Design Problems",
+            "freq": 8,
+            "papers": ["2025_spring","2023_spring","2022_fall","2021_spring","2019_spring","2018_spring","2016_fall","2015_fall"]
+        },
+        {
+            "question": "Government has issued Secure Password Practices. Describe its gist. Also put some light on the objectives of the IT Policy of Nepal.",
+            "topic": "8.2.4 Secure Password Practices Issued by GoN / 8.2.1 IT Policy of Nepal",
+            "freq": 6,
+            "papers": ["2019_fall","2019_spring","2017_fall","2017_spring","2016_fall","2015_spring"]
+        },
+        {
+            "question": "What are Psycho-social factors? 'Psycho-social factors are as important as the physical ergonomics of workstations and the work environment in influencing health and well-being of workers.' Justify.",
+            "topic": "2.1.3 Health Related Issues for an IT Professional",
+            "freq": 6,
+            "papers": ["2019_spring","2017_spring","2016_fall","2015_fall","2015_spring","2014_fall"]
+        }
+    ]
+}
