@@ -2119,13 +2119,13 @@
       "description": "T-s diagram of simple ideal Rankine cycle. Four state points labeled 1-4. Boiler pressure 6 MPa (top horizontal line), condenser pressure 20 kPa (bottom). Process 1-2: pump, 2-3: boiler, 3-4: turbine, 4-1: condenser. h3=3423.1 kJ/kg, h4=2267.5 kJ/kg given; h1 and h2 unknown."
     },
     {
-      "file": "BE_COMPUTER/Sem_II/Thermal/img/2018-S-6b.png",
+      "file": "img/2018-S-6b.png",
       "paper": "2018 Spring",
       "question": "Q6b",
       "description": "Composite wall cross-section with 4 layers A, B, C, D. Left side at 400°C, right side at 60°C. A is a single left layer (10 cm), B and C are parallel middle layers (B: 8 cm tall, C: 3 cm+gap), D is the right layer (7 cm). kA=150, kB=30, kC=65, kD=50 W/m°C."
     },
     {
-      "file": "BE_COMPUTER/Sem_II/Thermal/img/2023-S-6b.png",
+      "file": "img/2023-S-6b.png",
       "paper": "2023 Spring",
       "question": "Q6b",
       "description": "Composite wall with 5 layers A, B, C, D, E. B and C are parallel middle sections; E is a separate bottom-row layer. kA=150 W/m°C LA=3cm; kB=30 W/m°C LB=8cm; kC=50 W/m°C LC=8cm; kD=70 W/m°C LD=5cm; kE=25 W/m°C LE=16cm. AA=AD=2AB=2AC=0.1m², AE=0.025m²."

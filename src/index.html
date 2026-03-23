@@ -1760,6 +1760,10 @@
             document.title = cfg.app_name || 'Question Analyzer';
             el('hdr-title').textContent = cfg.app_name || 'Question Analyzer';
             el('hdr-sub').textContent = [cfg.university, cfg.program].filter(Boolean).join(' · ');
+            if (cfg.app_ic) {
+                el('hdr-icon').src = cfg.app_ic;
+                el('hdr-icon').style.display = '';
+            }
         }
 
         // ════════════════════════════════════════════════════
