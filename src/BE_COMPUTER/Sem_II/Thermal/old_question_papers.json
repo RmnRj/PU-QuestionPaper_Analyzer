@@ -2113,7 +2113,7 @@
       "description": "3D composite block showing 5 material zones labeled 1-5. Overall: 24 cm long, cross-section 8 cm × (2+6) cm. Layer widths: 3 cm | 2 cm | 3 cm. Inner regions 6 cm and 2 cm tall. k1=k3=80, k2=120, k4=100, k5=150 W/mK."
     },
     {
-      "file": "BE_COMPUTER/Sem_II/Thermal/img/2018-F-5b.png",
+      "file": "2018-F-5b.png",
       "paper": "2018 Fall",
       "question": "Q5b",
       "description": "T-s diagram of simple ideal Rankine cycle. Four state points labeled 1-4. Boiler pressure 6 MPa (top horizontal line), condenser pressure 20 kPa (bottom). Process 1-2: pump, 2-3: boiler, 3-4: turbine, 4-1: condenser. h3=3423.1 kJ/kg, h4=2267.5 kJ/kg given; h1 and h2 unknown."
