@@ -1,0 +1,115 @@
+{
+  "course_title": "Information Systems",
+  "course_code": "3-0-2",
+  "total_hours": 45,
+  "course_contents": [
+    {
+      "unit": 1,
+      "title": "Information System",
+      "hours": 3,
+      "topics": [
+        { "topic": "1.1 Classification and evolution of IS", "frequency": 10 },
+        { "topic": "1.2 IS in functional area", "frequency": 3 },
+        { "topic": "1.3 Information system architecture", "frequency": 6 },
+        { "topic": "1.4 Qualities of information systems", "frequency": 8 },
+        { "topic": "1.5 Managing Information System resources", "frequency": 2 },
+        { "topic": "1.6 Balanced Scorecard — case studies", "frequency": 12 }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Control, Audit and Security of Information System",
+      "hours": 3,
+      "topics": [
+        { "topic": "2.1 Control of information system", "frequency": 7 },
+        { "topic": "2.2 Audit of information system", "frequency": 5 },
+        { "topic": "2.3 Security of information system", "frequency": 10 },
+        { "topic": "2.4 Consumer layered security strategy", "frequency": 6 },
+        { "topic": "2.5 Enterprise layered security strategy", "frequency": 3 },
+        { "topic": "2.6 Extended validation and SSL certificates", "frequency": 4 },
+        { "topic": "2.7 Remote access authentication", "frequency": 3 },
+        { "topic": "2.8 Content control and policy-based encryption", "frequency": 1 },
+        { "topic": "2.9 Security in e-commerce transaction", "frequency": 5 }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Enterprise Management Systems",
+      "hours": 8,
+      "topics": [
+        { "topic": "3.1 Enterprise management systems (EMS)", "frequency": 10 },
+        { "topic": "3.2 Enterprise Software — ERP, SCM, CRM", "frequency": 13 },
+        { "topic": "3.3 Information Management and Technology of Enterprise Software", "frequency": 8 },
+        { "topic": "3.4 Role of IS and IT in Enterprise Management", "frequency": 11 },
+        { "topic": "3.5 Enterprise engineering, Electronic organism, Loose vs Full integration", "frequency": 8 }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Decision Support and Intelligent Systems",
+      "hours": 7,
+      "topics": [
+        { "topic": "4.1 DSS and operations research models", "frequency": 10 },
+        { "topic": "4.2 Group decision support systems (GDSS)", "frequency": 7 },
+        { "topic": "4.3 Enterprise and executive decision support systems", "frequency": 5 },
+        { "topic": "4.4 Knowledge Management and Knowledge Based Expert System", "frequency": 8 },
+        { "topic": "4.5 AI, Neural Networks, Virtual reality, Intelligent Agents", "frequency": 9 },
+        { "topic": "4.6 Data mining, Data Warehousing, OLAP and OLTP", "frequency": 12 },
+        { "topic": "4.7 Anomaly and fraud detection", "frequency": 7 }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Planning for IS",
+      "hours": 3,
+      "topics": [
+        { "topic": "5.1 Strategic Information System", "frequency": 11 },
+        { "topic": "5.2 Tactical Information System", "frequency": 6 },
+        { "topic": "5.3 Operational Information Systems", "frequency": 7 }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Implementations of Information Systems",
+      "hours": 9,
+      "topics": [
+        { "topic": "6.1 Change Management", "frequency": 10 },
+        { "topic": "6.2 Critical Success Factors (CSF)", "frequency": 12 },
+        { "topic": "6.3 Advanced Balanced Scorecard — foundations and strategy map", "frequency": 13 },
+        { "topic": "6.3.3 Advanced performance management", "frequency": 6 },
+        { "topic": "6.3.4 Implementation and visualization — Dashboard", "frequency": 9 },
+        { "topic": "6.3.5 Strategic initiative prioritization and management", "frequency": 5 },
+        { "topic": "6.3.6 Advanced scorecard alignment and cascading", "frequency": 4 }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Web Based Information System and Navigation",
+      "hours": 6,
+      "topics": [
+        { "topic": "7.1 The structure of the web", "frequency": 2 },
+        { "topic": "7.2 Link Analysis", "frequency": 8 },
+        { "topic": "7.3 Searching the web — search engines", "frequency": 4 },
+        { "topic": "7.4 Navigating the web — navigation design", "frequency": 6 },
+        { "topic": "7.5 Web usage mining", "frequency": 7 },
+        { "topic": "7.6 Collaborative filtering", "frequency": 12 },
+        { "topic": "7.7 Recommender systems", "frequency": 13 },
+        { "topic": "7.8 Collective intelligence", "frequency": 2 }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Scalable and Emerging Information System Techniques",
+      "hours": 6,
+      "topics": [
+        { "topic": "8.1 Techniques for voluminous data", "frequency": 4 },
+        { "topic": "8.2 Cloud computing technologies and their types — IaaS, PaaS, SaaS", "frequency": 14 },
+        { "topic": "8.3 Map Reduce and Hadoop systems", "frequency": 14 },
+        { "topic": "8.4 Data management in the cloud", "frequency": 6 },
+        { "topic": "8.5 Information retrieval in the cloud", "frequency": 4 },
+        { "topic": "8.6 Link analysis in cloud setup", "frequency": 4 },
+        { "topic": "8.7 Case studies of voluminous data — Big Data", "frequency": 2 }
+      ]
+    }
+  ]
+}

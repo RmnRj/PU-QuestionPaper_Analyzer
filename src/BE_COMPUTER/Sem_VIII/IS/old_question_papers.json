@@ -1,0 +1,1626 @@
+{
+  "subject": "Information Systems",
+  "university": "Pokhara University",
+  "level": "Bachelor",
+  "programme": "BE",
+  "full_marks": 100,
+  "pass_marks": 45,
+  "papers": [
+    {
+      "id": "2025-SP",
+      "year": "2025",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define information system. Describe its importance with qualities of a good information System?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Describe the role of security audit in information system? Discuss how multi-layer security strategy can be applied to protect e-commerce systems."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define enterprise resource planning (ERP). Explain the ERP's function supply chain management in an organization."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define enterprise engineering. How can enterprise integration provide the means to share data between different applications?"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Anomaly Detection. Differentiate between OLAP and OLTP."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define DSS and GDSS. Justify 'AI and Expert System is necessity for business in modern business'."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Information System Plan. How does operational, tactical and strategic information system help in IS planning?"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Describe the different perspectives used in Balance Scorecard."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Critical Success Factor. What might the Critical Success Factors for an Emerging IT company in Country like Nepal. Explain with their Advantages."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Why is navigation important on a website? Explain different types of search engines."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain about web usage mining technique."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Hadoop System and its components. Explain in details about working mechanism of Map Reduce for voluminous data."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Authentication and Authorization."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Next Generation Balanced Scorecards."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Big data."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-F",
+      "year": "2024",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Suppose that you are going to design balanced scorecard for Pokhara University. Explain how does the balanced scorecard involve measuring four main aspects of a business: learning and growth, business processes, customers, and finance? List out the Measures in each perspective of the Balanced Scorecard Card."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is multi-layer security strategy? Discuss how multi-layer security strategy can be applied to protect e-commerce systems."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Differentiate between ERP, SCM, and CRM software. How do these systems contribute to enterprise success?"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain how Information Systems (IS) and Information Technology (IT) support enterprise management and decision-making processes."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "How can you differentiate conventional system and expert system? Explain with suitable example."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Data Warehouse? Why do you require data warehouse along with operational databases? How is it related with data mining?"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain the concept of an operational information system and discuss its role in supporting the management of daily activities and enhancing operational efficiency within a business."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are the Critical Success Factors for Change Management?"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Discuss the concept of change management and explain how it helps businesses effectively navigate technological, organizational, or strategic changes while minimizing disruptions to daily operations."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What are the key factors that have to be considered while developing web-based information system? Explain them briefly."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is a recommender system? How does it work? Discuss different examples of recommender systems."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is cloud computing? Difference between IaaS, PaaS and SaaS."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Dashboard."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Electronic Organism."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Hadoop systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-SP",
+      "year": "2023",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Is information technology a subset of information system? What are the qualities of information system?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain the types of control and security of information system."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How is Information system used in supply chain management? Illustrate the supply chain process in a production industry with necessary assumption."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain the concept of Enterprise Resource Planning (ERP), Customer Relation Management and its importance in modern business operations."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Why do we need data mining? Describe different steps of KDD process."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Is decision making considered as a component of problem solving? Explain the characteristics of decision support system."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Make comparison between Strategic IS with Tactical IS. Briefly explain about Operational IS."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define implementation of information system. Discuss different types of implementations in information system."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Discuss change management that results due to implementation of information system."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What do you mean by web uses mining? Discuss the collaborating filtering based processing system for E-commerce based information system."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Why recommender system is required in information system? Explain the different examples of recommender system."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Link analysis in Cloud Setup. Explain map reduce and Hadoop."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Next Generation Balanced Scorecards."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Management Hierarchy and Information needs."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Data management in cloud."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2022-F",
+      "year": "2022",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Compare information with data. How can you say that IT can be considered as subset of IS?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define the concept and explain the importance of control, audit and security in the context of information systems."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the components of enterprise management systems? Describe the role of IS and IT in Enterprise Management."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain the concept of Enterprise Resource Planning (ERP), Supply Chain Management (SCM) and its importance in modern business operations."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define anomaly and fraud detection. Differentiate between OLAP and OLTP with suitable example."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Decision Support System (DSS) is the backbone of organization's decision making. Explain about DSS models."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is information plan? Explain the role of project management in the IS planning process."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What are critical success factors (CSFs)? Explain CSFs in IS applications."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is scorecard cascading? Write the advantages of Balanced Score Card?"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Recommender System. How does it work? Discuss different examples of Recommender Systems."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is cloud computing? Describe IaaS, PaaS and SaaS as different services of Cloud Computing."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain the concept of MapReduce and how it is used in Hadoop systems."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Customer Relationship Management."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Dashboard."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Collaborative Filtering."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-SP",
+      "year": "2021",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define information system. Classify and explain information system by system objectives."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is information system security? List out the potential threats to security and measures to control them."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "As an Enterprise Engineer what would you do for the betterment of your Enterprise?"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain different Enterprise Software. Explain in detail how Enterprise software is useful in Enterprises."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "'AI & Knowledge based expert system is useful in decision making'. Justify."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define DSS and GDSS. Explain the knowledge management system life cycle."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Strategic Planning? Explain Strategic Planning Model and also differentiate goal vs. objectives."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define Critical Success Factors (CSF). Mention the types of CSF also draw the hierarchy of CSF."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "'Advance Balanced Scorecard can be used in the implementation of Information System.' Justify it with a case study."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Recommender Systems is highly used in e-commerce and online social platform at present time, with an example explain its use in any of these platforms."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define web navigation. Mention the principles for good navigation design."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Map-reduce and Hadoop are emerging techniques in data and information management field; briefly summarize its working mechanism with an example."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Collaborative Filtering."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Global IT Management Challenges."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Dashboard."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-F",
+      "year": "2021",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Suppose that you are going to design balanced scorecard for Pokhara University. Explain how does the balanced scorecard involve measuring four main aspects of a business: learning and growth, business processes, customers, and finance? List out the Measures in each perspective of the Balanced Scorecard Card."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "If you are hired as an IT consultant at Pokhara University, you will be responsible for recommending the best information system for conducting the timed open book exam. Which types of information systems are acceptable for achieving those goals? Design the architecture of your recommended information system and describe the various controls and security mechanisms (both physical and logical) that will be applied to project Information Systems."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What makes an Enterprise Management System a complete package for any organization? Explain."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain how the SCM information system is helpful to a distribution business starting from procurement to retail."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "How can you differentiate conventional system and expert system?"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Data Warehouse? Why do you require data warehouse along with operational databases? How is it related with data mining?"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Distinguish Information systems in terms of planning and briefly explain on each."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What are the Critical Success Factors for Change Management?"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "You are assigned to generate a balance scorecard (BSC) for a software company, what objectives/strategy would you place in each perspective and what measures you would use to identify the goals you have set."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State Link Analysis in Web Search. How does a Search Engine Work? Discuss its architecture."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is a recommender system? How does it work? Discuss different examples of recommender systems."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is cloud computing? Difference between IaaS, PaaS and SaaS."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Hadoop systems."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Electronic Organism."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Decision Support System."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-F",
+      "year": "2020",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain Information system and its component? Explain the different types of Information System that support business operations and managerial decision making."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Do you think Information system (IS) audit is necessary in the context of Nepal? Justify your answer with IS audit objectives and procedures."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain in detail about Enterprise Management System (EMS) with practical example? What are benefits using EMS."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Why supply chain management is important? Explain supply chain process in a production industry with necessary assumption."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Data mining. Differentiate between OLAP and DLTP."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "How AI is useful in decision making. How Knowledge based expert system is used in decision making."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Strategic Information System? Differentiate Tactical Planning Versus Strategic Planning."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Critical Management? How critical management and Critical Success Factor (CSF) is used to develop the system. Explain."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Change Management. Explain Next Generation Balanced Scorecard."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is collaborative filtering? Explain its advantages and disadvantages."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Recommender System? Explain role of Link Analysis for web searching."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain in detail about the working mechanisms of Map Reduce for big data."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "SOA architecture."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Dashboard."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Anomaly and Fraud Detection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-F",
+      "year": "2019",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain Information System Architecture? List out different qualities of information system."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What are consumer layered Security? List out potential threats to security and measures to control them."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the components of EMS? Briefly explain the role of IS and IT in enterprise management?"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Discuss the uses of SCM and CRM. Explain in brief about electronic organism."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "List and explain with example about the limitation of Intelligent System."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is Strategic Information System? Differentiate Tactical Planning Versus Strategic Planning."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How AI is useful in decision making. How Knowledge based expert system is used in decision making."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is enterprise engineering? As an enterprise engineer how would you role for the betterment of your enterprise?"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What do you mean by Implementation of IS? Explain different types of Control."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is Cloud Computing? Describe the different types of cloud services."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What do you mean by prototyping navigation in web-based information?"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Discuss the impact of critical success factors on the implementation of Information System."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Dashboard."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Recommender system."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Data management in the cloud."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-SP",
+      "year": "2019",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain Information System. What is balanced score card? Explain with each perspectives."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Layered Security Strategy? Briefly describe the different types of layered security strategies."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define EMS. Briefly explain the components of an EMS."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Briefly discuss Role of IS and IT in Enterprise Management."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Implementing the concept of Enterprise engineering and IT in EMS, illustrate your idea to run a health clinic service."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Describe about business value of Decision Support Systems. Differentiate between MIS and DSS."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Preventing an organization form fraudulent events could be a big need nowadays, so present any three anomaly detecting ideas with brief illustrate of each to address the issue."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is Strategic Information System? Differentiate Tactical Planning Versus Strategic Planning."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Illustrate the ideas that could be implemented to develop a strategic initiative to prioritizing all projects in any organizations."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Critical Management? How critical management and CFS is used to develop the system. Explain."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Recommender System? Explain Link Analysis in web search."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Describe IaaS, PaaS, SaaS as different Services of Cloud Computing."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Dashboard."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Collaborative Filtering."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Map Reduce and Hadoop Systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-F",
+      "year": "2018",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain Information System Architecture. List out few qualities of information System."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Remote Access Authentication? Briefly explain extended validation and SSL certificates."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain different Enterprise Software. Explain in detail how Enterprise software is useful in Enterprises."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Briefly discuss Role of IS and IT in Enterprise Management."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "As an Enterprise Engineer what would you do for the betterment of your Enterprise?"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define DSS. Differentiate between GDSS and DSS."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How AI is useful in decision making? How Knowledge based expert system is used in decision making."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is Strategic Information System? Differentiate Tactical Planning Versus Strategic Planning."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Change Management. Explain Next Generation Balanced Scorecard in detail."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Critical Management? How critical management and CFS is used to develop the system. Explain."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Recommender System? Explain Link Analysis in web search."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Describe IaaS, PaaS, SaaS as different Services of Cloud Computing."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Dashboard."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Collaborative Filtering."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Map Reduce and Hadoop Systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-SP",
+      "year": "2017",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Information System? Explain evolution of Information system?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Information Security? List out potential threats to security and measures to control them."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain the role of enterprise engineer for the betterment of organization."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Enterprise Software. Differentiate between loose integration and full integration."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Differentiate TPS, MIS, DSS in terms of type of users, focus, application, ease of use, processing interest."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define anomaly and fraud detection. Differentiate between OLTP and OLAP with suitable example."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Change Management. Explain Next Generation Balanced Scorecard in detail."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Critical Management? How critical management and CFS is used to develop the system. Explain."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What do you mean by link analysis? How it makes easy to search in web?"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is web usage mining? How it is performed? Explain with suitable examples."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Describe IaaS, PaaS, SaaS as different Services of Cloud Computing."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define strategic Information system. Differentiate operational planning versus strategic planning."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Tactical Information system."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Map Reduce and Hadoop Systems."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Dashboard."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-F",
+      "year": "2017",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How are Data, Information and Knowledge different? Illustrate with an example."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Why should we need to take care of security issues in an IS? Illustrate what vulnerabilities may occur at different components of an IS."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "21st Century enterprises are unimaginable without IT. Illustrate why?"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Enterprise based software has focused highly on CRM. What is CRM and how IT solutions have impacted CRM?"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Differentiate between Knowledge Management and Information Management Systems. How are KMS developed?"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is Enterprise Analysis? Why are EA more effective method compared to CSF? Describe."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How IS are used to deals with creation and implementation of tactics? Put your views."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is collaborative filtering? How are we using such filters in our daily life? Explain."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are data warehouse? How is it different from database? What are the tools used to process data from a warehouse? Discuss in brief."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Illustrate with an example BSC for Pokhara University."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the basic criteria for while creating navigation in a web design? Explain."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is cloud computing? Differentiate between IaaS, PaaS and SaaS."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Integrated change management."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "DSS."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Critical Success Factor."
+            },
+            {
+              "sub_no": "d",
+              "marks": 5,
+              "question": "Information Retrieval in cloud."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-SP",
+      "year": "2016",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define IS and classify IS on structural basis of an organization."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Write down the qualities of an Information system. What is balanced scorecard?"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the security issues of an IS? What is consumer layered security strategy?"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are SSL certificates? Why do we use SSL certificates?"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is an ERP? If an organization has just a few business processes, would it be capable of implementing an ERP system? Justify."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Differentiate between loose integration and tight integration. What is an electronic organism?"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What do you understand by knowledge management? What are the different components of an expert system?"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is data mining? Differentiate between OLAP and OLTP?"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Differentiate between technical and information system and operational information systems."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are critical success factors for an organization?"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is Dashboard? What are the advantages of using a Dashboard?"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are Recommender Systems? Where is it used?"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Supply Chain Management (SCM)."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Collaborative Filtering."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Map Reduce and Hadoop systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-F",
+      "year": "2016",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is information systems? How have been IS affecting the human life in today's context?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are the different security threats associated while working in the internet? List them and explain about any three."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What are the function of Enterprise system and how it works? Differentiate between Information system and Enterprise system."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Describe the role of IS and IT in Enterprise Management."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the applications of Decision support system? Describe Group DSS and Enterprise DSS."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are the different kinds of knowledge? Explain about knowledge management with its components."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How is strategic IS different from operational IS? Explain."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is change management? What are the different perspectives considered by balanced scorecard while evaluating any organizational performance?"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Briefly explain Critical Success factor with its types."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "How should be the good navigation in the web? Explain."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is map reduce? How are data managed in clouds? Explain in brief."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Discuss the Information Retrieval in the cloud with a suitable example."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Collaborative filtering."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Hadoop systems."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Enterprise management System (EMS)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-F",
+      "year": "2015",
+      "semester": "Fall",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Data, Information and Knowledge. Also describe the evolution of Information Systems."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Layered Security Strategy? Briefly describe the different types of layered security strategies."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are Enterprise Engineering and Electronic Organism? Describe in brief."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is Knowledge Management? List out the phases in life cycle of management of knowledge."
+        },
+        {
+          "number": "2",
+          "sub_no": "c",
+          "marks": 7,
+          "question": "What is change management? Explain."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is EMS? List out the different components of EMS. Explain them in brief."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Describe the role of IT in managing an organization.",
+          "or_alternative": {
+            "marks": 7,
+            "question": "In today's context, IS has become an integral part of any enterprise. So you agree? Justify your answer."
+          }
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is DSS, Executive DSS and GDSS? Explain how GDSS works."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Differentiate different levels of Information Systems with example."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Describe in brief about the different perspectives used in Balance Scorecard."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is web mining? Explain in brief.",
+          "or_alternative": {
+            "marks": 7,
+            "question": "What are the criteria for good navigation in web? Describe."
+          }
+        },
+        {
+          "number": "5",
+          "sub_no": "c",
+          "marks": 7,
+          "question": "What is collaborative filtering? Explain where is it used and why?"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Cloud computing? What are the different services provided by cloud? Explain."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Map Reduce? How map is reduce used in processing voluminous data? Explain."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 5,
+              "question": "Intelligent Agents and AI."
+            },
+            {
+              "sub_no": "b",
+              "marks": 5,
+              "question": "Critical Success Factors."
+            },
+            {
+              "sub_no": "c",
+              "marks": 5,
+              "question": "Link Analysis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-SP",
+      "year": "2015",
+      "semester": "Spring",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Information System. Explain the evolution of Information System."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define DSS. Compare it with MIS. Also mention the types of DSS."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Why security of IS in needed? What are the potential threats to security? How to protect data or program?"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Why do you audit an Information System? What are the different types of controls available in an Information System?"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is an ERP? What are the advantages and risks of implementing ERP in your organization?"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "As an Enterprise Engineer what would you do for the betterment of your Enterprise?"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "How AI is useful in decision making? How knowledge based expert system is used in decision making?"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is need for Information System planning? How does operational, tactical and strategic information system help in IS planning? Explain."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What are the advantages of Balanced Score Card? Explain."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is critical management? How critical management and CFS is used to develop the system? Explain."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Collaborative Filtering and how it is differ from recommended setting?"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Describe Cloud Computing Technologies and its various form."
+        },
+        {
+          "number": "7",
+          "instruction": "Case Study 2×5",
+          "context": "There are information systems all around us. We encountered them at the university, in stores and banks, when making airline, hotel or rental-car reservation, and in many other aspects of our daily routine. For this project, choose an information system and critique it. First, describe the system: what are its objectives? Who are the users? Then trace the input of the system to determine who inputs what information. Look at the output the system. Is it a physical document? Often, systems have to store data on a more or less permanent basis in files or in a database? Can you figure out what is in the database for you system? Draw a diagram of the input, processing, database and outputs of the system. What are the major strengths of the system? Do you see any problems with it? What can you suggest to improve the system?",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 10,
+              "question": "Case Study as described above."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
