@@ -1,0 +1,2588 @@
+{
+  "subject": "Engineering Mathematics IV",
+  "university": "Pokhara University",
+  "level": "Bachelor",
+  "programme": "BE",
+  "full_marks": 100,
+  "pass_marks": 45,
+  "papers": [
+    {
+      "id": "2025-SP",
+      "year": "2025",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Prove that u = y³ − 3x²y is a harmonic function. Determine its harmonic conjugate and find the corresponding analytic function.",
+          "eq": "u = y^3 - 3x^2 y"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State and prove Cauchy Integral formula. Hence using it evaluate the integral ∮_c z³/(2z−i) dz, where c: |z| = 1, counter clockwise.",
+          "eq": "\\oint_c \\frac{z^3}{2z - i}\\,dz, \\quad |z| = 1"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State Cauchy's Residue Theorem. Using residue theorem, evaluate:\n(i) ∮_c 1/(z²+4) dz, where C: |z − i| = 2\n(ii) ∮_c (4−3z)/(z²−z) dz, where C: |z| = 2",
+          "eq": "(i)\\;\\oint_c \\frac{1}{z^2+4}\\,dz,\\;|z-i|=2 \\qquad (ii)\\;\\oint_c \\frac{4-3z}{z^2-z}\\,dz,\\;|z|=2"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the Laurent's series expansion of f(z) = (z²−1)/[(z+2)(z+3)] in the following regions:\n(i) |z| < 2   (ii) 2 < |z| < 3   (iii) |z| > 3",
+          "eq": "f(z) = \\frac{z^2 - 1}{(z+2)(z+3)}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove initial value theorem and find the inverse z-transform of F(z) = (z²−3z)/[(z−5)(z+2)].",
+          "eq": "F(z) = \\frac{z^2 - 3z}{(z-5)(z+2)}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the difference equation y_{n+2} − 4y_{n+1} + 4y_n = 2ⁿ, y₀ = 0, y₁ = 1 by using Z-transform.",
+          "eq": "y_{n+2} - 4y_{n+1} + 4y_n = 2^n, \\quad y_0=0,\\; y_1=1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Fourier integral. By choosing a suitable function, show that ∫₀^∞ (cosxw + w sinxw)/(1+w²) dw equals: 0 if x < 0, π/2 if x = 0, πe^{−x} if x > 0.",
+          "eq": "\\int_0^\\infty \\frac{\\cos xw + w\\sin xw}{1+w^2}\\,dw = \\begin{cases} 0 & x<0 \\\\ \\pi/2 & x=0 \\\\ \\pi e^{-x} & x>0 \\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the Fourier sine transform of f(x) = e^{−x} for x > 0 and then show that ∫₀^∞ x sin(mx)/(1+x²) dx = (π/2)e^{−m}, x > 0.",
+          "eq": "\\int_0^\\infty \\frac{x\\sin mx}{1+x^2}\\,dx = \\frac{\\pi}{2}e^{-m},\\quad m>0"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define partial differential equations. By separating the variables, solve: (i) u_{xy} − u = 0   (ii) xu_{xy} + 2yu = 0",
+          "eq": "(i)\\; u_{xy} - u = 0 \\qquad (ii)\\; xu_{xy} + 2yu = 0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A tightly stretched string of length L is drawn a side at its midpoint a distance of L/2 perpendicular to the equilibrium position so that its initial position is given by f(x) = x if 0 < x < L/2, (L−x) if L/2 < x < π. It is initially at rest and is suddenly released. Find u(x, t).",
+          "eq": "f(x) = \\begin{cases} x & 0 < x < L/2 \\\\ L-x & L/2 < x < \\pi \\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive one dimensional heat equation ∂u/∂t = c² ∂²u/∂x² with solutions.",
+          "eq": "\\frac{\\partial u}{\\partial t} = c^2 \\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Starting from Cartesian form of Laplace equation derive the Laplace equation in polar form.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the linear fractional transformation that maps z₁ = 0, z₂ = −1, z₃ = i onto the points w₁ = i, w₂ = 0, w₃ = ∞.",
+              "eq": "z_1=0,\\;z_2=-1,\\;z_3=i \\;\\mapsto\\; w_1=i,\\;w_2=0,\\;w_3=\\infty"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find Z-transform of sin(nπ/2) and cos(nπ/2).",
+              "eq": "Z\\!\\left\\{\\sin\\tfrac{n\\pi}{2}\\right\\} \\text{ and } Z\\!\\left\\{\\cos\\tfrac{n\\pi}{2}\\right\\}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Show that the Fourier cosine transforms satisfy linearity property."
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Write equation of an ellipsoid. Sketch it with centre and axis of symmetry.",
+              "eq": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-FA",
+      "year": "2024",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define harmonic function. Show that the function u = 3x²y + x² − y³ − y² is a harmonic function. Find the analytic function for which the given function is a real part.",
+          "eq": "u = 3x^2 y + x^2 - y^3 - y^2"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State and prove Cauchy integral formula. Using it, evaluate the integral ∮_c (2z²+3)/(z−2)² dz where c: |z−1| = 2 in counter-clockwise direction.",
+          "eq": "\\oint_c \\frac{2z^2+3}{(z-2)^2}\\,dz,\\quad |z-1|=2"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Expand f(z) = 1/[(z+1)(z+3)] in Laurent series valid for (i) 1 < |z| < 3  (ii) |z| > 3  (iii) |z| < 1  (iv) 0 < |z+1| < 2",
+          "eq": "f(z) = \\frac{1}{(z+1)(z+3)}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Let the rectangular region R in the z-plane be bounded by lines x = 0, y = 0, x = 2, y = 3. Find the region R' of the w-plane into which R is mapped under the transformation ω = √2 z e^{iπ/4}.",
+          "eq": "\\omega = \\sqrt{2}\\, z\\, e^{i\\pi/4}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 4,
+          "question": "Find the Z transform of rⁿ cos nθ.",
+          "eq": "Z\\{r^n \\cos n\\theta\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a2",
+          "marks": 4,
+          "question": "Find the inverse Z-transform of the function (2z²−5z)/[(z−2)(z−3)].",
+          "eq": "\\frac{2z^2 - 5z}{(z-2)(z-3)}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the differential equation y_{k+2} + 2y_{k+1} + y_k = k where y₀ = 0, y₁ = 0 using Z-transform.",
+          "eq": "y_{k+2} + 2y_{k+1} + y_k = k,\\quad y_0=0,\\;y_1=0"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that ∫₀^∞ (1−cos πw)/w · sin πx dw = π/2 if 0 ≤ x ≤ π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{1-\\cos\\pi w}{w}\\sin\\pi x\\,dw = \\begin{cases}\\pi/2 & 0\\le x\\le\\pi \\\\ 0 & x>\\pi\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the Fourier cosine transform of f(x) = e^{−x} (x > 0) and hence by using Parseval's identity, show that ∫₀^∞ dx/(1+x²)² = π/4.",
+          "eq": "\\int_0^\\infty \\frac{dx}{(1+x^2)^2} = \\frac{\\pi}{4}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define partial differential equation. Solve u_{xx} − u_{xy} = 0 by separating the variables.",
+          "eq": "u_{xx} - u_{xy} = 0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find u(x, t) from one dimensional wave equation ∂²u/∂t² = c² ∂²u/∂x², with boundary condition u(0,t) = 0 = u(L,t), initial deflection f(x) and initial velocity ∂u/∂t|_{t=0} = g(x).",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2},\\quad u(0,t)=0=u(L,t),\\quad \\left.\\frac{\\partial u}{\\partial t}\\right|_{t=0}=g(x)"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the temperature in a laterally insulated bar of length L whose ends are kept at a zero temperature, assuming that the initial temperature is f(x) = x if 0 < x < L/2, (L−x) if L/2 < x < L.",
+          "eq": "f(x) = \\begin{cases} x & 0 < x < L/2 \\\\ L-x & L/2 < x < L \\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Express P²u = ∂²u/∂x² + ∂²u/∂y² in polar coordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Check analyticity of f(z) = z².",
+              "eq": "f(z) = z^2"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find tangent vector on the curve r⃗ = 2cos t î + 2sin t j̄ + t k̄, at P(2, 0, 0).",
+              "eq": "\\vec{r} = 2\\cos t\\,\\hat{i} + 2\\sin t\\,\\hat{j} + t\\,\\hat{k},\\quad P(2,0,0)"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find z-transform of z(aⁿ).",
+              "eq": "Z(a^n)"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Fourier sine transform of e^{−|x|}.",
+              "eq": "F_s\\{e^{-|x|}\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2024-SP",
+      "year": "2024",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define harmonic function. Show that v = 2xy − y/(x²+y²) is a harmonic function. Find harmonic conjugate of v.",
+          "eq": "v = 2xy - \\frac{y}{x^2+y^2}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Evaluate ∮_c cos(πz²)/(z²−3z+2) dz where C: |z| = 3.",
+          "eq": "\\oint_c \\frac{\\cos(\\pi z^2)}{z^2 - 3z + 2}\\,dz,\\quad |z|=3"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the image of triangular region of the Z-plane bounded by the lines x = 0, y = 0, x + y = 1 under the transformation w = z e^{iπ/4} and show the sketch in the diagram.",
+          "eq": "w = z\\,e^{i\\pi/4}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State Cauchy Residue Theorem. By applying Cauchy Residue Theorem, evaluate ∮_c (4−3z)/[z(z−1)(z−2)] dz where C: |z| = 3/2.\n\nOR\n\nFind Laurent series of the function f(z) = 1/[z²(1−z)] in the region (i) 0 < |z| < 1  (ii) 1 < |z| < 4.",
+          "eq": "\\oint_c \\frac{4-3z}{z(z-1)(z-2)}\\,dz,\\quad |z|=\\tfrac{3}{2}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove first shifting theorem of Z-transform. Using it evaluate Z[e^{−iat}] and hence find Z(sin at).",
+          "eq": "Z\\{e^{-iat}\\},\\quad Z\\{\\sin at\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Use z-transform to solve the difference equation y_{n+2} − 2y_{n+1} + y_n = 2ⁿ, where y₀ = 0 and y₁ = 1.",
+          "eq": "y_{n+2} - 2y_{n+1} + y_n = 2^n,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the Fourier integral of the function f(x) = π/2 if 0 ≤ x ≤ 1, π/4 if x = 1, 0 if x > 1.",
+          "eq": "f(x) = \\begin{cases}\\pi/2 & 0\\le x\\le 1\\\\ \\pi/4 & x=1\\\\ 0 & x>1\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the Fourier cosine transform of f(x) = e^{−x} (x > 0) and hence by using Parseval's identity, show that ∫₀^∞ dx/(1+x²)² = π/4.",
+          "eq": "\\int_0^\\infty \\frac{dx}{(1+x^2)^2} = \\frac{\\pi}{4}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define partial differential equation. Solve u_{xx} − u_{xy} = 0 by separating the variables.",
+          "eq": "u_{xx} - u_{xy} = 0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find u(x, t) from one dimensional wave equation ∂²u/∂t² = c² ∂²u/∂x², with boundary condition u(0,t) = 0 = u(L,t), initial deflection f(x) and initial velocity ∂u/∂t|_{t=0} = g(x).",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the temperature in a laterally insulated bar of length L whose ends are kept at zero temperature, assuming that the initial temperature is f(x) = x if 0 < x < L/2, (L−x) if L/2 < x < L.",
+          "eq": "f(x) = \\begin{cases} x & 0 < x < L/2 \\\\ L-x & L/2 < x < L \\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the Fourier transform of the function f(x) = e^{−x²/2}.",
+          "eq": "f(x) = e^{-x^2/2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Check analyticity of f(z) = z².",
+              "eq": "f(z) = z^2"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find tangent vector on the curve r⃗ = cos t î + 2sin t j̄ + t k̄, at P(1/2, √3, 0).",
+              "eq": "\\vec{r} = \\cos t\\,\\hat{i} + 2\\sin t\\,\\hat{j} + t\\,\\hat{k}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find z-transform of z(aⁿ).",
+              "eq": "Z(a^n)"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Write equation of an ellipsoid. Sketch it with centre and axis of symmetry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-FA",
+      "year": "2023",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define harmonic function. Check u = x³ − 3xy² is harmonic or not? If yes, find corresponding harmonic conjugate v of u.",
+          "eq": "u = x^3 - 3xy^2"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State Cauchy Integral formula for derivative. Evaluate ∮_c z⁶/(2z−1)⁶ dz, where c is the unit circle |z| = 1, counterclockwise.",
+          "eq": "\\oint_c \\frac{z^6}{(2z-1)^6}\\,dz,\\quad |z|=1"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the image of triangular region of the Z-plane bounded by the lines x = 0, y = 0, x + y = 1 under the transformation w = z e^{iπ/4} and show the sketch in the diagram.\n\nOR\n\nFind the Laurent series for f(z) = (z+3)/[z(z²−z−2)] in the region (i) 0 < |z| < 1  (ii) 1 < |z| < 2  (iii) |z| > 2",
+          "eq": "w = z\\,e^{i\\pi/4}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State Cauchy Residue Theorem. By applying Cauchy Residue Theorem, evaluate ∮_c (4−3z)/[z(z−1)(z−2)] dz where C: |z| = 3/2.",
+          "eq": "\\oint_c \\frac{4-3z}{z(z-1)(z-2)}\\,dz,\\quad |z|=\\tfrac{3}{2}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove first shifting theorem of Z-transform. Using it evaluate Z[aⁿ cos bt] and Z[aⁿ sin bt].",
+          "eq": "Z\\{a^n\\cos bt\\},\\quad Z\\{a^n\\sin bt\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the difference equation by using Z-transform: y_{n+2} − 4y_{n+1} + 4y_n = 2ⁿ with y₀ = 0, y₁ = 1.",
+          "eq": "y_{n+2} - 4y_{n+1} + 4y_n = 2^n,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that ∫₀^∞ sin πw sin xw/(1−w²) dw = π/2 sin x if 0 ≤ x ≤ π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{\\sin\\pi w\\,\\sin xw}{1-w^2}\\,dw = \\begin{cases}\\frac{\\pi}{2}\\sin x & 0\\le x\\le\\pi\\\\ 0 & x>\\pi\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find Fourier sine transform of f(x) = e^{−x} for x > 0. Then prove that ∫₀^∞ x sin mx/(1+x²) dx = (π/2) e^{−m} for m > 0.",
+          "eq": "\\int_0^\\infty \\frac{x\\sin mx}{1+x^2}\\,dx = \\frac{\\pi}{2}e^{-m},\\quad m>0"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive one dimensional heat equation ∂u/∂t = c² ∂²u/∂x² with necessary assumptions.",
+          "eq": "\\frac{\\partial u}{\\partial t} = c^2 \\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find u(x, t) from one dimensional wave equation ∂²u/∂t² = c² ∂²u/∂x², with boundary condition u(0,t) = 0 = u(L,t), initial deflection f(x) and initial velocity ∂u/∂t|_{t=0} = g(x).",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "A homogeneous rod of conducting material of length 100 cm has its ends kept at zero temperature and the temperature initially is f(x) = x for 0 ≤ x ≤ 50, (100−x) for 50 ≤ x ≤ 100. Find the temperature distribution on the rod at any time.",
+          "eq": "f(x)=\\begin{cases}x & 0\\le x\\le 50\\\\ 100-x & 50\\le x\\le 100\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar co-ordinates.\n\nOR\n\nDerive Helmholtz equation F_{xx} + F_{yy} + FV² = 0 and find its solution under boundary condition.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find tangent vector on the curve r⃗ = cos t î + 2sin t j̄, at P(1/2, √3, 0).",
+              "eq": "\\vec{r} = \\cos t\\,\\hat{i} + 2\\sin t\\,\\hat{j}"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Prove Z(aⁿ) = z/(z−a).",
+              "eq": "Z(a^n) = \\frac{z}{z-a}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Check if u = y³ − 3x²y is a harmonic function.",
+              "eq": "u = y^3 - 3x^2 y"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Write the equation of hyperboloid of two sheets and then sketch.",
+              "eq": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} - \\frac{z^2}{c^2} = 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-SP",
+      "year": "2023",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define harmonic function. Is a function v = 2xy − y/(x²+y²) harmonic? If yes, find a corresponding harmonic conjugate and the analytic function.",
+          "eq": "v = 2xy - \\frac{y}{x^2+y^2}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State Cauchy integral formula for derivative. Evaluate ∮_c z⁶/(2z−1)⁶ dz, where c is the unit circle |z| = 1, counterclockwise.",
+          "eq": "\\oint_c \\frac{z^6}{(2z-1)^6}\\,dz,\\quad |z|=1"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Integrate f(z) = (e^z + z)/(z³ − z) dz around a unit circle |z| = π/2 using Cauchy's Residue theorem.",
+          "eq": "\\oint_{|z|=\\pi/2} \\frac{e^z+z}{z^3-z}\\,dz"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define a bilinear transformation. Find the bilinear transformation which maps the points z = 0, −1, i onto the points w = i, 0, ∞. Also find image of the unit circle |z| = 1.",
+          "eq": "z=0,-1,i \\;\\mapsto\\; w=i,0,\\infty"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Fourier integral. Choosing a suitable function, show that ∫₀^∞ sin πω/ω · sin wx dw = π sin x/2 if 0 ≤ x ≥ π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{\\sin\\pi\\omega}{\\omega}\\sin wx\\,dw = \\begin{cases}\\frac{\\pi\\sin x}{2} & 0\\le x\\le\\pi\\\\ 0 & x>\\pi\\end{cases}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the Fourier Transform of the function f(x) = e^{−x²/2}.",
+          "eq": "f(x) = e^{-x^2/2}"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove first shifting theorem of Z-transform. Using it evaluate Z[e^{−iat}] and hence find Z(cos at).",
+          "eq": "Z\\{e^{-iat}\\},\\quad Z\\{\\cos at\\}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the difference equation by using Z-transform: y_{n+2} − 3y_{n+1} + 2y_n = 4ⁿ with y₀ = 0 and y₁ = 1.",
+          "eq": "y_{n+2} - 3y_{n+1} + 2y_n = 4^n,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Derive one dimensional wave equation with solution.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "A tightly stretched string of length L, fixed at its ends, is initially in a position given by u(x, 0) = u₀ sin³(πx/L). If it is released from the rest from this position, find the displacement.",
+          "eq": "u(x,0) = u_0 \\sin^3\\!\\left(\\frac{\\pi x}{L}\\right)"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "A homogeneous rod of conducting material of length 100 cm has its ends kept at zero temperature and the temperature initially is f(x) = x for 0 ≤ x ≤ 50, (100−x) for 50 ≤ x ≤ 100. Find the temperature distribution on the rod at any time.",
+          "eq": "f(x)=\\begin{cases}x & 0\\le x\\le 50\\\\ 100-x & 50\\le x\\le 100\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find tangent vector on the curve r⃗ = cos t î + 2sin t j̄, at P(1/2, √3, 0).",
+              "eq": "\\vec{r}(t) = \\cos t\\,\\hat{i}+2\\sin t\\,\\hat{j}"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Verify that u = x² + t² is a solution of one dimensional wave equation.",
+              "eq": "u = x^2 + t^2"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Express f(z) = sinh z in terms of u + iv.",
+              "eq": "f(z) = \\sinh z"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Solve u_{xx} − u = 0 by using separation of variables.",
+              "eq": "u_{xx} - u = 0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2022-FA",
+      "year": "2022",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Laplace equation and harmonic function. Determine a and b such that u = ax³ + by³ is harmonic and also find the harmonic conjugate.",
+          "eq": "u = ax^3 + by^3"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State and prove Cauchy Integral Formula. Evaluate the integral ∮_c e^{5z}/(z+i)⁴ dz, where c: |z| = 2.",
+          "eq": "\\oint_c \\frac{e^{5z}}{(z+i)^4}\\,dz,\\quad |z|=2"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that the transformation w = (2z+3)/(z−4) maps the circle x² + y² − 4x = 0 on to the straight line 4u + 3 = 0 in w plane.",
+          "eq": "w = \\frac{2z+3}{z-4}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the series expansion of the function f(z) = (7z−2)/[(z+1)z(z−2)] in the regions by using Laurent series: (i) 0 < |z+1| < 1  (ii) 1 < |z+1| < 3.",
+          "eq": "f(z) = \\frac{7z-2}{(z+1)z(z-2)}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove first shifting theorem of Z-transform. Using it find Z[te^{bt}].",
+          "eq": "Z\\{te^{bt}\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the difference equation by using Z transform: y_{n+2} − 4y_{n+1} + 4y_n = 2ⁿ, where y₀ = 0, y₁ = 1.",
+          "eq": "y_{n+2} - 4y_{n+1} + 4y_n = 2^n,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that ∫₀^∞ w sin xw/(a²+w²) dw = (π/2) e^{−ax} where x > 0, a > 0.",
+          "eq": "\\int_0^\\infty \\frac{w\\sin xw}{a^2+w^2}\\,dw = \\frac{\\pi}{2}e^{-ax},\\quad x>0,\\,a>0"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find Fourier cosine transform of f(x) = e^{−mx} for m > 0. Then prove that ∫₀^∞ cos kx/(1+x²) dx = (π/2) e^{−k}.",
+          "eq": "\\int_0^\\infty \\frac{\\cos kx}{1+x^2}\\,dx = \\frac{\\pi}{2}e^{-k}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the solution of the differential equation y²u_x − x²u_y = 0 by using separating of variables.",
+          "eq": "y^2 u_x - x^2 u_y = 0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the solution of one dimensional equation with boundary condition u(0,t) = 0 = u(l,t) and initial condition u(x,0) = (100x/l).",
+          "eq": "u(0,t)=0=u(l,t),\\quad u(x,0)=\\frac{100x}{l}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Derive the solution of one dimensional wave equation for a vibrating string by using D'Alembert's method.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (2.5×4)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Check analyticity of f(z) = z².",
+              "eq": "f(z) = z^2"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Show that the Z transform is linear operator."
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Solve the partial differential equation u_{xx} + 9u = 0.",
+              "eq": "u_{xx} + 9u = 0"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find the unit tangent vector to the curve r⃗(t) = 2cos t î + sin t j̄ at (√2, √2, 0).",
+              "eq": "\\vec{r}(t) = 2\\cos t\\,\\hat{i}+\\sin t\\,\\hat{j}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-FA",
+      "year": "2021",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define harmonic function. Is a function v = 2xy − y/(x²+y²) harmonic? If yes, find a corresponding harmonic conjugate and the analytic function.",
+          "eq": "v = 2xy - \\frac{y}{x^2+y^2}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State Cauchy integral formula for derivative. Evaluate ∮_c z⁶/(2z−1)⁶ dz, where c is the unit circle |z| = 1, counterclockwise.",
+          "eq": "\\oint_c \\frac{z^6}{(2z-1)^6}\\,dz,\\quad |z|=1"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Integrate f(z) = (e^z + z)/(z³ − z) dz around a unit circle |z| = π/2 using Cauchy's Residue theorem.",
+          "eq": "\\oint_{|z|=\\pi/2}\\frac{e^z+z}{z^3-z}\\,dz"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define bilinear transformation. Find the bilinear transformation which maps the points z = 0, −1, i onto the points w = i, 0, ∞. Also find image of the unit circle |z| = 1.",
+          "eq": "z=0,-1,i \\;\\mapsto\\; w=i,0,\\infty"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Fourier integral. Choosing a suitable function, show that ∫₀^∞ sin πω/ω · sin wx dw = π sin x/2 if 0 ≤ x ≥ π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{\\sin\\pi\\omega}{\\omega}\\sin wx\\,dw=\\begin{cases}\\frac{\\pi\\sin x}{2}&0\\le x\\le\\pi\\\\0&x>\\pi\\end{cases}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the Fourier Transform of the function f(x) = e^{−x²/2}.",
+          "eq": "f(x) = e^{-x^2/2}"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove first shifting theorem of Z-transform. Using it evaluate Z[e^{−iat}] and hence find Z(cos at).",
+          "eq": "Z\\{e^{-iat}\\},\\quad Z\\{\\cos at\\}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the difference equation by using Z-transform: y_{n+2} − 3y_{n+1} + 2y_n = 4ⁿ with y₀ = 0 and y₁ = 1.",
+          "eq": "y_{n+2} - 3y_{n+1} + 2y_n = 4^n,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive one dimensional wave equation with solution.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A tightly stretched string of length L, fixed at its ends, is initially in a position given by u(x,0) = u₀ sin³(πx/L). If it is released from the rest from this position, find the displacement.",
+          "eq": "u(x,0)=u_0\\sin^3\\!\\left(\\frac{\\pi x}{L}\\right)"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "A homogeneous rod of conducting material of length 100 cm has its ends kept at zero temperature and the temperature initially is f(x) = x for 0 ≤ x ≤ 50, (100−x) for 50 ≤ x ≤ 100. Find the temperature distribution on the rod at any time.",
+          "eq": "f(x)=\\begin{cases}x&0\\le x\\le 50\\\\100-x&50\\le x\\le 100\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find tangent vector on the curve r⃗ = cos t î + 2sin t j̄, at P(1/2, √3, 0).",
+              "eq": "\\vec{r}=\\cos t\\,\\hat{i}+2\\sin t\\,\\hat{j}"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Verify that u = x² + t² is a solution of one dimensional wave equation.",
+              "eq": "u = x^2+t^2"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Express f(z) = sinh z in terms of u + iv.",
+              "eq": "f(z) = \\sinh z"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Solve u_{xx} − u = 0 by using separation of variables.",
+              "eq": "u_{xx} - u = 0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-SP",
+      "year": "2021",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define harmonic function. Prove that the function v = arg z is harmonic. Also, find its conjugate and the corresponding analytic function.",
+          "eq": "v = \\arg z"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State Cauchy's integral formula and using it integrate ∮_c z³/(z⁴−1) dz where c is the circle |z+i| = 1 in counter clockwise.",
+          "eq": "\\oint_c \\frac{z^3}{z^4-1}\\,dz,\\quad |z+i|=1"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the image of triangular region of the z-plane bounded by the lines x = 0, y = 0 and √3 x + y = 1 under the transformation of w = e^{iπ/3} z and show the sketch in the diagram.",
+          "eq": "w = e^{i\\pi/3}z"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Singularities of a function f(z). Find the residues of f(z) = (z+2)/[(z+1)(z²+1)²].\n\nOR\n\nFind Laurent series of the function f(z) = (z²−1)/(z²+5z+6) in the region (i) when |z| < 2  (ii) when 2 < |z| < 3  (iii) when |z| > 3.",
+          "eq": "f(z) = \\frac{z+2}{(z+1)(z^2+1)^2}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove second shifting theorem of z-transform. Find z-transform of e^{−iat} and hence find Z(cos at).",
+          "eq": "Z\\{e^{-iat}\\},\\quad Z\\{\\cos at\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Use z-transform to solve the difference equation: y_{n+2} − 3y_{n+1} + 2y_n = 4ⁿ, where y₀ = 0 and y₁ = 1.",
+          "eq": "y_{n+2} - 3y_{n+1} + 2y_n = 4^n,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Using Fourier cosine integral, show that ∫₀^∞ sin ω cos ωx/ω dω = π/2 sin x if 0 ≤ x ≤ π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{\\sin\\omega\\cos\\omega x}{\\omega}\\,d\\omega=\\begin{cases}\\frac{\\pi}{2}\\sin x & 0\\le x\\le\\pi\\\\0&x>\\pi\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find Fourier cosine transform of f(x) = e^{−mx} for m > 0. Then prove that ∫₀^∞ cos kx/(1+x²) dx = (π/2) e^{−k}.",
+          "eq": "\\int_0^\\infty \\frac{\\cos kx}{1+x^2}\\,dx=\\frac{\\pi}{2}e^{-k}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "A tightly stretched string of length L, fixed at its ends, is initially in a position given by u(x,0) = u₀ sin³(πx/L). If it is released from the rest from this position, find the displacement at any point x at time t.",
+          "eq": "u(x,0)=u_0\\sin^3\\!\\left(\\frac{\\pi x}{L}\\right)"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the temperature in a laterally insulated bar of length L = 10 cm whose ends are kept at a zero temperature, assuming that the initial temperature is f(x) = x if 0 < x < L/2, (L−x) if L/2 < x < L.",
+          "eq": "f(x)=\\begin{cases}x & 0<x<L/2\\\\ L-x & L/2<x<L\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the solution of differential equation y²u_x − x²u_y = 0 using separating of variables.",
+          "eq": "y^2 u_x - x^2 u_y = 0"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the solution of one-dimensional wave equation by D'Alembert's method.\n\nOR\n\nExpress the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² into polar co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (5×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find a tangent vector and the corresponding unit tangent vector u(t) at a given point r(t) = 2cos t î + sin t j̄ at P(√2, √2, 0).",
+              "eq": "\\vec{r}(t)=2\\cos t\\,\\hat{i}+\\sin t\\,\\hat{j},\\quad P(\\sqrt{2},\\sqrt{2},0)"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Check analyticity of f(z) = z².",
+              "eq": "f(z)=z^2"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find the poles of the function f(z) = sinh z/(z − iπ).",
+              "eq": "f(z) = \\frac{\\sinh z}{z-i\\pi}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find z-transform of Z(n²).",
+              "eq": "Z(n^2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-FA",
+      "year": "2020",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Check u = sin x cosh y is harmonic or not? If yes, find corresponding harmonic conjugate v of u.",
+          "eq": "u = \\sin x \\cosh y"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Evaluate ∮_c cot z/(z − π/2)² dz, where C is the ellipse 4x² + 9y² = 36.",
+          "eq": "\\oint_c \\frac{\\cot z}{(z-\\pi/2)^2}\\,dz,\\quad 4x^2+9y^2=36"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Expand f(z) = 1/[(z+1)(z+3)] in Laurent series valid for (i) 1 < |z| < 3  (ii) |z| > 3  (iii) |z| < 1  (iv) 0 < |z+1| < 2.",
+          "eq": "f(z) = \\frac{1}{(z+1)(z+3)}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State and prove Cauchy residue theorem. Using it evaluate ∮_c z² sin z/(4z²−1) dz where C is the circle |z| = 2.",
+          "eq": "\\oint_c \\frac{z^2\\sin z}{4z^2-1}\\,dz,\\quad |z|=2"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the Z transform of (i) rⁿ cos nθ  (ii) 1/(n+2).",
+          "eq": "(i)\\;Z\\{r^n\\cos n\\theta\\}\\qquad(ii)\\;Z\\!\\left\\{\\frac{1}{n+2}\\right\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the differential equation y_{k+2} + 2y_{k+1} + y_k = k where y₀ = 0, y₁ = 0 using Z-transform.",
+          "eq": "y_{k+2}+2y_{k+1}+y_k=k,\\quad y_0=0,\\;y_1=0"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the solution of the differential equation y²u_x − x²u_y = 0 by using separating of variables.",
+          "eq": "y^2 u_x - x^2 u_y = 0"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the solution of one dimensional equation with boundary condition u(0,t) = 0 = u(l,t) and initial condition u(x,0) = (100x/l).",
+          "eq": "u(0,t)=0=u(l,t),\\quad u(x,0)=\\frac{100x}{l}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive one dimensional heat equation ∂u/∂t = c² ∂²u/∂x² with necessary assumptions.",
+          "eq": "\\frac{\\partial u}{\\partial t}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is Helmboltz's equation on F(x, y) and solve it subjected to F(0, y) = 0 = F(x, 0) = F(x, b).",
+          "eq": "F_{xx}+F_{yy}+k^2 F=0"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the Fourier transform of f(x) = |x| if −1 < x < 1, 0 otherwise.",
+          "eq": "f(x)=\\begin{cases}|x| & -1<x<1\\\\ 0 & \\text{otherwise}\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Fourier cosine integral. Hence, show that ∫₀^∞ sin ω cos ωx/ω dω = π/2 if 0 ≤ x < 1, π/4 if x = 1, 0 if x > 1.",
+          "eq": "\\int_0^\\infty \\frac{\\sin\\omega\\cos\\omega x}{\\omega}\\,d\\omega=\\begin{cases}\\pi/2 & 0\\le x<1\\\\ \\pi/4 & x=1\\\\ 0 & x>1\\end{cases}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Write down Laplacian in cylindrical coordinate systems.",
+              "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial r^2}+\\frac{1}{r}\\frac{\\partial u}{\\partial r}+\\frac{1}{r^2}\\frac{\\partial^2 u}{\\partial\\theta^2}+\\frac{\\partial^2 u}{\\partial z^2}"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Prove Z(aⁿ) = z/(z−a).",
+              "eq": "Z(a^n) = \\frac{z}{z-a}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Show that the transformation w = e^z is conformal.",
+              "eq": "w = e^z"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Show that the Fourier cosine transform satisfies linearity property."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-FA",
+      "year": "2019",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove the necessary condition for analyticity. Test the analyticity of the function f(z) = log z.",
+          "eq": "f(z) = \\log z"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State Cauchy Integral formula for derivative. Evaluate ∮_c z⁶/(2z−1)⁶ dz, where c is the unit circle |z| = 1, counterclockwise.",
+          "eq": "\\oint_c \\frac{z^6}{(2z-1)^6}\\,dz,\\quad |z|=1"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Integrate f(z) = (e^z + z)/(z³ − z) dz around a unit circle: |z| = π/2 using Cauchy's Residue theorem.",
+          "eq": "\\oint_{|z|=\\pi/2}\\frac{e^z+z}{z^3-z}\\,dz"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the fixed points and the normal form of the bilinear transformation w = (z−1)/(z+1). Also, determine the nature of this transformation.",
+          "eq": "w = \\frac{z-1}{z+1}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Fourier integral. Choosing a suitable function, show that ∫₀^∞ sin πω/ω · sin wx dw = π sin x/2 if 0 ≤ x ≥ π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{\\sin\\pi\\omega}{\\omega}\\sin wx\\,dw=\\begin{cases}\\frac{\\pi\\sin x}{2}&0\\le x\\le\\pi\\\\0&x>\\pi\\end{cases}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the Fourier Transform of the function f(x) = e^{−x²/2}.",
+          "eq": "f(x) = e^{-x^2/2}"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define Z-transform. State and prove First shifting theorem of Z-transform. Evaluate Z(t² e^{−bt}).\n\nOR\n\nFind Z⁻¹[z³/((z−1)²(z+1))].",
+          "eq": "Z(t^2 e^{-bt}),\\qquad Z^{-1}\\!\\left[\\frac{z^3}{(z-1)^2(z+1)}\\right]"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the difference equation by using Z-transform: y_{n+2} − 3y_{n+1} + 2y_n = 4ⁿ with y₀ = y₁ = 1.",
+          "eq": "y_{n+2}-3y_{n+1}+2y_n=4^n,\\quad y_0=y_1=1"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Derive one dimensional wave equation with solution.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the temperature u(x, t) which is distributed laterally in an insulated copper bar (c² = 1.158 cm²/sec), 100 cm long and of constant cross-section whose end points at x = 0 and x = 100 are kept at 0°C and its initial temperature is f(x) = sin³(0.01)πx.",
+          "eq": "f(x) = \\sin^3(0.01\\pi x)"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define partial differential equation with suitable example. By separating the variables solve u_{xx} + u_{yy} = 0.",
+          "eq": "u_{xx}+u_{yy}=0"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (10 marks)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the unit tangent vector to the curve r⃗(t) = 2cos t î + sin t j̄ at (√2, √2, 0).",
+              "eq": "\\vec{r}(t)=2\\cos t\\,\\hat{i}+\\sin t\\,\\hat{j}"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Express f(z) = sinh z in terms of u + iv.",
+              "eq": "f(z)=\\sinh z"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Solve u_{xx} − u = 0 by using separation of variables.",
+              "eq": "u_{xx}-u=0"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find z-transform of n4ⁿ.",
+              "eq": "Z\\{n\\cdot 4^n\\}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-SP",
+      "year": "2019",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What do you mean by analyticity of function f(z). State Cauchy Riemann equation and hence show that it is the necessary condition for the functions to be analytic.",
+          "eq": "u_x = v_y,\\quad u_y = -v_x"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State Cauchy Integral formula. Evaluate ∮_c 1/(z²+4) dz, where integration is along the ellipse 4x² + (y−2)² = 4.",
+          "eq": "\\oint_c \\frac{1}{z^2+4}\\,dz,\\quad 4x^2+(y-2)^2=4"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the image of infinite strip 1/4 < y < 1/2 under the transformation w = 1/z.",
+          "eq": "w = 1/z"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define Singularities of a function f(z). Find the residues of f(z) = (z+2)/[(z+1)(z²+1)²].",
+          "eq": "f(z) = \\frac{z+2}{(z+1)(z^2+1)^2}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the inverse z-transform of f(z) = 2z/[(z−1)(z²+1)].",
+          "eq": "F(z) = \\frac{2z}{(z-1)(z^2+1)}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Using Z-transform solve the difference equation y_{k+2} + 2y_{k+1} + y_k = k, where y₀ = 0, y₁ = 0.",
+          "eq": "y_{k+2}+2y_{k+1}+y_k=k,\\quad y_0=0,\\;y_1=0"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive Fourier integral of f(x) from Fourier series. Show that ∫₀^∞ cos xw/(1+w²) dw = (π/2) sin x if 0 ≤ x ≤ π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{\\cos xw}{1+w^2}\\,dw=\\begin{cases}\\frac{\\pi}{2}\\sin x&0\\le x\\le\\pi\\\\0&x>\\pi\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find Fourier cosine transform of f(x) = e^{−mx} for m > 0. Then prove that ∫₀^∞ cos kx/(1+x²) dx = (π/2) e^{−k}.",
+          "eq": "\\int_0^\\infty \\frac{\\cos kx}{1+x^2}\\,dx=\\frac{\\pi}{2}e^{-k}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Using the method of separation of variable solve P.D.E.: y²u_x − x²u_y = 0.",
+          "eq": "y^2 u_x - x^2 u_y = 0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find u(x, t) from one dimensional wave equation ∂²u/∂t² = c² ∂²u/∂x², with boundary condition u(0,t) = 0 = u(L,t), initial deflection f(x) and initial velocity ∂u/∂t|_{t=0} = g(x).",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the temperature in a laterally insulated bar of length π whose ends are kept at a zero temperature, assuming that the initial temperature is f(x) = x if 0 < x < π/2, (π−x) if π/2 < x < π.",
+          "eq": "f(x)=\\begin{cases}x&0<x<\\pi/2\\\\ \\pi-x&\\pi/2<x<\\pi\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Verify that U = x² + t² is the solution of one dimensional wave equation.",
+              "eq": "U = x^2+t^2"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find the Z-transform of naⁿ⁻¹.",
+              "eq": "Z\\{na^{n-1}\\}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Check analyticity of f(z) = z³.",
+              "eq": "f(z)=z^3"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find the unit tangent vector to the curve r⃗(t) = 2cos t î + sin t j̄ at (√2, √2, 0).",
+              "eq": "\\vec{r}(t)=2\\cos t\\,\\hat{i}+\\sin t\\,\\hat{j}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-FA",
+      "year": "2018",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define harmonic function. Show that the function u = 3x²y + x² − y³ − y² is a harmonic function. Find the analytic function for which the given function is a real part.",
+          "eq": "u = 3x^2 y + x^2 - y^3 - y^2"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Evaluate ∮_c cos(πz²)/(z²−3z+2) dz where C: |z| = 3.",
+          "eq": "\\oint_c \\frac{\\cos(\\pi z^2)}{z^2-3z+2}\\,dz,\\quad |z|=3"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Let the rectangular region R in the z-plane be bounded by lines x = 0, y = 0, x = 2, y = 3. Find the region R' of the w-plane into which R is mapped under the transformation W = √2 e^{iπ/4} z.",
+          "eq": "W = \\sqrt{2}\\,e^{i\\pi/4}\\,z"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the Taylor's and Laurent's series of the function f(z) = (z²−1)/[(z+2)(z+3)].\n\nOR\n\nState Cauchy Residue Theorem. By applying Cauchy Residue Theorem, evaluate ∮_c (4−3z)/[z(z−1)(z−2)] dz where C: |z| = 3/2.",
+          "eq": "f(z) = \\frac{z^2-1}{(z+2)(z+3)}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove first shifting theorem on Z-transform. Find the Z-transform of e^{−at}.",
+          "eq": "Z\\{e^{-at}\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Solve the differential equation y_{k+2} + 2y_{k+1} + y_k = k where y₀ = 0, y₁ = 0 using Z-transform.",
+          "eq": "y_{k+2}+2y_{k+1}+y_k=k,\\quad y_0=0,\\;y_1=0"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that ∫₀^∞ sin πw sin xw/(1−w²) dw = π/2 sin x if 0 ≤ x ≤ π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{\\sin\\pi w\\sin xw}{1-w^2}\\,dw=\\begin{cases}\\frac{\\pi}{2}\\sin x&0\\le x\\le\\pi\\\\0&x>\\pi\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find Fourier cosine transform of f(x) = e^{−x} (x > 0) and hence by using Parseval's identity, show that ∫₀^∞ dx/(1+x²)² = π/4.",
+          "eq": "\\int_0^\\infty \\frac{dx}{(1+x^2)^2}=\\frac{\\pi}{4}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define partial differential equation with suitable example. By separating the variables solve u_{xx} + u_{yy} = 0.",
+          "eq": "u_{xx}+u_{yy}=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find u(x, t) from one dimensional wave equation ∂²u/∂t² = c² ∂²u/∂x², with boundary condition u(0,t) = 0 = u(L,t), initial deflection f(x) and initial velocity ∂u/∂t|_{t=0} = g(x).",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the temperature in a laterally insulated bar of length L whose ends are kept at a zero temperature, assuming that the initial temperature is f(x) = x if 0 < x < L/2, (L−x) if L/2 < x < L.",
+          "eq": "f(x)=\\begin{cases}x&0<x<L/2\\\\ L-x&L/2<x<L\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "If u = y³ − 3x²y show that u is harmonic.",
+              "eq": "u = y^3-3x^2 y"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find z-transform of z(aⁿ).",
+              "eq": "Z(a^n)"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "If r⃗ = (3cos t, 4sin t, t) be the position vector of the curve. Find its curve.",
+              "eq": "\\vec{r}=(3\\cos t,\\,4\\sin t,\\,t)"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Solve the partial differential equation u_{yy} = u.",
+              "eq": "u_{yy} = u"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-SP",
+      "year": "2018",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define analytic function. Show that the function u(x,y) = 3x²y + x² − y³ − y² is a harmonic function. Find a function v(x,y) such that u + iv is an analytic function.",
+          "eq": "u(x,y) = 3x^2 y + x^2 - y^3 - y^2"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define Pole and Zeroes of a function. State Cauchy's residue theorem and evaluate ∮_c e^z/cos z dz where C: |z| = 3.",
+          "eq": "\\oint_c \\frac{e^z}{\\cos z}\\,dz,\\quad |z|=3"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the expansion of (7z−2)/[(z+1)z(z−2)] in the region given by (i) 0 < |z+1| < 1  (ii) 1 < |z+1| < 3.",
+          "eq": "f(z) = \\frac{7z-2}{(z+1)z(z-2)}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Given the bilinear transformation w = (3−z)/(2z+1), find the mapping of the circle |z| = 1 in the w-plane.",
+          "eq": "w = \\frac{3-z}{2z+1}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that ∫₀^∞ (cos wx + w sin wx)/(1+w²) dx = 0 if x < 0, π/2 if x = 0, π e^{−x} if x > 0.",
+          "eq": "\\int_0^\\infty \\frac{\\cos wx+w\\sin wx}{1+w^2}\\,dw=\\begin{cases}0&x<0\\\\ \\pi/2&x=0\\\\ \\pi e^{-x}&x>0\\end{cases}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the Fourier sine and cosine transform of the function f(x) = 2e^{−5x} + 5e^{−2x}.",
+          "eq": "f(x) = 2e^{-5x}+5e^{-2x}"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive and find the solution of one dimensional wave equation.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the temperature in a laterally insulated bar of length L whose ends are kept at a zero temperature, assuming that the initial temperature is f(x) = x if 0 < x < L/2, (L−x) if L/2 < x < L.",
+          "eq": "f(x)=\\begin{cases}x&0<x<L/2\\\\L-x&L/2<x<L\\end{cases}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve xu_{xy} + 2yu = 0 using separating variables.",
+          "eq": "xu_{xy}+2yu=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find u(x,t) of the string of length l = π when c² = 1, the initial velocity is zero and the initial deflection is 0.1(π−x).",
+          "eq": "f(x)=0.1(\\pi-x),\\quad g(x)=0"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Helmholtz's equation on F(x, y) and solve it subject to F(0, y) = 0 = F(a, y) = F(x, 0) = F(x, b).",
+          "eq": "F_{xx}+F_{yy}+k^2 F=0"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Derive one dimensional heat equation with required assumptions.",
+          "eq": "\\frac{\\partial u}{\\partial t}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Solve by using separation of variables u_x − u_y = 0.",
+              "eq": "u_x - u_y = 0"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Examine whether z is analytic or not?"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find the unit tangent vector to the curve r⃗(t) = 2cos t î + sin t j̄ at (√2, √2, 0).",
+              "eq": "\\vec{r}(t)=2\\cos t\\,\\hat{i}+\\sin t\\,\\hat{j}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Sketch the paraboloid z = x² + y².",
+              "eq": "z = x^2+y^2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-FA",
+      "year": "2017",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define harmonic function. If v = arg z is harmonic? If yes, find a corresponding harmonic conjugate.",
+          "eq": "v = \\arg z"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State and prove Cauchy's integral formula. Evaluate the integral ∮_c cos z/(z−πi)² dz where c is unit circle enclosing the point πi.\n\nOR\n\nFind the fixed points and the normal form of the bilinear transformation w = (z−1)/(z+1). Also determine the nature of this transformation.",
+          "eq": "\\oint_c \\frac{\\cos z}{(z-\\pi i)^2}\\,dz"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define singularity of a function. Evaluate the following integrals: (i) ∮_c e^z/cos z dz, C: |z| = 3  (ii) ∮_c (z+1)/(z⁴−2z³) dz, C: |z| = 1/2.",
+          "eq": "(i)\\;\\oint_c\\frac{e^z}{\\cos z}\\,dz,\\;|z|=3\\qquad(ii)\\;\\oint_c\\frac{z+1}{z^4-2z^3}\\,dz,\\;|z|=\\tfrac{1}{2}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State and prove first shifting theorem for z-transform using it to find z(cosh at sin bt).",
+          "eq": "Z\\{\\cosh at\\sin bt\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find Z⁻¹[(2z²+3z)/((z+2)(z−4))].",
+          "eq": "Z^{-1}\\!\\left[\\frac{2z^2+3z}{(z+2)(z-4)}\\right]"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the difference equation y_{n+2} − 3y_{n+1} + 2y_n = 0, where y₀ = 0 and y₁ = 1; by using z-transform.",
+          "eq": "y_{n+2}-3y_{n+1}+2y_n=0,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive one dimensional wave equation ∂²u/∂t² = c² ∂²u/∂x² with necessary assumptions.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A homogeneous rod of conducting material of length 100 cm has its ends kept at zero temperature and the initial temperature be defined by f(x) = x for 0 ≤ x ≤ 50, (100−x) for 50 < x ≤ 100. Find the temperature u(x,y) at any time t.",
+          "eq": "f(x)=\\begin{cases}x&0\\le x\\le 50\\\\ 100-x&50<x\\le 100\\end{cases}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Starting from Fourier series, obtain the Fourier integral in complex form.",
+          "eq": "f(x)=\\frac{1}{2\\pi}\\int_{-\\infty}^{\\infty}e^{i\\omega x}\\left[\\int_{-\\infty}^{\\infty}f(t)e^{-i\\omega t}\\,dt\\right]d\\omega"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Show that ∫₀^∞ (cos wx + w sin wx)/(1+w²) dω = 0 if x < 0, π/2 if x = 0, π e^{−x} if x > 0.",
+          "eq": "\\int_0^\\infty \\frac{\\cos wx+w\\sin wx}{1+w^2}\\,d\\omega=\\begin{cases}0&x<0\\\\ \\pi/2&x=0\\\\ \\pi e^{-x}&x>0\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve U_{xx} + U_{yy} = 0.",
+          "eq": "U_{xx}+U_{yy}=0"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Obtain the solution of one dimensional heat equation completely.",
+          "eq": "\\frac{\\partial u}{\\partial t}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find the parametric representation of the surface x² + 4y² = 9, z = 3."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find the tangent on the curve C with position vector r⃗ = cosh t î + sinh t j̄, at P(5/3, 4/3, 0).",
+              "eq": "\\vec{r}=\\cosh t\\,\\hat{i}+\\sinh t\\,\\hat{j}"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Evaluate ∮_c dz/z, where c is the unit disk |z| = 1.",
+              "eq": "\\oint_c \\frac{dz}{z},\\quad |z|=1"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find poles with their order of function f(z) = 1/(z²+a²)².",
+              "eq": "f(z) = \\frac{1}{(z^2+a^2)^2}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2017-SP",
+      "year": "2017",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define harmonic function. If u = sinh x sin y, show that u is harmonic. Also, find its harmonic conjugate and the corresponding analytic function.\n\nOR\n\nDefine an analytic function. Show that the Cauchy-Riemann equations are necessary for a function to be analytic.",
+          "eq": "u = \\sinh x \\sin y"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State and prove Cauchy Integral Formula. Evaluate the integral ∮_c (z+1)/(z³−4z) dz, where c is the unit circle |z+2| = 3/2, counterclockwise.",
+          "eq": "\\oint_c \\frac{z+1}{z^3-4z}\\,dz,\\quad |z+2|=\\frac{3}{2}"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Determine the region w = e^{iπ/4} in the w-plane corresponding to the triangular region bounded by the lines x = 0, y = 0 and x + y = 1 in the z plane.",
+          "eq": "w = e^{i\\pi/4}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State Residue theorem. Integrate ∮_c (z−23)/(z²−4z−5) dz where c: |z| = 6 using residue theorem.",
+          "eq": "\\oint_c \\frac{z-23}{z^2-4z-5}\\,dz,\\quad |z|=6"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove second shifting theorem of Z-transform. Evaluate Z(e^{−at} sin wt).\n\nOR\n\nFind Z⁻¹[z/((z+1)²(z−1))].",
+          "eq": "Z\\{e^{-at}\\sin wt\\},\\qquad Z^{-1}\\!\\left[\\frac{z}{(z+1)^2(z-1)}\\right]"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the difference equation: y_{n+2} − 3y_{n+1} + 2y_n = 4ⁿ, where y₀ = 0 and y₁ = 1, by applying Z-transform.",
+          "eq": "y_{n+2}-3y_{n+1}+2y_n=4^n,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that ∫₀^∞ (cos π/2 · ω cos xω)/(1−ω²) dω = π/2 cos x if |x| < π/2, 0 if |x| > π/2.",
+          "eq": "\\int_0^\\infty \\frac{\\cos(\\pi\\omega/2)\\cos x\\omega}{1-\\omega^2}\\,d\\omega=\\begin{cases}\\frac{\\pi}{2}\\cos x&|x|<\\pi/2\\\\0&|x|>\\pi/2\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find Fourier sine transform of f(x) = e^{−x}, x > 0 and then show that ∫₀^∞ x sin mx/(x²+1) dx = (π/2)e^{−m} for M > 0.",
+          "eq": "\\int_0^\\infty \\frac{x\\sin mx}{x^2+1}\\,dx=\\frac{\\pi}{2}e^{-m},\\quad M>0"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve xu_{xy} + 2yu = 0 by using separating variables.",
+          "eq": "xu_{xy}+2yu=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the solution of one dimensional wave equation by D'Alembert's method.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the temperature u(x,t) in a laterally insulated bar of length L whose ends are kept at temperature 0, assuming that the initial temperature is f(x) = x if 0 < x < L/2, (L−x) if L/2 < x < L.",
+          "eq": "f(x)=\\begin{cases}x&0<x<L/2\\\\L-x&L/2<x<L\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Derive Laplace equation in polar co-ordinate and also write the expression for cylindrical co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial r^2}+\\frac{1}{r}\\frac{\\partial u}{\\partial r}+\\frac{1}{r^2}\\frac{\\partial^2 u}{\\partial\\theta^2}=0"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all questions (5×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find a tangent vector and the corresponding unit tangent vector u(t) at a given point r(t) = 2cos t î + sin t j̄ at P(√2, √2, 0).",
+              "eq": "\\vec{r}(t)=2\\cos t\\,\\hat{i}+\\sin t\\,\\hat{j}"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Check analyticity of f(z) = z².",
+              "eq": "f(z)=z^2"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find the poles of the function f(z) = sinh z/(z − iπ).",
+              "eq": "f(z)=\\frac{\\sinh z}{z-i\\pi}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find z-transform of Z(n²).",
+              "eq": "Z(n^2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-FA",
+      "year": "2016",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Prove that if the function f(z) is analytic then show that U_x = V_y and U_y = −V_x.",
+          "eq": "U_x = V_y,\\quad U_y = -V_x"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Integrate the followings along the unit circle counterclockwise: (i) ∮ z⁶/(2z−1)⁶  (ii) ∮ (z+1)/(z³−2z²).",
+          "eq": "(i)\\;\\oint\\frac{z^6}{(2z-1)^6}\\qquad(ii)\\;\\oint\\frac{z+1}{z^3-2z^2}"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the singular points and residues of the function f(z) = (z+2)/[(z−2)(z²+1)²].",
+          "eq": "f(z) = \\frac{z+2}{(z-2)(z^2+1)^2}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State Laurent's theorem. Find the Laurent's series for f(z) = 1/(z−z³) in the region 01 < |z+1| < 2.",
+          "eq": "f(z) = \\frac{1}{z-z^3}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the Z-transform of the function f(t) = e^{−iat} and hence deduce the value of Z(cos at) and Z(sin at).",
+          "eq": "Z\\{e^{-iat}\\},\\quad Z\\{\\cos at\\},\\quad Z\\{\\sin at\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Using Z-transform solve the difference equation y_{n+2} + 6y_{n+1} + 9y_n = 2ⁿ when y₀ = y₁ = 0.",
+          "eq": "y_{n+2}+6y_{n+1}+9y_n=2^n,\\quad y_0=y_1=0"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define Z-transform. State and prove Second shifting theorem of Z-transform. Evaluate Z(t² e^{−bt}).\n\nOR\n\nFind Z⁻¹[(z²+1)/(z²−2z+2)].",
+          "eq": "Z(t^2 e^{-bt}),\\qquad Z^{-1}\\!\\left[\\frac{z^2+1}{z^2-2z+2}\\right]"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Choosing a suitable function show that ∫₀^∞ (cos ωx + ω sin ωx)/(1+ω²) dω = 0 if x < 0, π/2 if x = 0, π e^{−x} if x > 0.",
+          "eq": "\\int_0^\\infty \\frac{\\cos\\omega x+\\omega\\sin\\omega x}{1+\\omega^2}\\,d\\omega=\\begin{cases}0&x<0\\\\ \\pi/2&x=0\\\\ \\pi e^{-x}&x>0\\end{cases}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the Fourier cosine and sine transform of f(x) = e^{−ax}, a > 0.\n\nOR\n\nVerify the convolution theorem for the functions f(x) = e^{−x²} and g(x) = e^{−x²}.",
+          "eq": "f(x)=e^{-ax},\\quad a>0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find u(x,t) of the string of length l = π when c² = 1, the initial velocity is zero and the initial deflection is 0.1(π−x).",
+          "eq": "f(x)=0.1(\\pi-x),\\quad g(x)=0"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Helmholtz's equation on F(x, y) and solve it subject to F(0, y) = 0 = F(a, y) = F(x, 0) = F(x, b).",
+          "eq": "F_{xx}+F_{yy}+k^2 F=0"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Derive one dimensional heat equation with required assumptions.",
+          "eq": "\\frac{\\partial u}{\\partial t}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all (2.5×4)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "If z = u + iv is an analytic function then prove that u and v both satisfy Laplace equation.",
+              "eq": "\\nabla^2 u = 0,\\quad \\nabla^2 v = 0"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Represent the curve y² − (z−3)² = 9, x = 0 parametrically.",
+              "eq": "y^2-(z-3)^2=9,\\quad x=0"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Evaluate ∮_c z³ sin z/(3z−1) dz along a unit circle.",
+              "eq": "\\oint_c \\frac{z^3\\sin z}{3z-1}\\,dz"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "State and prove the linear property on Z-transform."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2016-SP",
+      "year": "2016",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define analyticity of the complex valued function f(z). If f(z) = z + 1/z, check analyticity of f(z) by using Cauchy Riemann equation.",
+          "eq": "f(z) = z + \\frac{1}{z}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State and prove Cauchy integral formula. Integrate ∮_c 1/(z²+4) dz, C: 4x² + (y−2)² = 4 counter clock wise.",
+          "eq": "\\oint_c \\frac{1}{z^2+4}\\,dz,\\quad 4x^2+(y-2)^2=4"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Obtain the Taylor series and Laurent series of the function f(z) = 1/[(z+2)(z²+1)] when 1 < |z| < 2.",
+          "eq": "f(z) = \\frac{1}{(z+2)(z^2+1)},\\quad 1<|z|<2"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State Cauchy Residue Theorem and hence evaluate ∮_c (z−23)/(z²−4z−5) dz where C: |z−2| = 4.",
+          "eq": "\\oint_c \\frac{z-23}{z^2-4z-5}\\,dz,\\quad |z-2|=4"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Obtain the Fourier integral formula from the Fourier series assuming the required conditions.\n\nOR\n\nShow that ∫₀^∞ [(1−cos πw)/w] sin wx dw = π/2 if 0 < x < π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{1-\\cos\\pi w}{w}\\sin wx\\,dw=\\begin{cases}\\pi/2&0<x<\\pi\\\\0&x>\\pi\\end{cases}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the Fourier transform of the function f(x) = 1−x² for |x| < 1, 0 for |x| > 1.",
+          "eq": "f(x)=\\begin{cases}1-x^2&|x|<1\\\\0&|x|>1\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the solution of one dimensional wave equation by D'Alembert's method.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the temperature distribution in a laterally insulated thin copper bar (c² = 1.158 cm²/sec) 100 cm long and of constant cross-section whose end points at x = 0 and x = 100 are kept at 0°C and its initial temperature is f(x) = sin³(0.01)πx.",
+          "eq": "f(x)=\\sin^3(0.01\\pi x)"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "A string of length 20 cm is fastened at both ends is displaced from its position of equilibrium by imparting to its points an initial velocity g(x) = x if 0 ≤ x ≤ 10, (20−x) if 10 ≤ x ≤ 20. Find the deflection U(x,t).",
+          "eq": "g(x)=\\begin{cases}x&0\\le x\\le 10\\\\ 20-x&10\\le x\\le 20\\end{cases}"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Derive two dimensional heat equations with necessary assumptions.",
+          "eq": "\\frac{\\partial u}{\\partial t}=c^2\\left(\\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}\\right)"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove first and second shifting theorems in Z-transform. Find the value of Z(aⁿ cos bt) and Z(aⁿ sin bt).",
+          "eq": "Z(a^n\\cos bt),\\quad Z(a^n\\sin bt)"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Using Z-transform, solve the difference equation y_{n+2} + 6y_{n+1} + 9y_n = 2ⁿ when y₀ = y₁ = 0.",
+          "eq": "y_{n+2}+6y_{n+1}+9y_n=2^n,\\quad y_0=y_1=0"
+        },
+        {
+          "number": "7",
+          "instruction": "Attempt all (2.5×4)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "If z = u + iv is an analytic function then prove that u and v both satisfy Laplace equation."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Represent the curve y² − (z−3)² = 9, x = 2 parametrically."
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find the unit tangent vector to the curve r⃗(t) = cos t î + 2sin t j̄ at (1/2, √3, 0).",
+              "eq": "\\vec{r}(t)=\\cos t\\,\\hat{i}+2\\sin t\\,\\hat{j}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Show that ∮_c dz/z = 2πi, where C is the circle |z| = 1 in anticlockwise direction.",
+              "eq": "\\oint_c \\frac{dz}{z}=2\\pi i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-FA",
+      "year": "2015",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define analytic function f(z). State Cauchy Riemann equation and hence show that it is the necessary condition for the function to be analytics.",
+          "eq": "u_x=v_y,\\quad u_y=-v_x"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State and prove Cauchy's integral formula. Evaluate where c is the ellipse 4x²+9y²=36: ∮_c cot z/(z−π/2)² dz.\n\nOR\n\nEvaluate ∮_c (z³+sin z)/(z−i)³ dz, where 'c' is the boundary of the square with vertices ±2, ±2i.",
+          "eq": "\\oint_c \\frac{\\cot z}{(z-\\pi/2)^2}\\,dz,\\quad 4x^2+9y^2=36"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State Laurent's theorem. Find the Laurent's series for f(z) = 1/(z²−z³) in the region 0 < |z| < 1.",
+          "eq": "f(z)=\\frac{1}{z^2-z^3},\\quad 0<|z|<1"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define singularity, zeros and poles of a function. Evaluate ∮_c f(z) dz where f(z) = e^{2z}/(z+1)³ where c is the ellipse 4x²+9y²=16.",
+          "eq": "\\oint_c \\frac{e^{2z}}{(z+1)^3}\\,dz,\\quad 4x^2+9y^2=16"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and prove convolution theorem on Z transform.",
+          "eq": "Z\\{f*g\\}=Z\\{f\\}\\cdot Z\\{g\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the difference equation: y_{n+2} + 6y_{n+1} + 9y_n = 2ⁿ, where y₀ = 0 and y₁ = 0.",
+          "eq": "y_{n+2}+6y_{n+1}+9y_n=2^n,\\quad y_0=0,\\;y_1=0"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the Fourier integral of the function f(x) = π/2 if 0 ≤ x < 1, π/4 if x = 1, 0 if x > 1.",
+          "eq": "f(x)=\\begin{cases}\\pi/2&0\\le x<1\\\\ \\pi/4&x=1\\\\ 0&x>1\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find Fourier cosine transform of f(x) = e^{−mx} for m > 0, and then show that ∫₀^∞ cos kx/(1+x²) dx = (π/2) e^{−k}.",
+          "eq": "\\int_0^\\infty \\frac{\\cos kx}{1+x^2}\\,dx=\\frac{\\pi}{2}e^{-k}"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Derive one dimensional wave equation of a string of length L which is fixed in two end points with required assumptions.\n\nOR\n\nFind the solution of one dimensional heat equation ∂u/∂t = c² ∂²u/∂x², with initial temperature f(x) and boundary conditions u(0,t) = 0 = u(L,t).",
+          "eq": "\\frac{\\partial u}{\\partial t}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Derive two dimensional heat equations with necessary assumptions.",
+          "eq": "\\frac{\\partial u}{\\partial t}=c^2\\left(\\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}\\right)"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find Z⁻¹[(2z²+3z)/((z+2)(z−4))].",
+          "eq": "Z^{-1}\\!\\left[\\frac{2z^2+3z}{(z+2)(z-4)}\\right]"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "A homogeneous rod of conducting material of length 100 cm has its end kept at zero temperature and temperature initially is f(x) = x for 0 ≤ x ≤ 50, (100−x) for 50 ≤ x ≤ 100.",
+          "eq": "f(x)=\\begin{cases}x&0\\le x\\le 50\\\\ 100-x&50\\le x\\le 100\\end{cases}"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2.5×4=10",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Find z-transform of naⁿ⁻¹.",
+              "eq": "Z\\{na^{n-1}\\}"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Evaluate ∮_c z³/(2z−i) dz where |z| = 1.",
+              "eq": "\\oint_c \\frac{z^3}{2z-i}\\,dz,\\quad |z|=1"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Solve the partial differential equation u_x + u_y = 0, by separation of variables method.",
+              "eq": "u_x+u_y=0"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Write equation of ellipsoid. Sketch it with center and axes of symmetry.",
+              "eq": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-SP",
+      "year": "2015",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that the necessary condition for analyticity of f(z) = u + iv, is u_x = v_y and u_y = −v_x.",
+          "eq": "u_x=v_y,\\quad u_y=-v_x"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Laplace equation. Test u = cos x cosh y is harmonic or not. If yes, find the harmonic function and the corresponding analytic function f(z).",
+          "eq": "u = \\cos x \\cosh y"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "State and Prove Cauchy Residue theorem. Evaluate ∮_c e^{5z}/(z+i)⁴ dz, where C is a circle |z| = 3 along anticlockwise direction.",
+          "eq": "\\oint_c \\frac{e^{5z}}{(z+i)^4}\\,dz,\\quad |z|=3"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Determine the region of w = e^{iπ/4} in the w-plane corresponding to the triangular region bounded by the lines x = 0, y = 0, and x + y = 1 in the z-plane.\n\nOr\n\nIntegrate: ∮_c dz/(z²+4); c: 4x² + (y−2)² = 4.",
+          "eq": "w = e^{i\\pi/4}\\qquad\\text{or}\\qquad\\oint_c\\frac{dz}{z^2+4}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the Z-transform of f(t) = aⁿ and hence find Z{sin(nπ/2)} and Z{cos(nπ/2)}.",
+          "eq": "Z(a^n),\\quad Z\\!\\left\\{\\sin\\tfrac{n\\pi}{2}\\right\\},\\quad Z\\!\\left\\{\\cos\\tfrac{n\\pi}{2}\\right\\}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find the inverse of z-transform of (3z³+2z)/[(z+3)²(z−2)].",
+          "eq": "Z^{-1}\\!\\left[\\frac{3z^3+2z}{(z+3)^2(z-2)}\\right]"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Solve the difference equation: y_{n+2} + 6y_{n+1} + 9y_n = 4ⁿ, where y₀ = 0 and y₁ = 0.",
+          "eq": "y_{n+2}+6y_{n+1}+9y_n=4^n,\\quad y_0=0,\\;y_1=0"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Find Fourier sine and cosine integral representation of the function f(x) = e^{−x} + e^{−2x}, for x > 0.\n\nOr\n\nFind Fourier transform of f(x) = 1 for |x| < 1, 0 for |x| > 1.",
+          "eq": "f(x)=e^{-x}+e^{-2x},\\quad x>0"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define partial differential equation with suitable example. By separating the variables solve u_{xx} + u_{yy} = 0.",
+          "eq": "u_{xx}+u_{yy}=0"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define partial differential equation with suitable example. By separating the variables solve u_{xx} + u_{yy} = 0.",
+          "eq": "u_{xx}+u_{yy}=0"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define Fourier integral. Choosing a suitable function, show that ∫₀^∞ sin πω/ω · sin wx dw = π sin x/2 if 0 ≤ x ≤ π, 0 if x > π.",
+          "eq": "\\int_0^\\infty \\frac{\\sin\\pi\\omega}{\\omega}\\sin wx\\,dw=\\begin{cases}\\frac{\\pi\\sin x}{2}&0\\le x\\le\\pi\\\\0&x>\\pi\\end{cases}"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (Any two) 2×5",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Solve the partial differential equation u_x = 2xy.",
+              "eq": "u_x = 2xy"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Write equation of an ellipsoid. Sketch it with centre and axis of symmetry.",
+              "eq": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Verify that u = x² + t² is the solution of one dimensional wave equation.",
+              "eq": "u=x^2+t^2"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Derive Z inverse of X(z) = z/[(z+1)(z−3)].",
+              "eq": "X(z)=\\frac{z}{(z+1)(z-3)}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2014-FA",
+      "year": "2014",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define analyticity of a complex valued function f(z). Show that the function u = x/(x²+y²) is harmonic. Find harmonic conjugate of u such that f(z) = u + iv is analytic.",
+          "eq": "u = \\frac{x}{x^2+y^2}"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State and Prove Cauchy Residue theorem. Evaluate ∮_C dz/[z⁸(z+4)], where C is |z+2| = 3 in anticlockwise direction.",
+          "eq": "\\oint_C \\frac{dz}{z^8(z+4)},\\quad |z+2|=3"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define conformal mapping. If u = 2x²+y² and v = y²/x show that the curves u = constant and v = constant cut orthogonally at all intersections but the transformation w = u+iv is not conformal.\n\nOR\n\nState and prove Cauchy-integral formula and hence evaluate ∮_c (2x²+4z)/(z−2) dz; c: |z| = 1.",
+          "eq": "\\oint_c \\frac{2x^2+4z}{z-2}\\,dz,\\quad |z|=1"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Z transform. State and Prove first shifting theorem on Z transform. Using it find Z transform of cos at and sin at. Also evaluate Z(aⁿ cos bt) and Z(aⁿ sin bt).",
+          "eq": "Z(\\cos at),\\;Z(\\sin at),\\;Z(a^n\\cos bt),\\;Z(a^n\\sin bt)"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Solve the difference equation: y_{n+2} − 3y_{n+1} + 2y_n = 0, where y₀ = 0 and y₁ = 1.",
+          "eq": "y_{n+2}-3y_{n+1}+2y_n=0,\\quad y_0=0,\\;y_1=1"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the temperature in a laterally insulated bar of length L whose ends are kept at zero temperature, assuming that the initial temperature is f(x) = x if 0 < x < L/2, (L−x) if L/2 < x < L.",
+          "eq": "f(x)=\\begin{cases}x&0<x<L/2\\\\ L-x&L/2<x<L\\end{cases}"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Write one-dimensional wave equation and solve it.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Using the method of separation of variable solve the partial differential equation y²u_x − x²u_y = 0.",
+          "eq": "y^2 u_x - x^2 u_y = 0"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Express Laplacian in polar co-ordinate system from Cartesian co-ordinate system.\n\nOR\n\nFind u(x,y,t) for the rectangular membrane with sides a and b with c = 1, if the initial velocity is zero and initial deflection is sin(2πx/a) sin(3πy/b).",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial r^2}+\\frac{1}{r}\\frac{\\partial u}{\\partial r}+\\frac{1}{r^2}\\frac{\\partial^2 u}{\\partial\\theta^2}"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define Fourier sine and cosine integrals. Show that ∫₀^∞ (cos wx + w sin wx)/(1+w²) dω = 0 if x < 0, π/2 if x = 0, π e^{−x} if x > 0.",
+          "eq": "\\int_0^\\infty \\frac{\\cos wx+w\\sin wx}{1+w^2}\\,d\\omega=\\begin{cases}0&x<0\\\\ \\pi/2&x=0\\\\ \\pi e^{-x}&x>0\\end{cases}"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Find the Fourier transform of f(x) = xe^{−x²}.",
+          "eq": "f(x) = xe^{-x^2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "State and prove initial and final value theorem on Z transform.",
+          "eq": "\\lim_{n\\to 0}f(n)=\\lim_{z\\to\\infty}zF(z)"
+        },
+        {
+          "number": "7",
+          "instruction": "Answer all the followings (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "Sketch the paraboloid z = x² + y².",
+              "eq": "z=x^2+y^2"
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Find the parametric representation of the surface y²+(z−3)² = 9, x = 2."
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Find the unit tangent vector of r(t) = cos t î + 2sin t j̄ at (1/2, √3, 0).",
+              "eq": "\\vec{r}(t)=\\cos t\\,\\hat{i}+2\\sin t\\,\\hat{j}"
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Show that ∮_c dz/z = 2πi, where C is the circle |z| = 1 in anticlockwise direction.",
+              "eq": "\\oint_c\\frac{dz}{z}=2\\pi i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2014-SP",
+      "year": "2014",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define analytic function f(z). State Cauchy Riemann equation and hence show that it is the necessary condition for the function to be analytics.",
+          "eq": "u_x=v_y,\\quad u_y=-v_x"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "State and prove Cauchy's integral formula. Hence using it integrate ∮_c z²/(z⁴−1) dz where c is the circle |z+i| = 1 in counter clockwise.\n\nOR\n\nEvaluate ∮_c (z³+Sinz)/[c(z−i)³] dz, where 'c' is the boundary of the square with vertices ±2, ±2i.",
+          "eq": "\\oint_c \\frac{z^2}{z^4-1}\\,dz,\\quad |z+i|=1"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Expand the function f(z) = (z+3)/[z(z²−z−2)] in the region: (i) |z| < 1  (ii) 1 < |z| < 2  (iii) |z| > 2.",
+          "eq": "f(z) = \\frac{z+3}{z(z^2-z-2)}"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the deflection u(x,t) of the vibrating string of length L = π, c² = 1 and its initial velocity is zero and initial deflection is given by f(x) = 0.1x for 0 < x < π/2, 0.01(π−x) for π/2 < x < π.",
+          "eq": "f(x)=\\begin{cases}0.1x&0<x<\\pi/2\\\\ 0.01(\\pi-x)&\\pi/2<x<\\pi\\end{cases}"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Find the solution of one dimensional wave equation by D'Alembert's method.",
+          "eq": "\\frac{\\partial^2 u}{\\partial t^2}=c^2\\frac{\\partial^2 u}{\\partial x^2}"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar co-ordinates.",
+          "eq": "\\nabla^2 u = \\frac{\\partial^2 u}{\\partial x^2}+\\frac{\\partial^2 u}{\\partial y^2}"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "State and prove first shifting theorem for Z-transform. Use it to find Z(cos hat sin bt).",
+          "eq": "Z\\{\\cosh at\\sin bt\\}"
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Find the inverse Z-transform of 2z/[(z−1)(z²+1)].",
+          "eq": "Z^{-1}\\!\\left[\\frac{2z}{(z-1)(z^2+1)}\\right]"
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Show that Z(y_{n+k}) = z^k [y − y₀ − y₁/z − ... − y_{k-1}/z^{k-1}] where y = Z(y_n). Using it solve y_{k+1} + y_k = 1 if y₀ = 0.",
+          "eq": "Z(y_{n+k}) = z^k\\!\\left[\\bar{y}-y_0-\\frac{y_1}{z}-\\cdots-\\frac{y_{k-1}}{z^{k-1}}\\right]"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve u_{xx} + u_{yy} = 0 by using separation method.",
+          "eq": "u_{xx}+u_{yy}=0"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define convolution of two functions. State and prove convolution theorem on Fourier transform.\n\nOR\n\nDefine Fourier transform and evaluate Fourier transform of f(x) = e^{−x²/2}.",
+          "eq": "f(x)=e^{-x^2/2}"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Derive Fourier integral of f(x) from Fourier series. Show that ∫₀^∞ (cos xw + w sin xw)/(1+w²) dw = 0 if x < 0, π/2 if x = 0, π e^{−x} if x > 0.",
+          "eq": "\\int_0^\\infty \\frac{\\cos xw+w\\sin xw}{1+w^2}\\,dw=\\begin{cases}0&x<0\\\\ \\pi/2&x=0\\\\ \\pi e^{-x}&x>0\\end{cases}"
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on (4×2.5)",
+          "options": [
+            {
+              "sub_no": "a",
+              "marks": 2.5,
+              "question": "If r(t) = (a + 2cos 2t, b − 2sin 2t, 0) be the position vector of any curve, find its equation in Cartesian form."
+            },
+            {
+              "sub_no": "b",
+              "marks": 2.5,
+              "question": "Verify that u = x² + t² is the solution of one dimensional wave equation.",
+              "eq": "u=x^2+t^2"
+            },
+            {
+              "sub_no": "c",
+              "marks": 2.5,
+              "question": "Define the types of singularity of a complex function with examples."
+            },
+            {
+              "sub_no": "d",
+              "marks": 2.5,
+              "question": "Find Z(1) and Z(−1)ⁿ.",
+              "eq": "Z(1)\\quad\\text{and}\\quad Z(-1)^n"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

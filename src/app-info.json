@@ -16,50 +16,70 @@
     },
 
     "overview": [
-        { "label": "Papers", "value": "auto:papers" },
-        { "label": "Questions", "value": "auto:questions" },
-        { "label": "Chapters", "value": "auto:chapters" },
-        { "label": "Syllabus Topics", "value": "auto:topics" },
-        { "label": "Peak Repeats", "value": "auto:peak" },
-        { "label": "Year Span", "value": "auto:yearspan" }
+        { "label": "Papers",          "value": "auto:papers"    },
+        { "label": "Questions",       "value": "auto:questions" },
+        { "label": "Chapters",        "value": "auto:chapters"  },
+        { "label": "Syllabus Topics", "value": "auto:topics"    },
+        { "label": "Peak Repeats",    "value": "auto:peak"      },
+        { "label": "Year Span",       "value": "auto:yearspan"  }
     ],
 
     "content": [
         {
             "subject": "Choose Subject",
+            "program": null,
+            "semester": null,
             "default": true,
             "option": "available",
             "folder": "None"
         },
         {
             "subject": "IS",
+            "program": "BE Computer",
+            "semester": "Sem VIII",
             "default": false,
             "option": "available",
             "folder": "BE_COMPUTER/Sem_VIII/IS"
         },
         {
             "subject": "DSAP",
+            "program": "BE Computer",
+            "semester": "Sem VIII",
             "default": false,
             "option": "available",
             "folder": "BE_COMPUTER/Sem_VIII/DSAP"
         },
         {
             "subject": "O&M",
+            "program": "BE Computer",
+            "semester": "Sem VIII",
             "default": false,
             "option": "available",
             "folder": "BE_COMPUTER/Sem_VIII/OM"
         },
         {
             "subject": "SPIT",
+            "program": "BE Computer",
+            "semester": "Sem VIII",
             "default": false,
             "option": "available",
             "folder": "BE_COMPUTER/Sem_VIII/SPIT"
         },
         {
             "subject": "Thermal",
+            "program": "BE Computer",
+            "semester": "Sem II",
             "default": false,
             "option": "available",
             "folder": "BE_COMPUTER/Sem_II/Thermal"
+        },
+        {
+            "subject": "Math IV",
+            "program": "BE Computer",
+            "semester": "Sem IV",
+            "default": false,
+            "option": "available",
+            "folder": "BE_COMPUTER/Sem_IV/Eng_Mathematics_IV"
         }
     ]
 }

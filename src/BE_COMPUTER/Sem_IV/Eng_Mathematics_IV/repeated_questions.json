@@ -1,0 +1,124 @@
+{
+  "repeated_questions": [
+    {
+      "question": "What is cloud computing? Difference between IaaS, PaaS and SaaS.",
+      "topic": "8.2 Cloud computing technologies and their types — IaaS, PaaS, SaaS",
+      "freq": 14,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_spring","2016_fall"]
+    },
+    {
+      "question": "Define Hadoop System and its components. Explain in details about working mechanism of Map Reduce for voluminous data.",
+      "topic": "8.3 Map Reduce and Hadoop systems",
+      "freq": 14,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_spring","2016_fall"]
+    },
+    {
+      "question": "What is a recommender system? How does it work? Discuss different examples of recommender systems.",
+      "topic": "7.7 Recommender systems",
+      "freq": 13,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_fall"]
+    },
+    {
+      "question": "Define Critical Success Factor. What might the Critical Success Factors for an Emerging IT company in Country like Nepal. Explain with their Advantages.",
+      "topic": "6.2 Critical Success Factors (CSF)",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_spring"]
+    },
+    {
+      "question": "Describe the different perspectives used in Balance Scorecard.",
+      "topic": "6.3 Advanced Balanced Scorecard — foundations and strategy map / 1.6 Balanced Scorecard — case studies",
+      "freq": 25,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_spring","2016_fall","2015_fall","2015_spring","2024_fall","2021_fall","2020_fall","2019_spring","2019_fall","2018_fall","2017_spring","2016_spring","2015_fall"]
+    },
+    {
+      "question": "Differentiate between ERP, SCM, and CRM software. How do these systems contribute to enterprise success?",
+      "topic": "3.2 Enterprise Software — ERP, SCM, CRM",
+      "freq": 13,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_spring"]
+    },
+    {
+      "question": "Define Anomaly Detection. Differentiate between OLAP and OLTP.",
+      "topic": "4.6 Data mining, Data Warehousing, OLAP and OLTP",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_spring"]
+    },
+    {
+      "question": "What is multi-layer security strategy? Discuss how multi-layer security strategy can be applied to protect e-commerce systems.",
+      "topic": "2.4 Consumer layered security strategy / 2.5 Enterprise layered security strategy",
+      "freq": 10,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall"]
+    },
+    {
+      "question": "Define information system. Describe its importance with qualities of a good information System?",
+      "topic": "1.4 Qualities of information systems / 1.1 Classification and evolution of IS",
+      "freq": 18,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_spring","2016_fall","2015_fall","2015_spring","2024_fall","2021_fall"]
+    },
+    {
+      "question": "Discuss the concept of change management and explain how it helps businesses effectively navigate technological, organizational, or strategic changes while minimizing disruptions to daily operations.",
+      "topic": "6.1 Change Management",
+      "freq": 10,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall"]
+    },
+    {
+      "question": "Explain the role of IS and IT in Enterprise Management.",
+      "topic": "3.4 Role of IS and IT in Enterprise Management",
+      "freq": 11,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring"]
+    },
+    {
+      "question": "Define Strategic Information System. Differentiate Tactical Planning Versus Strategic Planning.",
+      "topic": "5.1 Strategic Information System",
+      "freq": 11,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring"]
+    },
+    {
+      "question": "What is collaborative filtering? Explain its advantages and disadvantages.",
+      "topic": "7.6 Collaborative filtering",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_fall"]
+    },
+    {
+      "question": "Define DSS and GDSS. Justify 'AI and Expert System is necessity for business in modern business'.",
+      "topic": "4.2 Group decision support systems (GDSS) / 4.5 AI, Neural Networks, Virtual reality, Intelligent Agents",
+      "freq": 10,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall"]
+    },
+    {
+      "question": "Explain about web usage mining technique.",
+      "topic": "7.5 Web usage mining",
+      "freq": 7,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall"]
+    },
+    {
+      "question": "Define Change Management. Explain Next Generation Balanced Scorecard in detail.",
+      "topic": "6.3 Advanced Balanced Scorecard — foundations and strategy map / 6.1 Change Management",
+      "freq": 13,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2017_fall","2016_fall"]
+    },
+    {
+      "question": "What is Link Analysis in Web Search. How does a Search Engine Work? Discuss its architecture.",
+      "topic": "7.2 Link Analysis / 7.3 Searching the web — search engines",
+      "freq": 8,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall"]
+    },
+    {
+      "question": "Explain the concept of Enterprise engineering. How can enterprise integration provide the means to share data between different applications?",
+      "topic": "3.5 Enterprise engineering, Electronic organism, Loose vs Full integration",
+      "freq": 8,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall"]
+    },
+    {
+      "question": "What is Data Warehouse? Why do you require data warehouse along with operational databases? How is it related with data mining?",
+      "topic": "4.6 Data mining, Data Warehousing, OLAP and OLTP",
+      "freq": 12,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall","2020_fall","2019_fall","2019_spring","2018_fall","2017_spring","2016_spring"]
+    },
+    {
+      "question": "What are the key factors that have to be considered while developing web-based information system? Explain them briefly.",
+      "topic": "7.4 Navigating the web — navigation design / 7.1 The structure of the web",
+      "freq": 6,
+      "papers": ["2025_spring","2024_fall","2023_spring","2022_fall","2021_spring","2021_fall"]
+    }
+  ]
+}

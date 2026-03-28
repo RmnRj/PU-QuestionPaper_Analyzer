@@ -151,37 +151,68 @@
         #subj-wrapper {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 4px;
         }
 
-        #subj-label {
-            font-family: var(--font-mono);
+        .subj-sep {
             font-size: 11px;
-            color: var(--text-3);
-            font-weight: 500;
-            white-space: nowrap;
+            color: var(--border);
+            flex-shrink: 0;
+            line-height: 1;
+            margin: 0 1px;
         }
 
+        /* Shared style for all three cascade selects */
+        #prog-select,
+        #sem-select,
         #subj-select {
             appearance: none;
             -webkit-appearance: none;
-            padding: 4px 26px 4px 10px;
+            padding: 4px 22px 4px 8px;
             border: 1px solid var(--border);
             border-radius: 20px;
-            background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='5' viewBox='0 0 9 5'%3E%3Cpath d='M0 0l4.5 5L9 0z' fill='%239A9189'/%3E%3C/svg%3E") no-repeat right 9px center;
+            background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='5' viewBox='0 0 9 5'%3E%3Cpath d='M0 0l4.5 5L9 0z' fill='%239A9189'/%3E%3C/svg%3E") no-repeat right 7px center;
             font-family: var(--font-mono);
             font-size: 11px;
             color: var(--text-3);
             cursor: pointer;
-            transition: border-color .12s, color .12s;
-            min-width: 90px;
+            transition: border-color .12s, color .12s, opacity .12s;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
-        #subj-select:hover,
-        #subj-select:focus {
+        #prog-select {
+            min-width: 106px;
+            max-width: 130px;
+        }
+
+        #sem-select {
+            min-width: 90px;
+            max-width: 110px;
+        }
+
+        #subj-select {
+            min-width: 80px;
+            max-width: 100px;
+        }
+
+        #prog-select:hover:not(:disabled),
+        #prog-select:focus:not(:disabled),
+        #sem-select:hover:not(:disabled),
+        #sem-select:focus:not(:disabled),
+        #subj-select:hover:not(:disabled),
+        #subj-select:focus:not(:disabled) {
             border-color: var(--accent);
             color: var(--accent);
-            outline: none
+            outline: none;
+        }
+
+        #prog-select:disabled,
+        #sem-select:disabled,
+        #subj-select:disabled {
+            opacity: .45;
+            cursor: default;
         }
 
         #subj-loading {
@@ -1497,8 +1528,17 @@
                 <div id="hdr-sub"></div>
             </div>
             <div id="subj-wrapper">
-                <span id="subj-label">Subject</span>
-                <select id="subj-select" onchange="switchSubject(this.value)"></select>
+                <select id="prog-select" onchange="onProgChange()">
+                    <option value="">Program</option>
+                </select>
+                <span class="subj-sep">›</span>
+                <select id="sem-select" onchange="onSemChange()" disabled>
+                    <option value="">Semester</option>
+                </select>
+                <span class="subj-sep">›</span>
+                <select id="subj-select" onchange="switchSubject(this.value)" disabled>
+                    <option value="">Subject</option>
+                </select>
                 <span id="subj-loading">Loading…</span>
             </div>
         </div>
@@ -1584,12 +1624,20 @@
             <div class="tab-pane" id="pane-guide">
                 <div class="guide-wrap">
                     <div class="guide-intro">
-                        <p><strong>Add New Subject</strong> — Follow these steps to add a new subject to the analyzer. You only need a text editor and your question paper files — no coding required. Clone the repository from GitHub and add your subject data.</p>
-                        <p style="margin-top:12px;padding:12px;background:var(--green-bg);border-left:3px solid var(--green);border-radius:var(--r);font-size:13px;color:var(--text-1)">
-                            <strong>Contribute:</strong> Help us grow this analyzer! Add your university's question papers, improve the codebase, or suggest new features. Your contributions make this tool better for everyone.
+                        <p><strong>Add New Subject</strong> — Follow these steps to add a new subject to the analyzer.
+                            You only need a text editor and your question paper files — no coding required. Clone the
+                            repository from GitHub and add your subject data.</p>
+                        <p
+                            style="margin-top:12px;padding:12px;background:var(--green-bg);border-left:3px solid var(--green);border-radius:var(--r);font-size:13px;color:var(--text-1)">
+                            <strong>Contribute:</strong> Help us grow this analyzer! Add your university's question
+                            papers, improve the codebase, or suggest new features. Your contributions make this tool
+                            better for everyone.
                         </p>
-                        <p style="margin-top:12px;padding:12px;background:var(--accent-bg);border-left:3px solid var(--accent);border-radius:var(--r);font-size:13px;color:var(--text-1)">
-                            <strong>AI Assistance:</strong> Use <strong>Claude Sonnet 4.6 (Extended Thinking)</strong> or <strong>Grok AI (Expert Mode)</strong> to convert PDFs/images to JSON format automatically.
+                        <p
+                            style="margin-top:12px;padding:12px;background:var(--accent-bg);border-left:3px solid var(--accent);border-radius:var(--r);font-size:13px;color:var(--text-1)">
+                            <strong>AI Assistance:</strong> Use <strong>Claude Sonnet 4.6 (Extended Thinking)</strong>
+                            or <strong>Grok AI (Expert Mode)</strong> to convert PDFs/images to JSON format
+                            automatically.
                         </p>
                     </div>
 
@@ -1604,8 +1652,12 @@
                                 <div class="gs-dot">1</div>
                                 <div class="gs-content">
                                     <div class="gs-label">Clone the repository</div>
-                                    <div class="gs-desc">Visit the GitHub repository to clone the project and start adding your subject.</div>
-                                    <button onclick="window.open('https://github.com/RmnRj/PU-QuestionPaper_Analyzer','_blank')" style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;margin-top:8px;transition:background .2s">Open GitHub Repository →</button>
+                                    <div class="gs-desc">Visit the GitHub repository to clone the project and start
+                                        adding your subject.</div>
+                                    <button
+                                        onclick="window.open('https://github.com/RmnRj/PU-QuestionPaper_Analyzer','_blank')"
+                                        style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;margin-top:8px;transition:background .2s">Open
+                                        GitHub Repository →</button>
                                 </div>
                             </div>
                         </div>
@@ -1623,22 +1675,26 @@
                                 <div class="gs-content">
                                     <div class="gs-label">Folder structure for subjects</div>
                                     <div class="gs-code">src/
-├── BE_COMPUTER/
-│   ├── Sem_VIII/
-│   │   ├── IS/
-│   │   │   ├── old_question_papers.json
-│   │   │   ├── repeated_questions.json
-│   │   │   ├── syllabus.json
-│   │   │   └── img/
-│   │   │       └── 2023-S-6b.png
-│   │   └── DSAP/
-│   └── Sem_II/
-│       └── Thermal/
-│           ├── old_question_papers.json
-│           ├── repeated_questions.json
-│           ├── syllabus.json
-│           └── img/</div>
-                                    <div class="gs-note"><strong>Required Files:</strong> Each subject folder must contain exactly 3 files: <span class="gs-ic">old_question_papers.json</span>, <span class="gs-ic">repeated_questions.json</span>, and <span class="gs-ic">syllabus.json</span>. Create an <span class="gs-ic">img/</span> subfolder for images.</div>
+                                        ├── BE_COMPUTER/
+                                        │ ├── Sem_VIII/
+                                        │ │ ├── IS/
+                                        │ │ │ ├── old_question_papers.json
+                                        │ │ │ ├── repeated_questions.json
+                                        │ │ │ ├── syllabus.json
+                                        │ │ │ └── img/
+                                        │ │ │ └── 2023-S-6b.png
+                                        │ │ └── DSAP/
+                                        │ └── Sem_II/
+                                        │ └── Thermal/
+                                        │ ├── old_question_papers.json
+                                        │ ├── repeated_questions.json
+                                        │ ├── syllabus.json
+                                        │ └── img/</div>
+                                    <div class="gs-note"><strong>Required Files:</strong> Each subject folder must
+                                        contain exactly 3 files: <span class="gs-ic">old_question_papers.json</span>,
+                                        <span class="gs-ic">repeated_questions.json</span>, and <span
+                                            class="gs-ic">syllabus.json</span>. Create an <span
+                                            class="gs-ic">img/</span> subfolder for images.</div>
                                 </div>
                             </div>
                         </div>
@@ -1656,12 +1712,17 @@
                                 <div class="gs-content">
                                     <div class="gs-label">Add subject folder path to app-info.json</div>
                                     <div class="gs-code">{
-  "subject": "Thermal",
-  "default": false,
-  "option": "available",
-  "folder": "BE_COMPUTER/Sem_II/Thermal"
-}</div>
-                                    <div class="gs-note">Just provide the folder path. The app will automatically load <span class="gs-ic">old_question_papers.json</span>, <span class="gs-ic">repeated_questions.json</span>, and <span class="gs-ic">syllabus.json</span> from this folder. Set <span class="gs-ic">"default": true</span> for the subject to load on startup.</div>
+                                        "subject": "Thermal",
+                                        "default": false,
+                                        "option": "available",
+                                        "folder": "BE_COMPUTER/Sem_II/Thermal"
+                                        }</div>
+                                    <div class="gs-note">Just provide the folder path. The app will automatically load
+                                        <span class="gs-ic">old_question_papers.json</span>, <span
+                                            class="gs-ic">repeated_questions.json</span>, and <span
+                                            class="gs-ic">syllabus.json</span> from this folder. Set <span
+                                            class="gs-ic">"default": true</span> for the subject to load on startup.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1679,15 +1740,17 @@
                                 <div class="gs-content">
                                     <div class="gs-label">File 1: old_question_papers.json</div>
                                     <div class="gs-code">{
-  "subject": "Thermal Engineering",
-  "university": "Pokhara University",
-  "programme": "BE — Mechanical Engineering",
-  "level": "Bachelor",
-  "full_marks": 100,
-  "pass_marks": 45,
-  "papers": [ ... ]
-}</div>
-                                    <div class="gs-note">The <span class="gs-ic">subject</span>, <span class="gs-ic">university</span>, and <span class="gs-ic">programme</span> fields are displayed in the Subject Information Bar.</div>
+                                        "subject": "Thermal Engineering",
+                                        "university": "Pokhara University",
+                                        "programme": "BE — Mechanical Engineering",
+                                        "level": "Bachelor",
+                                        "full_marks": 100,
+                                        "pass_marks": 45,
+                                        "papers": [ ... ]
+                                        }</div>
+                                    <div class="gs-note">The <span class="gs-ic">subject</span>, <span
+                                            class="gs-ic">university</span>, and <span class="gs-ic">programme</span>
+                                        fields are displayed in the Subject Information Bar.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
@@ -1695,16 +1758,17 @@
                                 <div class="gs-content">
                                     <div class="gs-label">File 2: repeated_questions.json</div>
                                     <div class="gs-code">{
-  "repeated_questions": [
-    {
-      "question": "Define management...",
-      "topic": "1.1 Meaning and concept",
-      "freq": 20,
-      "papers": ["2025_spring", "2024_fall"]
-    }
-  ]
-}</div>
-                                    <div class="gs-note">Contains questions that appear frequently across multiple papers with their frequency count.</div>
+                                        "repeated_questions": [
+                                        {
+                                        "question": "Define management...",
+                                        "topic": "1.1 Meaning and concept",
+                                        "freq": 20,
+                                        "papers": ["2025_spring", "2024_fall"]
+                                        }
+                                        ]
+                                        }</div>
+                                    <div class="gs-note">Contains questions that appear frequently across multiple
+                                        papers with their frequency count.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
@@ -1712,44 +1776,54 @@
                                 <div class="gs-content">
                                     <div class="gs-label">File 3: syllabus.json</div>
                                     <div class="gs-code">{
-  "course_title": "Thermal Engineering",
-  "course_code": "ME 501",
-  "total_hours": 45,
-  "course_contents": [
-    {
-      "unit": 1,
-      "title": "Introduction",
-      "hours": 3,
-      "topics": [
-        { "topic": "1.1 Basic concepts", "frequency": 15 }
-      ]
-    }
-  ]
-}</div>
-                                    <div class="gs-note">Contains syllabus with frequency count for each topic showing how many times it appeared in papers.</div>
+                                        "course_title": "Thermal Engineering",
+                                        "course_code": "ME 501",
+                                        "total_hours": 45,
+                                        "course_contents": [
+                                        {
+                                        "unit": 1,
+                                        "title": "Introduction",
+                                        "hours": 3,
+                                        "topics": [
+                                        { "topic": "1.1 Basic concepts", "frequency": 15 }
+                                        ]
+                                        }
+                                        ]
+                                        }</div>
+                                    <div class="gs-note">Contains syllabus with frequency count for each topic showing
+                                        how many times it appeared in papers.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">4</div>
                                 <div class="gs-content">
                                     <div class="gs-label">Use AI to generate JSON files</div>
-                                    <div class="gs-desc"><strong>Step 1:</strong> Copy the format example from above</div>
-                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 2:</strong> Open AI model in new tab:</div>
-                                    <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
-                                        <button onclick="window.open('https://claude.ai/','_blank')" style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Claude Sonnet 4.6 (Extended Thinking) →</button>
-                                        <button onclick="window.open('https://grok.com/','_blank')" style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Grok AI (Expert Mode) →</button>
+                                    <div class="gs-desc"><strong>Step 1:</strong> Copy the format example from above
                                     </div>
-                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 3:</strong> Upload your PDF/image and paste this prompt:</div>
-                                    <div class="gs-code" style="margin-top:8px">Convert this question paper to JSON following this exact format:
+                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 2:</strong> Open AI model
+                                        in new tab:</div>
+                                    <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+                                        <button onclick="window.open('https://claude.ai/','_blank')"
+                                            style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Claude
+                                            Sonnet 4.6 (Extended Thinking) →</button>
+                                        <button onclick="window.open('https://grok.com/','_blank')"
+                                            style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Grok
+                                            AI (Expert Mode) →</button>
+                                    </div>
+                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 3:</strong> Upload your
+                                        PDF/image and paste this prompt:</div>
+                                    <div class="gs-code" style="margin-top:8px">Convert this question paper to JSON
+                                        following this exact format:
 
-[Paste the format example here]
+                                        [Paste the format example here]
 
-Rules:
-- Use "id": "YYYY_semester" (e.g. "2024_fall")
-- Extract all questions with number, sub_no, marks, question text
-- For OR questions use "sub_no": "or"
-- Extract full question text accurately</div>
-                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 4:</strong> Copy the AI-generated JSON and save to your subject folder with the exact file name</div>
+                                        Rules:
+                                        - Use "id": "YYYY_semester" (e.g. "2024_fall")
+                                        - Extract all questions with number, sub_no, marks, question text
+                                        - For OR questions use "sub_no": "or"
+                                        - Extract full question text accurately</div>
+                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 4:</strong> Copy the
+                                        AI-generated JSON and save to your subject folder with the exact file name</div>
                                 </div>
                             </div>
                         </div>
@@ -1766,7 +1840,8 @@ Rules:
                                 <div class="gs-dot">1</div>
                                 <div class="gs-content">
                                     <div class="gs-label">Requirements</div>
-                                    <div class="gs-desc">You need either <strong>Python</strong> or <strong>Node.js</strong> installed on your system to run a local server.</div>
+                                    <div class="gs-desc">You need either <strong>Python</strong> or
+                                        <strong>Node.js</strong> installed on your system to run a local server.</div>
                                 </div>
                             </div>
                         </div>
@@ -1783,7 +1858,8 @@ Rules:
                                 <div class="gs-dot">1</div>
                                 <div class="gs-content">
                                     <div class="gs-label">Test your changes locally</div>
-                                    <div class="gs-desc">Run the app locally and verify that your subject loads correctly, all data displays properly, and images/tables work as expected.</div>
+                                    <div class="gs-desc">Run the app locally and verify that your subject loads
+                                        correctly, all data displays properly, and images/tables work as expected.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
@@ -1791,16 +1867,21 @@ Rules:
                                 <div class="gs-content">
                                     <div class="gs-label">Commit your changes</div>
                                     <div class="gs-code">git add .
-git commit -m "Add [Subject Name] question papers"
-git push origin main</div>
+                                        git commit -m "Add [Subject Name] question papers"
+                                        git push origin main</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">3</div>
                                 <div class="gs-content">
                                     <div class="gs-label">Submit pull request to main repository</div>
-                                    <div class="gs-desc">Go to the main GitHub repository and create a pull request from your fork. Include a description of what subject you added and confirm that you tested it locally.</div>
-                                    <button onclick="window.open('https://github.com/RmnRj/PU-QuestionPaper_Analyzer/pulls','_blank')" style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;margin-top:8px;transition:background .2s">Create Pull Request →</button>
+                                    <div class="gs-desc">Go to the main GitHub repository and create a pull request from
+                                        your fork. Include a description of what subject you added and confirm that you
+                                        tested it locally.</div>
+                                    <button
+                                        onclick="window.open('https://github.com/RmnRj/PU-QuestionPaper_Analyzer/pulls','_blank')"
+                                        style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;margin-top:8px;transition:background .2s">Create
+                                        Pull Request →</button>
                                 </div>
                             </div>
                         </div>
@@ -1835,8 +1916,9 @@ git push origin main</div>
                 applyTheme(S.cfg);
                 renderHeader(S.cfg);
                 buildSubjectSelector(S.cfg);
+                // Find and load the default subject
                 const selectable = (S.cfg.content || []).filter(isSelectable);
-                const defEntry = selectable.find(c => c.default === true) || selectable[0];
+                const defEntry = selectable.find(c => c.default === true) || null;
                 if (defEntry) await loadSubject(defEntry.subject);
                 buildTabs();
                 hide('loading');
@@ -1855,30 +1937,89 @@ git push origin main</div>
         function isSelectable(c) { return c.option === 'available'; }
 
         // ════════════════════════════════════════════════════
-        // SUBJECT SELECTOR
+        // SUBJECT SELECTOR  (Program → Semester → Subject cascade)
         // ════════════════════════════════════════════════════
         function buildSubjectSelector(cfg) {
-            const sel = el('subj-select');
+            // Build Program dropdown from unique programs in available content
             const selectable = (cfg.content || []).filter(isSelectable);
-            sel.innerHTML = selectable.map(c =>
-                `<option value="${c.subject}">${c.subject}</option>`
-            ).join('');
+            const programs = [...new Set(selectable.map(c => c.program).filter(Boolean))].sort();
+            const progSel = el('prog-select');
+            progSel.innerHTML = `<option value="">Program</option>` +
+                programs.map(p => `<option value="${p}">${p}</option>`).join('');
+
+            // Auto-select if only one program exists
+            if (programs.length === 1) {
+                progSel.value = programs[0];
+                _refreshSemester(programs[0]);
+            }
+        }
+
+        function _refreshSemester(prog) {
+            const selectable = (S.cfg.content || []).filter(isSelectable);
+            const semesters = [...new Set(
+                selectable.filter(c => c.program === prog).map(c => c.semester).filter(Boolean)
+            )].sort((a, b) => {
+                // Natural sort: "Sem I" < "Sem II" etc.
+                const n = s => parseInt(s.replace(/\D+/g, '')) || 0;
+                return n(a) - n(b);
+            });
+            const semSel = el('sem-select');
+            semSel.innerHTML = `<option value="">Choose Semester</option>` +
+                semesters.map(s => `<option value="${s}">${s}</option>`).join('');
+            semSel.disabled = false;
+            // Reset subject
+            el('subj-select').innerHTML = `<option value="">Subject</option>`;
+            el('subj-select').disabled = true;
+        }
+
+        function _refreshSubject(prog, sem) {
+            const selectable = (S.cfg.content || []).filter(isSelectable);
+            const subjects = selectable.filter(c => c.program === prog && c.semester === sem);
+            const subjSel = el('subj-select');
+            subjSel.innerHTML = `<option value="">Choose Subject</option>` +
+                subjects.map(c => `<option value="${c.subject}">${c.subject}</option>`).join('');
+            subjSel.disabled = subjects.length === 0;
+            // Auto-select if only one subject
+            if (subjects.length === 1) {
+                subjSel.value = subjects[0].subject;
+                switchSubject(subjects[0].subject);
+            }
+        }
+
+        function onProgChange() {
+            const prog = el('prog-select').value;
+            if (!prog) {
+                const semSel = el('sem-select');
+                semSel.innerHTML = `<option value="">Semester</option>`;
+                semSel.disabled = true;
+                el('subj-select').innerHTML = `<option value="">Subject</option>`;
+                el('subj-select').disabled = true;
+                return;
+            }
+            _refreshSemester(prog);
+        }
+
+        function onSemChange() {
+            const sem = el('sem-select').value;
+            if (!sem) {
+                el('subj-select').innerHTML = `<option value="">Subject</option>`;
+                el('subj-select').disabled = true;
+                return;
+            }
+            const prog = el('prog-select').value;
+            _refreshSubject(prog, sem);
         }
 
         async function switchSubject(name) {
-            if (name === S.activeSubject) return;
-            
+            if (!name || name === S.activeSubject) return;
+
             // Clear old data immediately
-            S.qp = null;
-            S.rq = null;
-            S.syl = null;
+            S.qp = null; S.rq = null; S.syl = null;
             S.all = [];
             S.activeSubject = name;
-            
-            // Show default subject info immediately
             renderSubjectInfo();
-            
-            // Clear all content
+
+            // Clear all content areas
             el('res-info').textContent = '';
             el('q-list').innerHTML = '';
             el('pp-year').innerHTML = '';
@@ -1886,21 +2027,24 @@ git push origin main</div>
             el('rq-list').innerHTML = '';
             el('syl-out').innerHTML = '';
             el('stats-bar').innerHTML = '';
-            
+
             // Show loading indicator
             el('subj-loading').style.display = '';
+            el('prog-select').disabled = true;
+            el('sem-select').disabled = true;
             el('subj-select').disabled = true;
-            
-            // Load new subject data
+
             await loadSubject(name);
-            
-            // Rebuild tabs and render new data
+
             buildTabs();
             const activeTab = qs('.tab-btn.active');
             if (activeTab) goTab(activeTab.dataset.t, true);
-            
+
             el('subj-loading').style.display = 'none';
-            el('subj-select').disabled = false;
+            el('prog-select').disabled = false;
+            // Re-enable sem/subj selects only if they have options
+            if (el('sem-select').options.length > 1) el('sem-select').disabled = false;
+            if (el('subj-select').options.length > 1) el('subj-select').disabled = false;
         }
 
         async function loadSubject(name) {
@@ -1927,6 +2071,20 @@ git push origin main</div>
             S.activeSubject = name;
             S.qp = data.qp; S.rq = data.rq; S.syl = data.syl;
             S.all = S.qp ? flatQ() : [];
+            // Sync cascade selectors to the loaded subject
+            const entry = (S.cfg.content || []).find(c => c.subject === name);
+            if (entry && entry.program && entry.semester) {
+                const progSel = el('prog-select');
+                if (progSel.value !== entry.program) {
+                    progSel.value = entry.program;
+                    _refreshSemester(entry.program);
+                }
+                const semSel = el('sem-select');
+                if (semSel.value !== entry.semester) {
+                    semSel.value = entry.semester;
+                    _refreshSubject(entry.program, entry.semester);
+                }
+            }
             el('subj-select').value = name;
             renderSubjectInfo();
         }
@@ -2240,6 +2398,10 @@ git push origin main</div>
             const paper = S.qp.papers.find(p => p.year === S.p.year && p.semester === S.p.sem);
             const out = el('paper-out');
             if (!paper) { out.innerHTML = `<div class="no-results">No paper found.</div>`; return; }
+            // ── FIX: guard against missing questions array ──
+            if (!paper.questions || !paper.questions.length) {
+                out.innerHTML = `<div class="no-results">No questions available for this paper.</div>`; return;
+            }
             let rows = '';
             paper.questions.forEach((q, qi) => {
                 if (q.options) {
@@ -2323,6 +2485,11 @@ git push origin main</div>
         // ════════════════════════════════════════════════════
         // GUIDE TAB
         // ════════════════════════════════════════════════════
+        function togGuide(n) {
+            const sec = el('gs-' + n);
+            if (sec) sec.classList.toggle('open');
+        }
+
         function copyToClipboard(text) {
             navigator.clipboard.writeText(text).then(() => {
                 alert('Copied to clipboard!');
@@ -2346,7 +2513,7 @@ git push origin main</div>
             const currentScroll = window.pageYOffset;
             const subjectInfo = el('subject-info');
             const tabs = el('tabs');
-            
+
             if (currentScroll > lastScroll && currentScroll > 100) {
                 // Scrolling down
                 subjectInfo.classList.add('scroll-hidden');
@@ -2356,7 +2523,7 @@ git push origin main</div>
                 subjectInfo.classList.remove('scroll-hidden');
                 tabs.classList.remove('scroll-up');
             }
-            
+
             lastScroll = currentScroll;
         });
 
