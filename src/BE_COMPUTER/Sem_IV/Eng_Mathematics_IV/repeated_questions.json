@@ -2,7 +2,7 @@
   "repeated_questions": [
     {
       "question": "Define harmonic function. Show that a given function u(x, y) is harmonic. Find its harmonic conjugate v and the corresponding analytic function f(z) = u + iv.",
-      "topic": "1.3 Harmonic Functions — harmonic conjugate, analytic function",
+      "topic": "1.4 Harmonic functions — harmonic conjugate, analytic function (Milne-Thomson method)",
       "freq": 21,
       "papers": [
         "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA",
@@ -12,18 +12,8 @@
       ]
     },
     {
-      "question": "State and prove Cauchy's Integral Formula (including its extension for higher-order derivatives). Hence evaluate ∮_c f(z) dz around a given closed contour C.",
-      "topic": "3.2 Cauchy's Integral Formula and its Extension",
-      "freq": 18,
-      "papers": [
-        "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA",
-        "2021-FA", "2021-SP", "2020-FA", "2019-FA", "2019-SP", "2018-FA",
-        "2017-FA", "2017-SP", "2016-FA", "2016-SP", "2015-FA", "2014-SP"
-      ]
-    },
-    {
       "question": "Use Z-transform to solve the difference equation y_{n+2} + ay_{n+1} + by_n = f(n) with given initial conditions y₀ and y₁.",
-      "topic": "7.4 Solution of Difference Equations using Z-Transform",
+      "topic": "2.6 Solution of difference equations using Z-transform",
       "freq": 20,
       "papers": [
         "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA",
@@ -34,7 +24,7 @@
     },
     {
       "question": "Derive the one-dimensional wave equation. Find u(x, t) with boundary conditions u(0,t) = 0 = u(L,t) and given initial deflection f(x) / initial velocity g(x).",
-      "topic": "6.3 One-Dimensional Wave Equation — derivation and solution",
+      "topic": "4.3 Derivation and solution of wave equation (one and two dimensional) — vibrating string",
       "freq": 20,
       "papers": [
         "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA",
@@ -45,7 +35,7 @@
     },
     {
       "question": "State and prove Cauchy's Residue Theorem. Evaluate ∮_c f(z) dz using the residue theorem for a given function and contour.",
-      "topic": "3.3 Cauchy's Residue Theorem — statement, proof and applications",
+      "topic": "1.12 Calculation of residues at poles — Cauchy's residue theorem and evaluation of real integrals",
       "freq": 19,
       "papers": [
         "2025-SP", "2024-SP", "2023-FA", "2023-SP", "2022-FA", "2021-FA",
@@ -56,7 +46,7 @@
     },
     {
       "question": "Define Fourier integral. Choosing a suitable function, show that ∫₀^∞ [expression in ω] dω equals a given piecewise function of x.",
-      "topic": "5.2 Fourier Integral Representation",
+      "topic": "3.2 Fourier integral representation — Fourier sine integral and cosine integral",
       "freq": 19,
       "papers": [
         "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA",
@@ -67,7 +57,7 @@
     },
     {
       "question": "Find the Fourier sine/cosine transform of f(x) = e^{-x} (or e^{-mx}), x > 0. Hence prove that ∫₀^∞ x sin(mx) / (1+x²) dx = (π/2)e^{-m} or ∫₀^∞ cos(kx) / (1+x²) dx = (π/2)e^{-k}.",
-      "topic": "5.4 Fourier Sine and Cosine Transforms",
+      "topic": "3.4 Fourier sine and cosine transforms — computation and applications",
       "freq": 19,
       "papers": [
         "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2022-FA", "2021-FA",
@@ -78,7 +68,7 @@
     },
     {
       "question": "Find the temperature distribution u(x, t) in a laterally insulated bar of length L with ends at zero temperature and initial temperature f(x). Also derive the one-dimensional heat equation.",
-      "topic": "6.4 One-Dimensional Heat Equation — derivation and temperature distribution",
+      "topic": "4.5 Derivation and solution of heat equation (one and two dimensional) — temperature distribution",
       "freq": 19,
       "papers": [
         "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA",
@@ -88,18 +78,28 @@
       ]
     },
     {
-      "question": "Find the image of the triangular region bounded by x = 0, y = 0, and x + y = 1 under the transformation w = ze^{iπ/4} (or similar rotation/conformal map). Sketch the mapped region.",
-      "topic": "2.3 Standard Transformations — image of regions",
-      "freq": 14,
+      "question": "State and prove Cauchy's Integral Formula (including its extension for higher-order derivatives). Hence evaluate ∮_c f(z) dz around a given closed contour C.",
+      "topic": "1.8 Cauchy's integral formula and its extension for higher-order derivatives",
+      "freq": 18,
       "papers": [
-        "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA", "2021-FA",
-        "2021-SP", "2019-FA", "2019-SP", "2018-FA", "2018-SP", "2017-FA",
-        "2017-SP", "2015-SP"
+        "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA",
+        "2021-FA", "2021-SP", "2020-FA", "2019-FA", "2019-SP", "2018-FA",
+        "2017-FA", "2017-SP", "2016-FA", "2016-SP", "2015-FA", "2014-SP"
+      ]
+    },
+    {
+      "question": "Check analyticity of f(z) = z² (or f(z) = z³) using the Cauchy-Riemann equations. Verify the necessary and sufficient conditions for analyticity.",
+      "topic": "1.3 Cauchy-Riemann equations — necessary and sufficient conditions for analyticity",
+      "freq": 18,
+      "papers": [
+        "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA",
+        "2021-FA", "2021-SP", "2020-FA", "2019-FA", "2018-FA", "2018-SP",
+        "2017-FA", "2017-SP", "2016-FA", "2016-SP", "2015-SP", "2014-SP"
       ]
     },
     {
       "question": "Express the Laplacian ∇²u = ∂²u/∂x² + ∂²u/∂y² in polar coordinates (r, θ). Also derive it from Cartesian form.",
-      "topic": "6.5 Two-Dimensional Laplace Equation in polar coordinates",
+      "topic": "4.6 Laplace equation — Cartesian, polar coordinates; expressing ∇²u in polar form",
       "freq": 15,
       "papers": [
         "2025-SP", "2024-FA", "2023-FA", "2023-SP", "2022-FA", "2021-FA",
@@ -108,8 +108,28 @@
       ]
     },
     {
+      "question": "Z-transform — definition, standard transforms (Z{aⁿ}, Z{nⁿ}, Z{cos nθ}, Z{sin nθ}, etc.) and basic properties.",
+      "topic": "2.1 Z-transform — definition, one-sided and two-sided Z-transform, standard transforms, ROC",
+      "freq": 15,
+      "papers": [
+        "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA",
+        "2021-FA", "2021-SP", "2019-FA", "2019-SP", "2018-FA", "2017-FA",
+        "2016-FA", "2016-SP", "2015-FA"
+      ]
+    },
+    {
+      "question": "Find the image of the triangular region bounded by x = 0, y = 0, and x + y = 1 under the transformation w = ze^{iπ/4} (or similar rotation/conformal map). Sketch the mapped region.",
+      "topic": "1.5 Conformal mappings — standard maps w = e^{iα}z, w = 1/z, w = z²; image of regions",
+      "freq": 14,
+      "papers": [
+        "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA", "2021-FA",
+        "2021-SP", "2019-FA", "2019-SP", "2018-FA", "2018-SP", "2017-FA",
+        "2017-SP", "2015-SP"
+      ]
+    },
+    {
       "question": "State and prove the First (or Second) Shifting Theorem of Z-transform. Using it, find Z{aⁿ cos bt}, Z{aⁿ sin bt}, or Z{e^{-at} sin bt}.",
-      "topic": "7.2 Shifting Theorems — first and second shifting theorems",
+      "topic": "2.3 Shifting theorems — first and second shifting theorems with applications",
       "freq": 14,
       "papers": [
         "2024-SP", "2023-FA", "2023-SP", "2022-FA", "2021-FA", "2021-SP",
@@ -119,7 +139,7 @@
     },
     {
       "question": "By separating the variables, solve the partial differential equation y²u_x − x²u_y = 0 (or u_{xx} − u_{xy} = 0, or u_{xx} + u_{yy} = 0).",
-      "topic": "6.2 Separation of Variables Method",
+      "topic": "4.2 Method of separation of variables — solving PDEs with boundary conditions",
       "freq": 14,
       "papers": [
         "2025-SP", "2024-FA", "2024-SP", "2022-FA", "2021-SP", "2020-FA",
@@ -129,7 +149,7 @@
     },
     {
       "question": "Find the tangent vector and unit tangent vector to the space curve r⃗(t) = f(t)î + g(t)ĵ + h(t)k̂ at a given point.",
-      "topic": "8.1 Curves in Space — tangent vector, unit tangent vector",
+      "topic": "5.2 Tangent line and tangent plane on the space curve — tangent vector, unit tangent vector",
       "freq": 14,
       "papers": [
         "2024-FA", "2024-SP", "2023-FA", "2023-SP", "2022-FA", "2021-FA",
@@ -139,7 +159,7 @@
     },
     {
       "question": "Find the Laurent series expansion of f(z) in the given annular regions (e.g., |z| < a, a < |z| < b, |z| > b).",
-      "topic": "4.2 Laurent's Series Expansion in Annular Regions",
+      "topic": "1.10 Laurent's series expansion in annular regions",
       "freq": 13,
       "papers": [
         "2025-SP", "2024-FA", "2024-SP", "2023-FA", "2022-FA", "2021-SP",
@@ -148,8 +168,8 @@
       ]
     },
     {
-      "question": "Find the inverse Z-transform of F(z) using partial fraction expansion or power series method.",
-      "topic": "7.3 Inverse Z-Transform — partial fractions and long division",
+      "question": "Find the inverse Z-transform of F(z) using partial fraction expansion or power series (long division) method.",
+      "topic": "2.4 Inverse Z-transform by residue and partial fraction methods; long division",
       "freq": 12,
       "papers": [
         "2025-SP", "2024-FA", "2024-SP", "2022-FA", "2019-FA", "2019-SP",
@@ -158,34 +178,25 @@
     },
     {
       "question": "Define a bilinear transformation. Find the bilinear transformation that maps the given points z₁, z₂, z₃ to w₁, w₂, w₃. Also find the image of the unit circle |z| = 1.",
-      "topic": "2.2 Bilinear (Möbius) Transformation",
+      "topic": "1.6 Bilinear (Möbius) transformation — definition, fixed points, cross-ratio",
       "freq": 10,
       "papers": [
-        "2023-SP", "2021-FA", "2019-FA", "2018-SP", "2017-FA", "2016-SP",
-        "2015-SP", "2014-FA", "2025-SP", "2022-FA"
+        "2025-SP", "2024-FA", "2023-SP", "2022-FA", "2021-FA", "2019-FA",
+        "2018-SP", "2017-FA", "2016-SP", "2015-SP"
       ]
     },
     {
-      "question": "Define singularity of a complex function. Find the poles, zeros, and residues of a given function f(z).",
-      "topic": "4.3 Zeros, Singularities and Poles — types and classification",
+      "question": "Define singularity of a complex function. Find the poles, zeros, and residues of a given function f(z). Classify the type of singularity.",
+      "topic": "1.11 Zeros, singularities, poles — isolated, removable, essential; classification",
       "freq": 8,
       "papers": [
-        "2021-SP", "2019-SP", "2018-SP", "2016-FA", "2015-FA", "2016-SP",
+        "2021-SP", "2019-SP", "2018-SP", "2016-FA", "2016-SP", "2015-FA",
         "2014-FA", "2014-SP"
       ]
     },
     {
-      "question": "Check analyticity of f(z) = z² (or f(z) = z³) using the Cauchy-Riemann equations.",
-      "topic": "1.2 Cauchy-Riemann Equations — analyticity check",
-      "freq": 7,
-      "papers": [
-        "2024-FA", "2024-SP", "2022-FA", "2021-SP", "2019-SP", "2018-SP",
-        "2017-SP"
-      ]
-    },
-    {
-      "question": "Find the Fourier transform of f(x) = e^{-x²/2}.",
-      "topic": "5.3 Fourier Transform — Gaussian function",
+      "question": "Find the Fourier transform of f(x) = e^{-x²/2} (or similar Gaussian function). Apply Fourier transform properties.",
+      "topic": "3.3 Fourier transform — definition, linearity, basic properties, Gaussian function",
       "freq": 5,
       "papers": [
         "2024-SP", "2023-SP", "2021-FA", "2019-FA", "2014-SP"
@@ -193,7 +204,7 @@
     },
     {
       "question": "Find the solution of the one-dimensional wave equation by D'Alembert's method.",
-      "topic": "6.6 D'Alembert's Solution of the Wave Equation",
+      "topic": "4.4 Wave equation by D'Alembert's method",
       "freq": 5,
       "papers": [
         "2022-FA", "2021-SP", "2017-SP", "2016-SP", "2014-SP"
@@ -201,7 +212,7 @@
     },
     {
       "question": "Find the Fourier cosine transform of f(x) = e^{-x} for x > 0. Hence by Parseval's identity, show that ∫₀^∞ dx / (1+x²)² = π/4.",
-      "topic": "5.5 Parseval's Identity and Applications",
+      "topic": "3.5 Inverse Fourier transform and Parseval's identity — evaluation of definite integrals",
       "freq": 5,
       "papers": [
         "2024-FA", "2024-SP", "2021-SP", "2019-SP", "2018-FA"
@@ -209,7 +220,7 @@
     },
     {
       "question": "Write the equation of an ellipsoid (or paraboloid, hyperboloid) and sketch it showing the centre and axes of symmetry.",
-      "topic": "8.2 Quadric Surfaces — equations and sketches",
+      "topic": "5.1 Quadric surfaces — ellipsoid, hyperboloid, paraboloid, cylinder, cone; standard equations and sketches",
       "freq": 5,
       "papers": [
         "2025-SP", "2024-SP", "2023-FA", "2015-FA", "2015-SP"
@@ -217,7 +228,7 @@
     },
     {
       "question": "What is the Helmholtz equation? Solve F_{xx} + F_{yy} + k²F = 0 subject to boundary conditions F(0,y) = 0 = F(a,y) = F(x,0) = F(x,b).",
-      "topic": "6.7 Two-Dimensional Problems and Helmholtz Equation",
+      "topic": "4.7 Helmholtz equation and engineering applications of PDEs",
       "freq": 4,
       "papers": [
         "2020-FA", "2018-SP", "2016-FA", "2016-SP"
