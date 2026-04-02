@@ -633,21 +633,63 @@
 
         .q-fig {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
             width: 100%
         }
 
+        .q-fig-controls {
+            display: flex;
+            gap: 6px;
+            align-items: center
+        }
+
+        .q-fig-btn {
+            width: 24px;
+            height: 24px;
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            background: var(--surface-2);
+            color: var(--text-2);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all .12s;
+            user-select: none;
+            flex-shrink: 0
+        }
+
+        .q-fig-btn:hover:not(:disabled) {
+            background: var(--border);
+            color: var(--text-1)
+        }
+
+        .q-fig-btn:disabled {
+            opacity: .3;
+            cursor: not-allowed
+        }
+
+        .q-fig-wrapper {
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+            max-width: 100%
+        }
+
         .q-fig img {
-            height: 220px;
-            /* fixed height */
-            width: auto;
-            /* natural width */
+            height: auto;
+            width: 220px;
             max-width: 100%;
             border: 1px solid var(--border-lt);
             border-radius: var(--r);
             background: var(--surface-2);
             object-fit: contain;
-            display: block
+            display: block;
+            transition: width .2s ease
         }
 
         .q-tbl {
@@ -695,6 +737,33 @@
             flex-direction: column;
             align-items: center;
             gap: 10px
+        }
+
+        .pq-fig {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            width: 100%
+        }
+
+        .pq-fig-wrapper {
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+            max-width: 100%
+        }
+
+        .pq-fig img {
+            height: auto;
+            width: 220px;
+            max-width: 100%;
+            border: 1px solid var(--border-lt);
+            border-radius: var(--r);
+            background: var(--surface-2);
+            object-fit: contain;
+            display: block;
+            transition: width .2s ease
         }
 
         .no-results {
@@ -1596,6 +1665,7 @@
     <div id="loading">
         <div class="ld-dots"><span></span><span></span><span></span></div>
         <div class="ld-title">Loading…</div>
+        <div style="font-size:11px;color:var(--text-3);margin-top:8px">Cache-busting enabled</div>
     </div>
 
     <div id="app" style="display:none">
@@ -1776,7 +1846,8 @@
                                         contain exactly 3 files: <span class="gs-ic">old_question_papers.json</span>,
                                         <span class="gs-ic">repeated_questions.json</span>, and <span
                                             class="gs-ic">syllabus.json</span>. Create an <span
-                                            class="gs-ic">img/</span> subfolder for images.</div>
+                                            class="gs-ic">img/</span> subfolder for images.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1794,17 +1865,21 @@
                                 <div class="gs-content">
                                     <div class="gs-label">Add subject to nested structure in app-info.json</div>
                                     <div class="gs-code">"content": {
-  "BE Computer": {
-    "Sem VIII": [
-      {
-        "subject": "Your Subject",
-        "folder": "BE_COMPUTER/Sem_VIII/YourSubject",
-        "default": false
-      }
-    ]
-  }
-}</div>
-                                    <div class="gs-note">Add your subject under the appropriate Program → Semester. The app will automatically load <span class="gs-ic">old_question_papers.json</span>, <span class="gs-ic">repeated_questions.json</span>, and <span class="gs-ic">syllabus.json</span> from the folder path. Keep subjects sorted alphabetically within each semester.</div>
+                                        "BE Computer": {
+                                        "Sem VIII": [
+                                        {
+                                        "subject": "Your Subject",
+                                        "folder": "BE_COMPUTER/Sem_VIII/YourSubject",
+                                        "default": false
+                                        }
+                                        ]
+                                        }
+                                        }</div>
+                                    <div class="gs-note">Add your subject under the appropriate Program → Semester. The
+                                        app will automatically load <span class="gs-ic">old_question_papers.json</span>,
+                                        <span class="gs-ic">repeated_questions.json</span>, and <span
+                                            class="gs-ic">syllabus.json</span> from the folder path. Keep subjects
+                                        sorted alphabetically within each semester.</div>
                                 </div>
                             </div>
                         </div>
@@ -1822,61 +1897,69 @@
                                 <div class="gs-content">
                                     <div class="gs-label">File 1: old_question_papers.json</div>
                                     <div class="gs-code">{
-  "subject": "Thermal Engineering",
-  "university": "Pokhara University",
-  "programme": "BE — Mechanical Engineering",
-  "level": "Bachelor",
-  "full_marks": 100,
-  "pass_marks": 45,
-  "papers": [
-    {
-      "id": "2024_fall",
-      "year": "2024",
-      "semester": "Fall",
-      "questions": [
-        {
-          "number": "1",
-          "sub_no": "a",
-          "marks": 7,
-          "question": "Define thermodynamics...",
-          "context": "Optional case study",
-          "fig_url": "BE_COMPUTER/Sem_II/Thermal/img/2023-S-6b.png",
-          "table_data": {
-            "headers": ["Column 1", "Column 2"],
-            "rows": [
-              {"col1": "Value 1", "col2": "Value 2"}
-            ]
-          }
-        }
-      ]
-    }
-  ]
-}</div>
-                                    <div class="gs-note">The <span class="gs-ic">subject</span>, <span class="gs-ic">university</span>, and <span class="gs-ic">programme</span> fields are displayed in the Subject Information Bar.</div>
+                                        "subject": "Thermal Engineering",
+                                        "university": "Pokhara University",
+                                        "programme": "BE — Mechanical Engineering",
+                                        "level": "Bachelor",
+                                        "full_marks": 100,
+                                        "pass_marks": 45,
+                                        "papers": [
+                                        {
+                                        "id": "2024_fall",
+                                        "year": "2024",
+                                        "semester": "Fall",
+                                        "questions": [
+                                        {
+                                        "number": "1",
+                                        "sub_no": "a",
+                                        "marks": 7,
+                                        "question": "Define thermodynamics...",
+                                        "context": "Optional case study",
+                                        "fig_url": "BE_COMPUTER/Sem_II/Thermal/img/2023-S-6b.png",
+                                        "table_data": {
+                                        "headers": ["Column 1", "Column 2"],
+                                        "rows": [
+                                        {"col1": "Value 1", "col2": "Value 2"}
+                                        ]
+                                        }
+                                        }
+                                        ]
+                                        }
+                                        ]
+                                        }</div>
+                                    <div class="gs-note">The <span class="gs-ic">subject</span>, <span
+                                            class="gs-ic">university</span>, and <span class="gs-ic">programme</span>
+                                        fields are displayed in the Subject Information Bar.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">2</div>
                                 <div class="gs-content">
                                     <div class="gs-label">Handling Images (Figures/Diagrams)</div>
-                                    <div class="gs-desc">Store images in <span class="gs-ic">img/</span> subfolder and reference them using relative paths:</div>
+                                    <div class="gs-desc">Store images in <span class="gs-ic">img/</span> subfolder and
+                                        reference them using relative paths:</div>
                                     <div class="gs-code">"fig_url": "BE_COMPUTER/Sem_VIII/IS/img/2024-F-3a.png"</div>
-                                    <div class="gs-note"><strong>Rules:</strong> Use relative paths from <span class="gs-ic">src/</span> folder. Supported formats: PNG, JPG, GIF, SVG. Images display at fixed 220px height with auto width.</div>
+                                    <div class="gs-note"><strong>Rules:</strong> Use relative paths from <span
+                                            class="gs-ic">src/</span> folder. Supported formats: PNG, JPG, GIF, SVG.
+                                        Images display at fixed 220px height with auto width.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">3</div>
                                 <div class="gs-content">
                                     <div class="gs-label">Handling Tables</div>
-                                    <div class="gs-desc">Add tables using <span class="gs-ic">table_data</span> with headers and rows:</div>
+                                    <div class="gs-desc">Add tables using <span class="gs-ic">table_data</span> with
+                                        headers and rows:</div>
                                     <div class="gs-code">"table_data": {
-  "headers": ["Parameter", "Value", "Unit"],
-  "rows": [
-    {"col1": "Temperature", "col2": "100", "col3": "°C"},
-    {"col1": "Pressure", "col2": "1.5", "col3": "bar"}
-  ]
-}</div>
-                                    <div class="gs-note"><strong>Rules:</strong> Each row object keys (col1, col2, col3...) must match the number of headers. Tables are responsive with horizontal scroll on small screens.</div>
+                                        "headers": ["Parameter", "Value", "Unit"],
+                                        "rows": [
+                                        {"col1": "Temperature", "col2": "100", "col3": "°C"},
+                                        {"col1": "Pressure", "col2": "1.5", "col3": "bar"}
+                                        ]
+                                        }</div>
+                                    <div class="gs-note"><strong>Rules:</strong> Each row object keys (col1, col2,
+                                        col3...) must match the number of headers. Tables are responsive with horizontal
+                                        scroll on small screens.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
@@ -1886,11 +1969,13 @@
                                     <div class="gs-desc">For equations, use Unicode symbols or save as images:</div>
                                     <div class="gs-code">"question": "Calculate using formula: E = mc²"
 
-OR
+                                        OR
 
-"question": "Solve the equation shown below:",
-"fig_url": "BE_COMPUTER/Sem_VIII/Math/img/equation-1.png"</div>
-                                    <div class="gs-note"><strong>Tip:</strong> For complex equations, save them as PNG images using LaTeX editors or screenshot tools. Use Unicode for simple expressions: ∫, ∑, √, ², ³, α, β, π, ≤, ≥, ≠, ∞</div>
+                                        "question": "Solve the equation shown below:",
+                                        "fig_url": "BE_COMPUTER/Sem_VIII/Math/img/equation-1.png"</div>
+                                    <div class="gs-note"><strong>Tip:</strong> For complex equations, save them as PNG
+                                        images using LaTeX editors or screenshot tools. Use Unicode for simple
+                                        expressions: ∫, ∑, √, ², ³, α, β, π, ≤, ≥, ≠, ∞</div>
                                 </div>
                             </div>
                             <div class="guide-step">
@@ -1898,16 +1983,17 @@ OR
                                 <div class="gs-content">
                                     <div class="gs-label">File 2: repeated_questions.json</div>
                                     <div class="gs-code">{
-  "repeated_questions": [
-    {
-      "question": "Define management...",
-      "topic": "1.1 Meaning and concept",
-      "freq": 20,
-      "papers": ["2025_spring", "2024_fall"]
-    }
-  ]
-}</div>
-                                    <div class="gs-note">Contains questions that appear frequently across multiple papers with their frequency count.</div>
+                                        "repeated_questions": [
+                                        {
+                                        "question": "Define management...",
+                                        "topic": "1.1 Meaning and concept",
+                                        "freq": 20,
+                                        "papers": ["2025_spring", "2024_fall"]
+                                        }
+                                        ]
+                                        }</div>
+                                    <div class="gs-note">Contains questions that appear frequently across multiple
+                                        papers with their frequency count.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
@@ -1915,47 +2001,57 @@ OR
                                 <div class="gs-content">
                                     <div class="gs-label">File 3: syllabus.json</div>
                                     <div class="gs-code">{
-  "course_title": "Thermal Engineering",
-  "course_code": "ME 501",
-  "total_hours": 45,
-  "course_contents": [
-    {
-      "unit": 1,
-      "title": "Introduction",
-      "hours": 3,
-      "topics": [
-        { "topic": "1.1 Basic concepts", "frequency": 15 }
-      ]
-    }
-  ]
-}</div>
-                                    <div class="gs-note">Contains syllabus with frequency count for each topic showing how many times it appeared in papers.</div>
+                                        "course_title": "Thermal Engineering",
+                                        "course_code": "ME 501",
+                                        "total_hours": 45,
+                                        "course_contents": [
+                                        {
+                                        "unit": 1,
+                                        "title": "Introduction",
+                                        "hours": 3,
+                                        "topics": [
+                                        { "topic": "1.1 Basic concepts", "frequency": 15 }
+                                        ]
+                                        }
+                                        ]
+                                        }</div>
+                                    <div class="gs-note">Contains syllabus with frequency count for each topic showing
+                                        how many times it appeared in papers.</div>
                                 </div>
                             </div>
                             <div class="guide-step">
                                 <div class="gs-dot">7</div>
                                 <div class="gs-content">
                                     <div class="gs-label">Use AI to generate JSON files</div>
-                                    <div class="gs-desc"><strong>Step 1:</strong> Copy the format example from above</div>
-                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 2:</strong> Open AI model in new tab:</div>
-                                    <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
-                                        <button onclick="window.open('https://claude.ai/','_blank')" style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Claude Sonnet 4.6 (Extended Thinking) →</button>
-                                        <button onclick="window.open('https://grok.com/','_blank')" style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Grok AI (Expert Mode) →</button>
+                                    <div class="gs-desc"><strong>Step 1:</strong> Copy the format example from above
                                     </div>
-                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 3:</strong> Upload your PDF/image and paste this prompt:</div>
-                                    <div class="gs-code" style="margin-top:8px">Convert this question paper to JSON following this exact format:
+                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 2:</strong> Open AI model
+                                        in new tab:</div>
+                                    <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+                                        <button onclick="window.open('https://claude.ai/','_blank')"
+                                            style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Claude
+                                            Sonnet 4.6 (Extended Thinking) →</button>
+                                        <button onclick="window.open('https://grok.com/','_blank')"
+                                            style="padding:8px 16px;background:var(--accent);color:#fff;border:none;border-radius:var(--r);font-size:13px;font-weight:600;cursor:pointer;transition:background .2s">Grok
+                                            AI (Expert Mode) →</button>
+                                    </div>
+                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 3:</strong> Upload your
+                                        PDF/image and paste this prompt:</div>
+                                    <div class="gs-code" style="margin-top:8px">Convert this question paper to JSON
+                                        following this exact format:
 
-[Paste the format example here]
+                                        [Paste the format example here]
 
-Rules:
-- Use "id": "YYYY_semester" (e.g. "2024_fall")
-- Extract all questions with number, sub_no, marks, question text
-- For OR questions use "sub_no": "or"
-- For images/diagrams, note them as "fig_url": "path/to/image.png"
-- For tables, extract as "table_data" with headers and rows
-- For equations, use Unicode symbols or note as image
-- Extract full question text accurately</div>
-                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 4:</strong> Copy the AI-generated JSON and save to your subject folder with the exact file name</div>
+                                        Rules:
+                                        - Use "id": "YYYY_semester" (e.g. "2024_fall")
+                                        - Extract all questions with number, sub_no, marks, question text
+                                        - For OR questions use "sub_no": "or"
+                                        - For images/diagrams, note them as "fig_url": "path/to/image.png"
+                                        - For tables, extract as "table_data" with headers and rows
+                                        - For equations, use Unicode symbols or note as image
+                                        - Extract full question text accurately</div>
+                                    <div class="gs-desc" style="margin-top:8px"><strong>Step 4:</strong> Copy the
+                                        AI-generated JSON and save to your subject folder with the exact file name</div>
                                 </div>
                             </div>
                         </div>
@@ -1973,7 +2069,8 @@ Rules:
                                 <div class="gs-content">
                                     <div class="gs-label">Requirements</div>
                                     <div class="gs-desc">You need either <strong>Python</strong> or
-                                        <strong>Node.js</strong> installed on your system to run a local server.</div>
+                                        <strong>Node.js</strong> installed on your system to run a local server.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -2031,7 +2128,9 @@ Rules:
         // ════════════════════════════════════════════════════
         const S = {
             cfg: null,
-            cache: {},
+            defaultContent: null,   // Content/default.json
+            progData: {},           // cache: { programKey → loaded program JSON }
+            cache: {},              // cache: { subjectName → { qp, rq, syl } }
             activeSubject: null,
             qp: null, rq: null, syl: null,
             f: { year: '', sem: '', qno: '', sub: '', marks: '' },
@@ -2043,38 +2142,80 @@ Rules:
         // BOOT
         // ════════════════════════════════════════════════════
         async function init() {
+            console.log('=== INIT START ===');
+            console.log('Protocol:', window.location.protocol);
+            console.log('URL:', window.location.href);
+            
+            // Check if running from file:// protocol
+            if (window.location.protocol === 'file:') {
+                console.error('Running from file:// protocol - fetch will not work!');
+                document.getElementById('loading').innerHTML = errorHtml();
+                return;
+            }
+            
             try {
+                console.log('Loading app-info.json...');
                 S.cfg = await get('app-info.json');
+                console.log('app-info.json loaded:', S.cfg);
+                
+                // Load default welcome content
+                try { 
+                    S.defaultContent = await get('Content/default.json'); 
+                    console.log('default.json loaded');
+                } catch (e) { 
+                    console.warn('No default content:', e); 
+                }
+                
                 applyTheme(S.cfg);
                 renderHeader(S.cfg);
-                buildSubjectSelector(S.cfg);
-                const content = S.cfg.content || {};
-                let defEntry = null;
-                for (const prog in content) {
-                    for (const sem in content[prog]) {
-                        if (sem === 'default_content') continue;
-                        const found = content[prog][sem].find(c => c.default === true);
-                        if (found) {
-                            defEntry = { ...found, program: prog, semester: sem };
-                            break;
-                        }
-                    }
-                    if (defEntry) break;
+                
+                // Build program selector from app-info.json content array
+                console.log('Building program selector...');
+                buildProgSelector(S.cfg);
+                
+                // Load program data for the default (or first) program
+                const programs = S.cfg.content || [];
+                console.log('Programs array:', programs);
+                
+                if (!Array.isArray(programs) || programs.length === 0) {
+                    throw new Error('No programs configured in app-info.json');
                 }
-                if (defEntry) {
-                    await loadSubject(defEntry.subject);
-                } else {
-                    renderSubjectInfo();
+                
+                const defProg = programs.find(p => p.default) || programs[0];
+                console.log('Default program:', defProg);
+                
+                if (defProg) {
+                    console.log('Loading program data for:', defProg.program);
+                    await loadProgData(defProg.program);
+                    _refreshSemester();
                 }
-                buildTabs();
+                
+                renderSubjectInfo();
+                buildTabs();       // no subject loaded → shows Home + Guide tabs
+                
+                console.log('=== INIT SUCCESS ===');
                 hide('loading');
                 show('app');
             } catch (e) {
+                console.error('=== INIT ERROR ===');
+                console.error('Error details:', e);
+                console.error('Stack:', e.stack);
                 document.getElementById('loading').innerHTML = errorHtml();
             }
         }
 
-        async function get(url) { const r = await fetch(url); if (!r.ok) throw new Error(url); return r.json(); }
+        async function get(url) { 
+            // Add cache-busting parameter
+            const cacheBuster = '?v=' + Date.now();
+            const fullUrl = url + cacheBuster;
+            console.log('Fetching:', fullUrl);
+            const r = await fetch(fullUrl); 
+            console.log('Response status:', r.status, 'for', url);
+            if (!r.ok) throw new Error(`Failed to load ${url}: ${r.status}`);
+            const data = await r.json();
+            console.log('Loaded data from', url, ':', data);
+            return data;
+        }
         const el = id => document.getElementById(id);
         const qs = s => document.querySelector(s);
         const qsa = s => document.querySelectorAll(s);
@@ -2084,82 +2225,109 @@ Rules:
         // ════════════════════════════════════════════════════
         // SUBJECT SELECTOR  (Program → Semester → Subject cascade)
         // ════════════════════════════════════════════════════
-        function buildSubjectSelector(cfg) {
-            const content = cfg.content || {};
-            const programs = Object.keys(content).sort();
-            const progSel = el('prog-select');
-            progSel.innerHTML = programs.map(p => `<option value="${p}">${p}</option>`).join('');
 
-            if (programs.length === 1) {
-                progSel.value = programs[0];
-                _refreshSemester(programs[0]);
-            } else if (programs.length > 0) {
-                progSel.value = programs[0];
-                _refreshSemester(programs[0]);
+        // Build prog-select from app-info.json content array.
+        // The entry with default:true is pre-selected; others are additional options.
+        function buildProgSelector(cfg) {
+            console.log('buildProgSelector called with cfg:', cfg);
+            console.log('cfg.content type:', typeof cfg.content);
+            console.log('cfg.content value:', cfg.content);
+            
+            const programs = cfg.content || [];
+            console.log('Programs loaded:', programs);
+            console.log('Is array?', Array.isArray(programs));
+            console.log('Length:', programs.length);
+            
+            if (!Array.isArray(programs) || programs.length === 0) {
+                console.error('No programs found in app-info.json');
+                console.error('cfg.content:', cfg.content);
+                console.error('Expected an array like: [{program: "BE_Computer", file_url: "...", default: true}]');
+                console.error('But got:', typeof cfg.content, cfg.content);
+                return;
+            }
+            const progSel = el('prog-select');
+            progSel.innerHTML = programs
+                .map(p => `<option value="${p.program}">${p.program.replace(/_/g, ' ')}</option>`)
+                .join('');
+            const defProg = programs.find(p => p.default) || programs[0];
+            if (defProg) progSel.value = defProg.program;
+        }
+
+        // Async-load a program JSON and cache it in S.progData
+        async function loadProgData(progKey) {
+            if (S.progData[progKey]) return S.progData[progKey];
+            const entry = (S.cfg.content || []).find(c => c.program === progKey);
+            if (!entry) return null;
+            try {
+                const data = await get(entry.file_url);
+                S.progData[progKey] = data;
+                return data;
+            } catch (e) {
+                console.warn('Could not load program data:', entry.file_url, e);
+                return null;
             }
         }
 
-        function _refreshSemester(prog) {
-            const content = S.cfg.content || {};
-            const semesters = Object.keys(content[prog] || {}).filter(k => k !== 'default_content').sort((a, b) => {
-                const n = s => parseInt(s.replace(/\D+/g, '')) || 0;
-                return n(a) - n(b);
-            });
+        // Rebuild sem-select from the currently selected program's semesters array
+        function _refreshSemester() {
+            const prog = el('prog-select').value;
+            const data = S.progData[prog];
+            const semesters = data ? (data.semesters || []) : [];
             const semSel = el('sem-select');
             semSel.innerHTML = `<option value="">Choose Semester</option>` +
-                semesters.map(s => `<option value="${s}">${s}</option>`).join('');
-            semSel.disabled = false;
+                semesters.map(s => `<option value="${s.semester}">${s.semester}</option>`).join('');
+            semSel.disabled = semesters.length === 0;
             el('subj-select').innerHTML = `<option value="">Choose Subject</option>`;
             el('subj-select').disabled = true;
         }
 
-        function _refreshSubject(prog, sem) {
-            const content = S.cfg.content || {};
-            const subjects = (content[prog] && content[prog][sem]) || [];
+        // Rebuild subj-select from the selected semester's content list
+        function _refreshSubject(sem) {
+            const prog = el('prog-select').value;
+            const data = S.progData[prog];
+            const subjects = (data && data.content && data.content[sem]) || [];
             const subjSel = el('subj-select');
             subjSel.innerHTML = `<option value="">Choose Subject</option>` +
                 subjects.map(c => `<option value="${c.subject}">${c.subject}</option>`).join('');
             subjSel.disabled = subjects.length === 0;
         }
 
-        function onProgChange() {
+        async function onProgChange() {
             const prog = el('prog-select').value;
-            if (!prog) {
-                const semSel = el('sem-select');
-                semSel.innerHTML = `<option value="">Choose Semester</option>`;
-                semSel.disabled = true;
-                el('subj-select').innerHTML = `<option value="">Choose Subject</option>`;
-                el('subj-select').disabled = true;
-                return;
-            }
-            _refreshSemester(prog);
+            el('sem-select').innerHTML = `<option value="">Choose Semester</option>`;
+            el('sem-select').disabled = true;
+            el('subj-select').innerHTML = `<option value="">Choose Subject</option>`;
+            el('subj-select').disabled = true;
+            if (!prog) { _clearSubject(); return; }
+            await loadProgData(prog);
+            _refreshSemester();
+            _clearSubject();
         }
 
         function onSemChange() {
             const sem = el('sem-select').value;
-            if (!sem) {
-                el('subj-select').innerHTML = `<option value="">Choose Subject</option>`;
-                el('subj-select').disabled = true;
-                S.qp = null; S.rq = null; S.syl = null;
-                S.all = [];
-                S.activeSubject = null;
-                renderSubjectInfo();
-                buildTabs();
-                return;
-            }
-            const prog = el('prog-select').value;
-            _refreshSubject(prog, sem);
+            // Always reset subject select on semester change
+            el('subj-select').innerHTML = `<option value="">Choose Subject</option>`;
+            el('subj-select').disabled = true;
+            _clearSubject();
+            if (!sem) return;
+            _refreshSubject(sem);
+        }
+
+        // Clear loaded subject data and return to default/home view
+        function _clearSubject() {
+            S.qp = null; S.rq = null; S.syl = null;
+            S.all = [];
+            S.activeSubject = null;
+            renderSubjectInfo();
+            buildTabs();
         }
 
         async function switchSubject(name) {
             if (name === S.activeSubject) return;
-            
+
             if (!name) {
-                S.qp = null; S.rq = null; S.syl = null;
-                S.all = [];
-                S.activeSubject = null;
-                renderSubjectInfo();
-                buildTabs();
+                _clearSubject();
                 return;
             }
 
@@ -2195,63 +2363,58 @@ Rules:
 
         async function loadSubject(name) {
             if (S.cache[name]) { applyData(name, S.cache[name]); return; }
-            const content = S.cfg.content || {};
+            const prog = el('prog-select').value;
+            const data = S.progData[prog];
+            if (!data) return;
+
+            // Find the subject entry and its semester address
             let entry = null;
-            for (const prog in content) {
-                for (const sem in content[prog]) {
-                    if (sem === 'default_content') continue;
-                    entry = content[prog][sem].find(c => c.subject === name);
-                    if (entry) {
-                        entry = { ...entry, program: prog, semester: sem };
-                        break;
-                    }
+            let semAddress = '';
+            for (const semKey of Object.keys(data.content || {})) {
+                const found = (data.content[semKey] || []).find(c => c.subject === name);
+                if (found) {
+                    entry = found;
+                    const semInfo = (data.semesters || []).find(s => s.semester === semKey);
+                    semAddress = semInfo ? semInfo.address : '';
+                    break;
                 }
-                if (entry) break;
             }
-            if (!entry || !entry.folder) return;
-            const data = { qp: null, rq: null, syl: null };
+            if (!entry) return;
+
+            const folderPath = semAddress ? `${semAddress}/${entry.folder}` : entry.folder;
+            const fileData = { qp: null, rq: null, syl: null };
             const files = [
-                { path: `${entry.folder}/old_question_papers.json`, key: 'qp', check: d => d.papers },
-                { path: `${entry.folder}/repeated_questions.json`, key: 'rq', check: d => d.repeated_questions },
-                { path: `${entry.folder}/syllabus.json`, key: 'syl', check: d => d.course_contents }
+                { path: `${folderPath}/old_question_papers.json`, key: 'qp', check: d => d.papers },
+                { path: `${folderPath}/repeated_questions.json`, key: 'rq', check: d => d.repeated_questions },
+                { path: `${folderPath}/syllabus.json`, key: 'syl', check: d => d.course_contents }
             ];
             for (const item of files) {
                 try {
                     const d = await get(item.path);
-                    if (item.check(d)) data[item.key] = d;
+                    if (item.check(d)) fileData[item.key] = d;
                 } catch (e) { console.warn('Could not load', item.path, e); }
             }
-            S.cache[name] = data;
-            applyData(name, data);
+            S.cache[name] = fileData;
+            applyData(name, fileData);
         }
 
         function applyData(name, data) {
             S.activeSubject = name;
             S.qp = data.qp; S.rq = data.rq; S.syl = data.syl;
             S.all = S.qp ? flatQ() : [];
-            const content = S.cfg.content || {};
-            let entry = null;
-            for (const prog in content) {
-                for (const sem in content[prog]) {
-                    if (sem === 'default_content') continue;
-                    entry = content[prog][sem].find(c => c.subject === name);
-                    if (entry) {
-                        entry = { ...entry, program: prog, semester: sem };
+            // Sync sem-select and subj-select to match the loaded subject
+            const prog = el('prog-select').value;
+            const progData = S.progData[prog];
+            if (progData) {
+                for (const semKey of Object.keys(progData.content || {})) {
+                    const found = (progData.content[semKey] || []).find(c => c.subject === name);
+                    if (found) {
+                        if (el('sem-select').value !== semKey) {
+                            el('sem-select').value = semKey;
+                            _refreshSubject(semKey);
+                        }
                         break;
                     }
-                }
-                if (entry) break;
-            }
-            if (entry && entry.program && entry.semester) {
-                const progSel = el('prog-select');
-                if (progSel.value !== entry.program) {
-                    progSel.value = entry.program;
-                    _refreshSemester(entry.program);
-                }
-                const semSel = el('sem-select');
-                if (semSel.value !== entry.semester) {
-                    semSel.value = entry.semester;
-                    _refreshSubject(entry.program, entry.semester);
                 }
             }
             el('subj-select').value = name;
@@ -2301,11 +2464,11 @@ Rules:
             if (S.rq) tabs.push({ id: 'repeated', label: lbl.repeated || 'Repeated' });
             if (S.syl) tabs.push({ id: 'syllabus', label: lbl.syllabus || 'Syllabus' });
             tabs.push({ id: 'guide', label: lbl.guide || 'Add Subject Guide' });
-            
+
             if (tabs.length === 1) {
                 tabs.unshift({ id: 'default', label: 'Home' });
             }
-            
+
             qs('#tabs').innerHTML = tabs.map(t =>
                 `<button class="tab-btn" data-t="${t.id}" onclick="goTab('${t.id}')">${t.label}</button>`
             ).join('');
@@ -2368,9 +2531,48 @@ Rules:
         // ════════════════════════════════════════════════════
         // MEDIA HELPERS  (figure + table)
         // ════════════════════════════════════════════════════
-        function figHtml(src) {
+        let imgCounter = 0;
+        const imgSizes = {}; // Store size for each image: {imgId: widthPercent}
+
+        function figHtml(src, prefix = 'q') {
             if (!src) return '';
-            return `<div class="q-fig"><img src="${src}" alt="Figure" loading="lazy" onerror="this.style.opacity='.3'"></div>`;
+            const imgId = `${prefix}-img-${imgCounter++}`;
+            imgSizes[imgId] = 220; // Default width in pixels
+            return `<div class="${prefix}-fig">
+                <div class="${prefix}-fig-controls">
+                    <button class="q-fig-btn" onclick="zoomImg('${imgId}', -1)" id="${imgId}-minus">−</button>
+                    <button class="q-fig-btn" onclick="zoomImg('${imgId}', 1)" id="${imgId}-plus">+</button>
+                </div>
+                <div class="${prefix}-fig-wrapper">
+                    <img id="${imgId}" src="${src}" alt="Figure" loading="lazy" onerror="this.style.opacity='.3'" style="width:220px">
+                </div>
+            </div>`;
+        }
+
+        function zoomImg(imgId, direction) {
+            const img = el(imgId);
+            const minusBtn = el(imgId + '-minus');
+            const plusBtn = el(imgId + '-plus');
+            if (!img) return;
+
+            const screenWidth = window.innerWidth;
+            const maxWidth = Math.floor(screenWidth * 0.6); // 60% of screen width
+            const minWidth = 150; // Minimum width
+            const step = 50; // Increase/decrease by 50px
+
+            let currentWidth = imgSizes[imgId] || 220;
+            currentWidth += direction * step;
+
+            // Clamp between min and max
+            currentWidth = Math.max(minWidth, Math.min(maxWidth, currentWidth));
+            imgSizes[imgId] = currentWidth;
+
+            // Update image width
+            img.style.width = currentWidth + 'px';
+
+            // Update button states
+            minusBtn.disabled = currentWidth <= minWidth;
+            plusBtn.disabled = currentWidth >= maxWidth;
         }
 
         function tblHtml(tbl) {
@@ -2383,8 +2585,8 @@ Rules:
         }
 
         // Returns a combined media block (border separator + fig + table)
-        function mediaHtml(fig, tbl, cls) {
-            const f = figHtml(fig);
+        function mediaHtml(fig, tbl, cls, prefix = 'q') {
+            const f = figHtml(fig, prefix);
             const t = tblHtml(tbl);
             if (!f && !t) return '';
             return `<div class="${cls || 'q-media'}">${f}${t}</div>`;
@@ -2489,7 +2691,7 @@ Rules:
                 ? `<div class="no-results">No questions match the selected filters.</div>`
                 : list.map((q, i) => {
                     const uid = `q${i}`;
-                    const media = mediaHtml(q.fig, q.tbl, 'q-media');
+                    const media = mediaHtml(q.fig, q.tbl, 'q-media', 'q');
                     const eqBlock = q.eq ? `<div style="margin-top:8px;padding:10px;background:var(--surface-2);border-radius:var(--r);font-size:14px;text-align:center">\\[${q.eq}\\]</div>` : '';
                     return `<div class="q-card">
                         ${ctxHtml(q.ctx, uid)}
@@ -2608,7 +2810,7 @@ Rules:
                         ? `<div class="pq-context">${ctxHtml(q.context, 'pp-' + qi)}</div>` : '';
                     const eqBlock = q.eq ? `<div style="margin:8px 22px;padding:10px;background:var(--surface-2);border-radius:var(--r);font-size:14px;text-align:center">\\[${q.eq}\\]</div>` : '';
                     // figure / table for paper view
-                    const pm = mediaHtml(q.fig_url || '', q.table_data || null, 'pq-media');
+                    const pm = mediaHtml(q.fig_url || '', q.table_data || null, 'pq-media', 'pq');
                     rows += ctxRow + `<div class="pq-row">
                         <div class="pq-num">${q.number}(${q.sub_no})</div>
                         <div class="pq-text">${q.question}</div>
@@ -2693,25 +2895,20 @@ Rules:
         // DEFAULT CONTENT
         // ════════════════════════════════════════════════════
         function renderDefaultContent() {
-            const prog = el('prog-select').value;
-            const content = S.cfg.content || {};
-            const defaultData = content[prog] && content[prog].default_content;
-            
-            if (!defaultData) {
+            const d = S.defaultContent && S.defaultContent.default;
+            if (!d) {
                 el('default-content').innerHTML = `<div class="no-results">Please select a semester and subject.</div>`;
                 return;
             }
-            
-            const featuresHtml = (defaultData.features || []).map((f, i) => 
+            const featuresHtml = (d.features || []).map(f =>
                 `<div class="default-feature">
                     <div class="default-feature-icon">✓</div>
                     <div class="default-feature-text">${f}</div>
                 </div>`
             ).join('');
-            
             el('default-content').innerHTML = `
-                <div class="default-title">${defaultData.title || 'Welcome'}</div>
-                <div class="default-desc">${defaultData.description || ''}</div>
+                <div class="default-title">${d.title || 'Welcome'}</div>
+                <div class="default-desc">${d.description || ''}</div>
                 <div class="default-features">${featuresHtml}</div>
             `;
         }
@@ -2720,7 +2917,7 @@ Rules:
         // ERROR SCREEN
         // ════════════════════════════════════════════════════
         function errorHtml() {
-            return `<div style="max-width:480px;margin:24px;font-family:'Source Sans 3',system-ui,sans-serif"><div style="background:#FAEBEB;border:1px solid #F5C0C0;border-radius:6px;padding:20px 24px;margin-bottom:16px"><div style="font-weight:700;font-size:15px;color:#7A1A1A;margin-bottom:4px">⚠ Cannot load app-info.json</div><div style="font-size:13.5px;color:#A03030;line-height:1.5">Browsers block local file reading for security. This app must be served over HTTP.</div></div><div style="background:#fff;border:1px solid #DDD9CE;border-radius:6px;padding:20px 24px"><div style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:#9A9189;margin-bottom:14px">How to run</div><div style="display:flex;flex-direction:column;gap:12px"><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">1</span><div><div style="font-size:13.5px;color:#1A1816;margin-bottom:5px">Open a terminal in this project folder</div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">2</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:6px">Run:</div><div style="background:#1A1816;border-radius:4px;padding:8px 12px"><code style="font-family:monospace;font-size:13px;color:#E8E4DC">python -m http.server 8000</code></div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">3</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:8px">Then open:</div><button onclick="window.location.href='http://localhost:8000/app-page.html'" style="width:100%;padding:10px;background:#2B5EA7;color:#fff;border:none;border-radius:5px;font-family:'Source Sans 3',system-ui,sans-serif;font-size:14px;font-weight:600;cursor:pointer">Open localhost:8000/app-page.html →</button></div></div></div></div></div>`;
+            return `<div style="max-width:480px;margin:24px;font-family:'Source Sans 3',system-ui,sans-serif"><div style="background:#FAEBEB;border:1px solid #F5C0C0;border-radius:6px;padding:20px 24px;margin-bottom:16px"><div style="font-weight:700;font-size:15px;color:#7A1A1A;margin-bottom:4px">⚠ Cannot load app-info.json</div><div style="font-size:13.5px;color:#A03030;line-height:1.5">Browsers block local file reading for security. This app must be served over HTTP.</div></div><div style="background:#fff;border:1px solid #DDD9CE;border-radius:6px;padding:20px 24px"><div style="font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.7px;color:#9A9189;margin-bottom:14px">How to run</div><div style="display:flex;flex-direction:column;gap:12px"><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">1</span><div><div style="font-size:13.5px;color:#1A1816;margin-bottom:5px">Open a terminal in the <strong>src</strong> folder</div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">2</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:6px">Run:</div><div style="background:#1A1816;border-radius:4px;padding:8px 12px"><code style="font-family:monospace;font-size:13px;color:#E8E4DC">python -m http.server 8000</code></div></div></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="background:#EBF0FA;color:#2B5EA7;font-weight:700;font-size:12px;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">3</span><div style="width:100%"><div style="font-size:13.5px;color:#1A1816;margin-bottom:8px">Then open:</div><button onclick="window.location.href='http://localhost:8000/index.html'" style="width:100%;padding:10px;background:#2B5EA7;color:#fff;border:none;border-radius:5px;font-family:'Source Sans 3',system-ui,sans-serif;font-size:14px;font-weight:600;cursor:pointer">Open localhost:8000/index.html →</button></div></div></div></div></div>`;
         }
 
         // ════════════════════════════════════════════════════
@@ -2743,6 +2940,22 @@ Rules:
             }
 
             lastScroll = currentScroll;
+        });
+
+        // Update image zoom limits on window resize
+        window.addEventListener('resize', () => {
+            Object.keys(imgSizes).forEach(imgId => {
+                const img = el(imgId);
+                const plusBtn = el(imgId + '-plus');
+                if (!img || !plusBtn) return;
+                
+                const screenWidth = window.innerWidth;
+                const maxWidth = Math.floor(screenWidth * 0.6);
+                const currentWidth = imgSizes[imgId];
+                
+                // Update button state based on new max width
+                plusBtn.disabled = currentWidth >= maxWidth;
+            });
         });
 
         init();

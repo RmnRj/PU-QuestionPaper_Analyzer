@@ -1,0 +1,13 @@
+{
+"default": {
+                "title": "Welcome to Question Analyzer",
+                "description": "Select a semester and subject from the dropdowns above to view question papers, repeated questions, and syllabus.",
+                "features": [
+                    "Browse past question papers by year and semester",
+                    "View frequently repeated questions with frequency analysis",
+                    "Explore syllabus with topic-wise question frequency",
+                    "Filter questions by year, semester, marks, and type"
+                ]
+            }
+
+}

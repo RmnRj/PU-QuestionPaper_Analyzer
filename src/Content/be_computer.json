@@ -1,0 +1,52 @@
+{
+    "program": "BE `COMPUTER",
+    "semesters": [
+        {"semester" : "Sem II", "address" : "BE_COMPUTER/Sem_II"},
+        {"semester" : "Sem IV", "address" : "BE_COMPUTER/Sem_IV"},
+        {"semester" : "Sem VII", "address" : "BE_COMPUTER/Sem_VII"},
+        {"semester" : "Sem VIII", "address" : "BE_COMPUTER/Sem_VIII"}
+    ],
+
+    "content":{
+            "Sem II": [
+                {
+                    "subject": "Thermal Science",
+                    "folder": "Thermal"
+                },
+                {
+                    "subject": "Eng Mathematics II",
+                    "folder": "Eng_Mathematics_II"
+                }
+            ],
+            "Sem IV": [
+                {
+                    "subject": "Eng Mathematics IV",
+                    "folder": "Eng_Mathematics_IV"
+                }
+            ],
+            "Sem VII": [
+                {
+                    "subject": "AI",
+                    "folder": "AI"
+                }
+            ],
+            "Sem VIII": [
+                {
+                    "subject": "DSAP",
+                    "folder": "DSAP"
+                },
+                {
+                    "subject": "IS",
+                    "folder": "IS"
+                },
+                {
+                    "subject": "O&M",
+                    "folder": "OM"
+                },
+                {
+                    "subject": "SPIT",
+                    "folder": "SPIT"
+                }
+            ]
+        }
+}

@@ -1,0 +1,1126 @@
+{
+  "subject": "Artificial Intelligence",
+  "university": "Pokhara University",
+  "level": "Bachelor",
+  "programme": "BE Computer",
+  "full_marks": 100,
+  "pass_marks": 45,
+  "papers": [
+    {
+      "id": "2024-SP",
+      "year": "2024",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "AI is taking over the jobs of many Professionals in IT sector. How do you analyze the impact of AI in the industry and education?"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define intelligent agents. Explain the goal based agent with suitable example."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is a Constraint Satisfaction Problem (CSP)? Solve the following cryptarithmetic problem: LOGIC + LOGIC = PROLOG"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain how A-star search finds the optimal solution when there is more than one solution in the graph."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How does alpha-beta pruning improve the efficiency of minimax search? Explain with example."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Given the propositional statements p: \"It is raining\" and q: \"The road is wet\", write the logical expressions for the following:\ni. If it is not raining, then the road is not wet.\nii. If it is raining, then the road is wet, and if the road is wet, then it is raining.\niii. It is not the case that both it is raining and the road is wet.\niv. If the road is wet, then it is raining, but if it is not raining, then the road is not wet."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is the purpose of Baye's theorem in reasoning? Consider the following facts:\ni. Everybody loves someone.\nii. All the dogs has a tail.\niii. People try to assassinate a ruler who is not loyal to.\nRepresent these facts in predical logic and prolog statements."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define support vectors. What is the significance of maximizing the margin in SVM? Explain in detail.",
+          "or_alternative": {
+            "marks": 7,
+            "question": "Define reinforcement learning and explain the following components of an RL problem: state, action, reward, and policy."
+          }
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Write down the algorithm for K-means clustering. Cluster the given eight data points into three clusters: A1(2, 10), A2(2, 5), A3(8, 4), A4(5, 8), A5(7, 5), A6(6, 4), A7(1, 2), A8(4, 9)."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is an Artificial Neural Network? Explain how a neuron is fired or not assuming your own input values, weights and an activation function. Draw the neuron diagram and show the calculation details."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain how the single layer perceptron learns with suitable example.",
+          "or_alternative": {
+            "marks": 8,
+            "question": "What is Hopfield Network? Explain in detail."
+          }
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "How can ambiguity occur at phonetic, syntactic, semantic and pragmatic levels of natural language processing? Give examples."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Deep learning" },
+            { "sub_no": "b", "marks": 5, "question": "Expert System" },
+            { "sub_no": "c", "marks": 5, "question": "Semantic Nets" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-FA",
+      "year": "2023",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is intelligence? Explain how cognitive science can be used to design a machine which can think like human."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is a Constraint Satisfaction Problem (CSP)? Solve the cryptarithmetic problem: BLACK + GREEN = ORANGE."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain with example how A* search does not stuck in a loop like best-first search and provide a solution if exists."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "How does alpha-beta pruning improve the efficiency of minimax search? Explain with example."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Given the propositional statements p: \"It is raining\" and q: \"The road is wet\", write the logical expressions for the following:\ni. If it is not raining, then the road is not wet.\nii. If it is raining, then the road is wet, and if the road is wet, then it is raining.\niii. It is not the case that both it is raining and the road is wet.\niv. If the road is wet, then it is raining, but if it is not raining, then the road is not wet."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Consider the following facts:\n• John is the parent of Bob.\n• Lili is the parent of Bob.\n• John is male.\n• Lili is female.\nWrite prolog code to represent these facts and also write rules in prolog to find the father, mother, and children of X. Then make the following query on the knowledge base:\ni. Who is the parent of Bob?\nii. Provide a list of all parents and their children.\niii. Is John a parent? If so, who are his children?"
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "How can Explanation-Based learning be used to learn a given object? Explain in detail based on the cup generalization problem."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is K-means clustering? Cluster the given eight points (with (x, y) representing locations) into three clusters: A1(2, 10), A2(2, 5), A3(8, 4), A4(5, 8), A5(7, 5), A6(6, 4), A7(1, 2), A8(4, 9)."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Discuss the role of support vectors. What is the significance of maximizing the margin in SVM?"
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is a perceptron? Explain how the Adaline network updates its weight during its training."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is an expert system? How can it help or assist human? Explain with an example."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "How does ambiguity occur at phonetic, syntactic, semantic and pragmatic levels of natural language processing? Explain with examples."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Statistical reasoning" },
+            { "sub_no": "b", "marks": 5, "question": "Reinforcement learning" },
+            { "sub_no": "c", "marks": 5, "question": "Hopfield network" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023-SP",
+      "year": "2023",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Justify that \"System that think rationally\" and \"System that act rationally\" are the part of artificial intelligence. Explain with examples."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define agent function. Differentiate goal-based and utility-based agents with examples."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is constraint Satisfaction Problem (CSP)? Solve the cryptarithmetic problem as CSP: WRONG + WRONG = RIGHT"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Why is Hill Climbing called as Local greedy search? Explain the problems in Hill Climbing with appropriate diagrams."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain the significance of pruning in game playing algorithms. How does alpha-beta pruning work, and how does it improve the efficiency of the search process in minimax algorithms?"
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Represent the following sentences in first order logic and prolog statements:\ni. All big cars are expensive.\nii. There are some small cars that are expensive.\niii. A car is expensive only if it is big.\niv. All cars have at least one door."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Why do you need to reason in uncertainty? Consider the given Bayesian network with conditional probability tables and find the probability of the events: grass is wet, sprinkler is on and it is raining.",
+          "fig_url": "BE_COMPUTER/Sem_VII/AI/img/2023-SP-4a.png",
+          "fig_description": "Bayesian network diagram with three nodes: RAIN (prior: P(R=T)=0.2, P(R=F)=0.8), SPRINKLER (conditional on RAIN: P(S=T|R=F)=0.4, P(S=F|R=F)=0.6; P(S=T|R=T)=0.01, P(S=F|R=T)=0.99), and GRASS WET (conditional on SPRINKLER and RAIN: P(GW=T|S=F,R=F)=0.0; P(GW=T|S=F,R=T)=0.8; P(GW=T|S=T,R=F)=0.9; P(GW=T|S=T,R=T)=0.99). Arrows point from RAIN to SPRINKLER and from both RAIN and SPRINKLER to GRASS WET."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain the k-means clustering algorithm with step-by-step demonstration on a small dataset, showing how the clusters are formed."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How does the K-Nearest Neighbor work? Illustrate with a suitable example."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain the working principle of support vector machines (SVM) in detail."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is the role of learning rate in training a neural network? Explain with an example."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is fuzzy logic? Explain with its applications."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Production System" },
+            { "sub_no": "b", "marks": 5, "question": "Semantic Nets" },
+            { "sub_no": "c", "marks": 5, "question": "Semantic ambiguity in language processing" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2022-FA",
+      "year": "2022",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is Artificial Intelligence? Explain the current trends of AI and its impact on society."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Suppose you are traveling from Pokhara to Kathmandu. You have three agents to travel by flight or by bus or by bike. Suppose your preference is to reach Kathmandu as soon as possible. Which agent do you choose? What is type of this agent? Write the details of task environment of the agent you chose."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What are the constraint Satisfaction Problems? Solve the following Crypt-arithmetic Problem:\n  B  A  S  E\n+ B  A  L  L\n-----------\nG  A  M  E  S"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What are the problems of depth first search and breadth first search? How are these problems resolved? Explain with a suitable example."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Why is A* search better than best-first search? Explain with a suitable example."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Assume the following facts:\ni. John likes all kinds of food.\nii. Apple and vegetable are food.\niii. Anything anyone eats and is not killed is food.\niv. Anil eats peanuts and still alive.\nv. Harry eats everything that Anil eats.\nvi. Anyone who's not killed means, he is alive.\nRepresent these facts in predicate logic."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Assume the facts in 3(b) and use resolution to prove \"John likes peanuts.\""
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Represent the following facts in prolog:\ni. John is parent of Pat.\nii. Monica is parent of Pat.\niii. Monica is female.\niv. John is male.\nv. Bob is parent of John.\nAlso write the rules in prolog:\nvi. To find who is the father of Pat.\nvii. To find who is the grand parent of Pat."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How does support vector machine work? Illustrate with a suitable example."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Write down the algorithm for K-means clustering. Explain with a suitable example."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain how a single layer perceptron learns the logical OR operation. Assume weights w₁ = -0.4 and w₂ = 0.3 and learning rate α = 0.21."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Expert System? Explain the architecture of expert system in detail."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Bayesian Network" },
+            { "sub_no": "b", "marks": 5, "question": "Learning by analogy" },
+            { "sub_no": "c", "marks": 5, "question": "Phases in Natural language processing" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-SP",
+      "year": "2021",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Do you consider Text to Speech applications such as Siri and Alexa as an intelligent agent? Explain with appropriate examples."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What do you mean by Total Turing Test? Explain in detail."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Your task is to get a robot out of a maze. The robot can turn to face East, West, North or South. Formulate this problem."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain with an example how A-star search can find the optimal solution when there is more than one solution."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is minimax search for game playing? Explain the minimax algorithm with suitable example."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Represent the following using first order predicate logic:\ni. Anyone whom Sophie loves is a cricket star.\nii. Any student who does not pass does not play.\niii. Paras is a student.\niv. Any student who does not study does not pass.\nv. Anyone who does not play is not a cricket star.\nvi. Everyone loves Abhi.\nvii. People protest the politicians they dislike.\nviii. Not all staffs are loyal to their employers."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Explain Bayesian networks with example."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define and explain supervised and unsupervised learning. Describe briefly the applications of reinforcement learning."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is Clustering? Explain KNN algorithm with an appropriate example."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Explain the explanation based learning with an example."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Define the role of bias in a perceptron. How are weights updated in a single layer perceptron? Explain with example."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "How can ambiguity occur at phonetic, syntactic, semantic and pragmatic levels of natural language processing? Explain with examples."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Constraint Satisfaction Problem" },
+            { "sub_no": "b", "marks": 5, "question": "Expert System" },
+            { "sub_no": "c", "marks": 5, "question": "Machine Vision" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021-FA",
+      "year": "2021",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is Artificial Intelligence? Discuss the impact of artificial intelligence on society."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is an intelligent agent? Describe the task environment of an autonomous car."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What are the components of a state space search problem formulation? Formulate the 8-queens problem."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "How does the iterative deepening search resolve the problem of depth-first search and breadth-first search? Explain with an example."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Consider a graph of cities as shown in below figure:\ni. Represent state space of this graph using prolog.\nii. Write a simple search algorithm in prolog to reach to the goal state from initial state.",
+          "fig_url": "BE_COMPUTER/Sem_VI/AI/img/2019-FA-2b.png",
+          "fig_description": "Directed graph of cities with 8 nodes. Initial State is node A (top-left). Goal State is node H (bottom-right). Edges: A→B, A→C (or via other path), B→C, B→F, C connects to top, D←E, E→F, E→G, F→H, G→H."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Represent the following facts in predicate logic:\ni. John likes all kind of food.\nii. Apple and vegetable are food.\niii. Anything anyone eats and not killed is food.\niv. Anil eats peanuts and still alive.\nv. Harry eats everything that Anil eats."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Consider the facts given in Q.3 b) using resolution prove that John likes peanuts."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is machine learning? Discuss the difference between regression, classification and clustering in machine learning."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Discuss Naive Bayes' algorithm with an example."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "How can we find the right hyperplane in SVM? Using K-means clustering, cluster the following data into two clusters and show each step.\n{2, 4, 10, 12, 3, 20, 30, 11, 25}."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Draw the architecture of Expert System. How forward chaining and backward chaining assist the inference engine of Expert System?"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What are the different types of ambiguities that occur in Natural Language Processing? Explain with examples."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Fuzzy learning" },
+            { "sub_no": "b", "marks": 5, "question": "Best first search" },
+            { "sub_no": "c", "marks": 5, "question": "Hopfield Network" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2020-SP",
+      "year": "2020",
+      "semester": "Spring",
+      "full_marks": 70,
+      "pass_marks": 31.5,
+      "note": "Special exam format: Full Marks 70, Time 2 hrs. Section A (5×10=50) + Section B (1×20=20).",
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "-",
+          "marks": 10,
+          "question": "\"Rational Thinking\" as an aspect of Artificial Intelligence (AI), explain. Discuss on the various application domains of AI. [5+5]"
+        },
+        {
+          "number": "2",
+          "sub_no": "-",
+          "marks": 10,
+          "question": "Mention search criteria. How are informed search methods more efficient than uninformed search? Explain the algorithm of A* search with a suitable example. [2+2+6]"
+        },
+        {
+          "number": "3",
+          "sub_no": "-",
+          "marks": 10,
+          "question": "Discuss Propositional logic with its complexity, validity and tautology. Convert the following sentences into FOPL sentences. [5+5]\na) No mango is blue.\nb) You can fool some of the people all the times.\nc) Everyone is younger than his father.\nd) None of the gardener likes sun.\ne) All purple mushrooms are venomous."
+        },
+        {
+          "number": "4",
+          "sub_no": "-",
+          "marks": 10,
+          "question": "Differentiate Semantic net and Frame. Construct a parse tree for the sentence \"The students took the online examination\". [4+6]"
+        },
+        {
+          "number": "5",
+          "sub_no": "-",
+          "marks": 10,
+          "question": "Differentiate Supervised Learning with Unsupervised learning. Discuss K-means clustering with following dataset with k=2. [4+6]",
+          "table_data": {
+            "headers": ["StaffID", "Age", "No. of Leaves"],
+            "rows": [
+              { "StaffID": "101", "Age": 20, "No. of Leaves": 4 },
+              { "StaffID": "102", "Age": 29, "No. of Leaves": 7 },
+              { "StaffID": "103", "Age": 35, "No. of Leaves": 6 },
+              { "StaffID": "104", "Age": 22, "No. of Leaves": 9 },
+              { "StaffID": "105", "Age": 28, "No. of Leaves": 8 }
+            ]
+          },
+          "or_alternative": {
+            "marks": 10,
+            "question": "Define Neural Network (NN). How back propagation algorithm is used in learning and predicting data in machine learning? Explain with suitable example. [2+8]"
+          }
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 10,
+          "question": "What do you mean by production system? Solve the following Crypto arithmetic problem. [2+8]\nCOCA + COLA = PEPSI"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 10,
+          "question": "Introduce statistical reasoning and state Bayes Theorem. [4+6]\nA Scam detector system detects spam emails. Assume that the word \"offer\" occurs in 80% of the spam messages in your account and in 10% of your non-spam emails (i.e. genuine). 30% of the received emails are considered as a scam. Now, you will receive a new message which contains the word \"offer\". What is the probability that it is a spam?"
+        }
+      ]
+    },
+    {
+      "id": "2020-FA",
+      "year": "2020",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is Artificial Intelligence? Discuss the impact of artificial intelligence on society."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define Intelligent Agent. Describe different types of intelligent Agents with an example."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is an 8-puzzle problem? How can you solve a problem using production system? Explain with example."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "How is depth limit search efficient with respect to depth first search? Explain with Example."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "\"A* search is the combination of best first search and greedy search approach\". Explain the statement with suitable example."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Assume the following facts:\ni) Ravi likes all kind of food.\nii) Apples and chicken are food.\niii) Anything anyone eats and is not killed is food.\niv) Ajay eats peanuts and is still alive.\nv) Rita eats everything that Ajay eats.\nProve that Ravi Likes peanuts using resolution."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is a semantic net? Represent the following sentences using semantic network.\n• Birds are animals.\n• Birds can fly and lay eggs.\n• Robin is a bird.\n• Ruby is a Robin.\n• Ruby owns a nest."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "In a survey, One percent of women over 50 have breast cancer. Ninety percent of women who have breast cancer test positive on mammograms. Eight percent of women will have false positives. From the above statistics, apply Bayes theorem to find the probability that a woman has cancer if she has a positive mammogram result."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Write down the algorithm for K-means clustering. Explain K-means clustering with a suitable example."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is fuzzy logic? Explain with its applications."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Describe applications of an Expert system. Explain the architecture of Expert System."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Explain the steps involved in Natural Language Processing with examples."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Artificial Neural Network" },
+            { "sub_no": "b", "marks": 5, "question": "Supervised VS Unsupervised" },
+            { "sub_no": "c", "marks": 5, "question": "Breadth first search" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-SP",
+      "year": "2019",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is 'Turing Test' in Artificial Intelligence (AI)? Criticise the performance of the 'Turing Test' to measure the intelligence of the machine. [2+5]"
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define AI agents. Explain learning agent with block diagram. [3+5]"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "There are three pegs, labelled A, B and C. There are 3 disks on peg. The top disk has a diameter of 1, the middle disk has a diameter of 2, and the bottom disk has a diameter of 3. There are no disks on peg C. You must move one disk at a time and you cannot place a larger disk on top of smaller disk. The problem is to get all of the disks on peg C.\ni. Find a representation for the states of this problem.\nii. Describe all of the operators that might be applied to a state."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "You are given two jugs, a 4-gallon one and a 3 gallon one. Neither has any measuring marker on it. There is a pump that can be used to fill the jugs with water. How can you get exactly 2 gallons of water into the 4-gallon jug? Solve by production rule system."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Describe the following features of Genetic Algorithms (GA) – Encoding, Fitness Function, Selection, Crossover and Mutation. Discuss how would you encode TSP problem in GA."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Describe the behaviour of iterative deepening search in terms of optimality, completeness, time and space complexity. How does it overcome the drawback of BFS."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Prove \"You are not doing strawberry picking\" using resolution:\nIf it is sunny and warm day you will enjoy.\nIf it is warm and pleasant day you will do strawberry picking.\nIf it is raining then no strawberry picking.\nIf it is raining you will get wet.\nIt is warm day.\nIt is raining.\nIt is sunny."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is semantic Net? Represent the following fact using partitioned semantic Nets. \"Every teacher has taught a student.\""
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Machine Learning and why is machine learning important? Discuss K-Mean Clustering for following dataset with k=2.",
+          "table_data": {
+            "headers": ["Staff ID", "Age", "Nos. of Leaves"],
+            "rows": [
+              { "Staff ID": "1", "Age": 21, "Nos. of Leaves": 3 },
+              { "Staff ID": "2", "Age": 39, "Nos. of Leaves": 7 },
+              { "Staff ID": "3", "Age": 43, "Nos. of Leaves": 6 },
+              { "Staff ID": "4", "Age": 58, "Nos. of Leaves": 12 },
+              { "Staff ID": "5", "Age": 32, "Nos. of Leaves": 15 }
+            ]
+          }
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Assume that the following facts are already entered into the PROLOG database:\nfather(dasharath,ram). // Dasharath is the father of Ram\nfather(ram,luv).\nfather(ram,kush).\nmother(kaushalya, ram). // Kaushalya is the mother of Ram\nmale(dasharath). // Dasharath is a male\nfemale(kaushalya). // Kaushalya is a female\nparent(X,Y) :- father(X,Y) ; mother(X,Y). // X is a parent of Y\nWrite queries to find: (i) All sons of Ram, (ii) Who is the grandfather of Luv?"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Artificial Neural Network? State and discuss backpropagation training algorithm to realize two input XOR gate."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What do you mean by NLP? Construct a parse tree for the sentence \"The burglar robbed the apartment\"."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Reinforcement Learning" },
+            { "sub_no": "b", "marks": 5, "question": "Deep Learning" },
+            { "sub_no": "c", "marks": 5, "question": "Expert System" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2019-FA",
+      "year": "2019",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is an intelligent agent? Write down the properties of agents. Explain goal based agents and utility based agents in brief."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is Constraint Satisfaction Problem (CSP)? Solve the crypt-arithmetic problem as CSP:\nS E N D\n+ M O R E\n---------\nM O N E Y"
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Using A* search algorithm, find the optimal route from S to G.",
+          "fig_url": "BE_COMPUTER/Sem_VII/AI/img/2019-FA-2a.png",
+          "fig_description": "Weighted graph for A* search. Nodes: S (Start, center-left), B (top), C (top-right), A (bottom-center), D (bottom-right), G (Goal, bottom). Edge weights: S-B=4, S-A=1, B-C=5, B-A=7, C-D=1 (or C connects to D), A-D=3, D-G=4. Find optimal route from S to G."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Consider a graph of cities as shown in below figure:\ni. Represent state space of this graph using prolog.\nii. Write a simple search algorithm in prolog to reach to the goal state from initial state.",
+          "fig_url": "BE_COMPUTER/Sem_VII/AI/img/2019-FA-2b.png",
+          "fig_description": "Directed graph of cities. Initial State: A (top-left). Goal State: H (bottom-right). Nodes: A, B, C, D, E, F, G, H. Edges: A→B, A→(paths to other nodes), B→C, B→F, C→(top area), D←E, E→F, E→G, F→H, G→H."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is knowledge representation? Define logical equivalence, tautology, contradiction and contingent with example."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Represent the following statement using predicate logic.\ni. Anyone who buys carrots by the bushel owns either a rabbit or a grocery store.\nii. Every dog chases some rabbit.\niii. Someone who hates something owned by another person will not date that person.\niv. If Mary does not own a grocery store, she will not date John."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is Deep Learning? Explain the types of stochastic neurons of Boltzmann machine."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Why K-nearest Neighbors Algorithm is known as non-parametric lazy algorithm? Explain with example."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "How can we find the right hyperplane in SVM? Using K-means clustering, cluster the following data into two clusters and show each step.\n{2, 4, 10, 12, 3, 20, 30, 11, 25}."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is a perceptron? How back propagation algorithm is used in learning and predicting data in machine learning?"
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Draw the architecture of Expert System. How forward chaining and backward chaining assist the inference engine of Expert System?"
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What are the different types of ambiguities that occur in Natural Language Processing? Explain with examples."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Fuzzy learning" },
+            { "sub_no": "b", "marks": 5, "question": "Best first search" },
+            { "sub_no": "c", "marks": 5, "question": "Baye's Theorem" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-SP",
+      "year": "2018",
+      "semester": "Spring",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is Artificial Intelligence? Mention the advantages of Artificial Intelligence."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define an artificial agent. Specify the task environment: performance measure, environment, actuators and sensor for a taxi driver agent and a part-picking robot agent."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is a state space of a problem? For the given problem represented in graph, where initial state is \"A\" and goal state is \"C\", find all the possible state space.",
+          "fig_url": "BE_COMPUTER/Sem_VII/AI/img/2018-SP-2a.png",
+          "fig_description": "State space graph with 8 nodes. Initial State: A (top-left). Goal State: C (marked with solid/filled circle). Nodes: A, B, C (Goal), D, E, F, G, H. Edges connect various nodes. Find all possible state space paths from A to C."
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define Un-informed search. Explain Iterative deepening search with an example."
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "How are informed search methods more efficient than uninformed search? Explain the algorithm of A* search with a suitable example."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is knowledge? Describe the different approaches of knowledge representation in brief."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Consider the following facts:\ni. Lucy is a professor.\nii. All professors are people.\niii. John is the dean.\niv. Deans are professors.\nv. All professors consider the dean a friend or don't know him.\nvi. Everyone is a friend of someone.\nvii. People only criticize people that are not their friends.\nviii. Lucy criticized John.\nNow, using resolution find the answer of \"Is John no friend of Lucy?\""
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What is inductive learning? Explain with example."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Contrast between supervised and unsupervised learning. Describe the K-means learning method with example."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What is deep learning? Explain in detail."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Explain a rule based expert system architecture. Mention its advantages and disadvantages."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Why NLP is Difficult? Explain steps in the process of NLP."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any Two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Clustering" },
+            { "sub_no": "b", "marks": 5, "question": "Machine vision" },
+            { "sub_no": "c", "marks": 5, "question": "Resolution refutation system" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2018-FA",
+      "year": "2018",
+      "semester": "Fall",
+      "full_marks": 100,
+      "pass_marks": 45,
+      "questions": [
+        {
+          "number": "1",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "What is Artificial Intelligence? Mention the advantages of Artificial Intelligence."
+        },
+        {
+          "number": "1",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "What are the criteria for the evaluation of search algorithm? Compare DFS and BFS."
+        },
+        {
+          "number": "2",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Solve the following problem: SEND + MORE = MONEY"
+        },
+        {
+          "number": "2",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Write algorithm for A*. How we can optimize the A* algorithm?"
+        },
+        {
+          "number": "3",
+          "sub_no": "a",
+          "marks": 8,
+          "question": "Represent following statements into predicate logic.\ni) All Hindu are either loyal to Krishna or Shiva.\nii) Every gardener like sun.\niii) There is exactly two red mushrooms.\niv) Every parents are older than their childs."
+        },
+        {
+          "number": "3",
+          "sub_no": "b",
+          "marks": 7,
+          "question": "Define Bayes rule for probabilistic problem. If probability of symptoms on patients is 1/20 and probability of disease known by doctor is 1/45000. Also the probability of symptoms condition to disease is 50%. Now, calculate the probability of disease condition to symptoms using Bayes theorem."
+        },
+        {
+          "number": "4",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Define deep learning. Explain genetic algorithm."
+        },
+        {
+          "number": "4",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Define PCA. Compare Brain and computer in terms of intelligence, memory etc."
+        },
+        {
+          "number": "5",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "What is an expert system? Explain about its knowledge."
+        },
+        {
+          "number": "5",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "Solve the AND function using Hebb network."
+        },
+        {
+          "number": "6",
+          "sub_no": "a",
+          "marks": 7,
+          "question": "Why natural language understanding is difficult? Justify your answer."
+        },
+        {
+          "number": "6",
+          "sub_no": "b",
+          "marks": 8,
+          "question": "What do you mean by machine learning? Explain learning by analogy."
+        },
+        {
+          "number": "7",
+          "instruction": "Write short notes on: (Any two) 2×5",
+          "options": [
+            { "sub_no": "a", "marks": 5, "question": "Kohonen Network" },
+            { "sub_no": "b", "marks": 5, "question": "Turing Test" },
+            { "sub_no": "c", "marks": 5, "question": "Informed search Vs Uninformed search" }
+          ]
+        }
+      ]
+    }
+  ],
+  "images_required": [
+    {
+      "file": "BE_COMPUTER/Sem_VII/AI/img/2023-SP-4a.png",
+      "paper": "2023 Spring",
+      "question": "Q4a",
+      "description": "Bayesian network with nodes RAIN, SPRINKLER (RAIN→SPRINKLER), and GRASS WET (RAIN,SPRINKLER→GRASS WET). Includes conditional probability tables: P(Rain=T)=0.2; P(Sprinkler=T|Rain=F)=0.4, P(Sprinkler=T|Rain=T)=0.01; P(GrassWet=T|S=F,R=F)=0.0, P(GW=T|S=F,R=T)=0.8, P(GW=T|S=T,R=F)=0.9, P(GW=T|S=T,R=T)=0.99."
+    },
+    {
+      "file": "BE_COMPUTER/Sem_VII/AI/img/2021-FA-3a.png",
+      "paper": "2021 Fall",
+      "question": "Q3a",
+      "description": "Directed city graph. Initial State: A. Goal State: H. Nodes: A, B, C, D, E, F, G, H. Directed edges: A→B, B→C, B→F, A→(another path), E→D, E→F, E→G, F→H, G→H. Used to represent state space in Prolog."
+    },
+    {
+      "file": "BE_COMPUTER/Sem_VII/AI/img/2019-FA-2a.png",
+      "paper": "2019 Fall",
+      "question": "Q2a",
+      "description": "Weighted graph for A* search. Start: S (left). Goal: G (bottom). Nodes: S, B, C, A, D, G. Edges with weights: S→B (4), S→A (1), B→C (5), B→A (7), C→D (1), A→D (3), D→G (4)."
+    },
+    {
+      "file": "BE_COMPUTER/Sem_VII/AI/img/2019-FA-2b.png",
+      "paper": "2019 Fall",
+      "question": "Q2b",
+      "description": "Directed city graph. Initial State: A (top-left). Goal State: H (bottom-right). Nodes: A, B, C, D, E, F, G, H. Directed edges showing paths from A to H through intermediate cities."
+    },
+    {
+      "file": "BE_COMPUTER/Sem_VII/AI/img/2018-SP-2a.png",
+      "paper": "2018 Spring",
+      "question": "Q2a",
+      "description": "State space graph. Initial State: A (top-left, hollow circle). Goal State: C (solid/filled circle, top-right). Other nodes: B, D, E, F, G, H. Edges represent possible state transitions. Find all possible state space paths from A to C."
+    }
+  ]
+}

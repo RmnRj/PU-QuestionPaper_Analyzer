@@ -21,59 +21,16 @@
         { "label": "Year Span",       "value": "auto:yearspan"  }
     ],
 
-    "content": {
-        "BE Computer": {
-            "default_content": {
-                "title": "Welcome to Question Analyzer",
-                "description": "Select a semester and subject from the dropdowns above to view question papers, repeated questions, and syllabus.",
-                "features": [
-                    "Browse past question papers by year and semester",
-                    "View frequently repeated questions with frequency analysis",
-                    "Explore syllabus with topic-wise question frequency",
-                    "Filter questions by year, semester, marks, and type"
-                ]
-            },
-            "Sem II": [
-                {
-                    "subject": "Thermal",
-                    "folder": "BE_COMPUTER/Sem_II/Thermal",
-                    "default": false
-                },
-                {
-                    "subject": "Eng Mathematics II",
-                    "folder": "BE_COMPUTER/Sem_II/Eng_Mathematics_II",
-                    "default": false
-                }
-            ],
-            "Sem IV": [
-                {
-                    "subject": "Eng Mathematics IV",
-                    "folder": "BE_COMPUTER/Sem_IV/Eng_Mathematics_IV",
-                    "default": false
-                }
-            ],
-            "Sem VIII": [
-                {
-                    "subject": "DSAP",
-                    "folder": "BE_COMPUTER/Sem_VIII/DSAP",
-                    "default": false
-                },
-                {
-                    "subject": "IS",
-                    "folder": "BE_COMPUTER/Sem_VIII/IS",
-                    "default": false
-                },
-                {
-                    "subject": "O&M",
-                    "folder": "BE_COMPUTER/Sem_VIII/OM",
-                    "default": false
-                },
-                {
-                    "subject": "SPIT",
-                    "folder": "BE_COMPUTER/Sem_VIII/SPIT",
-                    "default": false
-                }
-            ]
+    "content": [
+        {
+            "program": "BE_Computer",
+            "file_url": "Content/be_computer.json",
+            "default": true
+        },
+        {
+            "program": "Software_Engineering",
+            "file_url": "Content/software.json",
+            "default": false
         }
-    }
+    ]
 }

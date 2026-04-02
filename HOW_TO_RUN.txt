@@ -1,0 +1,73 @@
+═══════════════════════════════════════════════════════════════
+  HOW TO RUN THE APP - STEP BY STEP
+═══════════════════════════════════════════════════════════════
+
+IMPORTANT: You MUST run a local server. Double-clicking index.html 
+will NOT work because browsers block fetch() on file:// protocol.
+
+═══════════════════════════════════════════════════════════════
+METHOD 1: Using StartServer.bat (EASIEST)
+═══════════════════════════════════════════════════════════════
+
+1. Double-click "StartServer.bat" in the root folder
+2. Wait for "Serving HTTP on 0.0.0.0 port 8000" message
+3. Open browser and go to: http://localhost:8000/index.html
+
+═══════════════════════════════════════════════════════════════
+METHOD 2: Using Command Prompt (RECOMMENDED FOR DEBUGGING)
+═══════════════════════════════════════════════════════════════
+
+1. Open Command Prompt (cmd)
+2. Navigate to the src folder:
+   cd /d "d:\BE\8th\QB\PU-QuestionPaper_Analyzer\src"
+3. Start Python server:
+   python -m http.server 8000
+4. Open browser and go to: http://localhost:8000/index.html
+
+═══════════════════════════════════════════════════════════════
+METHOD 3: Using VS Code Live Server
+═══════════════════════════════════════════════════════════════
+
+1. Open the project folder in VS Code
+2. Install "Live Server" extension if not installed
+3. Right-click on "src/index.html"
+4. Select "Open with Live Server"
+
+═══════════════════════════════════════════════════════════════
+TESTING THE SERVER
+═══════════════════════════════════════════════════════════════
+
+After starting the server, test it first:
+
+1. Go to: http://localhost:8000/test.html
+2. Click "Test Fetch app-info.json" button
+3. You should see the JSON content displayed
+
+If test.html works but index.html doesn't, check browser console:
+- Press F12 to open Developer Tools
+- Go to Console tab
+- Look for error messages
+
+═══════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Problem: "Port 8000 already in use"
+Solution: 
+  - Close any other servers running on port 8000
+  - Or use a different port: python -m http.server 8001
+  - Then open: http://localhost:8001/index.html
+
+Problem: "python is not recognized"
+Solution:
+  - Install Python from https://www.python.org/downloads/
+  - Make sure to check "Add Python to PATH" during installation
+
+Problem: Still showing error page
+Solution:
+  1. Make sure you're accessing via http://localhost:8000/
+  2. NOT via file:///d:/BE/8th/QB/...
+  3. Check browser console (F12) for detailed error messages
+  4. All console logs are now enabled for debugging
+
+═══════════════════════════════════════════════════════════════

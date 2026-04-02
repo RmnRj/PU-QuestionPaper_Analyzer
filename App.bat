@@ -20,7 +20,7 @@ IF %ERRORLEVEL% EQU 0 (
 )
 
 :: Neither Python nor Node.js found
-start "" "msedge.exe" "src/index.html"
+start "" "msedge.exe" "src\index.html"
 echo.
 echo ERROR: Neither Python nor Node.js is installed!
 echo.

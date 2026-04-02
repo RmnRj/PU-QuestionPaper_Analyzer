@@ -1,0 +1,75 @@
+═══════════════════════════════════════════════════════════════
+  IMAGE ZOOM FEATURE - UPDATED LAYOUT
+═══════════════════════════════════════════════════════════════
+
+NEW LAYOUT: Buttons on Left and Right Sides
+
+═══════════════════════════════════════════════════════════════
+VISUAL LAYOUT
+═══════════════════════════════════════════════════════════════
+
+    [−]    [Image]    [+]
+     ↑                 ↑
+   Zoom Out         Zoom In
+
+- Minus button (−) on the LEFT side
+- Plus button (+) on the RIGHT side
+- Image in the CENTER
+- Clean, minimal design
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+✓ Small gray buttons (24x24px)
+✓ Positioned on left and right of image
+✓ Zoom in: Click "+" on right
+✓ Zoom out: Click "−" on left
+✓ Buttons auto-disable at limits
+✓ Smooth transitions
+✓ Works in both Questions and Papers tabs
+
+═══════════════════════════════════════════════════════════════
+ZOOM LIMITS
+═══════════════════════════════════════════════════════════════
+
+Minimum Size: 150px
+Default Size:  220px
+Maximum Size:  60% of screen width
+
+Step Size: 50px per click
+
+═══════════════════════════════════════════════════════════════
+BUTTON BEHAVIOR
+═══════════════════════════════════════════════════════════════
+
+"−" Button (LEFT):
+  - Decreases image size by 50px
+  - Disabled when at minimum (150px)
+  - Grayed out and not clickable when disabled
+
+"+" Button (RIGHT):
+  - Increases image size by 50px
+  - Disabled when at maximum (60% of screen width)
+  - Grayed out and not clickable when disabled
+
+═══════════════════════════════════════════════════════════════
+RESPONSIVE BEHAVIOR
+═══════════════════════════════════════════════════════════════
+
+- Maximum size adjusts automatically on window resize
+- Buttons stay aligned with image
+- Horizontal scroll appears if image exceeds container
+- Each image has independent zoom control
+
+═══════════════════════════════════════════════════════════════
+USAGE
+═══════════════════════════════════════════════════════════════
+
+1. Find any question with an image
+2. Look for [−] and [+] buttons on sides
+3. Click [+] to make image bigger
+4. Click [−] to make image smaller
+5. Buttons gray out when limit reached
+
+═══════════════════════════════════════════════════════════════

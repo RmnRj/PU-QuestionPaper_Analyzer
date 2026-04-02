@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server Test</title>
+</head>
+<body>
+    <h1>Server Test Page</h1>
+    <p>If you can see this page, the server is running correctly!</p>
+    <p>Current URL: <span id="url"></span></p>
+    <p>Protocol: <span id="protocol"></span></p>
+    <hr>
+    <button onclick="testFetch()">Test Fetch app-info.json</button>
+    <pre id="result"></pre>
+    
+    <script>
+        document.getElementById('url').textContent = window.location.href;
+        document.getElementById('protocol').textContent = window.location.protocol;
+        
+        async function testFetch() {
+            const result = document.getElementById('result');
+            try {
+                result.textContent = 'Fetching app-info.json...';
+                const response = await fetch('app-info.json');
+                result.textContent = `Status: ${response.status}\n`;
+                const data = await response.json();
+                result.textContent += JSON.stringify(data, null, 2);
+            } catch (e) {
+                result.textContent = 'ERROR: ' + e.message + '\n' + e.stack;
+            }
+        }
+    </script>
+</body>
+</html>
