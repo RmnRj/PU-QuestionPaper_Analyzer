@@ -23,6 +23,10 @@
                 {
                     "subject": "Logic Circuit",
                     "folder": "LC"
+                },
+                {
+                    "subject": "Electrical Engineering Materials",
+                    "folder": "EEM"
                 }
             ],
             "Sem IV": [
